@@ -67,13 +67,4 @@ jobs:
         if: success()
         run: git push
 
-      - name: Push to Gitee
-        if: success()
-        timeout-minutes: 5
-        continue-on-error: true
-        env:
-          GIT_TERMINAL_PROMPT: '0'
-        run: |
-          git push --force \
-            "https://liuuyyubbo:${{ secrets.GITEE_TOKEN }}@gitee.com/liuuyyubbo/FusionBlock.git" HEAD:main \
-            || echo '::warning::Gitee push 失败（网络），GitHub 副本仍是最新'
+      # Gitee 的同步由仓库镜像（Pull）负责，这里不再直接推
