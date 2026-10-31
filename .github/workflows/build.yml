@@ -1,0 +1,74 @@
+name: Build FusionBlock
+
+on:
+  schedule:
+    # UTC 17:10 = 北京时间 01:10，每天一次
+    - cron: '10 17 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch upstream sources
+        run: bash tools/fetch_ci.sh
+
+      - name: Build lists
+        run: |
+          python3 tools/optimize.py \
+            --in lists/adguard_base.txt lists/adguard_mobile.txt lists/adguard_chinese.txt \
+                 lists/easylistchina.txt lists/hagezi_light.txt lists/heidai.txt \
+            --name FusionBlock-Ads.txt --title 'FusionBlock Ads' \
+            --desc '广告拦截主列表：合并 AdGuard 官方三件 + EasyList China + HaGeZi Light + 217heidai，已去重化简，关键服务误杀已体检' \
+            --outdir .
+          python3 tools/optimize.py \
+            --in lists/antiad.txt \
+            --name FusionBlock-Extra-CN.txt --title 'FusionBlock Extra CN' \
+            --desc '国内加强包：基于 anti-AD，误杀较多，默认不建议启用' \
+            --outdir .
+          python3 tools/optimize.py \
+            --in lists/EasyPrivacy.txt \
+            --name FusionBlock-Privacy.txt --title 'FusionBlock Privacy' \
+            --desc '隐私追踪拦截：基于 EasyPrivacy，已去重化简' \
+            --outdir .
+          python3 tools/optimize.py \
+            --in lists/Phishing.txt \
+            --name FusionBlock-Phishing.txt --title 'FusionBlock Phishing' \
+            --desc '钓鱼站点拦截：基于 malware-filter phishing' \
+            --outdir .
+          cp tools/whitelist.txt FusionBlock-Whitelist.txt
+
+      - name: Check key services
+        run: python3 tools/check_domains.py FusionBlock-Ads.txt
+
+      - name: Collect reports
+        run: |
+          mkdir -p reports
+          mv -f ./*-REPORT.txt ./*-CHECK.txt reports/ 2>/dev/null || true
+          ls -l
+
+      - name: Commit
+        run: |
+          git config user.name 'FB Bot'
+          git config user.email 'bot@users.noreply.github.com'
+          git add -A
+          if git diff --staged --quiet; then
+            echo 'no change today'
+            exit 0
+          fi
+          git commit -m "auto build $(date -u '+%Y-%m-%d %H:%M UTC')"
+
+      - name: Push to GitHub
+        if: success()
+        run: git push
+
+      - name: Push to Gitee
+        if: success()
+        run: |
+          git push --force \
+            "https://liuuyyubbo:${{ secrets.GITEE_TOKEN }}@gitee.com/liuuyyubbo/FusionBlock.git" HEAD:main

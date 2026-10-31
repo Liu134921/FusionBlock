@@ -1,0 +1,55 @@
+! Title: FusionBlock Whitelist
+! Description: 例外规则，优先级高于所有拦截列表。删掉其中任何一条都可能让对应服务失联。
+! Homepage: https://gitee.com/liuuyyubbo/FusionBlock
+! Version: 2026.10.31
+! Expires: 30 days
+! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
+
+! ===== 微信：消息、图片、语音，少一条都可能收不到 =====
+@@||wxs.qq.com^
+@@||wximg.wxs.qq.com^
+@@||weixin.qq.com^
+@@||weixinbridge.com^
+@@||servicewechat.com^
+@@||wx.qq.com^
+@@||wechat.com^
+@@||weixin.qq.com.cn^
+
+! ===== 微信：图片/头像/表情/公众号资源 =====
+@@||mmsns.qpic.cn^
+@@||wx.qlogo.cn^
+@@||mmbiz.qpic.cn^
+@@||mmbiz.qlogo.cn^
+@@||res.wx.qq.com^
+
+! ===== 微信支付 =====
+@@||wx.tenpay.com^
+@@||tenpay.com^
+
+! ===== 支付宝 =====
+@@||alipay.com^
+@@||alipayobjects.com^
+
+! ===== 系统服务：升级、应用商店、云服务 =====
+@@||oplus.com^
+@@||coloros.com^
+@@||heytapmobi.com^
+@@||heytap.com^
+@@||oppomobile.com^
+
+! ===== 防误杀：图片 / HTTPDNS / 推送 / 云服务 =====
+! 这些域名被拦不会让广告消失，只会让 App 白屏、图片裂、推送断
+@@||img2.360buyimg.com^
+@@||p3-tt.byteimg.com^
+@@||img1.126.net^
+@@||httpdns.bilivideo.com^
+@@||httpdns.push.oppomobile.com^
+@@||httpdns.ocloud.oppomobile.com^
+@@||conn1.coloros.com^
+@@||conn2.coloros.com^
+@@||conn3.coloros.com^
+@@||album-sg01a.ocloud.heytapmobi.com^
+@@||accscdn.m.taobao.com^
+
+! ===== 常用接口 =====
+@@||qweatherapi.com^
