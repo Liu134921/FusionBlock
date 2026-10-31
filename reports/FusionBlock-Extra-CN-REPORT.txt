@@ -1,0 +1,33 @@
+== 输入
+   域名规则 100073 / 路径规则 0 / 例外 49 / 元素隐藏 0 / 未解析 0
+
+== 优化
+   祖先覆盖   -3
+   微信保护   -2
+   合计删除 5，保留 100068（100.0%）
+
+== 样例
+   [祖先覆盖]
+      ||act.commercial.shouji.360.cn^   <-已由 ||commercial.shouji.360.cn^ 覆盖
+      ||stats.guess.tf.360.cn^   <-已由 ||guess.tf.360.cn^ 覆盖
+      ||tracking.v.tf.360.cn^   <-已由 ||v.tf.360.cn^ 覆盖
+   [微信保护]
+      ||wxs.qq.com^
+      ||badjs.weixinbridge.com^
+
+== 合并候选（父域下纯子域规则 >=8 条，只建议不改动）
+   cloudfront.net                             1280 条
+   baidu.com                                  143 条
+   com.cn                                     124 条
+   wns.windows.com                            115 条
+   xx.fbcdn.net.iberostar.com                 77 条
+   qq.com                                     72 条
+   openapp.link                               69 条
+   carte-gr.total.fr                          54 条
+   co.uk                                      53 条
+   eccocar.com                                51 条
+   pandasuite.io                              45 条
+   baidu.cn                                   44 条
+   experian.com                               39 条
+   m-shop.me                                  35 条
+   net.anwalt.de                              34 条
