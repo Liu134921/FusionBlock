@@ -21,7 +21,7 @@
 
 **FusionBlock-Phishing.txt** — 钓鱼站点拦截，建议开。
 
-**FusionBlock-Whitelist.txt** — 白名单，**必开**。这个不当过滤器加，要粘到用户规则里，见下面。
+**FusionBlock-Whitelist.txt** — 白名单，**必开**。和其他三个一样当过滤器加就行——里面全是 `@@` 例外规则，AdGuard 认，不需要手动粘。
 
 **FusionBlock-Extra-CN.txt** — 国内加强包，可选。误杀会明显变多，不建议和主列表一起开。
 
@@ -30,20 +30,25 @@
 ### AdGuard for Android
 
 1. 打开 AdGuard → 设置 → 过滤器 → 自定义过滤器
-2. 点 `+` → 从文件导入，把 `FusionBlock-Ads.txt`、`FusionBlock-Privacy.txt`、`FusionBlock-Phishing.txt` 三个分别加进去
-3. 打开 AdGuard → 过滤规则 → 用户规则，把 `FusionBlock-Whitelist.txt` 的内容整段复制粘贴进去
-4. 把之前那些列表全部关掉，只留这三个加一份白名单
+2. 点 `+` → **按 URL 添加**，填下面「订阅地址」里的四条（也可以先下载再"从文件导入"）
+3. 四个都要加，白名单那个别漏——它是微信、支付宝、系统服务的例外规则
+4. 把之前那些列表全部关掉，只留这四个生效
 5. 重启一次 AdGuard，让它重建索引
 
-### AdGuard Home
+## 订阅地址
 
-过滤器 → DNS 黑名单 → 添加订阅地址，填下面这几个：
+这四条都要加，最后一条是白名单，别漏：
 
 ```
 https://gitee.com/liuuyyubbo/FusionBlock/raw/main/FusionBlock-Ads.txt
 https://gitee.com/liuuyyubbo/FusionBlock/raw/main/FusionBlock-Privacy.txt
 https://gitee.com/liuuyyubbo/FusionBlock/raw/main/FusionBlock-Phishing.txt
+https://gitee.com/liuuyyubbo/FusionBlock/raw/main/FusionBlock-Whitelist.txt
 ```
+
+### AdGuard Home
+
+过滤器 → DNS 黑名单 → 添加订阅地址，把上面四条填进去。
 
 ### 其他软件
 
