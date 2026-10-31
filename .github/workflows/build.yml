@@ -69,6 +69,11 @@ jobs:
 
       - name: Push to Gitee
         if: success()
+        timeout-minutes: 5
+        continue-on-error: true
+        env:
+          GIT_TERMINAL_PROMPT: '0'
         run: |
           git push --force \
-            "https://liuuyyubbo:${{ secrets.GITEE_TOKEN }}@gitee.com/liuuyyubbo/FusionBlock.git" HEAD:main
+            "https://liuuyyubbo:${{ secrets.GITEE_TOKEN }}@gitee.com/liuuyyubbo/FusionBlock.git" HEAD:main \
+            || echo '::warning::Gitee push 失败（网络），GitHub 副本仍是最新'
