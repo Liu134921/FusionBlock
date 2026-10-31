@@ -11231,7 +11231,7 @@
 @@||zxzja.com:*/Cloud/Down/$subdocument,stealth=referrer
 @@||zxzja.com:*/player-$subdocument,stealth=referrer
 
-! ===== 网络规则 (108483) =====
+! ===== 网络规则 (108511) =====
 
 http://www.ads.$third-party
 https://github.com/AdguardTeam/AdguardFilters/issues/51221
@@ -30211,6 +30211,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||azdnagaekyivd.site^
 ||azedu.az/share/share.php
 ||azedu.az/uploads/adds/
+||azefgksztktq.com^
 ||azenka.one^
 ||azerbaycan24.com/wp-content/uploads/*/on-off-electronics_n.gif
 ||azeriondigital.com^
@@ -33663,6 +33664,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||brazzers.com/click/$popup
 ||brb3mb25zg.com^
 ||brbez.stevemadden.com^
+||brbvstfoyjtue.site^
 ||brcdn.com^
 ||brciir-cdn-settings.appsflyersdk.com^
 ||brciir-gcdsdk.appsflyersdk.com^
@@ -45760,6 +45762,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||eardepth-prisists.com^
 ||eardropcurls.com^
 ||earingskamba.cfd^
+||earleninaret.qpon^
 ||earlierozone.cyou^
 ||earlierties.com^
 ||early-birds.fr/events/
@@ -49319,6 +49322,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||fglznefxupmzd.website^
 ||fgn-plausible.serverable.com^
 ||fgn.cdn.serverable.com^$image,domain=porcore.com
+||fgrmrajrvbmxb.online^
 ||fgvdd.nectarsleep.com^
 ||fgwgw.429men.com^
 ||fgwuw.com^
@@ -51278,6 +51282,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||fwpixel.com^
 ||fwpxsilkgredi.website^
 ||fwquutbqiiswb.site^
+||fwqxrjwnejorw.online^
 ||fwsir.com/static/cpt/
 ||fwslpa9ks.com^
 ||fwtnrczqrj.com^
@@ -52775,6 +52780,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||gigroupholding.com^
 ||gigsmanhowls.top^
 ||giheragallop.cyou^
+||gihubbmspxnmm.space^
 ||giiq2q-cdn-settings.appsflyersdk.com^
 ||giiq2q-inapps.appsflyersdk.com^
 ||giiq2q-launches.appsflyersdk.com^
@@ -57739,6 +57745,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||hveukmtvyteij.site^
 ||hvjydr-cdn-settings.appsflyersdk.com^
 ||hvjydr-launches.appsflyersdk.com^
+||hvnthkedlolem.site^
 ||hvnvv.franklinplanner.com^
 ||hvp45z.ru^
 ||hvpsiv-cdn-settings.appsflyersdk.com^
@@ -59442,6 +59449,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||impressionmedia.cz^
 ||impressionmonster.com^
 ||impressivetimes.com/wp-content/uploads/2024/07/primary-plus-advt.jpg
+||imprevuaknowleered.qpon^
 ||improbablehospital.com^
 ||impromot.com^
 ||improperscrubbedvendor.com^
@@ -60813,6 +60821,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||ivg.it/wp-content/plugins/edinet_giornali_swg_plugin/js/dist/swg_bundle.js
 ||ivid.it^
 ||iviewui.com/v1/*?name=
+||ivikjwxseusrb.site^
 ||iviqwmtgja.com^
 ||ivizbbqma.com^
 ||ivm.antenaplay.ro/fadead_check.php$domain=antena3.ro
@@ -61053,6 +61062,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||jabra-xpressonline-prod-analytics.azurewebsites.net^
 ||jabturfembitter.com^
 ||jacaminfley.com^
+||jacamitympana.qpon^
 ||jackalbegging.com^
 ||jackaltimer.com^
 ||jackao.net^
@@ -61432,6 +61442,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||jergbfaxt.com^
 ||jerhzr.icu^
 ||jerkerlagen.qpon^
+||jerkerzep.cyou^
 ||jerkmatelive.com/api/metrics
 ||jeront.xyz^
 ||jeroud.com^
@@ -66001,6 +66012,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||llthkvgomyjaf.site^
 ||lltnfhzysxuin.website^
 ||lltrck.com^
+||lluebjiimznuz.site^
 ||llvpn.com^
 ||llvpn.one^
 ||llw67onw6.com^
@@ -73543,6 +73555,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||mis.ig.com/tracking/
 ||misaimslangs.cyou^
 ||misapor.ch^
+||misatecatboat.cyou^
 ||misbillsumlessracers.qpon^
 ||misc-api.feathermc.com/*/ads/ad_units?
 ||misc.api.snaptube.app^
@@ -79643,6 +79656,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||otluliwqqtygi.online^
 ||otm-r.com^
 ||otmcznhyzyfuu.site^
+||otnhcfuhdwicg.site^
 ||otnolatrnup.com^
 ||otoadom.com^
 ||otomi-games.com/wp-content/uploads/*-Ad-728-
@@ -80388,6 +80402,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||palissefrumety.com^
 ||pallyes.com^
 ||palmapedia.com^
+||palmateahaaina.com^
 ||palmertx.com/template/js/img-1.php
 ||palmmalice.com^$popup
 ||palmyap.com^
@@ -80765,6 +80780,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||pbfxgigzm.com^
 ||pbhfjbikzvyxc.space^
 ||pbjs-stream.bydata.com^
+||pbkbdwcqvirjx.site^
 ||pblinq.com^
 ||pblog-vmap.getpublica.com^
 ||pbmp.ali213.net/js/
@@ -88518,6 +88534,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||rheinmetallcareer.com^
 ||rheinwing.de^
 ||rhetoricalloss.com^
+||rhhqqdsjtyaga.site^
 ||rhhr8j29prowl23k2xv4.cfd^
 ||rhinoaffiliates.com^
 ||rhinoseo.com^
@@ -91103,6 +91120,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||scounter.rambler.ru^
 ||scout.data.funkedigital.de^
 ||scoutervayu.com^
+||scowljkqwjtvj.online^
 ||scowpoppanasals.com^
 ||scptp9.com^
 ||scr.actview.net^
@@ -91202,6 +91220,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||scv-ntalk.io.naver.com^
 ||scv-premiumcnts.io.naver.com^
 ||scv.band.us^
+||scvjxdrrbmbpl.site^
 ||scw.systems^
 ||scw98.com/ADMM.
 ||scw98.com/js/Index
@@ -94773,6 +94792,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||sjtizlnfyp.com^
 ||sjtkslckkotyj.website^
 ||sjujmxg6d.com^
+||sjutqqfzhgiwt.site^
 ||sjvbijdpdkxzd.website^
 ||sk-ad-lgsmartad-com.aws-prd.net^
 ||sk-comtel.com^
@@ -95826,6 +95846,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||smilingdollarsauxiliary.com^
 ||smind.hr^
 ||sminerva.healthcentral.com^
+||smirchchacona.com^
 ||smith6.godaddysites.com^
 ||smithburka.com^
 ||smithsis.com^
@@ -109374,6 +109395,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||uneatedlibitum.com^
 ||unecne.com/wp-content/uploads/*ad-
 ||unedgedshank.com^
+||unendedmormyr.com^
 ||unenviable89.com^
 ||unescobeflagsganch.qpon^
 ||unetbootin.org^
@@ -116107,6 +116129,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||xklierukbx7yzbq7ev7.cfd^
 ||xkmtmsgm.shop^
 ||xkmtxaybwpbnj.space^
+||xkovtgxuynjef.site^
 ||xktoy8fub.com^
 ||xkum.cn^
 ||xkverkik38.com^
@@ -116915,6 +116938,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||xxts11201zs.com^
 ||xxu6lgh75rfq6xttz4qni7.cyou^
 ||xxuetasxcgrdq.space^
+||xxurncgmtmvpo.site^
 ||xxvideoss.org/wp-content/uploads/*/bannerrtx.jpg
 ||xxwstajt.vela-stuhl.de^
 ||xxx-videos.org/im-pop.js
@@ -117224,6 +117248,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||yangpinwang.com/wp-content/uploads/*E5%B9%BF%E5%91%8A.
 ||yanjiapi.antutu.net^
 ||yankimanki.org^
+||yanqxflrey.com^
 ||yantuchina.com/Upload/Ad/
 ||yanu.qiniudn.com/*x60.
 ||yanu.qiniudn.com/270300.jpg
@@ -117344,6 +117369,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||ydikpdzvozzve.site^
 ||ydjpvkgzaxduw.online^
 ||ydmob.com^
+||ydndlpotdqbur.site^
 ||ydpnusljnesne.site^
 ||ydpushserver.youdao.com^
 ||ydss.cn/test.www.jdpay.com
@@ -119197,6 +119223,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||zmrzlin.amateurswild.com^
 ||zmvwfd.icu^
 ||zmwrbpghsmkgx.online^
+||zmxajgdfxmkrk.space^
 ||zmxj9r-cdn-settings.appsflyersdk.com^
 ||zmxj9r-gcdsdk.appsflyersdk.com^
 ||zmxj9r-launches.appsflyersdk.com^
@@ -119373,6 +119400,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||zq3q5twry4545x5y4t4wgq3fww2g43yh324653g4etrwvikb.teemill.com^
 ||zq7fe47jh.com^
 ||zqklybeaghqhk.online^
+||zqkmcszmdnuym.site^
 ||zqlgc.facethefuture.co.uk^
 ||zqmhl8lgj.com^
 ||zqmmambgpkdlv.site^
@@ -119717,7 +119745,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||zzzperform.com^
 ||zzzyk.com/js/
 
-! ===== 元素隐藏 (74435) =====
+! ===== 元素隐藏 (74441) =====
 
 ###AC_ad
 ###AD_160
@@ -135146,6 +135174,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 100ksw.com###ad_move_sg
 100percentfedup.com##.pre-announcement
 100percentfedup.com##.z-ad-display
+100percentfedup.com,academicful.com,addapinch.com,aiarticlespinner.co,allaboutfpl.com,alltechnerd.com,americanmilitarynews.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,australiangeographic.com.au,autodaily.com.au,bakeitwithlove.com,bioinformant.com,bohemian.com,borncity.com,boxingnews24.com,browserhow.com,celtsarehere.com,chillinghistory.com,chromeunboxed.com,circuitbasics.com,cjr.org,coincodecap.com,conservativebrief.com,conservativefiringline.com,corrosionhour.com,cricfy.net,crimereads.com,cryptobriefing.com,cryptointelligence.co.uk,cryptopotato.com,cryptoreporter.info,cryptoslate.com,cryptotimes.io,dafontfree.io,dailynewshungary.com,digitalreg.net,dorohedoro.online,dramacool.com.my,ecoportal.net,ecoticias.com,emobilityplus.com,engineering-designer.com,epicdope.com,eurweb.com,fandomwire.com,firstcuriosity.com,firstsportz.com,flashbak.com,flickeringmyth.com,flowmountainbike.com,flyingmag.com,freemagazines.top,gadgetinsiders.com,gamebyte.com,gameinfinitus.com,gamertweak.com,gamingdeputy.com,gatewayhispanic.com,gatewaynews.co.za,geekdashboard.com,geekzag.com,glassalmanac.com,goodyfeed.com,greekreporter.com,hard-drive.net,harrowonline.org,haxmac.cc,healthinfo.healthengine.com.au,helihub.com,hollywoodinsider.com,hollywoodunlocked.com,hotcelebshome.com,ifoodreal.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,jardineriaon.com,jessicagavin.com,jojolandsmanga.com,journeybytes.com,journeyjunket.com,libertyunlocked.com,linuxfordevices.com,lithub.com,londonlovesbusiness.com,mangaread.org,mb.com.ph,meaningfulspaces.com,medicotopics.com,medievalists.net,mpost.io,mycariboonow.com,mymodernmet.com,mymotherlode.com,nationalfile.com,nexdrive.lol,nexusgames.to,nintendoeverything.com,noahreport.com,nokiapoweruser.com,notalwaysright.com,nxbrew.com,organicfacts.net,orlandoweekly.com,patriotfetch.com,pcoptimizedsettings.com,politizoom.com,premiumtimesng.com,primeaudio.org,protrumpnews.com,psu.com,pureinfotech.com,pwmania.com,redrightvideos.com,religionnews.com,reneweconomy.com.au,reptilesmagazine.com,retrohandhelds.gg,rightwingnews.com,roadaheadonline.co.za,rok.guide,romsworlds.com,saabplanet.com,sacurrent.com,sciencenotes.org,simscommunity.info,slaynews.com,small-screen.co.uk,snipercentral.com,snowbrains.com,statisticsbyjim.com,storypick.com,streamingbetter.com,suggest.com,superwatchman.com,talkandroid.com,talkers.com,tech-latest.com,techaeris.com,technobaboy.com,techpp.com,techrounder.com,techviral.net,the-gadgeteer.com,thebeaverton.com,theblueoceansgroup.com,thecinemaholic.com,thecricketlounge.com,thedailysight.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thegeekpage.com,thelibertydaily.com,thenipslip.com,theoilrig.ca,thepeoplesvoice.tv,theprint.in,thewincentral.com,thisquality.com,trendingpoliticsnews.com,troypoint.com,tvtonight.com.au,twistedvoxel.com,vice.com,walletinvestor.com,washingtonblade.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,whynow.co.uk,win.gg,windowslatest.com,wisden.com,wltreport.com,wnd.com,wrestlingheadlines.com,wrestlingnews.co,wtmj.com,zerohanger.com,ziperto.com##.code-block
 100percentfedup.com,academicful.com,addapinch.com,aiarticlespinner.co,allaboutfpl.com,alltechnerd.com,americanmilitarynews.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,australiangeographic.com.au,autodaily.com.au,bakeitwithlove.com,bioinformant.com,bohemian.com,borncity.com,boxingnews24.com,browserhow.com,celtsarehere.com,chillinghistory.com,chromeunboxed.com,circuitbasics.com,cjr.org,coincodecap.com,conservativebrief.com,conservativefiringline.com,corrosionhour.com,cricfy.net,crimereads.com,cryptobriefing.com,cryptointelligence.co.uk,cryptopotato.com,cryptoreporter.info,cryptoslate.com,cryptotimes.io,dafontfree.io,dailynewshungary.com,digitalreg.net,dorohedoro.online,dramacool.com.my,ecoportal.net,ecoticias.com,emobilityplus.com,engineering-designer.com,epicdope.com,eurweb.com,fandomwire.com,firstcuriosity.com,firstsportz.com,flashbak.com,flickeringmyth.com,flowmountainbike.com,flyingmag.com,freemagazines.top,gadgetinsiders.com,gamebyte.com,gameinfinitus.com,gamertweak.com,gamingdeputy.com,gatewayhispanic.com,gatewaynews.co.za,geekdashboard.com,geekzag.com,glassalmanac.com,goodyfeed.com,greekreporter.com,hard-drive.net,harrowonline.org,haxmac.cc,healthinfo.healthengine.com.au,helihub.com,hollywoodinsider.com,hollywoodunlocked.com,hotcelebshome.com,ifoodreal.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,jardineriaon.com,jessicagavin.com,jojolandsmanga.com,journeybytes.com,journeyjunket.com,libertyunlocked.com,linuxfordevices.com,lithub.com,londonlovesbusiness.com,mangaread.org,mb.com.ph,meaningfulspaces.com,medicotopics.com,medievalists.net,mpost.io,mycariboonow.com,mymodernmet.com,mymotherlode.com,nationalfile.com,nexdrive.lol,nexusgames.to,nintendoeverything.com,noahreport.com,nokiapoweruser.com,notalwaysright.com,nxbrew.com,organicfacts.net,orlandoweekly.com,patriotfetch.com,pcoptimizedsettings.com,politizoom.com,premiumtimesng.com,primeaudio.org,protrumpnews.com,psu.com,pureinfotech.com,pwmania.com,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,retrohandhelds.gg,rightwingnews.com,roadaheadonline.co.za,rok.guide,romsworlds.com,saabplanet.com,sacurrent.com,sciencenotes.org,simscommunity.info,slaynews.com,small-screen.co.uk,snipercentral.com,snowbrains.com,statisticsbyjim.com,storypick.com,streamingbetter.com,suggest.com,superwatchman.com,talkandroid.com,talkers.com,tech-latest.com,techaeris.com,technobaboy.com,techpp.com,techrounder.com,techviral.net,the-gadgeteer.com,thebeaverton.com,theblueoceansgroup.com,thecinemaholic.com,thecricketlounge.com,thedailysight.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thegeekpage.com,thelibertydaily.com,thenipslip.com,theoilrig.ca,thepeoplesvoice.tv,theprint.in,thewincentral.com,thisquality.com,trendingpoliticsnews.com,troypoint.com,tvtonight.com.au,twistedvoxel.com,vice.com,walletinvestor.com,washingtonblade.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,whynow.co.uk,win.gg,windowslatest.com,wisden.com,wltreport.com,wnd.com,wrestlingheadlines.com,wrestlingnews.co,wtmj.com,zerohanger.com,ziperto.com##.code-block
 1010dy3.com##.text-center[style]
 1010dy3.com##a[href^="/go"]
@@ -138875,6 +138904,8 @@ androidcentral.com#?#.article-body > .article-body__section > p + div[style*="te
 androidcentral.com,gamesradar.com,guitarworld.com,livescience.com,pcgamer.com,sltrib.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##.sponsored-card
 androidcentral.com,gamesradar.com,guitarworld.com,livescience.com,pcgamer.com,sltrib.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##[data-component-name="JwPlayer:Carousel"]
 androidcentral.com,gamesradar.com,guitarworld.com,pcgamer.com,techradar.com,tomsguide.com,tomshardware.com,whathifi.com,windowscentral.com##.vid-present
+androidcentral.com,guitarworld.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##.bordeaux-anchored-container
+androidcentral.com,guitarworld.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##.bordeaux-filled-slot
 androidcentral.com,guitarworld.com,pcgamer.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##.bordeaux-anchored-container
 androidcentral.com,guitarworld.com,pcgamer.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##.bordeaux-filled-slot
 androidcentral.com,imore.com,windowscentral.com##.adunit-wrap
@@ -163487,6 +163518,7 @@ kosicednes.sk##[data-banner-type]
 kostool.cn#?#div:-abp-has(> h1:-abp-contains(推广))
 kostool.cn#?#div:has(> h1:contains(推广))
 kotaku.com###app > div.hidden:has(> div.flex div[id^="optidigital-adslot"])
+kotaku.com##.aspect-video:has(#cnx-player-main)
 kotaku.com##.bluesky-embed
 kotaku.com##p ~ div[class^="sc-"][class*=" "]:not(:has(> *)):has(+ .fnnahv)
 kotaku.com.au##.ad-no-desktop
@@ -164381,6 +164413,7 @@ lfporn.com##.pr-widget
 lfporn.com##.single-post > div#gb
 lfporn.com##body > div.main > div.content > div.posts > a[id^="meow"]
 lgbtqnation.com##.adb-ln-inarticle
+lgbtqnation.com##.adb-ln-lb-incontent
 lgbtqnation.com##.bg-gray-100
 lgbtqnation.com##.index-bottom-ad
 lgbtqnation.com##.single-bottom-ad
@@ -174763,6 +174796,7 @@ plnkr.co##.ag-grid-banner
 plo.vn###Web_AdsArticleBodyMiddle
 plos.org##.head-top
 plos.org##.skyscraper-container
+plos.org,space.com##.skyscraper-container
 plotaroute.com###AdPanelRight
 plotaroute.com#$#body > #Page:has(+ #AdPanelRight) { right: 0 !important; }
 plotz.co.uk##div[style*="width:120px;"][style*="height:600px;"]
