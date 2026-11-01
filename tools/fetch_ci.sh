@@ -24,7 +24,7 @@ dl 'https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.t
 dl 'https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt'     heidai.txt
 dl 'https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-adguard.txt' antiad.txt
 dl 'https://easylist.to/easylist/easyprivacy.txt'                                                 EasyPrivacy.txt
-dl 'https://malware-filter.gitlab.io/malware-filter/phishing-filter-ag.txt'dl 'https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt'                          adguard_dns.txt
+dl 'https://malware-filter.gitlab.io/malware-filter/phishing-filter-ag.txt'dl 'https://filters.adtidy.org/android/filters/15_optimized.txt'                                adguard_dns.txt
                        Phishing.txt
 
 echo '--- 缺失检查'
@@ -34,5 +34,5 @@ for f in adguard_base.txt adguard_mobile.txt adguard_chinese.txt easylistchina.t
          adguard_dns.txt; do
   [ -s "lists/$f" ] || { echo "缺 $f"; miss=$((miss+1)); }
 done
-echo "缺失 $miss 个"
+[ "$miss" -eq 0 ] || { echo "缺失 $miss 个，中止"; exit 1; }
 exit 0
