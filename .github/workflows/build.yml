@@ -3,7 +3,7 @@ name: Build FusionBlock
 on:
   schedule:
     # UTC 00/08/16 = 北京时间 08:00 / 16:00 / 次日 00:00，每 8 小时一次
-    - cron: '00,8,16 * * *'
+    - cron: '0,8,16 * * *'
   workflow_dispatch:
 
 permissions:
