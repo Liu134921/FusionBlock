@@ -176,7 +176,7 @@ def merge_candidates(net, threshold=8):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--in', dest='inputs', nargs='+', required=True)
-    ap.add_argument('--outdir', default='/sdcard/_File/AdguardNeoConfig/FusionBlock')
+    ap.add_argument('--outdir', default='.')
     ap.add_argument('--name', default='FusionBlock-Ads.txt')
     ap.add_argument('--title', default='FusionBlock Ads')
     ap.add_argument('--desc', default='广告拦截规则：多源合并，已去重与化简')
