@@ -47,6 +47,10 @@ jobs:
           cp tools/whitelist.txt FusionBlock-Whitelist.txt
           # 只取例外规则，Unbreak 里的拦截规则不进白名单
           grep '^@@' lists/unbreak.txt >> FusionBlock-Whitelist.txt
+          # 上游过滤器自带的例外（AdGuard / EasyList 官方维护）
+          cat lists/adguard_base.txt lists/adguard_mobile.txt lists/adguard_chinese.txt lists/easylistchina.txt \
+            | grep '^@@' | sort -u >> FusionBlock-Whitelist.txt
+          awk '!seen[$0]++' FusionBlock-Whitelist.txt > .w && mv .w FusionBlock-Whitelist.txt
           sed -i "s/^! Version: .*/! Version: $FB_STAMP/" FusionBlock-Whitelist.txt
 
       - name: Check key services
