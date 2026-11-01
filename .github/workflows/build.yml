@@ -45,6 +45,7 @@ jobs:
             --desc '钓鱼站点拦截：基于 malware-filter phishing' \
             --outdir .
           cp tools/whitelist.txt FusionBlock-Whitelist.txt
+          grep -v '^!' lists/unbreak.txt | grep -v '^$' >> FusionBlock-Whitelist.txt
           sed -i "s/^! Version: .*/! Version: $FB_STAMP/" FusionBlock-Whitelist.txt
 
       - name: Check key services
