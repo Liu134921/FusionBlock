@@ -859,7 +859,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52046) =====
+! ===== 网络规则 (52047) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -22668,6 +22668,7 @@
 ||javs.actonservice.com^
 ||javvso.newone-shop.com^
 ||javynow.com/ajax/access.php
+||jazzdocumentary.com^
 ||jazzpianofast.com^
 ||jbbljg.autoscout24.bg^
 ||jbezdi.ilsole24ore.com^
