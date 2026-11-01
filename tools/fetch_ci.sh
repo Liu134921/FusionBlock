@@ -6,8 +6,13 @@ UA='Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36'
 
 dl(){
   url=$1; out=$2
-  code=$(curl -sSL --max-time 180 -A "$UA" -o "lists/$out" -w '%{http_code}' "$url" 2>/dev/null)
-  sz=$(stat -c%s "lists/$out" 2>/dev/null || echo 0)
+  code=000; sz=0
+  for attempt in 1 2 3; do
+    code=$(curl -sSL --max-time 180 --retry 1 -A "$UA" -o "lists/$out" -w '%{http_code}' "$url" 2>/dev/null)
+    sz=$(stat -c%s "lists/$out" 2>/dev/null || echo 0)
+    [ "$sz" -gt 1000 ] && break
+    sleep 4
+  done
   if [ "$sz" -gt 1000 ]; then
     echo "  OK   $out  ${sz}B  (HTTP $code)"
   else
