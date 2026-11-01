@@ -53,22 +53,39 @@
 
 ## 订阅地址
 
-四条都用，最后一条是白名单：
+四条都用，最后一条是白名单。每块右上角有一个复制图标，点一下就行。
 
+**广告拦截**
 ```
 https://gitee.com/liuuyyubbo/FusionBlock/raw/main/FusionBlock-Ads.txt
+```
+
+**隐私追踪**
+```
 https://gitee.com/liuuyyubbo/FusionBlock/raw/main/FusionBlock-Privacy.txt
+```
+
+**钓鱼站点**
+```
 https://gitee.com/liuuyyubbo/FusionBlock/raw/main/FusionBlock-Phishing.txt
+```
+
+**白名单（必加）**
+```
 https://gitee.com/liuuyyubbo/FusionBlock/raw/main/FusionBlock-Whitelist.txt
 ```
 
-国内直连 GitHub 基本拉不动，所以上面给的是 Gitee 镜像。需要 GitHub 源或者加速链接的话：
+国内直连 GitHub 基本拉不动，所以上面给的是 Gitee 镜像。要用 GitHub 源或加速链接的话：
 
+**GitHub 源**
 ```
 https://raw.githubusercontent.com/Liu134921/FusionBlock/main/FusionBlock-Ads.txt
-https://gh-proxy.org/https://raw.githubusercontent.com/Liu134921/FusionBlock/main/FusionBlock-Ads.txt
 ```
 
+**gh-proxy 加速**
+```
+https://gh-proxy.org/https://raw.githubusercontent.com/Liu134921/FusionBlock/main/FusionBlock-Ads.txt
+```
 
 ## 更新
 
