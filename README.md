@@ -25,9 +25,9 @@
 | `FusionBlock-Ads.txt` | 广告拦截主列表，含元素隐藏规则 | 20.3 万行 / 8.3 MB | 建议开 |
 | `FusionBlock-Privacy.txt` | 隐私与追踪拦截（来自 EasyPrivacy） | 5.6 万行 / 1.5 MB | 建议开 |
 | `FusionBlock-Phishing.txt` | 钓鱼、仿冒登录页 | 5.0 万行 / 2.3 MB | 建议开 |
-| `FusionBlock-Whitelist.txt` | 例外规则，放行微信、支付、图片 CDN、HTTPDNS、推送 | 55 条 / 4 KB | 建议开 |
+| `FusionBlock-Whitelist.txt` | 例外规则：uBlock Unbreak + AdGuard / EasyList 官方过滤器内嵌例外 | 7,300 条 / 407 KB | 必开 |
 
-白名单和其他几份一样，是当过滤器订阅加的，不用手动往用户规则里粘。删掉其中任何一条都可能让某个 App 白屏。
+白名单和其他几份一样，是当过滤器订阅加的，不用手动往用户规则里粘。它只放行、不拦截，内容全部来自别人维护的现成清单：uBlock 的 Unbreak，加上 AdGuard 和 EasyList 在自己过滤器里内嵌的例外。
 
 仓库里还有一个 `FusionBlock-Extra-CN.txt`，是 anti-AD 那份单独打的包，不列在推荐里，也不建议启用——覆盖更多，误杀也明显更多。
 
