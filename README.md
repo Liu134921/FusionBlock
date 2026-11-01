@@ -65,7 +65,6 @@ https://raw.githubusercontent.com/Liu134921/FusionBlock/main/FusionBlock-Ads.txt
 https://gh-proxy.org/https://raw.githubusercontent.com/Liu134921/FusionBlock/main/FusionBlock-Ads.txt
 ```
 
-`Extra-CN.txt` 把上面地址里的文件名换掉即可。
 
 ## 更新
 
