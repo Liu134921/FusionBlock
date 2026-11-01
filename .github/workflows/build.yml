@@ -23,9 +23,9 @@ jobs:
           python3 tools/optimize.py \
             --in lists/adguard_base.txt lists/adguard_mobile.txt lists/adguard_chinese.txt \
                  lists/easylistchina.txt lists/hagezi_light.txt lists/heidai.txt \
-                 lists/peterlowe.txt lists/adguard_dns.txt \
+                 lists/adguard_dns.txt \
             --name FusionBlock-Ads.txt --title 'FusionBlock Ads' \
-            --desc '广告拦截主列表：合并 AdGuard 官方三件 + AdGuard DNS filter + EasyList China + HaGeZi Light + 217heidai + Peter Lowe，已去重化简，关键服务误杀已体检' \
+            --desc '广告拦截主列表：合并 AdGuard 官方三件 + AdGuard DNS filter + EasyList China + HaGeZi Light + 217heidai，已去重化简，关键服务误杀已体检' \
             --outdir .
           python3 tools/optimize.py \
             --in lists/antiad.txt \
