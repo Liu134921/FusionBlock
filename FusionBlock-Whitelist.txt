@@ -1,7 +1,7 @@
 ! Title: FusionBlock Whitelist
 ! Description: 白名单 = uBlock Unbreak（现成、五天更新一次）。自有条目只在实测到误拦时才加。
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.01.1316
+! Version: 2026.11.01.1319
 ! Expires: 1 days
 ! License: 本文件条目归 FusionBlock；Unbreak 部分归 uBlock Origin 团队（GPLv3）
 @@||awstrack.me/*auth.coindesk.com$doc,popup
