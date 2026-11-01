@@ -72,7 +72,7 @@ https://gitee.com/liuuyyubbo/FusionBlock/raw/main/FusionBlock-Phishing.txt
 
 **白名单（必加）**
 ```
-https://gitee.com/liuuyyubbo/FusionBlock/raw/main/FusionBlock-Whitelist.txt
+https://gh-proxy.org/https://raw.githubusercontent.com/Liu134921/FusionBlock/main/FusionBlock-Whitelist.txt
 ```
 
 国内直连 GitHub 基本拉不动，所以上面给的是 Gitee 镜像。要用 GitHub 源或加速链接的话：
