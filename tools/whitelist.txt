@@ -1,23 +1,6 @@
 ! Title: FusionBlock Whitelist
-! Description: 白名单：只放行有实测依据的域名，其余交给 uBlock Unbreak。优先级高于所有拦截列表。
+! Description: 白名单 = uBlock Unbreak（现成、五天更新一次）。自有条目只在实测到误拦时才加。
 ! Homepage: https://liu134921.github.io/FusionBlock/
 ! Version: 2026.11.01
 ! Expires: 1 days
 ! License: 本文件条目归 FusionBlock；Unbreak 部分归 uBlock Origin 团队（GPLv3）
-
-! ===== 微信：消息、图片、语音，少一条都可能收不到 =====
-@@||wxs.qq.com^
-@@||wximg.wxs.qq.com^
-@@||weixin.qq.com^
-@@||weixinbridge.com^
-@@||servicewechat.com^
-@@||wx.qq.com^
-@@||wechat.com^
-@@||weixin.qq.com.cn^
-
-! ===== 微信：图片/头像/表情/公众号资源 =====
-@@||mmsns.qpic.cn^
-@@||wx.qlogo.cn^
-@@||mmbiz.qpic.cn^
-@@||mmbiz.qlogo.cn^
-@@||res.wx.qq.com^
