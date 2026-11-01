@@ -24,7 +24,6 @@
 | `FusionBlock-Privacy.txt` | 隐私与追踪拦截（来自 EasyPrivacy） | 5.6 万行 / 1.5 MB | 建议开 |
 | `FusionBlock-Phishing.txt` | 钓鱼、仿冒登录页 | 5.0 万行 / 2.3 MB | 建议开 |
 | `FusionBlock-Whitelist.txt` | 例外规则，放行微信、支付、图片 CDN、HTTPDNS、推送 | 55 条 / 4 KB | 建议开 |
-| `FusionBlock-Extra-CN.txt` | anti-AD 单独成包，默认不启用 | 10 万行 / 2.2 MB | 可选 |
 
 白名单和其他几份一样，是当过滤器订阅加的，不用手动往用户规则里粘。删掉其中任何一条都可能让某个 App 白屏。
 
@@ -108,6 +107,6 @@ assets/                赞赏码
 - [EasyList](https://easylist.to/) / [EasyList China](https://github.com/easylist/easylistchina)
 - [HaGeZi DNS Blocklists](https://github.com/hagezi/dns-blocklists) — Light
 - [217heidai/adblockfilters](https://github.com/217heidai/adblockfilters)
-- [anti-AD](https://github.com/privacy-protection-tools/anti-AD) — Extra-CN 单独打包
+- [anti-AD](https://github.com/privacy-protection-tools/anti-AD) — 只作为 `FusionBlock-Extra-CN.txt` 单独存放，未纳入主列表，也不推荐启用
 
 本仓库只做合并、去重、化简和体检。发现某条规则本身有问题，也欢迎去上游反馈。
