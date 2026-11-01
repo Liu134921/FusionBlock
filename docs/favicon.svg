@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="FusionBlock">
+  <style>
+    .bg{fill:#4f6238}
+    .fg{fill:#ffffff}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#9ac97f}
+      .fg{fill:#15200e}
+    }
+  </style>
+  <rect class="bg" width="32" height="32" rx="8"/>
+  <path class="fg" d="M11 7.5h11.5v4.4H15.4v3.8h6.1v4.4h-6.1v5.4H11z"/>
+</svg>
