@@ -59,6 +59,45 @@ def suffixes(d, include_self=True):
         yield '.'.join(parts[i:])
 
 
+# ---- uBlock → AdGuard scriptlet 语法转换 ----
+SCRIPTLET_MAP = {
+    'acis': 'abort-current-inline-script',
+    'abort-current-script': 'abort-current-inline-script',
+    'set': 'set-constant',
+    'set-constant': 'set-constant',
+    'trusted-click-element': 'trusted-click-element',
+    'trusted-set-attribute': 'trusted-set-attr',
+    'json-prune': 'json-prune',
+    'remove-class': 'remove-class',
+    'remove-attr': 'remove-attr',
+    'nowebrtc': 'nowebrtc',
+    'prevent-fetch': 'prevent-fetch',
+    'prevent-xhr': 'prevent-xhr',
+    'window.open-defuser': 'prevent-window-open',
+    'set-cookie': 'cookie-remover',
+}
+UB_JS_RE = re.compile(r'^(.*?)##\+js\(([^)]*)\)(.*)$')
+
+
+def convert_ublock(l, stat):
+    m = UB_JS_RE.match(l)
+    if not m:
+        return l
+    domain, argstr, tail = m.group(1), m.group(2), m.group(3)
+    parts = [a.strip() for a in argstr.split(',') if a.strip()]
+    if not parts:
+        stat['scriptlet丢弃'] += 1
+        return ''
+    mapped = SCRIPTLET_MAP.get(parts[0])
+    if not mapped:
+        stat['scriptlet未映射'] += 1
+        return ''
+    vals = [mapped] + parts[1:]
+    quoted = ', '.join("'" + v.replace("'", "") + "'" for v in vals)
+    stat['scriptlet转换'] += 1
+    return '%s#%%#//scriptlet(%s)%s' % (domain, quoted, tail)
+
+
 def load(files, limit=None):
     net, exc, cos, raw = [], [], [], []
     seen = set()
@@ -69,6 +108,9 @@ def load(files, limit=None):
             for line in fh:
                 l = line.strip().lstrip('\ufeff')
                 if not l or l.startswith('!') or l.startswith('['):
+                    continue
+                l = convert_ublock(l, stat)
+                if not l:
                     continue
                 if len(l) > MAXLEN:
                     stat['超长丢弃'] += 1
