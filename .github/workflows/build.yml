@@ -75,7 +75,8 @@ jobs:
           for i in 1 2 3; do
             if git push origin HEAD:main; then exit 0; fi
             git fetch -q origin main || true
-            git rebase origin/main 2>/dev/null || git rebase --abort 2>/dev/null || true
+            # 生成文件冲突时以本次构建为准
+            git rebase -X ours origin/main 2>/dev/null || git rebase --abort 2>/dev/null || true
             sleep 5
           done
           exit 1
