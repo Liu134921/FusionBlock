@@ -29,6 +29,8 @@
 
 白名单和其他几份一样，是当过滤器订阅加的，不用手动往用户规则里粘。删掉其中任何一条都可能让某个 App 白屏。
 
+仓库里还有一个 `FusionBlock-Extra-CN.txt`，是 anti-AD 那份单独打的包，不列在推荐里，也不建议启用——覆盖更多，误杀也明显更多。
+
 ## 安装
 
 ### AdGuard for Android
@@ -77,11 +79,12 @@ GitHub Actions 每八小时跑一次构建（北京时间 08:00 / 16:00 / 24:00 
 ## 仓库结构
 
 ```
-FusionBlock-*.txt      五份成品规则
+FusionBlock-*.txt      成品规则（四份主列表 + Extra-CN）
 reports/               构建报告与体检报告
 tools/                 合并、化简、体检、构建用的脚本
 .github/workflows/     自动构建
 assets/                赞赏码
+docs/                  介绍页（GitHub Pages）
 ```
 
 ## 遇到问题
