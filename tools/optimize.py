@@ -27,6 +27,7 @@ import os
 import re
 import argparse
 import collections
+from datetime import datetime, timezone, timedelta
 
 HOSTS_RE = re.compile(r'^(?:0\.0\.0\.0|127\.0\.0\.1|::1)\s+(\S+)\s*$')
 DOM_RE = re.compile(r'^\|\|([^\^/$|]+)\^(\$[^\s]*)?$')
@@ -39,6 +40,10 @@ KEEP_ON_IMPORTANT = ('important',)
 
 # 单条规则长度上限：AdGuard 解析器对超长规则会丢弃，留着只会拖慢加载
 MAXLEN = 8000
+
+# 版本号：优先用 CI 传进来的同一时刻，本地跑就取北京时间
+STAMP = os.environ.get('FB_STAMP') or datetime.now(
+    timezone(timedelta(hours=8))).strftime('%Y.%m.%d.%H%M')
 
 # 会掐断微信消息/图片的规则，无论哪个源带来都不输出
 EXCLUDE = {
@@ -268,7 +273,7 @@ def main():
     lines = ['! Title: ' + a.title,
              '! Description: ' + a.desc,
              '! Homepage: https://liu134921.github.io/FusionBlock/',
-             '! Version: 2026.10.31',
+             '! Version: ' + STAMP,
              '! Expires: 7 days',
              '! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）',
              '',
