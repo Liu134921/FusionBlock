@@ -5,6 +5,11 @@
 ! Expires: 30 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
+! ===== Push（realme / OPPO 推送通道，拦了通知就收不到）=====
+@@||push.heytapmobile.com^
+@@||push-dc-us.heytapmobile.com^
+@@||httpdns.push.oppomobile.com^
+@@||file-intl-push.heytapdl.com^
 ! ===== 微信：消息、图片、语音，少一条都可能收不到 =====
 @@||wxs.qq.com^
 @@||wximg.wxs.qq.com^
