@@ -1,7 +1,7 @@
 ! Title: FusionBlock Ads
 ! Description: 广告拦截主列表：合并 AdGuard 官方三件 + EasyList China + HaGeZi Light + 217heidai + xinggsf，已去重化简，关键服务误杀已体检
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.01.1233
+! Version: 2026.11.01.1236
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -11258,7 +11258,7 @@
 @@||zxzja.com:*/Cloud/Down/$subdocument,stealth=referrer
 @@||zxzja.com:*/player-$subdocument,stealth=referrer
 
-! ===== 网络规则 (108929) =====
+! ===== 网络规则 (108940) =====
 
 http://www.ads.$third-party
 https://github.com/AdguardTeam/AdguardFilters/issues/51221
@@ -33906,6 +33906,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||brodownload8s.com^
 ||brodownload9s.com^
 ||brodownloads.site^
+||broevo.com^
 ||broflask.com^
 ||broggleceburbetire.qpon^
 ||broigneakra.com^
@@ -35400,6 +35401,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||caribanpitmans.com^
 ||caring-kangaroo-307519.framer.app^
 ||caringcoyote.com^
+||caringfinch.com^
 ||caringmink.com^
 ||carinus.iad-03.braze.com^
 ||cariousphiale.com^
@@ -50781,6 +50783,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||fqwgi.com^
 ||fqwv7k7ex.com^
 ||fqyqq8trk.com^
+||fqyykpwoysxmq.space^
 ||fr-ad-lgsmartad-com.aws-prd.net^
 ||fr-chancemicpro.firebaseapp.com^
 ||fr-coolzino.fr^
@@ -62004,6 +62007,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||jkftythniutuos.com^
 ||jkgncyk.com^
 ||jklhj-3f968.firebaseapp.com^
+||jklhqocmvdkkm.online^
 ||jknkhhrjglcsh.site^
 ||jkodbweyhuhis.online^
 ||jkpbx8fq49iwiue56gbw4h3vtyel2.cfd^
@@ -62559,6 +62563,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||jubnaadserve.com^
 ||juchartfardinglazybed.cfd^
 ||jucxhidpig.in^
+||juddersexcusedligure.qpon^
 ||judebelii.com^
 ||judibolanet.com^
 ||judicial4.com^
@@ -63500,6 +63505,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||khqspd-cdn-settings.appsflyersdk.com^
 ||khqspd-inapps.appsflyersdk.com^
 ||khqspd-launches.appsflyersdk.com^
+||khuojbwgulvgd.website^
 ||khutedov.com^
 ||khzcaztszjtdk.space^
 ||ki4jkq-adrevenue.appsflyersdk.com^
@@ -67865,6 +67871,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||lyswbpryuotvs.space^
 ||lyta.kalevamedia.fi^
 ||lytics.io^
+||lytuosocmuonp.site^
 ||lyugk9ql7z42hf61.cyou^
 ||lyujepdgbgbgk.site^
 ||lyvsiukvjwzsb.site^
@@ -87078,6 +87085,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||qwuylnl.com^
 ||qwvcwefqcijv.com^
 ||qwvhatqjlfbmp.online^
+||qwydowsmcccex.site^
 ||qwzievvmpahlc.space^
 ||qxaz2xcw.com^
 ||qxbpi331k.com^
@@ -90905,6 +90913,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||saladattic.com^
 ||saladbarrel.com^
 ||salahkaarconsultants.com^
+||salamisparcher.qpon^
 ||salamnews.org/files/*_645x60_gif_az.gif
 ||salamnews.org/files/ENERGY_az.jpg
 ||salamnews.org/files/atabank-az.png
@@ -94688,6 +94697,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||shutterstock.com/blog/wp-content/themes/sstk/assets/js/analytics.min.js
 ||shutterstock.com/blog/wp-content/themes/sstk/assets/js/parsely-tracking.min.js
 ||shuzilm.cn^
+||shwmhfjuwomnx.site^
 ||shxqeps.com^
 ||shxubwa.xyz^
 ||shyajio.com^
@@ -105435,6 +105445,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||tjekscores.dk^
 ||tjfot.com^
 ||tjfskxz0t6.com^
+||tjfutvjymqzdp.online^
 ||tjfytech.com^
 ||tjgeagvhlpxru.site^
 ||tjgssn.com^
@@ -194744,7 +194755,7 @@ zzzyk.com###Tinfo
 ~www.wp.pl,wp.pl##div[class^="_"] > div[class^="_"][class*="_"]:has(> img[src^="https://v.wpimg.pl/"][src$="=="][alt="WP"])
 ~www.wp.pl,wp.pl#?#[class^="_"] > [class^="_"][class*=" _"]:has(>[class^="_"] > [class*=" "] > [class]:first-child:contains(REKLAMA))
 
-! ===== 未解析 (9696) =====
+! ===== 未解析 (9697) =====
 
 #$?#html > div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"] { remove: true; }
 $$amp-ad
@@ -194871,6 +194882,7 @@ $websocket,domain=wap.yushuwu.cloud
 $xmlhttprequest,redirect-rule=nooptext,domain=kbjfree.com
 $xmlhttprequest,redirect-rule=nooptext,domain=oko.sha|aii.sh|pahe.plus|intercelestial.com|linegee.net|clksz.com|lnbz.la
 $xmlhttprequest,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|x.com|pp.ua|discord.com,_____,domain=everia.club|projectfreetv.cyou|skidrowreloaded.com|kickassanime.*|dlhd.*|nxbrew.net|ziperto.com|lilymanga.net|bentomanga.top|bigcomics.bid|brmangas.top|cmoa1.top|janime.top|jpraw.xyz|kakuyomu.in|kkraw.com|komiku.win|lectormanga.top|lermanga.top|manga1000.top|manga1001.win|manga1001.xyz|mangajp.top|mangakl.su|mangaraw.bid|mangavy.com|mangaz.win|scanita.top|shinigami-id.top|sushiscan.top|worldsports.me|poscitechs.xyz|harimanga.com|movieshubweb.com|animeflv.net|techcabal.net|nextgencloudtools.com|soap2day.day|flixrave.me|audioz.download|playdede.link|canna-power.to|canna.to|filecrypt.cc|dlhd.dad|3isk.icu|3isk.info|animesrbija.com|yts.lt|totalsportek.*|totalsportek.army|ext.to|eztvx.to|bypass.city|fileditchfiles.me|furry34.com|filecrypt.co|yts.*|yts.gg|yts.bz|streamtape.net|kaliscan.com|eztv.yt
+$xmlhttprequest,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|x.com|pp.ua|discord.com|cutcaptcha.net,_____,domain=everia.club|projectfreetv.cyou|skidrowreloaded.com|kickassanime.*|dlhd.*|nxbrew.net|ziperto.com|lilymanga.net|bentomanga.top|bigcomics.bid|brmangas.top|cmoa1.top|janime.top|jpraw.xyz|kakuyomu.in|kkraw.com|komiku.win|lectormanga.top|lermanga.top|manga1000.top|manga1001.win|manga1001.xyz|mangajp.top|mangakl.su|mangaraw.bid|mangavy.com|mangaz.win|scanita.top|shinigami-id.top|sushiscan.top|worldsports.me|poscitechs.xyz|harimanga.com|movieshubweb.com|animeflv.net|techcabal.net|nextgencloudtools.com|soap2day.day|flixrave.me|audioz.download|playdede.link|canna-power.to|canna.to|filecrypt.cc|dlhd.dad|3isk.icu|3isk.info|animesrbija.com|yts.lt|totalsportek.*|totalsportek.army|ext.to|eztvx.to|bypass.city|fileditchfiles.me|furry34.com|filecrypt.co|yts.*|yts.gg|yts.bz|streamtape.net|kaliscan.com|eztv.yt
 $xmlhttprequest,third-party,domain=swiftload.io
 $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz|digworm.io
