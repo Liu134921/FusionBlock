@@ -20,12 +20,14 @@ jobs:
 
       - name: Build lists
         run: |
+          export FB_STAMP=$(TZ=Asia/Shanghai date +%Y.%m.%d.%H%M)
+          echo "构建版本 $FB_STAMP"
           python3 tools/optimize.py \
             --in lists/adguard_base.txt lists/adguard_mobile.txt lists/adguard_chinese.txt \
                  lists/easylistchina.txt lists/hagezi_light.txt lists/heidai.txt \
                  lists/xinggsf.txt \
             --name FusionBlock-Ads.txt --title 'FusionBlock Ads' \
-            --desc '广告拦截主列表：合并 AdGuard 官方三件 + EasyList China + HaGeZi Light + 217heidai，已去重化简，关键服务误杀已体检' \
+            --desc '广告拦截主列表：合并 AdGuard 官方三件 + EasyList China + HaGeZi Light + 217heidai + xinggsf，已去重化简，关键服务误杀已体检' \
             --outdir .
           python3 tools/optimize.py \
             --in lists/antiad.txt \
@@ -43,6 +45,7 @@ jobs:
             --desc '钓鱼站点拦截：基于 malware-filter phishing' \
             --outdir .
           cp tools/whitelist.txt FusionBlock-Whitelist.txt
+          sed -i "s/^! Version: .*/! Version: $FB_STAMP/" FusionBlock-Whitelist.txt
 
       - name: Check key services
         run: python3 tools/check_domains.py FusionBlock-Ads.txt
