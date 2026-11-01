@@ -1,7 +1,7 @@
 ! Title: FusionBlock Ads
 ! Description: 广告拦截主列表：合并 AdGuard 官方三件 + EasyList China + HaGeZi Light + 217heidai + xinggsf，已去重化简，关键服务误杀已体检
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.01.1236
+! Version: 2026.11.01.1309
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -11258,7 +11258,7 @@
 @@||zxzja.com:*/Cloud/Down/$subdocument,stealth=referrer
 @@||zxzja.com:*/player-$subdocument,stealth=referrer
 
-! ===== 网络规则 (108940) =====
+! ===== 网络规则 (108955) =====
 
 http://www.ads.$third-party
 https://github.com/AdguardTeam/AdguardFilters/issues/51221
@@ -14642,6 +14642,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||6fck1k-launches.appsflyersdk.com^
 ||6fm4dcpj31.com^
 ||6fxtpu64lxyt.com^
+||6g2ethmhzh7twtprmju8lvk5mw552.rest^
 ||6gemel9ypi8t2lbre.cfd^
 ||6ggstcmglf.com^
 ||6glece4homah8dweracea.com^
@@ -38036,6 +38037,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||cmgfeeds.cmgdigital.com^
 ||cmh-analytics.sumtotal.host^
 ||cmjwzfzuwisst.site^
+||cmkqattsmlana.site^
 ||cmlduchess.com^
 ||cmm.xmfish.com^
 ||cmmb9o-cdn-settings.appsflyersdk.com^
@@ -49564,6 +49566,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||fichesflutier.qpon^
 ||fickletewing.com^
 ||fickotstuk.space^
+||ficopranced.com^
 ||ficrgqzecanuv.space^
 ||ficulaervil.cyou^
 ||fidar.site^
@@ -58024,6 +58027,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||hxlffbjjaroag.site^
 ||hxmxjeufqunos.site^
 ||hxnicvldneogf.online^
+||hxogpzwcgfuex.space^
 ||hxomxwkfmxmzy.site^
 ||hxpfsdvfm.com^
 ||hxsame.hexun.com/
@@ -58961,6 +58965,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||iionads.com^
 ||iiqcrulsiqo.firebaseapp.com^
 ||iiqurqedmcthf.site^
+||iiqxjbfjpyoue.space^
 ||iis7.com/ys/css2018/ggw.js
 ||iisffduwhphnw.online^
 ||iivt.com^
@@ -60502,6 +60507,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||iocoder.cn/alert/js/alert.js
 ||iodideeyebath.cam^
 ||iodidtrolled.cfd^
+||iofeptcygxixs.space^
 ||iofferphoto.com^
 ||iogjhbnoypg.com^
 ||iogous.com^
@@ -63211,6 +63217,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||kcnytl-cdn-settings.appsflyersdk.com^
 ||kcohuz-cdn-settings.appsflyersdk.com^
 ||kcohuz-launches.appsflyersdk.com^
+||kcsmtrwnpdogu.website^
 ||kcta.or.kr^
 ||kctag.net^
 ||kctecoeitlrcr.space^
@@ -75260,6 +75267,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||mum.alibabachengdun.com^
 ||mum.alibabachengdun.net^
 ||mumbledcollut.com^
+||mumeficuscurring.cyou^
 ||mumglobal.com^
 ||mumjchhqeygvu.site^
 ||mummedblet.cfd^
@@ -80627,6 +80635,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||pagolnhssj.com^
 ||pahanus.tech^
 ||pahbypbqkgnhu.online^
+||pahdtytqrrcyd.space^
 ||pahnaconnect.tech^
 ||pahomov.tech^
 ||paht.tech^
@@ -87312,6 +87321,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||r7mvkchjnox393q.cyou^
 ||r7pnnukr.xyz^
 ||r7po11-cdn-settings.appsflyersdk.com^
+||r7teccbxmvewij5mv2.cfd^
 ||r8ln4v4nef.com^
 ||r8rcdh-cdn-settings.appsflyersdk.com^
 ||r8rcdh-conversions.appsflyersdk.com^
@@ -91209,6 +91219,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||savoy.matomo.firstvoucher.com^
 ||saw.amidsttruly.com^
 ||sawlive.tv/ad$important
+||sawmdfmrnogeuh.com^
 ||sawpf.com/1.0.js$third-party
 ||sawuirvqzqqwm.site^
 ||saxn.sina.com.cn^
@@ -94519,6 +94530,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||shoebacca.com/YaRJwC0q/init.js
 ||shoelace.com^
 ||shoepacpoon.cyou^
+||shofarscomida.cyou^
 ||shoffree.cc/ajax/get-random-ad.php
 ||shofonline.org/javashofnet/ti.js
 ||shok.md/wp-content/banners^
@@ -117520,6 +117532,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||xznjmpdfeooje.space^
 ||xznkqochfqjdv.website^
 ||xzoxfwmmnnnjfv.com^
+||xzpidlohngvic.website^
 ||xzqpz.com^
 ||xzswn87hm.com^
 ||xzumxlpjeasmc.website^
@@ -117932,6 +117945,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||yfly0f-skadsdkless.appsflyersdk.com^
 ||yfmwnkd1ti.com^
 ||yfndvbod.docebo.com^
+||yfovokduwyp.com^
 ||yfqenilayjovs.site^
 ||yfsfocucujnfz.website^
 ||yfsnorpbhiejq.website^
@@ -118267,6 +118281,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||ynzmfebpnboxu.space^
 ||ynztzh.com^$third-party
 ||yoads.net^
+||yoahwdxspvxwq.online^
 ||yoast-schema-graph.com^
 ||yobee.it^
 ||yobokprnqwhds.site^
