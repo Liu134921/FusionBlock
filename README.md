@@ -57,17 +57,17 @@
 
 **广告拦截**
 ```
-https://gitee.com/liuuyyubbo/FusionBlock/raw/main/FusionBlock-Ads.txt
+https://gh-proxy.org/https://raw.githubusercontent.com/Liu134921/FusionBlock/main/FusionBlock-Ads.txt
 ```
 
 **隐私追踪**
 ```
-https://gitee.com/liuuyyubbo/FusionBlock/raw/main/FusionBlock-Privacy.txt
+https://gh-proxy.org/https://raw.githubusercontent.com/Liu134921/FusionBlock/main/FusionBlock-Privacy.txt
 ```
 
 **钓鱼站点**
 ```
-https://gitee.com/liuuyyubbo/FusionBlock/raw/main/FusionBlock-Phishing.txt
+https://gh-proxy.org/https://raw.githubusercontent.com/Liu134921/FusionBlock/main/FusionBlock-Phishing.txt
 ```
 
 **白名单（必加）**
