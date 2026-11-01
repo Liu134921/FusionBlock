@@ -71,8 +71,9 @@ jobs:
         if: success()
         run: |
           for i in 1 2 3; do
-            git pull --rebase --autostash -q 2>/dev/null || true
-            if git push; then exit 0; fi
+            if git push origin HEAD:main; then exit 0; fi
+            git fetch -q origin main || true
+            git rebase origin/main 2>/dev/null || git rebase --abort 2>/dev/null || true
             sleep 5
           done
           exit 1
