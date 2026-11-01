@@ -1,6 +1,6 @@
 ! Title: FusionBlock Phishing
 ! Description: 钓鱼站点拦截：基于 malware-filter phishing
-! Homepage: https://gitee.com/liuuyyubbo/FusionBlock
+! Homepage: https://liu134921.github.io/FusionBlock/
 ! Version: 2026.10.31
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）

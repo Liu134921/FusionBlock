@@ -225,7 +225,7 @@ def main():
     os.makedirs(a.outdir, exist_ok=True)
     lines = ['! Title: ' + a.title,
              '! Description: ' + a.desc,
-             '! Homepage: https://gitee.com/liuuyyubbo/FusionBlock',
+             '! Homepage: https://liu134921.github.io/FusionBlock/',
              '! Version: 2026.10.31',
              '! Expires: 7 days',
              '! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）',

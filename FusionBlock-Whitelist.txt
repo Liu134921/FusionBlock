@@ -1,6 +1,6 @@
 ! Title: FusionBlock Whitelist
 ! Description: 例外规则，优先级高于所有拦截列表。删掉其中任何一条都可能让对应服务失联。
-! Homepage: https://gitee.com/liuuyyubbo/FusionBlock
+! Homepage: https://liu134921.github.io/FusionBlock/
 ! Version: 2026.10.31
 ! Expires: 30 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
