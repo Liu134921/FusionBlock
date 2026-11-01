@@ -24,7 +24,7 @@ dl 'https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.t
 dl 'https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt'     heidai.txt
 dl 'https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-adguard.txt' antiad.txt
 dl 'https://easylist.to/easylist/easyprivacy.txt'                                                 EasyPrivacy.txt
-dl 'https://malware-filter.gitlab.io/malware-filter/phishing-filter-ag.txt'dl 'https://filters.adtidy.org/android/filters/15_optimized.txt'                                adguard_dns.txt
+dl 'https://malware-filter.gitlab.io/malware-filter/phishing-filter-ag.txt'dl 'https://filters.adtidy.org/windows/filters/15.txt'                                adguard_dns.txt
                        Phishing.txt
 
 echo '--- 缺失检查'
