@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.02.1239
+! Version: 2026.11.03.0151
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -859,7 +859,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52052) =====
+! ===== 网络规则 (52057) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -9242,6 +9242,7 @@
 ||badirectoryz.carte-gr.total.fr^
 ||badwolf.open-election-compass.com^
 ||baffae.alcott.eu^
+||bagave.com^
 ||bagbeam.com^
 ||bagbgo.unitednude.eu^
 ||bagsurprise.com^
@@ -12194,6 +12195,7 @@
 ||connext-cdn.azureedge.net^
 ||consciouschairs.com^
 ||consciouscheese.com^
+||consciousremnant.com^
 ||conseil.seicgland.ch^
 ||conseils.dotbase.com^
 ||consensu.org/?log=
@@ -25761,6 +25763,7 @@
 ||mangaraw.to/api/v1/view/
 ||mango-office.ru/calltracking/
 ||mango-office.ru/track/
+||manilazoo.com^
 ||manomano.*/api/v1/sp-tracking/
 ||manscaped.com/rud-dataplane/
 ||manua.ls/g/collect?
@@ -30138,6 +30141,7 @@
 ||naanalle.pl^
 ||naayna.com^$third-party
 ||nabaza.com^$third-party
+||nablounge.com^
 ||nadelle.wantsext.me^
 ||nafmxc.1083.fr^
 ||naiadsystems.com/api/v1/xment/
@@ -36979,6 +36983,7 @@
 ||sharethis.com/pageviews?
 ||sharing.kptncook.com^
 ||sharpspring.com^$third-party
+||shasetsu.jp/metrics.js
 ||shatterloop.com^
 ||shavetape.cash/stat/
 ||shazam.com/services/metrics/
@@ -37351,6 +37356,7 @@
 ||slipstream.skyscanner.net^
 ||slogantrend.de^$third-party
 ||slopesoap.com^
+||slorepo.com/v2/assets/srmeasure.js
 ||slotabrosdev.zharev.com^
 ||slotabrosuat.zharev.com^
 ||slryca.meyou.jp^
@@ -51181,7 +51187,6 @@
 ||worker-app-dev.buildforce.com^
 ||worker-app-staging.buildforce.com^
 ||worker-app.buildforce.com^
-||workers.dev/api/event
 ||workers.dev/js/script.js
 ||workforcetrends.advancedtech.com^
 ||workhorsefunds.com^
@@ -52925,7 +52930,7 @@ aliexpress.com,aliexpress.ru,aliexpress.us#%#//scriptlet('set-constant', 'Offlin
 aliexpress.com,aliexpress.ru,aliexpress.us#%#//scriptlet('set-constant', 'navigator.bluetooth', 'undefined')
 anikore.jp##html[class^="loading"]:style(visibility: visible !important;)
 bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
-cbssports.com,foxnews.com,gbatemp.net,pcworld.com,usatoday.com#%#//scriptlet('set-constant', 'admiral', 'noopFunc')
+cbssports.com,foxnews.com,gbatemp.net,news.com.au,pcworld.com,usatoday.com#%#//scriptlet('set-constant', 'admiral', 'noopFunc')
 e-begin.jp##.inviewSection:not(.is-show):style(transform: translateY(0) !important; opacity: 1 !important;)
 mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ncbi.nlm.nih.gov#%#//scriptlet('set-constant', 'ncbi.sg', '{}')
