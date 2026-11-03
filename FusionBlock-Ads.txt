@@ -1,7 +1,7 @@
 ! Title: FusionBlock Ads
 ! Description: 广告拦截主列表：合并 AdGuard 官方三件 + EasyList China + HaGeZi Light + 217heidai + xinggsf，已去重化简，关键服务误杀已体检
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.03.2352
+! Version: 2026.11.04.0531
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -11262,7 +11262,7 @@
 @@||zxzja.com:*/Cloud/Down/$subdocument,stealth=referrer
 @@||zxzja.com:*/player-$subdocument,stealth=referrer
 
-! ===== 网络规则 (111573) =====
+! ===== 网络规则 (111604) =====
 
 http://www.ads.$third-party
 https://github.com/AdguardTeam/AdguardFilters/issues/51221
@@ -16622,6 +16622,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||aaddzz.com^
 ||aafdcq.com^
 ||aafns.xyz^
+||aafrjewsszwiv.site^
 ||aafuck.xyz^$third-party
 ||aag.yahooapis.jp^
 ||aagm.link^
@@ -21221,6 +21222,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||aftonbladet.se/trafikfonden/
 ||aftrk1.com^
 ||aftrk3.com^
+||afvcrykaqo.in^
 ||afvnzlgxo.com^
 ||afy11.net^
 ||afzhan.com/JavaScript/ad_Couplet.js
@@ -34302,6 +34304,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||bqmyzq-inapps.appsflyersdk.com^
 ||bqmyzq-launches.appsflyersdk.com^
 ||bqnharsjbikxe.space^
+||bqohmtzgtwyvi.space^
 ||bqplydkjst.com^
 ||bqptdcceaoeam.online^
 ||bqqg.cc/n.
@@ -35858,6 +35861,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||camonster.io^
 ||camp-api.naver.com.nheos.com^
 ||camp-api.naver.com^
+||camp.fastcompany.com/ash.js
 ||camp.inc.com^
 ||campaign-remp.444.hu^
 ||campaign-service.datacamp.com/api/v1/banner
@@ -44886,6 +44890,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||djez1k-launches.appsflyersdk.com^
 ||djgnqo9p1icyr.cloudfront.net^
 ||djhanucviqf.com^
+||djhvqumujikde.site^
 ||djibjamowntzl.online^
 ||djicdn.com/uploads/ad_image_file/
 ||djljz.cn/Plugins/Template/XJLY/js/app.
@@ -50933,6 +50938,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||fkbtz5-launches.appsflyersdk.com^
 ||fkbwtoopwg.com^
 ||fkdaik.lightinthebox.com^
+||fkdeavpxkjuoa.space^
 ||fkehg.com^
 ||fkf5.com/public/js/static.js
 ||fkfovt.icu^
@@ -51820,6 +51826,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||freeadblockerbrowser.com^
 ||freeadultcomix.com^$badfilter
 ||freeadultcomix.com^$third-party
+||freealremark.org^
 ||freeavalanche.ru^
 ||freebestgames2025.com^
 ||freebiesurveys.com^
@@ -53117,6 +53124,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||gaveasword.com^
 ||gavotsalleleu.com^
 ||gawhybnoc.firebaseapp.com^
+||gaxejjfvhogej.space^
 ||gaxlog-cdn-settings.appsflyersdk.com^
 ||gaxlog-launches.appsflyersdk.com^
 ||gay.bingo/agent.php
@@ -56363,6 +56371,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||gushedbewares.cfd^
 ||gushiwen.cn/getTicket.aspx^$xhr
 ||gushiwen.org/getTicket.aspx
+||gusonzwqabdjh.space^
 ||gussame.com^
 ||gussbkpr.website^
 ||gustounblued.com^
@@ -59719,6 +59728,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||icshsl-cdn-settings.appsflyersdk.com^
 ||icshsl-inapps.appsflyersdk.com^
 ||icshsl-launches.appsflyersdk.com^
+||icsocthifkbge.online^
 ||icstats.nl^
 ||icu.newsroom.bi^
 ||icubeswire.co^
@@ -63806,6 +63816,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||juieorpkfkfjfase.weebly.com^
 ||juji.tv/Runtime/js/
 ||jujuismrealize.com^
+||jukcdvsgozbiy.space^
 ||jukebox.pathfactory.com^
 ||julgfzdftsxxd.space^
 ||julianoalvaroz12.com^
@@ -80300,6 +80311,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||ohrhapadx.com^
 ||ohsosavvymom.com^
 ||ohtctjiuow.com^
+||ohtunuswezbap.space^
 ||ohucxcdstxgqx.online^
 ||ohuda.com^
 ||ohvbdellid.cfd^
@@ -80311,6 +80323,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||oidianeedled.com^
 ||oidnrkswylswk.site^
 ||oie.com.cn^
+||oigreykofphcz.site^
 ||oihgombbziwby.online^
 ||oijkse.com^
 ||oijnbvtqfrezf.online^
@@ -80337,6 +80350,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||oivpkegadjuqc.site^
 ||oiycak.com^
 ||oiyivlyqglj.com^
+||oizfzrjavugyq.space^
 ||oj1boygkz.com^
 ||oj2c0dkk4.com^
 ||oj95rctd5.com^
@@ -80344,6 +80358,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||ojccpggkwvauk.online^
 ||ojdikx-cdn-settings.appsflyersdk.com^
 ||ojepuqxoj.com^
+||ojevjamihdgxf.site^
 ||ojg8sflgl.com^
 ||ojh9bc9puh.com^
 ||ojhanmnumsi.in^
@@ -81361,6 +81376,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||ortorex.at^
 ||orvian.cc^
 ||orvillehogtie.com^
+||orviwiatndnfy.website^
 ||orvqwylf.in^
 ||orxo5m9nwcy4xk6w2n5jug8ve.cfd^
 ||orykas.de^
@@ -86912,7 +86928,9 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||pshdo.com^
 ||psi.lbesecapi.com^
 ||psidrurally.qpon^
+||psilemjexhttc.site^
 ||psishops.com^
+||psjadixqzliqg.online^
 ||psktyq-cdn-settings.appsflyersdk.com^
 ||psktyq-inapps.appsflyersdk.com^
 ||psktyq-launches.appsflyersdk.com^
@@ -88994,6 +89012,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||qzej5p-inapps.appsflyersdk.com^
 ||qzej5p-launches.appsflyersdk.com^
 ||qzej5p-register.appsflyersdk.com^
+||qzfjenkimltmx.site^
 ||qzfsdxzxyhejf.website^
 ||qzgn652dp.com^
 ||qzizvxzcdvxnd.website^
@@ -89578,6 +89597,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||rdduxznjoytvg.online^
 ||rddywd.com^
 ||rde.ru^
+||rdemlukxlxtrj.online^
 ||rdg.today^
 ||rdgck4jo4.com^
 ||rdhag.sansmatin.co.uk^
@@ -90364,6 +90384,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||rer4.com^
 ||rereddit.com^
 ||rergaxhihmuli.website^
+||rergkrakgvxpa.online^
 ||rerrioara.live^
 ||reryodzat.com^
 ||res*.pinpai8.cn^
@@ -91012,6 +91033,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||rmf.hit.gemius.pl/gplayer.js$script,redirect=gemius,domain=rmfon.pl
 ||rmf.hit.gemius.pl^
 ||rmf24.pl/j/videojs/ad-setup.js
+||rmfdjplxffznf.website^
 ||rmfnmkuwsgeje.website^
 ||rmg0mn-cdn-settings.appsflyersdk.com^
 ||rmg0mn-inapps.appsflyersdk.com^
@@ -91035,6 +91057,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||rmyhibtadohj.com^
 ||rmzsglng.com^
 ||rmztc.bostonscally.com^
+||rmzzjmbshnjbo.space^
 ||rn221.xyz^*.gif
 ||rn30y7u7h.com^
 ||rndchandelureon.com^
@@ -97392,6 +97415,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||slowignition.com^
 ||slowosportowe.pl/baner/
 ||slpubmedias.tf1.fr^$media,redirect=noopmp3-0.1s,app=fr.tf1.mytf1
+||slqdkguiypxzu.online^
 ||slrvvtjvdbwuf.space^
 ||sls-core-analytics-data-bucket.s3.eu-central-1.amazonaws.com^
 ||sls3.cz^
@@ -105284,6 +105308,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||taddpxmmooi.com^
 ||taddy.pro^
 ||tadex.id^
+||tadodpfikom.in^
 ||tads.me^
 ||tads.tenping.kr^
 ||taf9vs2wz.com^
@@ -105564,6 +105589,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||taijuba.com/js/tj
 ||taijuwang.com/template/alifun/js/unFavui.
 ||tailleslorum.com^
+||tailorydemele.com^
 ||tailstories.biz^
 ||tailsweep.com^
 ||tailsweep.se^
@@ -106851,6 +106877,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||tetoolbox.com^
 ||tetrahedron55.com^
 ||tettacrown.com^
+||tettvlflcprdr.site^
 ||tevafinland.com^
 ||teveogermany.com^
 ||tewkpi-cdn-settings.appsflyersdk.com^
@@ -113630,6 +113657,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||vavecasinobet.fr^
 ||vawbpazgcyqhr.website^
 ||vax-now.com^
+||vaylkkybnfbbn.site^
 ||vaynhanhvn.net^
 ||vayxi.com^
 ||vazxcosicx.in^
@@ -118831,6 +118859,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||xgxiyfjwll.com^
 ||xgxncacvhbfud.site^
 ||xgxokdvjgzmoo.space^
+||xgyfzcnypzvas.space^
 ||xgzxpdy.com^
 ||xh33g.net^
 ||xhaccess.com^*/vast?
@@ -120510,6 +120539,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||ygkigfsbaprxk.website^
 ||ygleaabmxnnhf.space^
 ||ygljimnilvubc.com^
+||ygnkikbxptrce.website^
 ||ygnqsodvfsqfv.space^
 ||ygodup-cdn-settings.appsflyersdk.com^
 ||ygodup-launches.appsflyersdk.com^
@@ -121715,6 +121745,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||zcyedl-cdn-settings.appsflyersdk.com^
 ||zcyedl-inapps.appsflyersdk.com^
 ||zcyedl-launches.appsflyersdk.com^
+||zcyllaortfdtu.site^
 ||zdbmwgkudoptj.space^
 ||zdccm.drift.co^
 ||zdcj.net/html/weibo
@@ -122838,7 +122869,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||zzzperform.com^
 ||zzzyk.com/js/
 
-! ===== 元素隐藏 (74664) =====
+! ===== 元素隐藏 (74673) =====
 
 ###AC_ad
 ###AD_160
@@ -143090,10 +143121,6 @@ as.com##.w-prod
 as.com,desdelinux.net,tutiempo.net,ubunlog.com##.publi
 as.com,gokunming.com##.prom
 as.ro###digitalag-sticky
-as9u7bgh9.com,g8w90qhngo.com,sugbaioug.com,gasobni.com,gaqghe.com,dstyladsg.com,viderea.site,vidarae.live,cdn.4animo.xyz,calyro.biz,movienig.ht,vidmatrixa.com,vidchampions.com,vidavaca.cc,xheti.net,verhentai.io,krx18.com,sht-link.com,viduro.top,vindaz.shop,xca.cymru,uiil.ink,pornwex.tv,manhuarmtl.com,vidara.to,vidara.so,krakenfiles.com,streamix.so,livecamrips.*#%#//scriptlet('prevent-addEventListener', 'click', 'window.open')
-as9u7bgh9.com,g8w90qhngo.com,sugbaioug.com,gasobni.com,gaqghe.com,viderea.site,vidwara.*,vidwara.fit,vidwara.cc,vidarae.live,calyro.biz,vidmatrixa.com,vidchampions.com,vidavaca.cc,vindaz.shop,xca.cymru,vidara.to,vidara.so#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'onerror')
-as9u7bgh9.com,g8w90qhngo.com,sugbaioug.com,gasobni.com,gaqghe.com,viderea.site,vidwara.*,vidwara.fit,vidwara.cc,vidarae.live,calyro.biz,vidmatrixa.com,vidchampions.com,vidavaca.cc,vindaz.shop,xca.cymru,vidara.to,vidara.so#%#//scriptlet('prevent-element-src-loading', 'script', 'googima.js')
-as9u7bgh9.com,g8w90qhngo.com,sugbaioug.com,gasobni.com,gaqghe.com,viderea.site,vidwara.*,vidwara.fit,vidwara.cc,vidarae.live,calyro.biz,vidmatrixa.com,vidchampions.com,vidavaca.cc,vindaz.shop,xca.cymru,vidara.to,vidara.so#%#//scriptlet('prevent-setTimeout', 'document.getElementsByTagName')
 asagei.com##.popular-article-side ~ div[style^="text-align"]:has(> a[href] > img[src*="images/bn/"])
 asahi.co.jp###jp_abc_sp_article_underarticle
 asahi.co.jp###js-smpBnr
@@ -159241,6 +159268,10 @@ gobankingrates.com##.native-cards-module[data-pub-placement-id]
 gobankingrates.com##.nav-disclosure.container
 gobankingrates.com##.rate-table-header
 gobankingrates.com##.snippet-in-content
+gobsao8u.com,as9u7bgh9.com,g8w90qhngo.com,sugbaioug.com,gasobni.com,gaqghe.com,dstyladsg.com,viderea.site,vidarae.live,cdn.4animo.xyz,calyro.biz,movienig.ht,vidmatrixa.com,vidchampions.com,vidavaca.cc,xheti.net,verhentai.io,krx18.com,sht-link.com,viduro.top,vindaz.shop,xca.cymru,uiil.ink,pornwex.tv,manhuarmtl.com,vidara.to,vidara.so,krakenfiles.com,streamix.so,livecamrips.*#%#//scriptlet('prevent-addEventListener', 'click', 'window.open')
+gobsao8u.com,as9u7bgh9.com,g8w90qhngo.com,sugbaioug.com,gasobni.com,gaqghe.com,viderea.site,vidwara.*,vidwara.fit,vidwara.cc,vidarae.live,calyro.biz,vidmatrixa.com,vidchampions.com,vidavaca.cc,vindaz.shop,xca.cymru,vidara.to,vidara.so#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'onerror')
+gobsao8u.com,as9u7bgh9.com,g8w90qhngo.com,sugbaioug.com,gasobni.com,gaqghe.com,viderea.site,vidwara.*,vidwara.fit,vidwara.cc,vidarae.live,calyro.biz,vidmatrixa.com,vidchampions.com,vidavaca.cc,vindaz.shop,xca.cymru,vidara.to,vidara.so#%#//scriptlet('prevent-element-src-loading', 'script', 'googima.js')
+gobsao8u.com,as9u7bgh9.com,g8w90qhngo.com,sugbaioug.com,gasobni.com,gaqghe.com,viderea.site,vidwara.*,vidwara.fit,vidwara.cc,vidarae.live,calyro.biz,vidmatrixa.com,vidchampions.com,vidavaca.cc,vindaz.shop,xca.cymru,vidara.to,vidara.so#%#//scriptlet('prevent-setTimeout', 'document.getElementsByTagName')
 gocharting.com###ads-table
 gochyu.com#%#//scriptlet('abort-current-inline-script', '$', 'window.open')
 gocmod.com#%#//scriptlet("abort-current-inline-script", "document.createElement", "adsbygoogle")
@@ -164859,6 +164890,7 @@ j-antenna.net##._X_article_space_
 j-baseball.club##.list-group > div[style^="width:100%;"]
 j-cast.com###sp_j-cast_overlay_mov
 j-cast.com#%#//scriptlet('abort-on-stack-trace', 'navigator', 'html-load')
+j-town.net##.video_ad_area
 j2dw.ngo#%#//scriptlet("set-constant", "DHNewAntiAdBlocker", "true")
 j2team.dev#%#//scriptlet('prevent-setTimeout', 'afterRedirectUrl')
 jabank-tokushima.or.jp#@#.ad_middle
@@ -167309,6 +167341,7 @@ leadership.ng#?#.jeg_postblock:has-text(SPONSORED)
 leaf.tv##.rightrail-display-ad
 leaf.tv,sciencing.com##.sticky-leaderboard-container
 leaflet.pub#@#.pubContent
+league-funny.com###feedDetail > div:not([class], [id], [data-html-content]):has(> #PC_AD_Block)
 league-funny.com###popupvideoad
 league-funny.com##.google_more
 league-funny.com##.more2ad_bb
@@ -167322,11 +167355,15 @@ league-funny.com##.w336center
 league-funny.com##.widgetBox.w300600
 league-funny.com##.widgetBox.w728Bottom
 league-funny.com##article > div.w-full:has(> div[id^="div-gpt-ad-"])
+league-funny.com##div[class*="h-[250px]"]:has(> div[id^="div-gpt-"]:only-child)
 league-funny.com##div[class^="clone_pmp"]
 league-funny.com##div[class^="dan_pmp"]
 league-funny.com##div[id^="div-gpt-ad-"]
 league-funny.com##img[alt="M_bottomFixedBanner"]
+league-funny.com##section.w-full > .border-b:has(> .hidden > div[id^="div-gpt-"]:only-child)
 league-funny.com#%#//scriptlet("prevent-setTimeout", "ad_num_show")
+league-funny.com#%#//scriptlet('json-prune', 'pageProps.adSystem props.pageProps.adSystem')
+league-funny.com#%#//scriptlet('set-constant', '__NEXT_DATA__.props.pageProps.adSystem', 'emptyArr')
 league-funny.com,coco01.net##.scupioadslot
 leaguegaming.com#%#//scriptlet('prevent-fetch', 'adsbygoogle')
 leagueofgraphs.com###OWAppBanner
@@ -173626,6 +173663,7 @@ nbastream.net##a[href^="http://v2.nflpass.net/register/"]
 nbastream.net##a[href^="http://www.sportyplay.com/"]
 nbaup.live,goalup.live#%#//scriptlet("abort-on-property-read", "popup")
 nbc4i.com#%#//scriptlet('prevent-setTimeout', 'firstLoad', '300')
+nbcboston.com##.taboola__post
 nbcnews.com##div[class="db-m dn"][style="height: 130px;"]
 nbcolympics.com#%#//scriptlet('prevent-element-src-loading', 'script', '/sb\.scorecardresearch\.com|cdn-gl\.imrworldwide\.com\/conf\//')
 nbcolympics.com#%#//scriptlet('set-constant', 'ns_.StreamingAnalytics.JWPlayer', 'noopFunc')
@@ -175505,6 +175543,7 @@ officedepot.com##.od-search-criteo-banner-ads__upper-leaderboard
 officedepot.com##.od-search-piq-banner-ads__lower-leaderboard
 officelife.media##.custom-banner
 officelife.media##.side-section__mobile-banner
+official.ameba.jp##.bxud9W_slot
 official.coomer.com.co##[id^="monetization-ad"]
 officialcharts.com##.bg-design-hoverGreige
 officialcharts.com##div[type="content_ignite_advert"]
@@ -188935,6 +188974,7 @@ thewire.in##span[style*="background: rgb(232, 233, 237); text-align: center;"]
 theworld.cn##.download-now
 thewpclub.net##.style1 > .note2_sp
 thewpclub.net##.widget_better-ads
+thewrap.com##.display > .display-wrapper:has(> iframe[sandbox^="allow-scripts"])
 thewrap.com##.wp-block-post-featured-image--video
 thewrap.com##.wp-block-the-wrap-ad
 thewrap.com#$##header-widgets { display: none !important; }
@@ -197505,7 +197545,7 @@ zzzyk.com###Tinfo
 ~www.wp.pl,wp.pl##div[class^="_"] > div[class^="_"][class*="_"]:has(> img[src^="https://v.wpimg.pl/"][src$="=="][alt="WP"])
 ~www.wp.pl,wp.pl#?#[class^="_"] > [class^="_"][class*=" _"]:has(>[class^="_"] > [class*=" "] > [class]:first-child:contains(REKLAMA))
 
-! ===== 未解析 (9708) =====
+! ===== 未解析 (9709) =====
 
 #$?#html > div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"] { remove: true; }
 $$amp-ad
@@ -206632,6 +206672,7 @@ nashemisto.dp.ua,5692.com.ua,048.ua$@$amp-ad
 nationalworld.com,3addedminutes.com,anguscountyworld.co.uk,antrimguardian.co.uk,ballycastlechronicle.co.uk,ballymenaguardian.co.uk,ballymoneychronicle.co.uk,banburyguardian.co.uk,bedfordtoday.co.uk,biggleswadetoday.co.uk,birminghamworld.uk,blackpoolgazette.co.uk,bristolworld.com,bucksherald.co.uk,burnleyexpress.net,buxtonadvertiser.co.uk,carlowlive.ie,chad.co.uk,clarelive.ie,colerainechronicle.co.uk,corklive.ie,daventryexpress.co.uk,derbyshiretimes.co.uk,derbyworld.co.uk,derryjournal.com,derrynow.com,dewsburyreporter.co.uk,doncasterfreepress.co.uk,donegallive.ie,dundalkdemocrat.ie,edinburghnews.scotsman.com,eirebheo.ie,exetertoday.co.uk,expressandstar.com,falkirkherald.co.uk,farminglife.com,fifetoday.co.uk,glasgowworld.com,halifaxcourier.co.uk,harboroughmail.co.uk,harrogateadvertiser.co.uk,hartlepoolmail.co.uk,hemeltoday.co.uk,hucknalldispatch.co.uk,inishlive.ie,ireland-live.ie,kildarenow.com,kilkennypeople.ie,lancasterguardian.co.uk,leightonbuzzardonline.co.uk,leinsterexpress.ie,leinsterleader.ie,leitrimobserver.ie,lep.co.uk,letterkennylive.ie,limerickleader.ie,lincolnshireworld.com,liverpoolworld.uk,londonworld.com,longfordleader.ie,lutontoday.co.uk,manchesterworld.uk,mayonews.ie,meltontimes.co.uk,miltonkeynes.co.uk,nenaghlive.ie,newcastleworld.com,newrydemocrat.com,newryreporter.com,newsletter.co.uk,northamptonchron.co.uk,northantstelegraph.co.uk,northdevongazette.co.uk,northernconstitution.co.uk,northernirelandworld.com,northumberlandgazette.co.uk,nottinghamworld.com,offalyexpress.ie,osuskinner.com,outlooknews.co.uk,peterboroughtoday.co.uk,portsmouth.co.uk,punchestownlive.ie,rotherhamadvertiser.co.uk,scotsman.com,seriousaboutrl.com,shieldsgazette.com,shropshirestar.com,stornowaygazette.co.uk,strabaneweekly.co.uk,sunderlandecho.com,surreyworld.co.uk,sussexexpress.co.uk,themoorlander.co.uk,thescarboroughnews.co.uk,thesouthernreporter.co.uk,thestar.co.uk,tipperarylive.ie,torbayweekly.co.uk,totallysnookered.com,tyronecon.co.uk,tyronecourier.co.uk,ulstergazette.co.uk,wakefieldexpress.co.uk,warwickshireworld.com,waterfordlive.ie,wigantoday.net,worksopguardian.co.uk,yorkshireeveningpost.co.uk,yorkshirepost.co.uk,yourlurgan.com$$script:contains(await eval)
 nationalworld.com,3addedminutes.com,anguscountyworld.co.uk,antrimguardian.co.uk,ballycastlechronicle.co.uk,ballymenaguardian.co.uk,ballymoneychronicle.co.uk,banburyguardian.co.uk,bedfordtoday.co.uk,biggleswadetoday.co.uk,birminghamworld.uk,blackpoolgazette.co.uk,bristolworld.com,bucksherald.co.uk,burnleyexpress.net,buxtonadvertiser.co.uk,carlowlive.ie,chad.co.uk,clarelive.ie,colerainechronicle.co.uk,corklive.ie,daventryexpress.co.uk,derbyshiretimes.co.uk,derbyworld.co.uk,derryjournal.com,derrynow.com,dewsburyreporter.co.uk,doncasterfreepress.co.uk,donegallive.ie,dundalkdemocrat.ie,edinburghnews.scotsman.com,eirebheo.ie,exetertoday.co.uk,expressandstar.com,falkirkherald.co.uk,farminglife.com,fifetoday.co.uk,glasgowworld.com,halifaxcourier.co.uk,harboroughmail.co.uk,harrogateadvertiser.co.uk,hartlepoolmail.co.uk,hemeltoday.co.uk,hucknalldispatch.co.uk,inishlive.ie,ireland-live.ie,kildarenow.com,kilkennypeople.ie,lancasterguardian.co.uk,leightonbuzzardonline.co.uk,leinsterexpress.ie,leinsterleader.ie,leitrimobserver.ie,lep.co.uk,letterkennylive.ie,limerickleader.ie,lincolnshireworld.com,liverpoolworld.uk,londonworld.com,longfordleader.ie,lutontoday.co.uk,manchesterworld.uk,mayonews.ie,meltontimes.co.uk,miltonkeynes.co.uk,nenaghlive.ie,newcastleworld.com,newrydemocrat.com,newryreporter.com,newsletter.co.uk,northamptonchron.co.uk,northantstelegraph.co.uk,northdevongazette.co.uk,northernconstitution.co.uk,northernirelandworld.com,northumberlandgazette.co.uk,nottinghamworld.com,offalyexpress.ie,osuskinner.com,outlooknews.co.uk,peterboroughtoday.co.uk,portsmouth.co.uk,punchestownlive.ie,rotherhamadvertiser.co.uk,scotsman.com,seriousaboutrl.com,shieldsgazette.com,shropshirestar.com,stornowaygazette.co.uk,strabaneweekly.co.uk,sunderlandecho.com,surreyworld.co.uk,sussexexpress.co.uk,themoorlander.co.uk,thescarboroughnews.co.uk,thesouthernreporter.co.uk,thestar.co.uk,tipperarylive.ie,torbayweekly.co.uk,totallysnookered.com,tyronecon.co.uk,tyronecourier.co.uk,ulstergazette.co.uk,wakefieldexpress.co.uk,warwickshireworld.com,waterfordlive.ie,wigantoday.net,worksopguardian.co.uk,yorkshireeveningpost.co.uk,yorkshirepost.co.uk,yourlurgan.com$$script[data-cfasync="false"][nowprocket]
 nationalworld.com,3addedminutes.com,anguscountyworld.co.uk,antrimguardian.co.uk,ballycastlechronicle.co.uk,ballymenaguardian.co.uk,ballymoneychronicle.co.uk,banburyguardian.co.uk,bedfordtoday.co.uk,biggleswadetoday.co.uk,birminghamworld.uk,blackpoolgazette.co.uk,bristolworld.com,bucksherald.co.uk,burnleyexpress.net,buxtonadvertiser.co.uk,carlowlive.ie,chad.co.uk,clarelive.ie,colerainechronicle.co.uk,corklive.ie,daventryexpress.co.uk,derbyshiretimes.co.uk,derbyworld.co.uk,derryjournal.com,derrynow.com,dewsburyreporter.co.uk,doncasterfreepress.co.uk,donegallive.ie,dundalkdemocrat.ie,edinburghnews.scotsman.com,eirebheo.ie,exetertoday.co.uk,expressandstar.com,falkirkherald.co.uk,farminglife.com,fifetoday.co.uk,glasgowworld.com,halifaxcourier.co.uk,harboroughmail.co.uk,harrogateadvertiser.co.uk,hartlepoolmail.co.uk,hemeltoday.co.uk,hucknalldispatch.co.uk,inishlive.ie,ireland-live.ie,kildarenow.com,kilkennypeople.ie,lancasterguardian.co.uk,leightonbuzzardonline.co.uk,leinsterexpress.ie,leinsterleader.ie,leitrimobserver.ie,lep.co.uk,letterkennylive.ie,limerickleader.ie,lincolnshireworld.com,liverpoolworld.uk,londonworld.com,longfordleader.ie,lutontoday.co.uk,manchesterworld.uk,mayonews.ie,meltontimes.co.uk,miltonkeynes.co.uk,nenaghlive.ie,newcastleworld.com,newrydemocrat.com,newryreporter.com,newsletter.co.uk,northamptonchron.co.uk,northantstelegraph.co.uk,northdevongazette.co.uk,northernconstitution.co.uk,northernirelandworld.com,northumberlandgazette.co.uk,nottinghamworld.com,offalyexpress.ie,osuskinner.com,outlooknews.co.uk,peterboroughtoday.co.uk,portsmouth.co.uk,punchestownlive.ie,rotherhamadvertiser.co.uk,scotsman.com,seriousaboutrl.com,shieldsgazette.com,shropshirestar.com,stornowaygazette.co.uk,strabaneweekly.co.uk,sunderlandecho.com,surreyworld.co.uk,sussexexpress.co.uk,themoorlander.co.uk,thescarboroughnews.co.uk,thesouthernreporter.co.uk,thestar.co.uk,tipperarylive.ie,torbayweekly.co.uk,totallysnookered.com,tyronecon.co.uk,tyronecourier.co.uk,ulstergazette.co.uk,wakefieldexpress.co.uk,warwickshireworld.com,waterfordlive.ie,wigantoday.net,worksopguardian.co.uk,yorkshireeveningpost.co.uk,yorkshirepost.co.uk,yourlurgan.com$$script[onload*="error-report.com"]
+nbcboston.com#$?#.home-module_ad { remove: true; }
 neoseeker.com$$script:contains(:()=>eval,)
 neoseeker.com$$script[src="shieldload.neoseeker.com"]
 neowin.net#$?#.news-item--sharethrough { remove: true; }
