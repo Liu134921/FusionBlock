@@ -1,13 +1,13 @@
 == 输入
-   域名规则 98941 / 路径规则 15886 / 例外 11254 / 元素隐藏 74633 / 未解析 9706
-   载入阶段：{'重复行': 71091, '超长丢弃': 36, 'scriptlet未映射': 4, 'scriptlet转换': 9}
+   域名规则 99559 / 路径规则 15889 / 例外 11254 / 元素隐藏 74664 / 未解析 9708
+   载入阶段：{'重复行': 71412, '超长丢弃': 36, 'scriptlet未映射': 4, 'scriptlet转换': 9}
 
 == 优化
-   祖先覆盖   -3118
+   祖先覆盖   -3134
    修饰符冗余  -731
    微信保护   -6
    危险宽泛   -4
-   合计删除 3859，保留 110968（96.6%）
+   合计删除 3875，保留 111573（96.6%）
 
 == 样例
    [祖先覆盖]
@@ -38,18 +38,18 @@
       ||xyz^$third-party,xmlhttprequest,domain=usescarlet.com
 
 == 合并候选（父域下纯子域规则 >=8 条，只建议不改动）
-   appsflyersdk.com                           7735 条
+   appsflyersdk.com                           7858 条
    cloudfront.net                             924 条
-   a.run.app                                  382 条
+   a.run.app                                  384 条
    goaserv.com                                313 条
    goasrv.com                                 297 条
-   r2.dev                                     231 条
+   r2.dev                                     230 条
    web.app                                    224 条
    go-static.info                             215 条
-   weebly.com                                 207 条
    firebaseapp.com                            206 条
    aws-prd.net                                200 条
+   weebly.com                                 199 条
    vivoglobal.com                             197 条
-   112.2o7.net                                188 条
-   vercel.app                                 114 条
+   112.2o7.net                                191 条
    hit.gemius.pl                              113 条
+   vercel.app                                 113 条
