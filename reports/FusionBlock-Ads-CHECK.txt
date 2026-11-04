@@ -1,5 +1,5 @@
 体检对象: FusionBlock-Ads.txt
-纯域名拦截 95220 个 / 路径类规则 16103 条（路径类不参与判定）
+纯域名拦截 92980 个 / 路径类规则 16103 条（路径类不参与判定）
 
 == 严重：整个域名被拦 (0)
    无
@@ -7,7 +7,7 @@
 == 关注：有子域被拦且不像广告 (15)
    [微信] weixin.qq.com  <- 1
         ||wetelemetry.weixin.qq.com^
-   [淘宝天猫] taobao.com  <- 34
+   [淘宝天猫] taobao.com  <- 35
         ||accscdn.m.taobao.com^
         ||acs4baichuan.m.taobao.com^
         ||ae-alimelog.taobao.com^

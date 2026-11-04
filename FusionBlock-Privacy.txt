@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.04.2358
+! Version: 2026.11.05.0548
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -860,7 +860,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52070) =====
+! ===== 网络规则 (52077) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -6344,6 +6344,7 @@
 ||alpha.go.levelbank.com^
 ||alpharank.io/api/pixel/
 ||alphasimplex.actonservice.com^
+||alphwidget.com^$third-party
 ||alpineactor.com^
 ||alpixtrack.com^$third-party
 ||alquiler.aldflex.es^
@@ -8664,6 +8665,7 @@
 ||assets.modehypertext.com^
 ||assets.moneymade.io/js/fp.min.js
 ||assets.oupe.es^
+||assets.poxo.com/jet/jet.js
 ||assets.prod.abebookscdn.com/cdn/com/scripts/abepixel-$domain=abebooks.com
 ||assets.s-bol.com/AppMeasurement-
 ||assets.spectrumhealthlakeland.org^
@@ -10895,6 +10897,7 @@
 ||cdn.c-i.as^$script,third-party
 ||cdn.clkmc.com/cmc.js
 ||cdn.cuty.io/fps.js
+||cdn.datamanager.co.kr/0/tcsdm.js
 ||cdn.debugbear.com^$third-party
 ||cdn.dfsdk.com^
 ||cdn.eaec.fpfis.tech.ec.europa.eu^
@@ -10910,6 +10913,7 @@
 ||cdn.net.dz.jumia.com^
 ||cdn.net.elogia.net^
 ||cdn.one.store/xdomain_cookie.html
+||cdn.onetag.co.kr/0/tcs.js
 ||cdn.pmweb.com.br/df/tag.js
 ||cdn.polarbyte.com^
 ||cdn.prod.euid.eu^
@@ -22934,6 +22938,7 @@
 ||jrzgcz.ciociariaoggi.it^
 ||jrzgcz.latinaoggi.eu^
 ||js-delivr.com^$third-party
+||js-error-tracer-api.cafe24.com^
 ||js.cdn.applicationinsights.io/scripts/b/ai.3.gbl.min.js
 ||js.clickrank.ai^$third-party
 ||js.dashfi.net/dashfinet-analytics.js
@@ -30809,6 +30814,8 @@
 ||nstracking.com^$third-party
 ||nthldc.europcar.co.uk^
 ||ntlab.org^$third-party
+||ntm.pstatic.net/ex/nlog-v2.js
+||ntm.pstatic.net/ex/nlog.js
 ||ntm.pstatic.net/scripts/ntm_$domain=naver.com
 ||ntmb.de/count.html?
 ||ntopcd.underarmour.nl^
@@ -52952,7 +52959,7 @@ ncbi.nlm.nih.gov#%#//scriptlet('set-constant', 'ncbi.sg.ping', 'noopFunc')
 usaa.com#%#//scriptlet('cookie-remover', 'GPC', '1', 'reload', '1')
 usatoday.com#%#//scriptlet('set-constant', 'gnt.x.adm', '')
 
-! ===== 未解析 (3494) =====
+! ===== 未解析 (3496) =====
 
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
@@ -53502,6 +53509,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /alog.min.js
 /alog/dp.min.js
 /amazon_linker.min.js
+/amc.gif?
 /amp-access/cta/*
 /amp-access/cta?
 /amp-access/ping?
@@ -56054,6 +56062,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /v1/stats/track
 /v1/tracker.js
 /v1/viewport_events
+/v1/vitals?
 /v2/pv-data?
 /v4/analytics/*$~xmlhttprequest
 /v4/metrics
