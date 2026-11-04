@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.04.1259
+! Version: 2026.11.04.2358
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -860,7 +860,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52060) =====
+! ===== 网络规则 (52070) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -5284,7 +5284,6 @@
 ||acclaro.actonservice.com^
 ||acclog001.shop-pro.jp^
 ||acclog002.shop-pro.jp^
-||accor.com/g/collect?
 ||accountancy.bppeloqua.com^
 ||accountgram.com^
 ||accounting.frbservices.org^
@@ -7381,6 +7380,7 @@
 ||api.bus-location.1507t.xyz/3.0/ping
 ||api.channel.io/*/events
 ||api.collarity.com/cws/*http
+||api.community.fox.com/*/metrics
 ||api.config-security.com/first
 ||api.country.is^$third-party
 ||api.croct.io^
@@ -8486,6 +8486,8 @@
 ||ar.interiordefine.com^
 ||ar.quadient.com^
 ||ar1.aza.io^
+||araba.nl/__l5e/events.$script
+||araba.nl/~api/analytics
 ||aragenbio.actonservice.com^
 ||aragonresearch.actonservice.com^
 ||aralego.net^$third-party
@@ -13843,6 +13845,7 @@
 ||datacaciques.com^$third-party
 ||datacollector-dra.dt.hicloud.com^
 ||datacomm.ch^*/count.cgi?
+||dataconsumed.com^
 ||datacoral.com^$third-party
 ||datacoral.io^$third-party
 ||datacygnal.io^$third-party
@@ -14374,6 +14377,7 @@
 ||diamages.carte-gr.total.fr^
 ||diboji.class101.net^
 ||dicecandies.com^
+||dicezing.com^
 ||did-it.com^$third-party
 ||didit.com^$third-party
 ||didna.io^$third-party
@@ -20163,7 +20167,6 @@
 ||horairesdouverture24.fr/ar.js
 ||horizon-track.globo.com^
 ||horizon.globo.com^
-||horizoneurope.ukri.org^
 ||horizononline.actonservice.com^
 ||hornymatches.com^*/visit.php?
 ||horzrb.com^$third-party
@@ -23710,7 +23713,6 @@
 ||leadium.com^$third-party
 ||leadlab.click^$third-party
 ||leadliaison.com/tracking_engine/
-||leadlife.com^$third-party
 ||leadmanagement.leads360.com^
 ||leadmanagement.velocify.com^
 ||leadmanagerfx.com^$third-party
@@ -25153,6 +25155,7 @@
 ||logz.ru^$third-party
 ||lokalleads-cci.com^$third-party
 ||lokalwerben.t-online.de^
+||loki-ingest.fox.com^
 ||lolwot.com/B5xaqzSGvMTM.js
 ||lomadee.com^$third-party
 ||lonelyflavor.com^
@@ -25769,7 +25772,6 @@
 ||manilazoo.com^
 ||manomano.*/api/v1/sp-tracking/
 ||manscaped.com/rud-dataplane/
-||manua.ls/g/collect?
 ||manua.ls/gtag
 ||manufacturing.autodeskcommunications.com^
 ||manydiamonds.com^
@@ -28591,6 +28593,7 @@
 ||metrics.kadcyla.com^
 ||metrics.kaercher.com^
 ||metrics.kao.com^
+||metrics.kapa.ai^
 ||metrics.kawai-juku.ac.jp^
 ||metrics.kayosports.com.au^
 ||metrics.kempinski.com^
@@ -30529,6 +30532,7 @@
 ||nice264.com/data?$third-party
 ||nicefollows.com^
 ||nicehuh.com^
+||nicemenswear.com^
 ||nicequest.com^$third-party
 ||nickles.de/ivw/
 ||nicoad.nicovideo.jp/*/instream/tracking/
@@ -30927,6 +30931,7 @@
 ||obhxvb.tmktools.ru^
 ||objecthero.com^
 ||objectpartners.actonservice.com^
+||objsoftware.com^
 ||oblivionfleet.com^
 ||obnrap.neimanmarcus.com^
 ||obooom.robinmaybag.com^
@@ -31167,6 +31172,7 @@
 ||omgup1.xiaojukeji.com^
 ||omiki.com^$third-party
 ||omine.org^$third-party
+||ominousmusic.com^
 ||omjtca.emlakjet.com^
 ||omkt.co^$third-party
 ||omn.americanexpress.com^
@@ -31510,6 +31516,7 @@
 ||operationchicken.com^
 ||operationnail.com^
 ||operationsports.com/wp-json/navy/v1/tag?pid=
+||operawise.com^
 ||oph7o.montecarlosbm-corporate.com^
 ||ophan.theguardian.com^
 ||opim.pixmania.com^
@@ -32341,7 +32348,6 @@
 ||pico.tools/metrics/
 ||pics-view.com/ad-track
 ||piddme.buyma.com^
-||pie.org/g/collect?
 ||pie.org/v1/experiments/view
 ||pigeonkit.com^
 ||pigeonsetc.com^
@@ -33113,6 +33119,7 @@
 ||procroanalytics.com^
 ||procurement.cipscomms.org^
 ||prod-events.nykaa.com^
+||prod-foxkit.kts.fox^
 ||prod.benchmarkemail.com/tracker.bundle.js
 ||prod.ew.srp.navigacloud.com^
 ||prod.fennec.atp.fox^
@@ -33650,6 +33657,7 @@
 ||quadquality.com^
 ||quadran.eu^$third-party
 ||qualaroo.com^$third-party
+||qualified.com/packs/js/analytics-
 ||qualifioapp.com/egw/events
 ||qualitas-app.hotdoc.com.au^
 ||qualtrics.com/WRSiteInterceptEngine/?Q_Impress=
@@ -34597,6 +34605,7 @@
 ||riundo.bonprix.no^
 ||rivcash.com/*/event/page_visit
 ||rivcash.com/ajax/log_js_error.php
+||rivo.vin/rivo-stealer/
 ||rivrai.com^$third-party
 ||riwkmo.spacemarket.com^
 ||riwnmh.novasol.co.uk^
@@ -44450,6 +44459,7 @@
 ||tagtray.com/api^$third-party
 ||tahoe.com/imp
 ||tailoredcopy.com^
+||tailscale.com/api/rudderstack-proxy/
 ||tailtarget.com^$third-party
 ||taiwanplus.com/api/video/startVideo
 ||takigx.tourneau.com^
@@ -52942,7 +52952,7 @@ ncbi.nlm.nih.gov#%#//scriptlet('set-constant', 'ncbi.sg.ping', 'noopFunc')
 usaa.com#%#//scriptlet('cookie-remover', 'GPC', '1', 'reload', '1')
 usatoday.com#%#//scriptlet('set-constant', 'gnt.x.adm', '')
 
-! ===== 未解析 (3493) =====
+! ===== 未解析 (3494) =====
 
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
@@ -54327,6 +54337,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /fsrscripts/triggerParams.js
 /funnel-builder/assets/live/js/tracks.min.js
 /fusion/lucid/data/*
+/g/collect?
 /g_track.php?
 /ga-audiences?
 /ga-events.js
