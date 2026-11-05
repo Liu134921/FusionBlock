@@ -1,15 +1,22 @@
 == 输入
-   域名规则 97545 / 路径规则 15890 / 例外 11259 / 元素隐藏 74699 / 未解析 9711
-   载入阶段：{'重复行': 70727, '超长丢弃': 36, 'scriptlet未映射': 4, 'scriptlet转换': 9}
+   域名规则 107040 / 路径规则 15891 / 例外 11259 / 元素隐藏 74718 / 未解析 9714
+   载入阶段：{'重复行': 70852, '超长丢弃': 36, 'scriptlet未映射': 4, 'scriptlet转换': 9}
 
 == 优化
-   祖先覆盖   -3134
-   修饰符冗余  -732
+   祖先覆盖   -3125
+   修饰符冗余  -733
    微信保护   -6
    危险宽泛   -4
-   合计删除 3876，保留 109559（96.6%）
+   合计删除 3868，保留 119063（96.9%）
 
 == 样例
+   [修饰符冗余]
+      ||inyourpocket.co.uk^$third-party   <-已由 ||inyourpocket.co.uk^ 覆盖
+      ||adsgravity.io^$third-party   <-已由 ||adsgravity.io^ 覆盖
+      ||dga9amo.website^$all   <-已由 ||dga9amo.website^ 覆盖
+      ||profitableratecpmnetwork.com^$popup   <-已由 ||profitableratecpmnetwork.com^ 覆盖
+      ||cdn.adwebcode.gr^$third-party   <-已由 ||cdn.adwebcode.gr^ 覆盖
+      ||adsconex.com^$third-party   <-已由 ||adsconex.com^ 覆盖
    [祖先覆盖]
       ||smog.gentlecork.com^   <-已由 ||gentlecork.com^ 覆盖
       ||xhvideo.saawsedge.com^   <-已由 ||saawsedge.com^ 覆盖
@@ -17,13 +24,6 @@
       ||cdn.traffmovie.com^   <-已由 ||traffmovie.com^ 覆盖
       ||warp.media.net^   <-已由 ||media.net^ 覆盖
       ||cf.adxcel.com^   <-已由 ||adxcel.com^ 覆盖
-   [修饰符冗余]
-      ||adsgravity.io^$third-party   <-已由 ||adsgravity.io^ 覆盖
-      ||dga9amo.website^$all   <-已由 ||dga9amo.website^ 覆盖
-      ||profitableratecpmnetwork.com^$popup   <-已由 ||profitableratecpmnetwork.com^ 覆盖
-      ||cdn.adwebcode.gr^$third-party   <-已由 ||cdn.adwebcode.gr^ 覆盖
-      ||adsconex.com^$third-party   <-已由 ||adsconex.com^ 覆盖
-      ||happyleafmotion.com^$all   <-已由 ||happyleafmotion.com^ 覆盖
    [微信保护]
       ||szlong.weixin.qq.com^
       ||wxa.wxs.qq.com^
@@ -38,18 +38,18 @@
       ||xyz^$third-party,xmlhttprequest,domain=usescarlet.com
 
 == 合并候选（父域下纯子域规则 >=8 条，只建议不改动）
-   appsflyersdk.com                           7977 条
+   appsflyersdk.com                           8107 条
    cloudfront.net                             926 条
+   a.run.app                                  389 条
    com.102.122.2o7.net                        387 条
-   cname.ebis.ne.jp                           369 条
    112.2o7.net                                342 条
-   a.run.app                                  324 条
    goaserv.com                                313 条
    goasrv.com                                 297 条
    goatcounter.com                            244 条
-   web.app                                    219 条
+   web.app                                    224 条
    go-static.info                             215 条
-   firebaseapp.com                            202 条
+   firebaseapp.com                            206 条
+   cname.ebis.ne.jp                           204 条
    aws-prd.net                                200 条
    vivoglobal.com                             197 条
-   at-o.net                                   149 条
+   weebly.com                                 182 条
