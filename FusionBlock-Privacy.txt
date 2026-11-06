@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.06.0011
+! Version: 2026.11.06.1320
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -14640,8 +14640,6 @@
 ||discover.evaluate.com^
 ||discover.fullsail.edu^
 ||discover.harvardbusiness.org^
-||discover.hubpages.com/.bootscripts/analytics.min.js
-||discover.hubpages.com/.bootscripts/hubPagesViewDurationTracker.min.js
 ||discover.immofinanz.com^
 ||discover.jll.com^
 ||discover.kloverproducts.com^
@@ -17577,6 +17575,7 @@
 ||flux-cdn.com/client/ukiuki/flux_wikiwiki_AS_TM_AT.min.js
 ||flux-cdn.com/plugin/common/analytics/
 ||flux.com/geo.html?
+||fluxdecor.com^
 ||flx1.com^$third-party
 ||flxpxl.com^$third-party
 ||fly.caljetelite.com^
@@ -27779,7 +27778,6 @@
 ||mengis-linden.org^$third-party
 ||mennoc.mezlan.com^
 ||mensjournal.com/.api/admiral
-||mensjournal.com/.bootscripts/analytics.min.js
 ||mentalreef.com^
 ||menteechain.com^
 ||mentimeter.com/performance-metrics
@@ -32306,6 +32304,7 @@
 ||pgt1.voyage-prive.es^
 ||phadia.thermo.com^
 ||phadia.thermofisher.com^
+||phatfiles.com^
 ||phbnix.rocelec.com^
 ||phcbi-solution.phchd.com^
 ||phcnvk.schalke04.de^
@@ -32763,6 +32762,7 @@
 ||playox.de/analytics/
 ||playtomic.com/Tracker/
 ||playvideohd.com/cdn-cgi/trace
+||playwarren.com^
 ||plbcsd.vidaxl.se^
 ||plbusiness.samsung.com^
 ||plczro.21dressroom.com^
@@ -52963,7 +52963,7 @@ ncbi.nlm.nih.gov#%#//scriptlet('set-constant', 'ncbi.sg.ping', 'noopFunc')
 usaa.com#%#//scriptlet('cookie-remover', 'GPC', '1', 'reload', '1')
 usatoday.com#%#//scriptlet('set-constant', 'gnt.x.adm', '')
 
-! ===== 未解析 (3496) =====
+! ===== 未解析 (3498) =====
 
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
@@ -53210,6 +53210,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .zalando.com/images/probe.png
 .zippingcare.com/beacon/$image
 /*JmVu.js?sp=
+/.bootscripts/analytics.min.js
+/.bootscripts/hubPagesViewDurationTracker.min.js
 /.netlify/scripts/rum
 /.rum/@adobe/helix-
 /.webscale/rum?
