@@ -1,29 +1,29 @@
 == 输入
-   域名规则 112159 / 路径规则 15889 / 例外 11266 / 元素隐藏 74782 / 未解析 9718
-   载入阶段：{'重复行': 70829, '超长丢弃': 36, 'scriptlet未映射': 4, 'scriptlet转换': 9}
+   域名规则 101031 / 路径规则 15889 / 例外 11267 / 元素隐藏 74782 / 未解析 9718
+   载入阶段：{'重复行': 68909, '超长丢弃': 36, 'scriptlet未映射': 4, 'scriptlet转换': 9}
 
 == 优化
-   祖先覆盖   -3062
-   修饰符冗余  -772
+   祖先覆盖   -3273
+   修饰符冗余  -613
    微信保护   -6
    危险宽泛   -4
-   合计删除 3844，保留 124204（97.0%）
+   合计删除 3896，保留 113024（96.7%）
 
 == 样例
    [修饰符冗余]
       ||insightjs.org^$all   <-已由 ||insightjs.org^ 覆盖
-      ||inyourpocket.co.uk^$third-party   <-已由 ||inyourpocket.co.uk^ 覆盖
       ||adsgravity.io^$third-party   <-已由 ||adsgravity.io^ 覆盖
       ||dga9amo.website^$all   <-已由 ||dga9amo.website^ 覆盖
       ||profitableratecpmnetwork.com^$popup   <-已由 ||profitableratecpmnetwork.com^ 覆盖
       ||cdn.adwebcode.gr^$third-party   <-已由 ||cdn.adwebcode.gr^ 覆盖
+      ||adsconex.com^$third-party   <-已由 ||adsconex.com^ 覆盖
    [祖先覆盖]
       ||smog.gentlecork.com^   <-已由 ||gentlecork.com^ 覆盖
       ||xhvideo.saawsedge.com^   <-已由 ||saawsedge.com^ 覆盖
-      ||xml.pops.gg^   <-已由 ||pops.gg^ 覆盖
       ||cdn.traffmovie.com^   <-已由 ||traffmovie.com^ 覆盖
       ||warp.media.net^   <-已由 ||media.net^ 覆盖
       ||cf.adxcel.com^   <-已由 ||adxcel.com^ 覆盖
+      ||sat.fevilsor5.net^   <-已由 ||fevilsor5.net^ 覆盖
    [微信保护]
       ||szlong.weixin.qq.com^
       ||wxa.wxs.qq.com^
@@ -38,18 +38,18 @@
       ||xyz^$third-party,xmlhttprequest,domain=usescarlet.com
 
 == 合并候选（父域下纯子域规则 >=8 条，只建议不改动）
-   appsflyersdk.com                           8215 条
-   cloudfront.net                             929 条
-   a.run.app                                  392 条
-   112.2o7.net                                346 条
+   appsflyersdk.com                           7982 条
+   cloudfront.net                             928 条
+   t.eloqua.com                               690 条
+   com.102.112.2o7.net                        430 条
+   a.run.app                                  386 条
+   112.2o7.net                                335 条
    goaserv.com                                310 条
+   aws-prd.net                                299 条
    goasrv.com                                 291 条
+   rttrk.com                                  254 条
    goatcounter.com                            251 条
+   rdtk.io                                    246 条
    r2.dev                                     224 条
    web.app                                    224 条
    go-static.info                             215 条
-   aws-prd.net                                215 条
-   firebaseapp.com                            206 条
-   cname.ebis.ne.jp                           205 条
-   weebly.com                                 175 条
-   com.102.122.2o7.net                        172 条
