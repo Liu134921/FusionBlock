@@ -1,13 +1,13 @@
 == 输入
-   域名规则 101031 / 路径规则 15889 / 例外 11267 / 元素隐藏 74782 / 未解析 9718
-   载入阶段：{'重复行': 68909, '超长丢弃': 36, 'scriptlet未映射': 4, 'scriptlet转换': 9}
+   域名规则 136096 / 路径规则 15890 / 例外 11267 / 元素隐藏 74782 / 未解析 9719
+   载入阶段：{'重复行': 69984, '超长丢弃': 36, 'scriptlet未映射': 4, 'scriptlet转换': 9}
 
 == 优化
-   祖先覆盖   -3273
-   修饰符冗余  -613
+   祖先覆盖   -3642
+   修饰符冗余  -642
    微信保护   -6
    危险宽泛   -4
-   合计删除 3896，保留 113024（96.7%）
+   合计删除 4294，保留 147692（97.2%）
 
 == 样例
    [修饰符冗余]
@@ -38,18 +38,18 @@
       ||xyz^$third-party,xmlhttprequest,domain=usescarlet.com
 
 == 合并候选（父域下纯子域规则 >=8 条，只建议不改动）
-   appsflyersdk.com                           7982 条
-   cloudfront.net                             928 条
-   t.eloqua.com                               690 条
-   com.102.112.2o7.net                        430 条
-   a.run.app                                  386 条
-   112.2o7.net                                335 条
+   appsflyersdk.com                           8076 条
+   cloudfront.net                             930 条
+   a.run.app                                  388 条
+   112.2o7.net                                343 条
    goaserv.com                                310 条
-   aws-prd.net                                299 条
+   net.mydays.de                              306 条
    goasrv.com                                 291 条
-   rttrk.com                                  254 条
+   aws-prd.net                                287 条
    goatcounter.com                            251 条
-   rdtk.io                                    246 条
+   com.102.112.2o7.net                        241 条
    r2.dev                                     224 条
-   web.app                                    224 条
+   web.app                                    222 条
    go-static.info                             215 条
+   firebaseapp.com                            206 条
+   cname.ebis.ne.jp                           205 条

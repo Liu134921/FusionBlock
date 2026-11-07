@@ -1,21 +1,25 @@
 体检对象: FusionBlock-Ads.txt
-纯域名拦截 96491 个 / 路径类规则 16116 条（路径类不参与判定）
+纯域名拦截 131158 个 / 路径类规则 16117 条（路径类不参与判定）
 
 == 严重：整个域名被拦 (0)
    无
 
-== 关注：有子域被拦且不像广告 (15)
+== 关注：有子域被拦且不像广告 (17)
    [微信] weixin.qq.com  <- 1
         ||wetelemetry.weixin.qq.com^
-   [淘宝天猫] taobao.com  <- 33
+   [QQ] qpic.cn  <- 1
+        ||gvideo.qpic.cn^
+   [支付宝] alipay.com  <- 1
+        ||openmonitor.alipay.com^
+   [淘宝天猫] taobao.com  <- 35
         ||accscdn.m.taobao.com^
         ||acookie.taobao.com^
         ||acs4baichuan.m.taobao.com^
-   [淘宝天猫] alicdn.com  <- 11
+   [淘宝天猫] alicdn.com  <- 12
         ||ae01.alicdn.com^$app=yqtrack.app
         ||afpmm.alicdn.com^
         ||alimama.alicdn.com^
-   [京东] jd.com  <- 22
+   [京东] jd.com  <- 25
         ||cactus.jd.com^
         ||cc.m.jd.com^
         ||ccc-x.jd.com^
@@ -27,10 +31,10 @@
         ||miniapp.bilibili.com^
    [B站] bilivideo.com  <- 1
         ||httpdns.bilivideo.com^
-   [抖音] byteimg.com  <- 4
+   [抖音] byteimg.com  <- 5
         ||*-ad-sign.byteimg.com^
         ||p*-ad-sign.byteimg.com^
-        ||p3-ad-sign.byteimg.com^
+        ||p1-feedback.byteimg.com^
    [抖音] amemv.com  <- 3
         ||rtlog3-applog-hl.amemv.com^
         ||rtlog3-applog-lf.amemv.com^
@@ -39,7 +43,7 @@
         ||clientlog.music.163.com^
         ||clientlog3.music.163.com^
         ||clientlogdep.music.163.com^
-   [网易云] 126.net  <- 6
+   [网易云] 126.net  <- 7
         ||iadmusicmat.music.126.net^
         ||iadmusicmatvideo.music.126.net^
         ||img1.126.net^
@@ -51,7 +55,7 @@
         ||conn1.coloros.com^
         ||conn2.coloros.com^
         ||conn3.coloros.com^
-   [系统服务] heytapmobi.com  <- 41
+   [系统服务] heytapmobi.com  <- 42
         ||album-sg01a.ocloud.heytapmobi.com^
         ||api-cn.cdo.heytapmobi.com^
         ||api-gl.cdo.heytapmobi.com^
@@ -61,5 +65,5 @@
         ||httpdns.push.oppomobile.com^
 
 == 轻微：只拦了广告类子域 (1)
-   [支付宝] alipay.com  子域 1 个
+   [QQ] qzone.qq.com  子域 1 个
 
