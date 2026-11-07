@@ -1,6 +1,6 @@
 # FusionBlock
 
-> 一套给 AdGuard 用的中文广告拦截规则：合并六个上游源，去掉重复和会误伤常用服务的规则，每八小时自动重建。
+> 一套给 AdGuard 用的中文广告拦截规则：主列表合并七个上游源，隐私、钓鱼、白名单各取专用清单，去掉重复和会误伤常用服务的规则，每八小时自动重建。
 
 在线介绍页（可一键添加到 AdGuard）：<https://liu134921.github.io/FusionBlock/>
 
@@ -22,10 +22,10 @@
 
 | 文件 | 内容 | 规模 | 建议 |
 |---|---|---|---|
-| `FusionBlock-Ads.txt` | 广告拦截主列表，含元素隐藏规则 | 20.3 万行 / 8.3 MB | 建议开 |
-| `FusionBlock-Privacy.txt` | 隐私与追踪拦截（来自 EasyPrivacy） | 5.6 万行 / 1.5 MB | 建议开 |
-| `FusionBlock-Phishing.txt` | 钓鱼、仿冒登录页 | 5.0 万行 / 2.3 MB | 建议开 |
-| `FusionBlock-Whitelist.txt` | 例外规则：uBlock Unbreak + AdGuard / EasyList 官方过滤器内嵌例外 | 7,300 条 / 407 KB | 必开 |
+| `FusionBlock-Ads.txt` | 广告拦截主列表，含元素隐藏规则 | 20.9 万行 / 8.5 MB | 建议开 |
+| `FusionBlock-Privacy.txt` | 隐私与追踪拦截（来自 EasyPrivacy） | 5.6 万行 / 2.1 MB | 建议开 |
+| `FusionBlock-Phishing.txt` | 钓鱼、仿冒登录页 | 4.6 万行 / 2.1 MB | 建议开 |
+| `FusionBlock-Whitelist.txt` | 例外规则：uBlock Unbreak + AdGuard / EasyList 官方过滤器内嵌例外 | 7,389 条 / 412 KB | 必开 |
 
 白名单和其他几份一样，是当过滤器订阅加的，不用手动往用户规则里粘。它只放行、不拦截，内容全部来自别人维护的现成清单：uBlock 的 Unbreak，加上 AdGuard 和 EasyList 在自己过滤器里内嵌的例外。
 
@@ -75,21 +75,16 @@ https://gh-proxy.org/https://raw.githubusercontent.com/Liu134921/FusionBlock/mai
 https://gh-proxy.org/https://raw.githubusercontent.com/Liu134921/FusionBlock/main/FusionBlock-Whitelist.txt
 ```
 
-国内直连 GitHub 基本拉不动，所以上面给的是 Gitee 镜像。要用 GitHub 源或加速链接的话：
+国内直连 GitHub 基本拉不动，所以上面给的是 gh-proxy 加速地址。要用 GitHub 原地址的话：
 
 **GitHub 源**
 ```
 https://raw.githubusercontent.com/Liu134921/FusionBlock/main/FusionBlock-Ads.txt
 ```
 
-**gh-proxy 加速**
-```
-https://gh-proxy.org/https://raw.githubusercontent.com/Liu134921/FusionBlock/main/FusionBlock-Ads.txt
-```
-
 ## 更新
 
-GitHub Actions 每八小时跑一次构建（北京时间 08:00 / 16:00 / 24:00 各一次，实际会晚几分钟到半小时），把六个上游拉下来重新合并、化简、体检，然后提交。Gitee 用仓库镜像从 GitHub 拉取同步，所以订阅地址不用变，AdGuard 会按列表头部声明的 `Expires: 7 days` 自己来取。
+GitHub Actions 每八小时跑一次构建（北京时间 08:00 / 16:00 / 次日 00:00 各一次，实际会晚几分钟到半小时），把七个上游拉下来重新合并、化简、体检，然后提交。订阅地址走 gh-proxy 加速，不用变，AdGuard 会按列表头部声明的 `Expires: 7 days` 自己来取。
 
 每次构建会在 `reports/` 留下报告，写明哪个源贡献了多少条、删了多少冗余、42 个关键域名的体检结果。
 
@@ -138,8 +133,12 @@ docs/                  介绍页（GitHub Pages）
 
 - [AdGuard Filters](https://github.com/AdguardTeam/AdguardFilters) — Base / Mobile / Chinese
 - [EasyList](https://easylist.to/) / [EasyList China](https://github.com/easylist/easylistchina)
+- [EasyPrivacy](https://easylist.to/) — 隐私与追踪
 - [HaGeZi DNS Blocklists](https://github.com/hagezi/dns-blocklists) — Light
 - [217heidai/adblockfilters](https://github.com/217heidai/adblockfilters)
+- [xinggsf/Adblock-Plus-Rule](https://github.com/xinggsf/Adblock-Plus-Rule) — 补充广告规则
+- [malware-filter](https://gitlab.com/malware-filter/phishing-filter) — 钓鱼站点
+- [uBlock Origin uAssets](https://github.com/uBlockOrigin/uAssets) — Unbreak 例外
 - [anti-AD](https://github.com/privacy-protection-tools/anti-AD) — 只作为 `FusionBlock-Extra-CN.txt` 单独存放，未纳入主列表，也不推荐启用
 
 本仓库只做合并、去重、化简和体检。发现某条规则本身有问题，也欢迎去上游反馈。
