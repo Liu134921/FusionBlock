@@ -1,5 +1,5 @@
 体检对象: FusionBlock-Ads.txt
-纯域名拦截 96116 个 / 路径类规则 16117 条（路径类不参与判定）
+纯域名拦截 103575 个 / 路径类规则 16105 条（路径类不参与判定）
 
 == 严重：整个域名被拦 (0)
    无
@@ -7,7 +7,7 @@
 == 关注：有子域被拦且不像广告 (15)
    [微信] weixin.qq.com  <- 1
         ||wetelemetry.weixin.qq.com^
-   [淘宝天猫] taobao.com  <- 34
+   [淘宝天猫] taobao.com  <- 37
         ||accscdn.m.taobao.com^
         ||acookie.taobao.com^
         ||acs4baichuan.m.taobao.com^
@@ -43,7 +43,7 @@
         ||iadmusicmat.music.126.net^
         ||iadmusicmatvideo.music.126.net^
         ||img1.126.net^
-   [高德地图] amap.com  <- 5
+   [高德地图] amap.com  <- 7
         ||amap-aos-info-nogw.amap.com^
         ||apsrgeo.amap.com^
         ||cgicol.amap.com^
@@ -51,7 +51,7 @@
         ||conn1.coloros.com^
         ||conn2.coloros.com^
         ||conn3.coloros.com^
-   [系统服务] heytapmobi.com  <- 41
+   [系统服务] heytapmobi.com  <- 44
         ||album-sg01a.ocloud.heytapmobi.com^
         ||api-cn.cdo.heytapmobi.com^
         ||api-gl.cdo.heytapmobi.com^
@@ -61,5 +61,5 @@
         ||httpdns.push.oppomobile.com^
 
 == 轻微：只拦了广告类子域 (1)
-   [支付宝] alipay.com  子域 1 个
+   [支付宝] alipay.com  子域 4 个
 
