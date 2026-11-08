@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.08.2247
+! Version: 2026.11.09.0413
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -861,7 +861,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52088) =====
+! ===== 网络规则 (52094) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -7705,6 +7705,7 @@
 ||app.experience297.com^
 ||app.explico.sg^
 ||app.fabulousfox.com^
+||app.factori.ai/personica.js
 ||app.fans.wolveslynx.com^
 ||app.fashalot.com^
 ||app.favorited.com^
@@ -7928,6 +7929,7 @@
 ||app.libertyfirstcreditunionarena.com^
 ||app.libertyflames.com^
 ||app.libre.org^
+||app.lifesight.io/personica.js
 ||app.link.livibank.com^
 ||app.link.nba.com^
 ||app.link/_r?$script,third-party
@@ -19541,6 +19543,7 @@
 ||grokipedia.com/api/ev
 ||grokipedia.com/api/stats
 ||groove.so/unlocker.js
+||grooveguides.com^
 ||groovespacing.com^
 ||groovyornament.com^
 ||grouchybrothers.com^
@@ -29740,6 +29743,7 @@
 ||monsido.com^$third-party
 ||monstat.com^$third-party
 ||monster.branch.rocks^
+||monster.com/visitor/tracking-v11.js
 ||monsterjokes.com^
 ||monstermemes.com^
 ||monsterstocks.net^
@@ -32492,6 +32496,7 @@
 ||pixel.nudgify.com^
 ||pixel.patch.com^
 ||pixel.poptok.com^
+||pixel.profound.click^
 ||pixel.propublica.org^
 ||pixel.pub.lilyai.net^
 ||pixel.quantserve.com^
@@ -34068,6 +34073,7 @@
 ||receptivereaction.com^
 ||recessrain.com^
 ||recipearena.com^
+||recipediner.com^
 ||recipefy.net/analytics.js
 ||recipepile.net^
 ||recipepin.com^
@@ -52971,7 +52977,7 @@ ncbi.nlm.nih.gov#%#//scriptlet('set-constant', 'ncbi.sg.ping', 'noopFunc')
 usaa.com#%#//scriptlet('cookie-remover', 'GPC', '1', 'reload', '1')
 usatoday.com#%#//scriptlet('set-constant', 'gnt.x.adm', '')
 
-! ===== 未解析 (3498) =====
+! ===== 未解析 (3504) =====
 
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
@@ -53681,6 +53687,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/stat?
 /api/statsd|$~third-party,xmlhttprequest
 /api/stn/audience|$xmlhttprequest
+/api/t/gtm/*
 /api/track?guid
 /api/trk?
 /api/v1/EndpointTracker
@@ -54914,6 +54921,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /metrics/bambuser.min.js
 /metrics/event?
 /metrics/ga.js
+/metrics/ga/*
 /metrics/init?
 /metrics/onload
 /metrics/ping?
@@ -55540,6 +55548,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /sfCounter/*
 /sfdc/networktracking.js
 /sftouch?branchId=
+/sgtm/g/*
 /sgtracker.js
 /shared/sentry/*
 /sherlock.gif?
@@ -55780,6 +55789,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /tagging?env=
 /tagmanager/event?
 /tagmanager/pptm.js
+/tagmetrics/*
 /tags.js?org_id=
 /tailtarget.js
 /talpa-analytics-pro/*
@@ -55809,6 +55819,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /tjx-tracking-data.js
 /tking/ajax_track_stats?
 /tlinks.nordaccount.com/q/*$image
+/tms?id=
 /tncms/tracking.js
 /token?referer=
 /tongji.js
@@ -56356,6 +56367,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://segment-api.
 ://segment-cdn.
 ://sg1.wizrocketmail.net/r?e=$image
+://sgtm.
 ://sgtm.*.js?
 ://signal.*/hardal
 ://signals.*/hardal
