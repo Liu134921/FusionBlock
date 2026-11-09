@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.09.1251
+! Version: 2026.11.10.0223
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -861,7 +861,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52146) =====
+! ===== 网络规则 (52152) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -17237,6 +17237,7 @@
 ||farsnails.com^
 ||fashion.edm.globalsources.com^
 ||fashion.tradeshow.globalsources.com^
+||fashionista.com/.api/admiral
 ||fashionposter.com^
 ||fast-counter.net^$third-party
 ||fast-thinking.co.uk^$third-party
@@ -21313,6 +21314,7 @@
 ||indicative.com^$third-party
 ||indicia.com^$third-party
 ||indiegogo.com/speclayer/stdfp.js
+||indieskills.com^
 ||indigitall.com/v1/browser?
 ||indir.boowetr.com^
 ||indir.pembepanjur.com^
@@ -33949,6 +33951,7 @@
 ||rangeplayground.com^
 ||rangergustav.com^
 ||rank4all.eu^$third-party
+||rankaddict.com^
 ||rankchamp.de^$third-party
 ||ranker.com/api/px
 ||ranker.com/api/tr?
@@ -34670,6 +34673,7 @@
 ||riundo.bonprix.no^
 ||rivcash.com/*/event/page_visit
 ||rivcash.com/ajax/log_js_error.php
+||rivo.vin/api/*/view
 ||rivo.vin/rivo-stealer/
 ||rivrai.com^$third-party
 ||riwkmo.spacemarket.com^
@@ -34726,6 +34730,7 @@
 ||rocketmonitor.com^
 ||rockincontent.net^$third-party
 ||rocks.io^$third-party
+||rockspreading.com^
 ||rockstarwriter.com^
 ||rodale.com/ga/
 ||roedwy.imidapeptide.com^
@@ -37180,6 +37185,7 @@
 ||siderain.com^
 ||sidetrades.com^
 ||siemens.com/c2_analytics.js
+||sierra.chat/-/api/events
 ||sierrakermit.com^
 ||siewmi.uncommongoods.com^
 ||sifomedia.se^$third-party
@@ -53029,7 +53035,7 @@ ncbi.nlm.nih.gov#%#//scriptlet('set-constant', 'ncbi.sg.ping', 'noopFunc')
 usaa.com#%#//scriptlet('cookie-remover', 'GPC', '1', 'reload', '1')
 usatoday.com#%#//scriptlet('set-constant', 'gnt.x.adm', '')
 
-! ===== 未解析 (3530) =====
+! ===== 未解析 (3531) =====
 
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
@@ -56405,6 +56411,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://collect.*/pageview
 ://collector.*/event
 ://data.*/v1/interact?
+://data.*=L2cvY29sbGVjd
 ://datacollector.*/event
 ://dwh-prod.*/de.npg/
 ://e.*/open?$image

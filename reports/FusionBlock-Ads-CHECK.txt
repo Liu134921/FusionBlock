@@ -1,5 +1,5 @@
 体检对象: FusionBlock-Ads.txt
-纯域名拦截 103902 个 / 路径类规则 16105 条（路径类不参与判定）
+纯域名拦截 102797 个 / 路径类规则 16110 条（路径类不参与判定）
 
 == 严重：整个域名被拦 (0)
    无
@@ -39,7 +39,7 @@
         ||clientlog.music.163.com^
         ||clientlog3.music.163.com^
         ||clientlogdep.music.163.com^
-   [网易云] 126.net  <- 7
+   [网易云] 126.net  <- 6
         ||iadmusicmat.music.126.net^
         ||iadmusicmatvideo.music.126.net^
         ||img1.126.net^

@@ -1,13 +1,13 @@
 == 输入
-   域名规则 108366 / 路径规则 15892 / 例外 11265 / 元素隐藏 74792 / 未解析 9720
-   载入阶段：{'重复行': 70827, '超长丢弃': 36, 'scriptlet未映射': 4, 'scriptlet转换': 9}
+   域名规则 107268 / 路径规则 15897 / 例外 11267 / 元素隐藏 74823 / 未解析 9722
+   载入阶段：{'重复行': 70335, '超长丢弃': 35, 'scriptlet未映射': 4, 'scriptlet转换': 9}
 
 == 优化
-   祖先覆盖   -3046
-   修饰符冗余  -778
+   祖先覆盖   -3050
+   修饰符冗余  -781
    微信保护   -6
    危险宽泛   -4
-   合计删除 3834，保留 120424（96.9%）
+   合计删除 3841，保留 119324（96.9%）
 
 == 样例
    [修饰符冗余]
@@ -38,18 +38,18 @@
       ||xyz^$third-party,xmlhttprequest,domain=usescarlet.com
 
 == 合并候选（父域下纯子域规则 >=8 条，只建议不改动）
-   appsflyersdk.com                           8112 条
+   appsflyersdk.com                           8120 条
    cloudfront.net                             921 条
    com.102.122.2o7.net                        393 条
-   a.run.app                                  390 条
-   112.2o7.net                                344 条
+   a.run.app                                  391 条
+   112.2o7.net                                343 条
    goaserv.com                                310 条
    goasrv.com                                 291 条
    aws-prd.net                                287 条
    goatcounter.com                            251 条
    web.app                                    222 条
-   r2.dev                                     221 条
+   r2.dev                                     220 条
    go-static.info                             215 条
    firebaseapp.com                            206 条
-   cname.ebis.ne.jp                           205 条
-   vivoglobal.com                             201 条
+   cname.ebis.ne.jp                           204 条
+   vivoglobal.com                             202 条
