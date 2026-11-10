@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.10.1406
+! Version: 2026.11.11.0007
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -861,7 +861,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52156) =====
+! ===== 网络规则 (52158) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -22355,6 +22355,7 @@
 ||intervigil.com^$third-party
 ||interworks.cloud.actonservice.com^
 ||intg.snapchat.com^
+||intobuddy.com^
 ||intrastats.com^$third-party
 ||intricateberry.com^
 ||introjava.com^
@@ -35975,6 +35976,7 @@
 ||scriptsgratuits.com/sg/stats/
 ||scriptshead.com^$third-party
 ||scrollservice.com^
+||scrubchi.com^
 ||scrubswim.com^
 ||scs.allsecur.nl^
 ||scs.arcteryx.com^
@@ -53039,7 +53041,7 @@ ncbi.nlm.nih.gov#%#//scriptlet('set-constant', 'ncbi.sg.ping', 'noopFunc')
 usaa.com#%#//scriptlet('cookie-remover', 'GPC', '1', 'reload', '1')
 usatoday.com#%#//scriptlet('set-constant', 'gnt.x.adm', '')
 
-! ===== 未解析 (3531) =====
+! ===== 未解析 (3532) =====
 
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
@@ -53773,6 +53775,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/v3/getPageVisits
 /api/v3/trackSegmentEvent
 /api/video/stats/*$xmlhttprequest
+/api/viewcontent.php?
 /api/web/v1/tracker$ping
 /api_adlog.php?
 /api_ip_info.php
