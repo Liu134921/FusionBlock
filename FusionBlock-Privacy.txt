@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.10.0223
+! Version: 2026.11.10.1406
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -861,7 +861,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52152) =====
+! ===== 网络规则 (52156) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -22198,6 +22198,7 @@
 ||insideevs.com/analytics.js
 ||insideinspire.com^
 ||insidepsych.net^
+||insidercorp.net^
 ||insiderdata360online.com/service/platform.js
 ||insight-x.tech/trackerlog-publisher-service/tracker-logs
 ||insight.aon.com^
@@ -30256,6 +30257,7 @@
 ||navismithapis-cdn.com/js/tracking.js
 ||navlink.com/__utmala.js
 ||navrcholu.cz^$third-party
+||naxos.lastampausa.com^
 ||naytev.com^$third-party
 ||nbarizona.com/metrics/
 ||nbc.com/webevents/
@@ -34181,6 +34183,7 @@
 ||redwingforbusiness.redwingsafety.com^
 ||reebok.jp/resources/js/analysis/tracker.js
 ||reedbusiness.net^$third-party
+||reelcombat.com^
 ||reelgood.com/v3.0/checkip
 ||reelup.io^$third-party
 ||reeokx.reima.com^
@@ -34287,6 +34290,7 @@
 ||relead.com^$third-party
 ||releasepath.com^
 ||relevant-digital.com^$third-party
+||relexpert.com^
 ||reliable.elgas.com.au^
 ||reliablecounter.com^$third-party
 ||relmaxtop.com^$third-party
