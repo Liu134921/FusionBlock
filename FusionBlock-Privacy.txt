@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.11.0007
+! Version: 2026.11.11.1253
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -861,7 +861,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52158) =====
+! ===== 网络规则 (52161) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -8707,6 +8707,7 @@
 ||ast-fr.adp.ca^
 ||astarsbuilding.com^
 ||astat.nikkei.com^
+||astatic.ccmbg.com/hz.js
 ||asteriaed.actonservice.com^
 ||asteriresearch.com^$third-party
 ||asterpix.com/tagcloudview/
@@ -10878,7 +10879,6 @@
 ||cchlhb.budgetsport.fi^
 ||cciqma.cosabella.com^
 ||cclink.carfax.com^
-||ccmbg.com^$third-party
 ||ccmd.coveredca.com^
 ||ccpd.jet2.com^
 ||ccpd.jet2holidays.com^
@@ -23978,6 +23978,7 @@
 ||limbik.com/static/tracking-script.js
 ||limecodesign.com^
 ||limepeal.com^
+||limitowl.com^
 ||limone.iltrovatore.it^
 ||lincoln-financial.lfd.com^
 ||lincolnfinancialgroup.lfg.com^
@@ -34879,6 +34880,8 @@
 ||ru4.com^$third-party
 ||rubiconredirect.com^$third-party
 ||rubouthunger.com^
+||rubwonders.com^
+||rubymoonwinery.com^
 ||rubyswinehouse.com^
 ||rudder-server-prd.arena.im/v1/track
 ||rudder-tracking.rudderstack.com^

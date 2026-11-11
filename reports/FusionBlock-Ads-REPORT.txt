@@ -1,13 +1,13 @@
 == 输入
-   域名规则 106658 / 路径规则 15899 / 例外 11269 / 元素隐藏 74860 / 未解析 9723
-   载入阶段：{'重复行': 70494, '超长丢弃': 35, 'scriptlet未映射': 4, 'scriptlet转换': 9}
+   域名规则 106777 / 路径规则 15900 / 例外 11270 / 元素隐藏 74862 / 未解析 9724
+   载入阶段：{'重复行': 70454, '超长丢弃': 35, 'scriptlet未映射': 4, 'scriptlet转换': 9}
 
 == 优化
-   祖先覆盖   -3049
-   修饰符冗余  -781
+   祖先覆盖   -3046
+   修饰符冗余  -774
    微信保护   -6
    危险宽泛   -4
-   合计删除 3840，保留 118717（96.9%）
+   合计删除 3830，保留 118847（96.9%）
 
 == 样例
    [修饰符冗余]
@@ -24,6 +24,11 @@
       ||curl.springinure.com^$third-party   <-已由 ||springinure.com^ 覆盖
       ||xml.pops.gg^   <-已由 ||pops.gg^ 覆盖
       ||cdn.traffmovie.com^   <-已由 ||traffmovie.com^ 覆盖
+   [危险宽泛]
+      ||xyz^$third-party,xmlhttprequest,domain=usescarlet.com
+      ||[::]^$third-party,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
+      ||cfd^$third-party,popup,domain=multiup.io
+      ||click^$script,third-party,domain=upshrink.com
    [微信保护]
       ||szlong.weixin.qq.com^
       ||wxa.wxs.qq.com^
@@ -31,15 +36,10 @@
       ||wxsmw.wxs.qq.com^
       ||wxsnsdythumb.wxs.qq.com^
       ||badjs.weixinbridge.com^
-   [危险宽泛]
-      ||[::]^$third-party,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
-      ||cfd^$third-party,popup,domain=multiup.io
-      ||click^$script,third-party,domain=upshrink.com
-      ||xyz^$third-party,xmlhttprequest,domain=usescarlet.com
 
 == 合并候选（父域下纯子域规则 >=8 条，只建议不改动）
    appsflyersdk.com                           8137 条
-   cloudfront.net                             914 条
+   cloudfront.net                             896 条
    com.102.122.2o7.net                        393 条
    a.run.app                                  392 条
    112.2o7.net                                343 条
@@ -48,8 +48,8 @@
    aws-prd.net                                287 条
    goatcounter.com                            251 条
    web.app                                    222 条
-   r2.dev                                     220 条
+   r2.dev                                     217 条
    go-static.info                             215 条
    firebaseapp.com                            206 条
-   cname.ebis.ne.jp                           204 条
+   cname.ebis.ne.jp                           205 条
    vivoglobal.com                             202 条
