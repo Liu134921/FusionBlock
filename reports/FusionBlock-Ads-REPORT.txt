@@ -1,22 +1,22 @@
 == 输入
-   域名规则 107051 / 路径规则 15905 / 例外 11271 / 元素隐藏 74890 / 未解析 9735
-   载入阶段：{'重复行': 70761, '超长丢弃': 35, 'scriptlet未映射': 4, 'scriptlet转换': 9}
+   域名规则 107161 / 路径规则 15906 / 例外 11271 / 元素隐藏 74894 / 未解析 9735
+   载入阶段：{'重复行': 70767, '超长丢弃': 35, 'scriptlet未映射': 4, 'scriptlet转换': 9}
 
 == 优化
-   祖先覆盖   -3060
-   修饰符冗余  -773
+   祖先覆盖   -3059
+   修饰符冗余  -774
    微信保护   -6
    危险宽泛   -4
-   合计删除 3843，保留 119113（96.9%）
+   合计删除 3843，保留 119224（96.9%）
 
 == 样例
    [修饰符冗余]
+      ||9hito.com^$third-party   <-已由 ||9hito.com^ 覆盖
       ||insightjs.org^$all   <-已由 ||insightjs.org^ 覆盖
       ||adsgravity.io^$third-party   <-已由 ||adsgravity.io^ 覆盖
       ||dga9amo.website^$all   <-已由 ||dga9amo.website^ 覆盖
       ||cdn.adwebcode.gr^$third-party   <-已由 ||cdn.adwebcode.gr^ 覆盖
       ||adsconex.com^$third-party   <-已由 ||adsconex.com^ 覆盖
-      ||happyleafmotion.com^$all   <-已由 ||happyleafmotion.com^ 覆盖
    [祖先覆盖]
       ||smog.gentlecork.com^   <-已由 ||gentlecork.com^ 覆盖
       ||xhvideo.saawsedge.com^   <-已由 ||saawsedge.com^ 覆盖
@@ -48,7 +48,7 @@
    aws-prd.net                                287 条
    goatcounter.com                            251 条
    web.app                                    222 条
-   r2.dev                                     217 条
+   r2.dev                                     216 条
    go-static.info                             215 条
    firebaseapp.com                            206 条
    cname.ebis.ne.jp                           204 条
