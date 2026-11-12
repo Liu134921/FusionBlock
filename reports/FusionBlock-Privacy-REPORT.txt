@@ -1,12 +1,12 @@
 == 输入
-   域名规则 47445 / 路径规则 4738 / 例外 853 / 元素隐藏 16 / 未解析 3532
+   域名规则 47460 / 路径规则 4734 / 例外 853 / 元素隐藏 16 / 未解析 3533
    载入阶段：{'重复行': 3, 'scriptlet转换': 9, 'scriptlet未映射': 21}
 
 == 优化
    修饰符冗余  -15
-   祖先覆盖   -3
+   祖先覆盖   -4
    危险宽泛   -1
-   合计删除 19，保留 52164（100.0%）
+   合计删除 20，保留 52174（100.0%）
 
 == 样例
    [修饰符冗余]
@@ -19,6 +19,7 @@
    [祖先覆盖]
       ||events.release.narrativ.com^$subdocument,xmlhttprequest   <-已由 ||narrativ.com^ 覆盖
       ||api.narrativ.com/favicon.ico   <-已由 ||narrativ.com^ 覆盖
+      ||a8.track.entry.dokoyorimo.com^   <-已由 ||track.entry.dokoyorimo.com^ 覆盖
       ||mit.researchlog.dbresearch.com^   <-已由 ||researchlog.dbresearch.com^ 覆盖
    [危险宽泛]
       ||[::]^$third-party,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost

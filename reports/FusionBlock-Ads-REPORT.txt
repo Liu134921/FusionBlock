@@ -1,13 +1,13 @@
 == 输入
-   域名规则 107161 / 路径规则 15906 / 例外 11271 / 元素隐藏 74894 / 未解析 9735
-   载入阶段：{'重复行': 70767, '超长丢弃': 35, 'scriptlet未映射': 4, 'scriptlet转换': 9}
+   域名规则 107042 / 路径规则 15909 / 例外 11272 / 元素隐藏 74905 / 未解析 9735
+   载入阶段：{'重复行': 70653, '超长丢弃': 35, 'scriptlet未映射': 4, 'scriptlet转换': 9}
 
 == 优化
-   祖先覆盖   -3059
-   修饰符冗余  -774
+   祖先覆盖   -2994
+   修饰符冗余  -772
    微信保护   -6
    危险宽泛   -4
-   合计删除 3843，保留 119224（96.9%）
+   合计删除 3776，保留 119175（96.9%）
 
 == 样例
    [修饰符冗余]
@@ -39,17 +39,17 @@
 
 == 合并候选（父域下纯子域规则 >=8 条，只建议不改动）
    appsflyersdk.com                           8157 条
-   cloudfront.net                             896 条
+   cloudfront.net                             871 条
    com.102.122.2o7.net                        393 条
    a.run.app                                  391 条
    112.2o7.net                                343 条
-   goaserv.com                                310 条
+   goaserv.com                                308 条
    goasrv.com                                 291 条
    aws-prd.net                                287 条
    goatcounter.com                            251 条
    web.app                                    222 条
    r2.dev                                     216 条
-   go-static.info                             215 条
+   go-static.info                             213 条
    firebaseapp.com                            206 条
    cname.ebis.ne.jp                           204 条
    vivoglobal.com                             202 条
