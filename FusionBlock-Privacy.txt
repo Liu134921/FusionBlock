@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.13.0036
+! Version: 2026.11.13.1316
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -861,7 +861,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52177) =====
+! ===== 网络规则 (52181) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -7397,7 +7397,6 @@
 ||api.bus-location.1507t.xyz/3.0/ping
 ||api.channel.io/*/events
 ||api.collarity.com/cws/*http
-||api.community.fox.com/*/metrics
 ||api.config-security.com/first
 ||api.country.is^$third-party
 ||api.croct.io^
@@ -22977,6 +22976,7 @@
 ||js-delivr.com^$third-party
 ||js-error-tracer-api.cafe24.com^
 ||js.cdn.applicationinsights.io/scripts/b/ai.3.gbl.min.js
+||js.ciphera.net/script.js
 ||js.clickrank.ai^$third-party
 ||js.dashfi.net/dashfinet-analytics.js
 ||js.dsp.bance.jp/bncdmp.js
@@ -34130,6 +34130,7 @@
 ||recart.com/tracking/
 ||receiptcent.com^
 ||receive.wmcdp.io^
+||recenc.com^
 ||receptivereaction.com^
 ||recessrain.com^
 ||recipearena.com^
@@ -35882,6 +35883,7 @@
 ||scenicchicago.com^
 ||scenicdrops.com^
 ||scentedkindly.com^
+||scentsquare.com^
 ||scheduling.qualifi.hr^
 ||schemaapp.com/pagecount
 ||schibsted.com/autoTracker
@@ -37451,6 +37453,7 @@
 ||slaysweater.com^
 ||slbunz.casamundo.fr^
 ||slc.cbssports.com/events
+||sleepfrankly.com^
 ||slewvr.gp.se^
 ||slgnt.us/track
 ||sli-spark.com/b.png$third-party
@@ -41196,6 +41199,7 @@
 ||specialscissors.com^
 ||specialstat.com^$third-party
 ||specialtypin.com^
+||speciesjewelry.com^
 ||spectacularstamp.com^
 ||spectate.com^$third-party
 ||spectrum.gettyimages.com^
