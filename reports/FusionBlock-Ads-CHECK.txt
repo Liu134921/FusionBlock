@@ -1,5 +1,5 @@
 体检对象: FusionBlock-Ads.txt
-纯域名拦截 103208 个 / 路径类规则 16126 条（路径类不参与判定）
+纯域名拦截 103777 个 / 路径类规则 16130 条（路径类不参与判定）
 
 == 严重：整个域名被拦 (0)
    无
@@ -47,7 +47,7 @@
         ||amap-aos-info-nogw.amap.com^
         ||apsrgeo.amap.com^
         ||cgicol.amap.com^
-   [系统服务] coloros.com  <- 20
+   [系统服务] coloros.com  <- 21
         ||conn1.coloros.com^
         ||conn2.coloros.com^
         ||conn3.coloros.com^
