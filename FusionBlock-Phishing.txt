@@ -1,14 +1,14 @@
 ! Title: FusionBlock Phishing
 ! Description: 钓鱼站点拦截：基于 malware-filter phishing
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.14.1307
+! Version: 2026.11.14.2247
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
 ! ===== 例外规则 (0) =====
 
 
-! ===== 网络规则 (43539) =====
+! ===== 网络规则 (43312) =====
 
 ||0-1-x.16215785.xyz^$all
 ||0-1-x.26215785.xyz^$all
@@ -311,7 +311,6 @@
 ||5280sin.com^$all
 ||529motors.com^$all
 ||52f1897b.5648702dd4d5255cab645104.workers.dev^$all
-||533fd606-2144-4713-9f95-c0142132278e-00-b8ttsesj8jd6.riker.replit.dev^$all
 ||53650952.swh.strato-hosting.eu^$all
 ||5367653454-665.start.page^$all
 ||53686310.swh.strato-hosting.eu^$all
@@ -381,7 +380,6 @@
 ||68-210-149-84.cprapid.com^$all
 ||68-210-200-182.cprapid.com^$all
 ||68-210-36-191.cprapid.com^$all
-||68-210-98-27.cprapid.com^$all
 ||6844762e.click.convertkit-mail2.com^$all
 ||687f7cce0d3669684.temporary.link^$all
 ||6898e.link.cam^$all
@@ -408,11 +406,9 @@
 ||71yw2177q172ttq.iceiy.com^$all
 ||72144728126491224-gsjgnmtikptk.start.page^$all
 ||72838001.weebly.com^$all
-||72bwyte.top^$all
 ||72njac.bond^$all
 ||72oesp.bond^$all
 ||72xdvk.bond^$all
-||72xlxj.bond^$all
 ||73612095.xyz^$all
 ||74-152-64-113.cprapid.com^$all
 ||74-248-32-242.cprapid.com^$all
@@ -473,7 +469,6 @@
 ||8568f96248.preview.weglot.io^$all
 ||8589817314.dojiner.at^$all
 ||864g.com^$all
-||868d6-z09x0-qjay-p2d-d456h.pages.dev^$all
 ||87.236.176.142^$all
 ||873482418024-29jungspl.start.page^$all
 ||8862cf06.711php-ph.net^$all
@@ -520,7 +515,6 @@
 ||9email.weebly.com^$all
 ||9ez6jphbb.cc.rs6.net^$all
 ||9ffc56b19e.nxcli.io^$all
-||9gkfd3-4e3n-ujwho-jz5p8-cb4ny3.pages.dev^$all
 ||9gnhh-t9g-ocdx-m5o63-14-09-2026-hh.pages.dev^$all
 ||9gtw9p50.pages.dev^$all
 ||9h3evw7i1f6d-pages-dev.translate.goog^$all
@@ -599,7 +593,6 @@
 ||able-lily-193337.framer.app^$all
 ||abmahnungshilfe.de^$all
 ||abmcarrelli.it^$all
-||abonelik-destegi.com^$all
 ||about.me/safemailboxupdate^$all
 ||about.me/thewordytog^$all
 ||abre.ai/edUZ?userid=nWwUer4j^$all
@@ -1104,7 +1097,6 @@
 ||allegro-lokalnie.789365.cc^$all
 ||allegro-lokalnie.823984209g0-201294.lat^$all
 ||allegro-lokalnie.835491.lat^$all
-||allegro-lokalnie.871288igiru7.shop^$all
 ||allegro-lokalnie.91023747462349134.lat^$all
 ||allegro-lokalnie.92319281g.shop^$all
 ||allegro-lokalnie.9348283h745.shop^$all
@@ -1115,7 +1107,7 @@
 ||allegro-lokalnie.aukcj78995-f09.lat^$all
 ||allegro-lokalnie.az06.top^$all
 ||allegro-lokalnie.black951ibg.sbs^$all
-||allegro-lokalnie.flow504.cfd/iieszx64102^$all
+||allegro-lokalnie.flow504.cfd^$all
 ||allegro-lokalnie.fos23818291.lat^$all
 ||allegro-lokalnie.g394823912012.top^$all
 ||allegro-lokalnie.liftfb8u.cfd^$all
@@ -1158,7 +1150,6 @@
 ||allegro-lokalnie.pryaw8127y349.shop^$all
 ||allegro-lokalnie.prywan5238729h-45.lat^$all
 ||allegro-lokalnie.prywatn482392.lat^$all
-||allegro-lokalnie.rootstable560.cfd^$all
 ||allegro-lokalnie.rpo328g2.bond^$all
 ||allegro-lokalnie.sand245.cfd^$all
 ||allegro-lokalnie.sand32-309.cfd^$all
@@ -1171,7 +1162,6 @@
 ||allegro-lokalnie.zoomarea.sbs^$all
 ||allegro-ups.e-kei.pl^$all
 ||allegro.00049499994.quest^$all
-||allegro.001029gh9hi.me^$all
 ||allegro.012031928g.lol^$all
 ||allegro.012398h574h5j.skin^$all
 ||allegro.0129g98349129.rest^$all
@@ -1183,6 +1173,7 @@
 ||allegro.04319210h0.forum^$all
 ||allegro.0439230j05.shop^$all
 ||allegro.0439g8340.lol^$all
+||allegro.05819129.sbs^$all
 ||allegro.058ji56i56g35g3.skin^$all
 ||allegro.10209j8j8.shop^$all
 ||allegro.10239h899.help^$all
@@ -1207,7 +1198,6 @@
 ||allegro.1290hh59.help^$all
 ||allegro.12938120hhpo.lol^$all
 ||allegro.1293910hg54.click^$all
-||allegro.1293912.pl^$all
 ||allegro.1945jkk.shop^$all
 ||allegro.2012094h84.shop^$all
 ||allegro.203t8923g92.click^$all
@@ -1223,7 +1213,6 @@
 ||allegro.2829467234278438.sbs^$all
 ||allegro.293743038596.click^$all
 ||allegro.2992ghohgoho.cam^$all
-||allegro.3000h0h.forum^$all
 ||allegro.30509j56.forum^$all
 ||allegro.3120390210.mom^$all
 ||allegro.320029h8h8.forum^$all
@@ -1259,7 +1248,6 @@
 ||allegro.823ggg.casa^$all
 ||allegro.85723.sbs^$all
 ||allegro.8597432.top^$all
-||allegro.89015.lat^$all
 ||allegro.8987645.lat^$all
 ||allegro.902359423-jh546.cfd^$all
 ||allegro.912301hg45of23.homes^$all
@@ -1289,7 +1277,6 @@
 ||allegro.covevictory286.sbs^$all
 ||allegro.dig82391.buzz^$all
 ||allegro.dk-931ogloszezeniexs734.cyou^$all
-||allegro.dk-kupno562399.lol^$all
 ||allegro.dk-pocztex24godziny.cyou^$all
 ||allegro.dkupteraz.shop^$all
 ||allegro.flow504.cfd^$all
@@ -1335,12 +1322,10 @@
 ||allegro.lokalna548669.sbs^$all
 ||allegro.lokalne-383712.lol^$all
 ||allegro.marketpl.shop^$all
-||allegro.moet238h45d1230.pics^$all
 ||allegro.msa9s8a78a9.shop^$all
 ||allegro.msar8239h45203.forum^$all
 ||allegro.mulberoferta.sbs^$all
 ||allegro.nr-29snm2378.sbs^$all
-||allegro.o102040.shop^$all
 ||allegro.o107894802.shop^$all
 ||allegro.o1080483.shop^$all
 ||allegro.o108940.shop^$all
@@ -1386,13 +1371,11 @@
 ||allegro.ogoszenie-58175065.sbs^$all
 ||allegro.ogoszenie-95176195.sbs^$all
 ||allegro.ogoszenie-9583315.sbs^$all
-||allegro.ok3927812899.biz^$all
 ||allegro.okazja-na-lato-2026-o45rgve.sbs^$all
 ||allegro.or812899h.pics^$all
 ||allegro.paoso381291.baby^$all
 ||allegro.pi-inpost89713psm.rest^$all
 ||allegro.pi-ofera02.shop^$all
-||allegro.pi-ofeta291290.sbs^$all
 ||allegro.pi-off848148.lat^$all
 ||allegro.pi-ogioszenie832478716749673982.shop^$all
 ||allegro.pi-ogloiszenie439i349.shop^$all
@@ -1406,7 +1389,6 @@
 ||allegro.pl-0282773u7362oferta919722917282.sbs^$all
 ||allegro.pl-049.sbs^$all
 ||allegro.pl-3478652.sbs^$all
-||allegro.pl-34958123.sbs^$all
 ||allegro.pl-4328923879.lol^$all
 ||allegro.pl-434733.sbs^$all
 ||allegro.pl-447382.sbs^$all
@@ -1443,7 +1425,6 @@
 ||allegro.pl-oferta847029846.cfd^$all
 ||allegro.pl-oferta896712.lol^$all
 ||allegro.pl-oferta937573.click^$all
-||allegro.pl-ofeta-aukcja58347901.cyou^$all
 ||allegro.pl-ogloszenia-firmowe-id-332388.sbs^$all
 ||allegro.pl-ogloszenie-marekkuleta-92.shop^$all
 ||allegro.pl-ogloszenie-prywatne7584953412.click^$all
@@ -1466,7 +1447,6 @@
 ||allegro.pl-zakupy9999812141.top^$all
 ||allegro.pl2.top^$all
 ||allegro.pl209381232jx2317vzx-218713.shop^$all
-||allegro.pl2831923731vjz3134zx321134jk21.rest^$all
 ||allegro.pl3485823421.top^$all
 ||allegro.pl396931.top^$all
 ||allegro.pl452123125fsda2314.top^$all
@@ -1490,8 +1470,6 @@
 ||allegro.prwan845b45g.casa^$all
 ||allegro.pry2318127192.click^$all
 ||allegro.pryi40-23gf2.casa^$all
-||allegro.prywan5238729h-45.lat^$all
-||allegro.prywanm12899.buzz^$all
 ||allegro.prywanm4328239.rest^$all
 ||allegro.prywatne483291.baby^$all
 ||allegro.pryweanm65j9233.forum^$all
@@ -1503,7 +1481,6 @@
 ||allegro.smar939201288.help^$all
 ||allegro.smar96340203.lol^$all
 ||allegro.smart-92492.cfd^$all
-||allegro.smart-93952.cfd^$all
 ||allegro.smart-95752.cfd^$all
 ||allegro.smart-97952.cfd^$all
 ||allegro.smart-ofert23887239.sbs^$all
@@ -1553,13 +1530,13 @@
 ||allegrolokainie.prywatne823912.baby^$all
 ||allegrolokainie.royalconsult416.cfd^$all
 ||allegrolokainie.salesblack91194.cfd^$all
+||allegrolokainie.sand32-309.cfd^$all
 ||allegrolokainie.smar3465.shop^$all
 ||allegrolokainie.smar9438-65j.cfd^$all
 ||allegrolokainie.strawberryv2.sbs^$all
 ||allegrolokalinie.pl-4812042.shop^$all
 ||allegrolokalinie.pl-76424.click^$all
 ||allegrolokalinie.pl-8749014.shop^$all
-||allegrolokalne.043893478.lol^$all
 ||allegrolokalne.1039837h53.shop^$all
 ||allegrolokalne.105419.cc^$all
 ||allegrolokalne.1056804.com^$all
@@ -1583,7 +1560,6 @@
 ||allegrolokalne.pl-ogloszenie-prywatne748362548.click^$all
 ||allegrolokalne.pl-ogloszenie-prywatne785625394.click^$all
 ||allegrolokalne.pl-ogloszenie3640514098.top^$all
-||allegrolokalne.pl-ogloszenie5722931873.lol^$all
 ||allegrolokalne.pl-ogloszezenie1248918928.shop^$all
 ||allegrolokalne.sand245.cfd^$all
 ||allegrolokalne.semipearl4379.cfd^$all
@@ -1596,7 +1572,6 @@
 ||allegrolokalnie.058127.click^$all
 ||allegrolokalnie.09338224324344.lat^$all
 ||allegrolokalnie.0oferta3649ztsn80.forum^$all
-||allegrolokalnie.123210.shop^$all
 ||allegrolokalnie.1259812.top^$all
 ||allegrolokalnie.12gg92701eeee.cfd^$all
 ||allegrolokalnie.164x56v468b1.biz^$all
@@ -1608,7 +1583,6 @@
 ||allegrolokalnie.24h-99333c2.top^$all
 ||allegrolokalnie.26378516.xyz^$all
 ||allegrolokalnie.2730241.xyz^$all
-||allegrolokalnie.27834618374426.rest^$all
 ||allegrolokalnie.348239h.lol^$all
 ||allegrolokalnie.366554th.top^$all
 ||allegrolokalnie.39zxvw8n73k.surf^$all
@@ -1642,7 +1616,6 @@
 ||allegrolokalnie.70957.top^$all
 ||allegrolokalnie.712461246129124.rest^$all
 ||allegrolokalnie.723562352.lol^$all
-||allegrolokalnie.73265428375733.sbs^$all
 ||allegrolokalnie.74472979.sbs^$all
 ||allegrolokalnie.74973205.xyz^$all
 ||allegrolokalnie.7546054.lol^$all
@@ -1666,7 +1639,6 @@
 ||allegrolokalnie.875623.sbs^$all
 ||allegrolokalnie.89435.top^$all
 ||allegrolokalnie.8975670.lat^$all
-||allegrolokalnie.923568325.cfd^$all
 ||allegrolokalnie.92399560237-32.icu^$all
 ||allegrolokalnie.92839.xyz^$all
 ||allegrolokalnie.93027351.xyz^$all
@@ -1753,7 +1725,6 @@
 ||allegrolokalnie.letnie-okazje238745715.cyou^$all
 ||allegrolokalnie.letnie-okazje33754615.cyou^$all
 ||allegrolokalnie.letnie-okazje8741298561.cyou^$all
-||allegrolokalnie.lokala-ofeta891.sbs^$all
 ||allegrolokalnie.lokalna-01920.sbs^$all
 ||allegrolokalnie.lokalna-01921.sbs^$all
 ||allegrolokalnie.lokalna-0904921.sbs^$all
@@ -1772,7 +1743,6 @@
 ||allegrolokalnie.lokalna-83726.sbs^$all
 ||allegrolokalnie.lokalna-ofera0869853.lol^$all
 ||allegrolokalnie.lokalna-ofera2390.lol^$all
-||allegrolokalnie.lokalna-ofera293945.lol^$all
 ||allegrolokalnie.lokalna-ofera572456434.shop^$all
 ||allegrolokalnie.lokalna-ofera8391.lol^$all
 ||allegrolokalnie.lokalna-ofera89994872.sbs^$all
@@ -1781,7 +1751,6 @@
 ||allegrolokalnie.lokalna-oferrta19121.sbs^$all
 ||allegrolokalnie.lokalna-oferta153573618.lat^$all
 ||allegrolokalnie.lokalna-oferta23761.lol^$all
-||allegrolokalnie.lokalna-oferta839122.lol^$all
 ||allegrolokalnie.lokalna-oferta9129.sbs^$all
 ||allegrolokalnie.lokalna-oferta94291.cfd^$all
 ||allegrolokalnie.lokalna-ofeta1224178.lol^$all
@@ -1834,7 +1803,6 @@
 ||allegrolokalnie.ofera-0001938x1.top^$all
 ||allegrolokalnie.ofera-2939.lol^$all
 ||allegrolokalnie.ofera-lokala912.top^$all
-||allegrolokalnie.ofereta-84512110.cfd^$all
 ||allegrolokalnie.ofert28323910.lol^$all
 ||allegrolokalnie.ofert798203.sbs^$all
 ||allegrolokalnie.oferta-074938739.cfd^$all
@@ -1894,9 +1862,7 @@
 ||allegrolokalnie.oferta65487.click^$all
 ||allegrolokalnie.oferta714264628.sbs^$all
 ||allegrolokalnie.oferta72163549902.cfd^$all
-||allegrolokalnie.oferta75740593022.sbs^$all
 ||allegrolokalnie.oferta77654.sbs^$all
-||allegrolokalnie.oferta780183pl.click^$all
 ||allegrolokalnie.oferta812738.cfd^$all
 ||allegrolokalnie.oferta819.sbs^$all
 ||allegrolokalnie.oferta847489347.cfd^$all
@@ -1909,7 +1875,6 @@
 ||allegrolokalnie.oferta9325056.shop^$all
 ||allegrolokalnie.oferta94759302.cfd^$all
 ||allegrolokalnie.oferta948384935934.cfd^$all
-||allegrolokalnie.oferta9504326.shop^$all
 ||allegrolokalnie.oferta95804928403.cfd^$all
 ||allegrolokalnie.oferta963254.cfd^$all
 ||allegrolokalnie.ofertaa9434863923.cfd^$all
@@ -1947,7 +1912,6 @@
 ||allegrolokalnie.pi-lat85815.lat^$all
 ||allegrolokalnie.pi-oferta751752.lat^$all
 ||allegrolokalnie.pi-oferta858151.lat^$all
-||allegrolokalnie.pi-oferta878421.lat^$all
 ||allegrolokalnie.pi-oferta885815.lat^$all
 ||allegrolokalnie.pi-oferta98456.lol^$all
 ||allegrolokalnie.pi-ofeta05312.sbs^$all
@@ -2010,7 +1974,6 @@
 ||allegrolokalnie.pl-6593.click^$all
 ||allegrolokalnie.pl-67.sbs^$all
 ||allegrolokalnie.pl-719571.sbs^$all
-||allegrolokalnie.pl-74553845.click^$all
 ||allegrolokalnie.pl-746483745.click^$all
 ||allegrolokalnie.pl-74826.icu^$all
 ||allegrolokalnie.pl-76151.click^$all
@@ -2085,7 +2048,6 @@
 ||allegrolokalnie.pl-oferta2912190.click^$all
 ||allegrolokalnie.pl-oferta31134.click^$all
 ||allegrolokalnie.pl-oferta323541.click^$all
-||allegrolokalnie.pl-oferta3891461.click^$all
 ||allegrolokalnie.pl-oferta39062056.cfd^$all
 ||allegrolokalnie.pl-oferta42321.sbs^$all
 ||allegrolokalnie.pl-oferta4295.shop^$all
@@ -2194,7 +2156,6 @@
 ||allegrolokalnie.pl204.sbs^$all
 ||allegrolokalnie.pl209381232jx2317vzx-218713.shop^$all
 ||allegrolokalnie.pl217912381-id.cfd^$all
-||allegrolokalnie.pl23918xz3315vj1298.icu^$all
 ||allegrolokalnie.pl2831923731vjz3134zx321134jk21.rest^$all
 ||allegrolokalnie.pl29333.top^$all
 ||allegrolokalnie.pl2vk6ntmq.icu^$all
@@ -2209,7 +2170,6 @@
 ||allegrolokalnie.pl49354.top^$all
 ||allegrolokalnie.pl55896.top^$all
 ||allegrolokalnie.pl6s23223gggssadd.sbs^$all
-||allegrolokalnie.pl71367.top^$all
 ||allegrolokalnie.pl72438590.sbs^$all
 ||allegrolokalnie.pl73462.top^$all
 ||allegrolokalnie.pl73626.top^$all
@@ -2264,7 +2224,6 @@
 ||allegrolokalnie.rezerwacja93755.click^$all
 ||allegrolokalnie.search0046.cfd/ce3dnp^$all
 ||allegrolokalnie.search0046.cfd/u8o21e^$all
-||allegrolokalnie.shttp.sbs^$all
 ||allegrolokalnie.sklep24.sbs^$all
 ||allegrolokalnie.smart-92282.cfd^$all
 ||allegrolokalnie.smart-92492.cfd^$all
@@ -2297,7 +2256,6 @@
 ||allegrolokalnie.voferta.lat^$all
 ||allegrolokalnie.wakacje-2026-23894.click^$all
 ||allegrolokalnie.wakacje-2026-49304.click^$all
-||allegrolokalnie.wyprzedaz-lokalna192648452641.sbs^$all
 ||allegrolokalnie.xve38js8s03k.surf^$all
 ||allegrolokalnie.y74171341.click^$all
 ||allegrolokalnie.y8p0f2.sbs^$all
@@ -2499,7 +2457,6 @@
 ||api.telegram.org/bot7611675758:AAGxhNjM0qea3l2xd0YxMWXwAfv8-xYX5WA/getChat?chat_id=7488645660^$all
 ||api.telegram.org/bot7740773343:AAEbZGfqKB7eXJ9gUF5AuFTbHD1aOBd_dV8/getChat?chat_id=7714825993^$all
 ||api.telegram.org/bot7998633245:AAErlO-P3SIBVRoPMwJAK7wftNHB166a-CM/getChat?chat_id=7444709026^$all
-||api.yu3.io^$all
 ||apicalpakistan.com^$all
 ||apihmg.sistemasubsolar.com.br^$all
 ||apis.google.com/additnow/l?applicationid=180181176205&__ls=ogb&__lu=https://iry.uih.mybluehost.me/vv/autopas/login.htm^$all
@@ -2524,7 +2481,6 @@
 ||apovjenshkojnatebuli.firebaseapp.com^$all
 ||apovjenshkojnatebuli.web.app^$all
 ||app-acending-owners2023.start.page^$all
-||app-apollo.vercel.app^$all
 ||app-captchav2.pages.dev^$all
 ||app-cz9x.glide.page^$all
 ||app-hsbc.priiphub.com^$all
@@ -2580,11 +2536,9 @@
 ||app.diadoclientevip.com^$all
 ||app.docspo.com^$all
 ||app.duxavian.online^$all
-||app.enhancv.com/share/1ef33166/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic^$all
-||app.enhancv.com/share/1ef33166/?utm_medium=growth^$all
-||app.enhancv.com/share/4d1d5c8d^$all
+||app.enhancv.com^$all
 ||app.erpflex.com.br^$all
-||app.flipsnack.com/private/95F758DD75E/bt0987654567mail^$all
+||app.flipsnack.com^$all
 ||app.flowcode.com/404/code-not-found^$all
 ||app.formly.so^$all
 ||app.getbeamer.com/cityoelan5616/en^$all
@@ -2771,7 +2725,6 @@
 ||app.portalpj.app^$all
 ||app.powerbi.com/view?r=eyJrIjoiYjZhNTFmNWMtYzA5ZS00NDI5LWI3YWUtYTI3ZTVhMzk2ZjQyIiwidCI6ImIwMzVhZGFmLWE4M2EtNDUyYS05MGI0LTQyYjU4NGI0NGU0MiJ9^$all
 ||app.powerbi.com/view?r=eyJrIjoiYzQyYzcxMjAtNDE4Ni00OWRlLWJhYjQtMzZiNzdkOTU4YjRmIiwidCI6IjJkMTNkMGU4LTI1YjgtNDE2Yi04YzQ1LTVkZDU4MDgzYmVjZCJ9^$all
-||app.presentedocliente.digital^$all
 ||app.presentedocliente.live^$all
 ||app.profuturocompras.com.mx^$all
 ||app.promocao-resgate.xyz^$all
@@ -2809,6 +2762,7 @@
 ||apple-ckjf.pages.dev^$all
 ||apple-hbneof.pages.dev^$all
 ||apple-icloud.azurewebsites.net^$all
+||apple-msxtk.pages.dev^$all
 ||apple-rqxlovm.pages.dev^$all
 ||apple.web-oauth.com^$all
 ||appledgerlive.framer.media^$all
@@ -2980,9 +2934,7 @@
 ||assist-personal.com^$all
 ||assistenciapjempresas.digital^$all
 ||assistenza-hype-partner.com^$all
-||assistwf.com^$all
 ||associazionegenia.it^$all
-||assuhubportal.myvnc.com^$all
 ||assurmaladie-sante.com^$all
 ||astengojm.com^$all
 ||asterix-af2a5.firebaseapp.com^$all
@@ -3030,7 +2982,6 @@
 ||atreuod.web.app^$all
 ||atshm2025.firebaseapp.com^$all
 ||atshm2025.web.app^$all
-||att-102847-104642.weeblysite.com^$all
 ||att-105096.square.site^$all
 ||att-105410.square.site^$all
 ||att-105410.weeblysite.com^$all
@@ -3102,7 +3053,6 @@
 ||attvoicemai-i.pory.app^$all
 ||attwebnetmail.boxmode.io^$all
 ||attwebupdate.w3spaces.com^$all
-||attyahoomail.boxmode.io^$all
 ||attyahoomail.framer.website^$all
 ||attyahoomail.w3spaces.com^$all
 ||attzcxffclfjlggflggghjjhjljhjjhhk.weebly.com^$all
@@ -3146,7 +3096,6 @@
 ||austinl33.github.io^$all
 ||auth-device-register.firebaseapp.com^$all
 ||auth-device-register.web.app^$all
-||auth-domain-70hijl8sih9w1v3k.vercel.app^$all
 ||auth-domain-kay9dvf2iam7exgu.vercel.app^$all
 ||auth-login-user.firebaseapp.com^$all
 ||auth-login-user.web.app^$all
@@ -3179,7 +3128,6 @@
 ||authjgxszcloxpnassocl.web.app^$all
 ||authmail.edgeone.app^$all
 ||autho-facebook-appp.weebly.com^$all
-||authoracpowell.com^$all
 ||authorise-login-bl0ckchain.firebaseapp.com^$all
 ||authorise-login-bl0ckchain.web.app^$all
 ||authorise-mydetails.com^$all
@@ -3337,7 +3285,6 @@
 ||bafkreibj7msfkugdi4usrp3wm5qv6fwe7ondls6omghmkh2va5yszsu3xu.ipfs.dweb.link^$all
 ||bafkreibkpvfln24qm5ros5z4lhjc4equmnoycb6nko7gbht6xvxpymdgny.ipfs.dweb.link^$all
 ||bafkreibm5wstzecomiznchrnxn2fugzz5stm2lj653eazbnhpthrqr64p4.ipfs.dweb.link^$all
-||bafkreibtwyg4hfiw6enfuu33nvw5iudkn7qfcr52q7ge3oiapggcqyba5i.ipfs.dweb.link^$all
 ||bafkreibupiq2fnvqdhui556opdnhkidbtrdapw46ytd5eis7vqfotuc72y.ipfs.dweb.link^$all
 ||bafkreibv36fzacm5fiwswmcqflobyz72cwfauk4vt6h62ykofkj2yowtkm.ipfs.dweb.link^$all
 ||bafkreibwtdlnili4ufevhrxeeadojngldkuba3ycy7efdpgmoac437icsy.ipfs.dweb.link^$all
@@ -3346,7 +3293,6 @@
 ||bafkreic2s6jymjein2mdhg3g4q7nlt4qcraxwmfc4cg6zp5tfuqlzhdtam.ipfs.dweb.link^$all
 ||bafkreic632fyk7rrf3ghnrbxn4eq5lyfle4xpq7awm4mi47rpyc5wnzll4.ipfs.dweb.link^$all
 ||bafkreic7572lnt6fesu67iooaoubzt4ydqeeg3lfekigs5mxlimi6lq574.ipfs.dweb.link^$all
-||bafkreic7mi2hooin5as7ja33voc7i47lzlp7zpckwwbyfo6cjftofiqhue.ipfs.dweb.link^$all
 ||bafkreicajjdnh5i4cm7uvvfed7umme526dlodwfq4epts72g2g3inwggge.ipfs.dweb.link^$all
 ||bafkreicd3xrgdvrkbvvh4q2xs7mtubh6voudxxhbw7r22rfy45eif2xh6e.ipfs.dweb.link^$all
 ||bafkreicf3ir3tswfpviab3yuy7kncbmzwo3zqn2ik3d4qzjo4j77bchnky.ipfs.dweb.link^$all
@@ -3391,7 +3337,6 @@
 ||bafkreieqwlxcg3fa4evsrfje4wfj2staylce33jvirpl7pebamwfniq2pq.ipfs.dweb.link^$all
 ||bafkreieqybgmcmbzg3mmazv7zmthh7jb6wbttptn5vrf7gunlm6csplvxq.ipfs.inbrowser.link^$all
 ||bafkreietfe6beevv2wigkiq34qgmyzw7ekblzwnprjbb2u2axy4joj65jq.ipfs.dweb.link^$all
-||bafkreiew5p56p265gff7dra7454b4hcvu454nhxocge2cnl6eekusg2jjm.ipfs.dweb.link^$all
 ||bafkreiew7fbnac76pnq2nkw5you7mrwbzcgmgdb664vklfxmjb75p2xq2e.ipfs.dweb.link^$all
 ||bafkreieyur45nhaksgqyqbfxmtykzpwl32qo6wvx2kj3sl4hvjbobgiz6e.ipfs.dweb.link^$all
 ||bafkreiez5fruf76wbn4zuz2mrdg5rbop7ws5qj5zv47vf4325scrvya6by.ipfs.dweb.link^$all
@@ -3423,7 +3368,6 @@
 ||bafkreigxhpgb6nlue65lvgr4kuqki67smzded5aatan7wh7lxyf7yehb2e.ipfs.dweb.link^$all
 ||bafkreih4p4qf7dgayopcomi7aqhj7ejuaufdz5x37hbifj3cxoejdtdagq.ipfs.dweb.link^$all
 ||bafkreihbvwtoqwbdrumzcx3onrbybyobhko6vp3w7v4vhwokeea324tbky.ipfs.dweb.link^$all
-||bafkreihd3hxmzzlumcrrcmnuh2tjyh4iry3rcxkdfjxlbgow2nj2b67nvu.ipfs.dweb.link^$all
 ||bafkreihdufztwwdf3bsps6otfhjzvu534fy6vuzp7aifsu67li7cmznfiu.ipfs.dweb.link^$all
 ||bafkreihitaduxmdqk3n72qdzcqjuds2jbl3zahhib6kdp233tm35zkxl34.ipfs.dweb.link^$all
 ||bafkreihkcrtjklg5bwvdjdfedig6knoclvrmcvx4cks7hutftm4qxma5ou.ipfs.inbrowser.link^$all
@@ -3516,7 +3460,6 @@
 ||batiarascoedesign.com^$all
 ||batterybazaaronline.com^$all
 ||battsrealestategroup.com^$all
-||bauducco-promo.vercel.app^$all
 ||baunachrichten.at^$all
 ||bax-mai-verify.weebly.com^$all
 ||bayarpilihan.shop^$all
@@ -3578,7 +3521,6 @@
 ||bellsouth-att-sigining-5d1d8c.webflow.io^$all
 ||bellsouth-att-sign-in-99dd87.webflow.io^$all
 ||bellsouth-att-sign-in-a94fae.webflow.io^$all
-||bellsouth-att-sign-in-f80170.webflow.io^$all
 ||bellverify-0d5803.webflow.io^$all
 ||belvora-gld-xarmeti-p2t9hc75.pages.dev^$all
 ||bemowin.com^$all
@@ -3600,7 +3542,6 @@
 ||berlinautosales.ca^$all
 ||berlitnunbgg.firebaseapp.com^$all
 ||berlitnunbgg.web.app^$all
-||bernard.info-transit.pro^$all
 ||bernard.tjcr5781135.pro^$all
 ||berqumi-gld-lartemi-p3t9hk15.pages.dev^$all
 ||bertchou.com^$all
@@ -3610,7 +3551,6 @@
 ||besanprof.weebly.com^$all
 ||best-buy-105737.weeblysite.com^$all
 ||best-buy-108428.weeblysite.com^$all
-||bestbrokersforyou.com^$all
 ||bestchange-aml-scam.com^$all
 ||bestcheats.online^$all
 ||bestesgrous.firebaseapp.com^$all
@@ -3714,7 +3654,6 @@
 ||binance.info/?bfp^$all
 ||binancevcxq.firebaseapp.com^$all
 ||binancevcxq.web.app^$all
-||binanceverify.live^$all
 ||bing.com/?toWww=1&redig=805307041090408C826E96ACC880DD42^$all
 ||bing.com/ck/a?!&&p=13005483088ec45dJmltdHM9MTcxNTEyNjQwMCZpZ3VpZD0xYzU1ZjFmMi04MTc1LTYxOTktMjk0ZC1lNTlmODBiNTYwNGQmaW5zaWQ9NTE1MQ&ptn=3&ver=2&hsh=3&fclid=1c55f1f2-8175-6199-294d-e59f80b5604d&u=a1aHR0cHM6Ly93d3cuc3VsdGFucGFsYWNlLmNvLnVrL2luZGV4Lmh0bQ&ntb=1^$all
 ||bing.com/ck/a?!&&p=2bd183db4b2cad1562227d3d9c794cee7503ec919e86823380ffa52886286fecJmltdHM9MTc0NDU4ODgwMA&ptn=3&ver=2&hsh=4&fclid=1c55f1f2-8175-6199-294d-e59f80b5604d&u=a1aHR0cDovL3RodWFucGh1b2Mudm4vY29udGFjdC5odG1s&ntb=1^$all
@@ -4044,7 +3983,6 @@
 ||bit.ly/3OfRKKM^$all
 ||bit.ly/3Ofb22V^$all
 ||bit.ly/3OfwiFE^$all
-||bit.ly/3Oi8qkP^$all
 ||bit.ly/3OnasAm^$all
 ||bit.ly/3Onxzup^$all
 ||bit.ly/3Otc7UZ^$all
@@ -4735,7 +4673,6 @@
 ||bit.ly/48S4UXK^$all
 ||bit.ly/48W4YGc^$all
 ||bit.ly/48bbyYO^$all
-||bit.ly/48c5385^$all
 ||bit.ly/48d6kvI^$all
 ||bit.ly/48taHD9^$all
 ||bit.ly/48vntB7^$all
@@ -5453,7 +5390,6 @@
 ||blokufieuslogin.gitbook.io^$all
 ||bluckffillogii.godaddysites.com^$all
 ||bluckfillogin.gitbook.io^$all
-||blue-badge-instant-apply.surge.sh^$all
 ||bluebadge-status-update.vercel.app^$all
 ||bluecheckservices.vercel.app^$all
 ||bluegatecapitalfr.firebaseapp.com^$all
@@ -5467,7 +5403,6 @@
 ||bmrrcjjjjwv.firebaseapp.com^$all
 ||bmrrcjjjjwv.web.app^$all
 ||bn-courriers-informations.bolt.host^$all
-||bn6kgl.cfd^$all
 ||bnb-verify.vercel.app^$all
 ||bnc.ondemand-cityspay.com^$all
 ||bnchncecat.firebaseapp.com^$all
@@ -5604,7 +5539,6 @@
 ||br4g6qdrth-pages-dev.translate.goog^$all
 ||bradeconet.online^$all
 ||bradenstoke.com^$all
-||bradesc.recadastramentobia.com^$all
 ||bradesco-netempresasacesso.digital^$all
 ||bradesco.acessoportalnetpj.info^$all
 ||bradesco.apinetempresas.click^$all
@@ -5651,13 +5585,11 @@
 ||bradesco.juridicopjrapido.digital^$all
 ||bradesco.moduloempresarial.online^$all
 ||bradesco.net-empresas.click^$all
-||bradesco.netatendimentocorporativo.click^$all
 ||bradesco.netclientepro.info^$all
 ||bradesco.netempresalogin.com^$all
 ||bradesco.netempresarialpj.sbs^$all
 ||bradesco.netempresasac.info^$all
 ||bradesco.netempresasatende.com^$all
-||bradesco.netempresasportal.com^$all
 ||bradesco.netempresasvalida.digital^$all
 ||bradesco.onlinejuridicopj.digital^$all
 ||bradesco.onlinesuportepj.online^$all
@@ -5715,7 +5647,6 @@
 ||bradescochat.appempresarial.com.br^$all
 ||bradescocontapj.com^$all
 ||bradescoempresa.integranetempresa.com^$all
-||bradescoempresapj.com^$all
 ||bradescoempresas.gerenciardados.online^$all
 ||bradesconetempresaspj.online^$all
 ||bradescopjcontato.com^$all
@@ -5761,7 +5692,6 @@
 ||bridgee-trzoo.zapier.app^$all
 ||bridgeenus.wixstudio.com^$all
 ||bridgesstrted.wixstudio.com^$all
-||bridgs-applives.wixstudio.com^$all
 ||brief-qz-wraith-3e76.s3.ca-central-1.amazonaws.com^$all
 ||bright-badge-button.lovable.app^$all
 ||bright-report-424918.framer.app^$all
@@ -6163,7 +6093,6 @@
 ||canaandata.com^$all
 ||canada-e4075.firebaseapp.com^$all
 ||canada-e4075.web.app^$all
-||canada-netcoins-auth.webflow.io^$all
 ||cancel-3riverscuonline.firebaseapp.com^$all
 ||cancel-3riverscuonline.web.app^$all
 ||cancel-hcucoop.firebaseapp.com^$all
@@ -6498,9 +6427,7 @@
 ||charterspectrummail.weebly.com^$all
 ||chartreuse-fox-501659.framer.app^$all
 ||chartrrgtwoh.weebly.com^$all
-||charvistore.com^$all
 ||chase-acess.vercel.app^$all
-||chase.com.cobblestonesw.com^$all
 ||chaseauth0927.firebaseapp.com^$all
 ||chaseauth0927.web.app^$all
 ||chasebnkonline.web.app^$all
@@ -6609,7 +6536,17 @@
 ||cjo1q-16.kaqhplfpaelusnv.workers.dev^$all
 ||cjslakesidegrill.com^$all
 ||cjxgcinln.firebaseapp.com^$all
-||cl.s13.exct.net^$all
+||cl.s13.exct.net/?qs=22683b0393897a55a3aaba70b6cf7b83c21752f51b15dcadf8b7faafc5b122ab1cfe8896e94dff67830339650a1fc617^$all
+||cl.s13.exct.net/?qs=3a8441fbdeb1cce1ae2b24164fcc81c2ecc8b707afb291cf0c2840373ed40c3232cede950f536b399ddafca026090142^$all
+||cl.s13.exct.net/?qs=5bdf2f95769ff91ef9bc27dfbc9ba1138cbe2d0db35fed8ed256065c8018947b5214afc26ab689fe4c92a943662cf3b4^$all
+||cl.s13.exct.net/?qs=8d4b02063ebb057d297dbaae5e3066e7618c44e1e4446726adf4386f8c89f2d075eda782881716b737055aaf66ea27b8^$all
+||cl.s13.exct.net/?qs=bcc5c3c70137be27e26f0fb3e7e2185ae22f37c8f325e334b453e158cdd466ab5f434c65a129840695ccad84a7eebda9^$all
+||cl.s13.exct.net/?qs=d5ed62e57ef9e03a380be47f6230b873d03658c05fb1b8c8e678d919c05608f19a77c21a15ad2f4a5c22d5144de5f961^$all
+||cl.s13.exct.net/?qs=dac93f3ccbcdd8e09c9c8a27fc5efe52fde70ec1717e026fa631a21b1b9d5b2bdd620a848a4cf01139a643bacd999740^$all
+||cl.s13.exct.net/?qs=e4243254388f3cfc69c8dbaffbcd9d682ed49816b5b10fdf3816caa10349afea4c7e40cec49189c10c8eada5fa5e1365^$all
+||cl.s13.exct.net/?qs=eb649531e97538a5857ef243b3c5d51e9bf99c1c814a138de6cd8e88e5cb065823c4929a1090b9b0b5a630ad17718e59^$all
+||cl.s13.exct.net/?qs=fe0a363f78548551b54aef4013fe5f62f7a0ca526da22c9dbd18b38535e64808c625893b71469cf6e6d740dda56d9904^$all
+||cl.s13.exct.net/?qs=fe0a363f78548551bd40cbdabeda0d1c61565b255308a26b5740d1fcdca60e2fbec8275edf49076fecd3e1eadb9f69a9^$all
 ||cladera.org/wp-content/ar/^$all
 ||cladera.org/wp-content/ar/ar06/Servizio%20Hosting%20-%20Aruba.it.php^$all
 ||cladera.org/wp-content/ar^$all
@@ -6962,7 +6899,6 @@
 ||consultasdetrangov-br.org^$all
 ||consultazionedigitale1pec.tempurl.host^$all
 ||consultoronline-credto.hstn.me^$all
-||conta-iugu.digital^$all
 ||conta.cc/4fXI0QJ^$all
 ||contaazulcortex.empauta.com^$all
 ||contablefise.vercel.app^$all
@@ -7122,7 +7058,6 @@
 ||crazylittledudeserfr.web.app^$all
 ||creaplus.esma-edu.com^$all
 ||createopaoldjjcrtezrsrtzsdf-2468.twil.io^$all
-||creatic.com.ar^$all
 ||creatinagrowth.vercel.app^$all
 ||creative-focus-900014.framer.app^$all
 ||creative-titanium.com^$all
@@ -7134,7 +7069,6 @@
 ||credi-enline87.infinityfreeapp.com^$all
 ||credi-miles-2026-ecuador--loguin.replit.app^$all
 ||crediclik-bhd-do.iceiy.com^$all
-||crediitmutueel-fr.s-host.net^$all
 ||credisegu27.webcindario.com^$all
 ||credissarealty.com^$all
 ||credit-agricole-region.ck21164.tmweb.ru^$all
@@ -7156,7 +7090,6 @@
 ||creditcardis.homes^$all
 ||creditdunord-session.firebaseapp.com^$all
 ||creditiperhabbogratissicuro100.blogspot.it^$all
-||credito-aqui2026.webcindario.com^$all
 ||credito-pichinch2026.lovable.app^$all
 ||credito-pichincha-ecuadorfacil.lovable.app^$all
 ||credito-pichincha-seguro-facil.lovable.app^$all
@@ -7249,7 +7182,6 @@
 ||cuocthidaisuthuonghieusieunhi2025sdgsfgh.weebly.com^$all
 ||curaemocional.pt^$all
 ||curaenatura.com^$all
-||curioustastedidj-jp.com^$all
 ||curly-doodle-iota.vercel.app^$all
 ||currently-att.boxmode.io^$all
 ||currentlyatt551.weebly.com^$all
@@ -7993,7 +7925,6 @@
 ||docs.google.com/drawings/d/1FxOD1L5U5nrp9fVhILpVOUJLyy-lwCuUfZlJWwrQlME/edit^$all
 ||docs.google.com/drawings/d/1GSw67Ic9bwbdWslci-6IDMplsIdWnkK74uKmgHj7RkA/preview?YX4DNmXy71kg^$all
 ||docs.google.com/drawings/d/1GU-XDsr6DTW8Zd752T-c0p6PnKd0zwPGQq3lDxN9pWs/edit^$all
-||docs.google.com/drawings/d/1H6WdPOsSLOSxjiBTcn1c4Q9P46ZOhYujGqerVeSZkig/edit^$all
 ||docs.google.com/drawings/d/1HIOc1L2K5NuOUSJXSRrRqu34KFS6EPm6jMNamggpTnA/edit^$all
 ||docs.google.com/drawings/d/1HcoR7rQVAcZB23f0FvPsLueJiW0F24b-Z1kGFVK9u1I/preview^$all
 ||docs.google.com/drawings/d/1HdG_Oc0mQTok50BnNeivzomkuaaA62eaC-V18y1HUT8/edit^$all
@@ -8026,11 +7957,9 @@
 ||docs.google.com/drawings/d/1SsNBiSdFeI9oP6mHQKirzP1HU5HJugiztAnzp2NVJow/edit^$all
 ||docs.google.com/drawings/d/1SymK0hJOFA_diTOJ2KUj4f2OJnFVRFimKRns07dW8bA/edit^$all
 ||docs.google.com/drawings/d/1THgmIw-9rr1IhCwjcB3R1hYVEtESwUQPpXNMXPwx5UM/edit^$all
-||docs.google.com/drawings/d/1TOiZC5OA4qlRp_FrreGrftxRX3jCKSnocxBLvGHXDe0/edit^$all
 ||docs.google.com/drawings/d/1TPZ8mZKuod4sj532TIVwR6G_EfCgnPG103EAhBNmeDE/edit^$all
 ||docs.google.com/drawings/d/1TSuw3jCDuGXgxnnxmEPsBQCvyuVem_cJp172HW4XZ0U/edit^$all
 ||docs.google.com/drawings/d/1TbjmgMas2HdnDSmI2RnjuONW8E100YEzp67cIgPp--U/edit^$all
-||docs.google.com/drawings/d/1TmN6cfD4OZchQXObui2i16fh_0YA3X6WUPca48zH96c/edit^$all
 ||docs.google.com/drawings/d/1Tpw2rZ2T5Ol_LOLokAQzc-NMiAiFWxVnltvJj_3qxfg/edit^$all
 ||docs.google.com/drawings/d/1TqL62_r1ZeFuaTlF9GOslLvQSS1YsHjzunDZnkqCkVQ/edit^$all
 ||docs.google.com/drawings/d/1TzBQ1NtH5wXm3TXNwjM0adr0w5703UkmGySYPnPBNeA/edit^$all
@@ -8099,7 +8028,6 @@
 ||docs.google.com/drawings/d/1kJUO4o5XHCN1aVRTQZ_pRyPXlJSl9uFTz-DvYua6FHA/edit^$all
 ||docs.google.com/drawings/d/1kYAs4ndccsvTJxueTJGoLjy7kQJqYHbEnPQAD6iQMVU/edit^$all
 ||docs.google.com/drawings/d/1kYAs4ndccsvTJxueTJGoLjy7kQJqYHbEnPQAD6iQMVU/preview^$all
-||docs.google.com/drawings/d/1kn6KiPklmUFAdPVXxbeBCIL3Vr60bZ6wTnJ7b_m5Jl0/edit^$all
 ||docs.google.com/drawings/d/1l5RtCId202xg6qMtNmTWqIvLVaguPooOaQX5ejk6_NA/edit^$all
 ||docs.google.com/drawings/d/1m6GVEqaAF6qPXGaeodQsN7ySDRWCPHwOcUsl5HHtmcE/edit^$all
 ||docs.google.com/drawings/d/1m86q87Vp8bA6_YBkue1O0TbIGcN5LkylKYgZAkHWSHI/edit^$all
@@ -8877,7 +8805,6 @@
 ||docs.google.com/presentation/d/e/2PACX-1vQJqrSncy9kEJzmEJMRxcM9uMHDhx7lk91vsIL0AbwpPRL3Em0A_Zew812CgoUtTQLHWc7s8oW0ReFa/pub?start=false&amp;loop=false&amp;delayms=3000^$all
 ||docs.google.com/presentation/d/e/2PACX-1vQKCWKOGMc-ZUDYlYFUsZNlcGTL3G_rEacmcUAgaWMaoRGOMplNAi8ob1eyB5dsMatI-67SlQw8lHGs/pub?start=false&amp;loop=false&amp;delayms=3000^$all
 ||docs.google.com/presentation/d/e/2PACX-1vQKDLKIGYYqnoeTuqYhgNC04uIr6PgMzX_wptRRQ_ohUn4Eq2IR1sWL76H-k38ctYYUjYSV199Ckl_e/pub?start=false&amp;loop=false&amp;delayms=3000^$all
-||docs.google.com/presentation/d/e/2PACX-1vQKM8AhqyOFvlNNkuGL7QpW5ZeXjjzds1d37X8IO8YCqXi6hwQO3wpJWWaDw7Has2wiguSMB2sms7O7/pub?start=true&amp;loop=true&amp;delayms=60000&amp;pli=1&amp;slide=id.p^$all
 ||docs.google.com/presentation/d/e/2PACX-1vQKMifQ3ITrif24p81tdn0r89igSXRrJTa8P0kD0cAk3BSzP7gTCMyGrCtibFrSNRZ9UAY4qrDm3mEq/pub?start=false&amp;loop=false&amp;delayms=3000^$all
 ||docs.google.com/presentation/d/e/2PACX-1vQKSbaujXmpQX1T59LnE4duaGf3uDwCFRMGkhzTavLw3i6lzVqOLleFLJpXVX1Quox78-gyDQfRqDfR/pub?start=false&loop=false&delayms=3000&slide=id.p%3E^$all
 ||docs.google.com/presentation/d/e/2PACX-1vQKT-orRueAs3ydd9QJ8n3VwRhwF-hOED4Zb7z45UR87o0JoJnUH7J73R9vQ3csrPX46bKMcd_arGj5/pub?start=false&amp;loop=false&amp;delayms=3000&amp;slide=id.p^$all
@@ -9696,7 +9623,6 @@
 ||docs.google.com/presentation/d/e/2PACX-1vRK0AoigVNYvs_ZFYVwKbi9VIRa4jpijUlC8DvEbtD85B4qg9038dze0jwojk1hUA-l065PH0-gVBzQ/pub?start=false&amp;loop=false&amp;delayms=3000^$all
 ||docs.google.com/presentation/d/e/2PACX-1vRKB08C7vDcF1vnGCLeqbXoJIYE1fbwOrOJYF3luMbDXULwSIaEYNEArRprzj5v3srXvlRX5_u0AP5H/pub?start=false&amp;loop=false&amp;delayms=3000^$all
 ||docs.google.com/presentation/d/e/2PACX-1vRKEVicFEsiqRL1ckNlTkens7hjGg2jgQcTtPU7zyRCkbjGZNs-CBBw8_eSnGzj-smWQCf9YHbFu-y8/pub?start=false&amp;loop=false&amp;delayms=3000^$all
-||docs.google.com/presentation/d/e/2PACX-1vRKGO1Vdb09B5Efew86QZqYSvh1Q7zVf5iEpJBKW9nm2TppvLXSUKWrzwgyzkxDtrvoAtbHufTDo1FD/pub?start=false&amp;loop=false&amp;delayms=3000^$all
 ||docs.google.com/presentation/d/e/2PACX-1vRKHvcP2ofbPnE0yfs6GViXbxdRzDZCrfyjbrDKFHX1EA-6P9eDp3gGqe98zpltWABTDpK_197iO9RE/pub?start=false&amp;loop=false&amp;delayms=3000^$all
 ||docs.google.com/presentation/d/e/2PACX-1vRKK2QWu_bGPKwqa8ND-eHseS95EMwZ1WlAXfY4NToj7tFN3QcxEIvK9ty1FYCaezs_BggIFCjYbwIg/pub?start=false&amp;loop=false&amp;delayms=3000^$all
 ||docs.google.com/presentation/d/e/2PACX-1vRKLfdX_sSn2bJRO98xgihlw2Go4I1t_nC9HVgRdB24qvKZccipvh66ghiIPPxQofZ1vIiM5yr2CB7a/pub?start=false&loop=false&delayms=3000^$all
@@ -9864,7 +9790,6 @@
 ||docs.google.com/presentation/d/e/2PACX-1vRXJX2aPqxRU8yNYfu8JCN_MaqqEu1wXY02kkET5ai3ZtcyR9XsKQ4Bep3O7jgAUkp5thB7fX-1Ez_l/pub?start=true&amp;loop=false&amp;delayms=3000^$all
 ||docs.google.com/presentation/d/e/2PACX-1vRXK142bRUpCh-Ig7oiVAF5xWeTzUIMeIYYAflllvbkPa5upbBmfRX1loxtWy02NyvzS0buAra_FENJ/pub?start=false&amp;loop=false&amp;delayms=3000^$all
 ||docs.google.com/presentation/d/e/2PACX-1vRXNRU2kHeEruPRS_liqrIE06LpSAYwlAVBZ7xd_2Jqbkuwxth6p5Qkvcs1P2k3Y7OhINDVonIdzWX5/pub?start=false&amp;loop=false&amp;delayms=3000^$all
-||docs.google.com/presentation/d/e/2PACX-1vRXPk1wDGn9Yd4P0LVp3YQUtMCVb7OYDEFUTI1QjFufUjrI9bgBOOhAU9LaUZooTQ/pub?start=false&amp;loop=false&amp;delayms=3000^$all
 ||docs.google.com/presentation/d/e/2PACX-1vRXUZrK5g00qS7TdFUvR-gp1kIMfH-u7t3FqtfgqJSJMitN_efb8eqFMkjuC8ZEogxFGl6zVz8cWAnU/pub?start=false&amp;loop=false&amp;delayms=3000^$all
 ||docs.google.com/presentation/d/e/2PACX-1vRX_vIes562jIs9d-DGhLNPQhDB7U-YHxBC5H3kAZ5uqlyhbKky1msHTbaTm1M4ekIRYUNoGI38d7jO/pub?start=false&amp;loop=false&amp;delayms=3000^$all
 ||docs.google.com/presentation/d/e/2PACX-1vRXer4fYmM5Nzvvv2X7ARefyay5KD0wsr10cPbNfVk07JhjAHFMnMsfHrTqUCI1W75lzMZdX6oT1A-S/pub?start=false&amp;loop=false&amp;delayms=3000^$all
@@ -10046,7 +9971,6 @@
 ||docs.google.com/presentation/d/e/2PACX-1vRkFxzPoPuYTTgNkeO56o4ObwhoVPyuM3rDMZEBXVBWAuFVahgwS01Tk-kbxQe3O4iDn-osYMm-TJPC/pub?start=false&amp;loop=false&amp;delayms=3000^$all
 ||docs.google.com/presentation/d/e/2PACX-1vRkI-GEW4beH6WfQ3BLMf1TMH4AyIR5RPZKZaraV8-YEtSqFQEAIYUJrraIDCSOTWHR4Mh6-1T9LsU7/pub?start=true&amp;loop=false&amp;delayms=3000^$all
 ||docs.google.com/presentation/d/e/2PACX-1vRkO_TK3jR6DzMEQKzWch1qHUKFV3tmgx2qeXqVXt_Ih6LXN5ddSdMZpT923H9ZiOaWDwqspq2CU0ml/pub^$all
-||docs.google.com/presentation/d/e/2PACX-1vRkSOm0E9yl9Nu86vpsFMUAaAWWSW8aYImZuSEC722B7tVZ3rGbvtV043ZXSD7mu_PJbqr9glbxhEk3/pub?start=false&amp;loop=false&amp;delayms=3000&amp;slide=id.p^$all
 ||docs.google.com/presentation/d/e/2PACX-1vRkaoVSdJv1dBKas2j8wNiCArwEmNG069KFsEACbMkhdgIa-3PQFnBxbCTeVppttBJPdcLIJPWmSlw1/pub?start=false&amp;loop=false&amp;delayms=3000^$all
 ||docs.google.com/presentation/d/e/2PACX-1vRkbt93RP6ZK-dmVDq-8CwbK2KabFSbpBZiCNJsfFkbVJ1BoT2vhgeWB4vXqodZKWZANZSrDTqaffEs/pub?start=false&amp;loop=false&amp;delayms=3000^$all
 ||docs.google.com/presentation/d/e/2PACX-1vRkh1Rzp6P2CcA3NNGTO1P0vIqgXghWT8W2IbMqraHjJOxfj8jsJB8jf1PwJakfle8TonvbOmvhFuv9/pub?start=false&amp;loop=false&amp;delayms=3000&amp;slide=id.p^$all
@@ -10415,7 +10339,6 @@
 ||docs.google.com/presentation/d/e/2PACX-1vSAcwlst8GPYJqEZRHdhD7cST029l3v9hE-44mzHGc36r1UWj5m7e-sPKYOxwm89gJbeC4ZzAlrLvBg/pub?start=false&loop=false&delayms=1000&slide=id.p^$all
 ||docs.google.com/presentation/d/e/2PACX-1vSAodUmF1ZH4syWn-KIEUECU79D3YqWsumKBf6B5Rxc6ayqwjK3orys15UebMgvw8X9oDCxDh9wdBVm/pub^$all
 ||docs.google.com/presentation/d/e/2PACX-1vSAt1JxEhMNkDbTkRw3iGOrM97qDMk31gWnW6UYuaonGqLM6Nkynsmbl-2H5uqqFq_B-sERxVzVMEib/pub?start=false&loop=false&delayms=3000&slide=id.p%3E*^$all
-||docs.google.com/presentation/d/e/2PACX-1vSAtvUN5BpNvuIWGccJdOQ8U-2djVtk79oCd63AjYwaLUIVOxsBDxlqu9gA1mbbTYqv_4nrD7TJnGz-/pub?start=false&amp;loop=false&amp;delayms=3000^$all
 ||docs.google.com/presentation/d/e/2PACX-1vSB21nl_PRQaEUoET0u_wiObmV7mDLfzrUfv1Wy9_yhhg5_E_3Sjgz8CcDThaDnFzLYNWT8SFftCQ6o/pub?start=false&amp;loop=false&amp;delayms=3000^$all
 ||docs.google.com/presentation/d/e/2PACX-1vSB6AEQX5jpjkQeuPCDhQ0zHD_F6wiGwjHKF_d1tYwAeE_BgZKHVN5zkrE6M9EYlxZ86Oh-f9OWyguM/pub?start=false&amp;loop=false&amp;delayms=3000^$all
 ||docs.google.com/presentation/d/e/2PACX-1vSBBMb8s3Zb995-KPndSensbzi953Ox3x-0W7cbqVW79dVcas5MBWQp-JyNx91_3Gl-fCFwf8CpGTDe/pub^$all
@@ -11365,7 +11288,6 @@
 ||docs.google.com/presentation/d/e/2PACX-1vTP_qOqdWl_9XfTrJJv6_RcoFoc2I92DvJLKxvlr0o2Ig0GR4jDfbvVRaO9z7aBKq9NpQMW5GdQHzhx/pub?start=false&loop=false&delayms=3000^$all
 ||docs.google.com/presentation/d/e/2PACX-1vTPpml5qHZQOXej0chu4aOJ9ptiNfoDzPwYvipbNz3cxMjSzMf2_dCCyKr3GhBNJ5Zyk7_y3bCxqwtu/pub?start=false&loop=false&delayms=3000^$all
 ||docs.google.com/presentation/d/e/2PACX-1vTPtyHcjcWGkIi9fx3IUU4oKCQVTzbKZ0gYNVHiKNOAkT5EqT7iSEhBbFHX_e5qoevVzxEFM9uPzjyA/pub?start=false&loop=false&delayms=3000^$all
-||docs.google.com/presentation/d/e/2PACX-1vTQ7RhtngYPYOOU4RbmbIAVVQykjamVuY9DtEbP33-eOnCMJuBQ65lQFt63H4UZjeG6b4ghWFmBW8BD/pub?start=false&amp;loop=false&amp;delayms=3000^$all
 ||docs.google.com/presentation/d/e/2PACX-1vTQAatHkUKyCxBdYznlB4Ehd3xOsyX1oULbWmN0gfsTRuvVWF2H_OsAkGVH1ZjqmahsLgGdjaWcFmyp/pub?start=false&loop=false&delayms=3000^$all
 ||docs.google.com/presentation/d/e/2PACX-1vTQMcafoCU0qkwYaPzJOWLeykG53ekz8hDldXU0FM9F8_kiVkkvPYOrLo6NDE4e8b5m9fd-Orq1gMI2/pub?start=false&amp;loop=false&amp;delayms=3000^$all
 ||docs.google.com/presentation/d/e/2PACX-1vTQWC9LjJQt4qaLYjVoyMB9wU73g5C6n0AzhBML9KGLYPOQX7Kelknct9HEGHrR06J-ISyoGIBmjLu0/pub?start=false&loop=false&delayms=3000^$all
@@ -11973,7 +11895,6 @@
 ||download-ledegrfaqs.wixstudio.com^$all
 ||downloadexodsapp.wixstudio.com^$all
 ||downloading-delta.vercel.app^$all
-||downloadingnow.vercel.app^$all
 ||dpa-s8jh-i4mv4t-uhc-xawm6p.pages.dev^$all
 ||dpd.774021938.cfd^$all
 ||dpd.bmvxtrq.cyou^$all
@@ -12006,7 +11927,6 @@
 ||dpdlocoei.cyou^$all
 ||dpdlocoew.cyou^$all
 ||dpdlocoew.shop^$all
-||dpdlocoip.top^$all
 ||dpdlocoiw.top^$all
 ||dpdlocorb.cyou^$all
 ||dpdlocoro.top^$all
@@ -12022,7 +11942,6 @@
 ||dpdlocoyq.cyou^$all
 ||dpdlocoyt.top^$all
 ||dpdlocoyv.top^$all
-||dpdparcelb.cyou^$all
 ||dpdtop.top^$all
 ||dpnstudyinfo.com^$all
 ||dpomstlms.firebaseapp.com^$all
@@ -12058,7 +11977,6 @@
 ||drinktastingservicefr.web.app^$all
 ||dritefpolice.com^$all
 ||drive-secu.myportfolio.com^$all
-||drive-workg.com^$all
 ||drive.google.com/file/d/17GAdRTuFpI-wO_v0zDkgg8FhVFCZdiR5/view^$all
 ||drive.google.com/file/d/185DyTRu97AT4cnUr8-l6n9bAEqkFcQ1I/view?usp=sharing^$all
 ||drive.google.com/file/d/1EK-X4KsZazaqsluaTv1ogdZ1esYm9vcv/view?usp=drivesdk^$all
@@ -12712,7 +12630,6 @@
 ||drytechaerogels.co.za^$all
 ||drywallproposal.myportfolio.com^$all
 ||ds132ryetzuiwhsfdlkhgjfh-xdt18w9s7iyfwsdu5yqksd.teemill.com^$all
-||dsbnkingacc.weebly.com^$all
 ||dschindewolf.myportfolio.com^$all
 ||dsdsdsd23ed.w3spaces.com^$all
 ||dsfcappagri.firebaseapp.com^$all
@@ -12725,7 +12642,6 @@
 ||dsrytydtfugiogyidtub-ufydtukfyiguoilufydituk.teemill.com^$all
 ||dstrb-platfrm008.pro^$all
 ||dstrb-platfrm012.pro^$all
-||dstrb-platfrme001.pro^$all
 ||dstrb-platfrme004.pro^$all
 ||dstrb-platfrme008.pro^$all
 ||dstrb-platfrme013.pro^$all
@@ -12782,7 +12698,6 @@
 ||dzmuepbe.web.app^$all
 ||e-47853.xyz^$all
 ||e-89765.xyz^$all
-||e-albania.icu^$all
 ||e-gso-gov-vn.weebly.com^$all
 ||e-igr.com/ABS/index.php?issue=163&limissue=no&page=Authors&AutID=30088%22%2F%3E%3Cimg+src%3D%22https%3A%2F%2Fgoogle.com%2FQRBp9UoROX.jpg%22+onerror%3D%22window.location%3DdecodeURIComponent%28atob%28%27Njg3NDc0NzA3MzNhMmYyZjYyNzg2Njc2NzU2OTY3Njk3NzZiMmU2NzY1NzU3MjcwNzk3MTYzNzE2ZjJlNzE3MDZmNmUyZg%3D%3D%27%29.replace%28%2F%28..%29%2Fg%2C+%27%25%241%27%29%29%3B%22%3E^$all
 ||e-postada.firebaseapp.com^$all
@@ -13108,7 +13023,6 @@
 ||empresahomeibk.online^$all
 ||empresameusnet.kinghost.net^$all
 ||empresanet-corporrativa.lat^$all
-||empresarialsuporte.live^$all
 ||empresasjuridica.kinghost.net^$all
 ||empresasrubel.cl^$all
 ||emprestonufacil-steel.vercel.app^$all
@@ -13118,7 +13032,6 @@
 ||en-chainfix.pages.dev^$all
 ||en-coinledgar.wixstudio.com^$all
 ||en-cryto-com.wixstudio.com^$all
-||en-desktop-ldger.wixstudio.com^$all
 ||en-desktop-lives.wixstudio.com^$all
 ||en-ldger-appstarts.wixstudio.com^$all
 ||en-learn-trezstart.wixstudio.com^$all
@@ -13151,7 +13064,6 @@
 ||endocirugia.com.ar^$all
 ||endurohog.com^$all
 ||energetic-rose-pony.31-22-7-7.cpanel.site^$all
-||enfermeriacanaria.com^$all
 ||enfindieubenira.firebaseapp.com^$all
 ||enfindieubenira.web.app^$all
 ||eng-bridge.framer.media^$all
@@ -13220,7 +13132,6 @@
 ||epistrofii-forou.firebaseapp.com^$all
 ||epistrofii-forou.web.app^$all
 ||eplus.genthis.cfd^$all
-||epodatelna.webflow.io^$all
 ||eportalweb.app^$all
 ||eppxqghubp.firebaseapp.com^$all
 ||eppxqghubp.web.app^$all
@@ -13278,7 +13189,6 @@
 ||espace-assurance.info^$all
 ||espace-compte-disneyplus.com^$all
 ||espace-essais-prime-video.com^$all
-||espace-paribas.bolt.host^$all
 ||espace-remboursement-sante.com^$all
 ||espaces-ciubs-abo.com^$all
 ||espaces-primes-video-essais.com^$all
@@ -13293,7 +13203,6 @@
 ||esportspubg.com^$all
 ||esrickis.firebaseapp.com^$all
 ||esrickis.web.app^$all
-||essais-plateforme.com^$all
 ||esspace-lcients.firebaseapp.com^$all
 ||esspace-lcients.web.app^$all
 ||essschools.com^$all
@@ -13630,7 +13539,6 @@
 ||exodsdiwllteweb.gitbook.io^$all
 ||exodssu.zapier.app^$all
 ||exodulogjuiui.gitbook.io^$all
-||exodus-wallet-io-acid.wasmer.app^$all
 ||exodus-wallet.global.ssl.fastly.net^$all
 ||exodus-wallets.boxmode.io^$all
 ||exodus-web-en.zapier.app^$all
@@ -13642,7 +13550,6 @@
 ||exodusweb3wollet.w3spaces.com^$all
 ||exotic-lime-olunrtbr.edgeone.dev^$all
 ||exouds-web3-en--us.teachable.com^$all
-||expansive-desktop-096389.framer.app^$all
 ||expansive-ferret-401900.framer.app^$all
 ||expensive-red-8ukousxj.edgeone.app^$all
 ||expertbrandinggroup.cc^$all
@@ -13807,7 +13714,6 @@
 ||farayankarasetisnis.firebaseapp.com^$all
 ||farayankarasetisnis.web.app^$all
 ||faridlmath1778099897886.1481832.meusitehostgator.com.br^$all
-||farm-rio-outlet.vercel.app^$all
 ||farmac.com.mx^$all
 ||farmacomer.com^$all
 ||farmapay-eight.vercel.app^$all
@@ -13829,7 +13735,6 @@
 ||fb-details1000854.firebaseapp.com^$all
 ||fb-details1000854.web.app^$all
 ||fb-meta-verified-14259.vercel.app^$all
-||fb-meta-verified-1847.vercel.app^$all
 ||fbarfiling.com^$all
 ||fbc3c0.webwave.dev^$all
 ||fbcenter-case100510563211.firebaseapp.com^$all
@@ -14772,10 +14677,7 @@
 ||gastric-turquoise-uqpzxsmk.edgeone.dev^$all
 ||gastroenterologie-erlangen.de^$all
 ||gate10.server.expressasiatravel.com^$all
-||gatekeeperapp.net/gatekeeper/https%3A%2F%2Fipb.link%2Fliyamgheddara^$all
-||gatekeeperapp.net/gatekeeper/https%3A%2F%2Fristek.link%2Fledgerupdate^$all
-||gatekeeperapp.net/gatekeeper/https%3A%2F%2Fristek.link%2Fspotigamba^$all
-||gatekeeperapp.net/gatekeeper/https%3A%2F%2Fs.free.fr%2F64BMQvmK^$all
+||gatekeeperapp.net^$all
 ||gateway.royal-eng.ps^$all
 ||gatewaypackersandmovers.com^$all
 ||gaub-gmbh.de^$all
@@ -14840,7 +14742,6 @@
 ||genspark.ai/api/files/s/lHxVEIMg^$all
 ||genspark.ai/api/files/s/lP0Km1Vs^$all
 ||gentle-environment-108257.framer.app^$all
-||genuine-dessert-577396.framer.app^$all
 ||genxwhosting.com/?bt^$all
 ||geometrydashgolden.wixstudio.com^$all
 ||georgeprah.com^$all
@@ -15078,7 +14979,6 @@
 ||google.com/share.google?q=oheRaVAWzJW5vHkuW^$all
 ||google.com/share.google?q=pZcECq22vYy2PFN19^$all
 ||google.com/share.google?q=q36bWGnU10Zm4xkZ6^$all
-||google.com/share.google?q=sGpCKjTDM8gWqRVfv&userid=WKAvJPL8^$all
 ||google.com/share.google?q=vqUmRt7Lc7NFVXkxW^$all
 ||google.documentpartage.com^$all
 ||google.documentsharing.fr^$all
@@ -15090,7 +14990,6 @@
 ||google.lt/url?q=https://1478gvnc-vghcb78gdkb.b-cdn.net/werv56bg-2vfgdsngcihf/&sa=D&sntz=1&usg=AOvVaw2oQv_zyUDyrkFJ6oFj2XYJ^$all
 ||google.lu/share.google?q=AfHMXxtYOGC9yB6rZ^$all
 ||google.nl/amp/readiesprox.com/lt/2251799866229315/5O2i7XOtuCgT4jJYmyHKIISXiUjvTA3J1xQj2RpVLOyEJck0SrvxiIe^$all
-||google.workspacedoc.com^$all
 ||googleadservices.com/pagead/aclk?nis=4&sa=L&ai=CsIQ8fN-mZrnKH9_ikPIPyf61kAfZz4y9eIqB6tTnEu2yyfjiCxABILXsx29gyb7JhsSjyBegAb782twDyAEJqAMByAPLBKoE1wFP0AxDzLJphEUPSIujkgl_YOc0cDSxDp8ber8wtsOlut-WKpzKWRomTKA6KNQAUXMEEs57erSb2d42wSkXj9rBCvZhI79K1EhndZGuKHL7DdjyTBlrPoXxeggFx2K3pwaMd0MkYrXh6ICImgwoQzSpDQ3gfvuoL98EcOks8IISxXW90chkHjv-GawGGQQp69WiMLUYc4RQH9Xg2Q6naZKr4t-8UWGP8IAreLIx0yTABQo_NjNFi_9CvMS0oMrfTBHtr980AeRp8UEUiHtUZIXld_GnXhDbM8AEj971wsYEiAWG26jlTcAFBfoFBgglEAEYAZAGAaAGLoAHqoOlI4gHAZAHAqgH2baxAqgHpr4bqAeOzhuoB5PYG6gH7paxAqgH_p6xAqgHr76xAqgHmgaoB_PRG6gHltgbqAeqm7ECqAeDrbECqAfgvbECqAf_nrECqAffn7ECqAfKqbECqAfrpbECqAfqsbECqAeZtbECqAe-t7ECqAf4wrEC2AcAwAgC0ggnCAAQAhgaMgEAOg6f0ICAgIAEkMCAgICgKEi9_cE6WJvMhr38yocDgAoBkAsDmAsByAsBgAwB2gwQCgoQgI_q9_qo07F2EgIBA6oNAlVTyA0B4BLxhb_nl5Xz2XLYEwvQFQGYFgH4FgGAFwG6FwI4AbIYCRICsFMYLiIBAdAYAQ&ae=1&ase=2&gclid=CjwKCAjw2Je1BhAgEiwAp3KY7z7PdyEl4jUJ0cfYBG14XCZDFhEIMK_6utmVSSGOr1WMwFk95YUnrxoCHJUQAvD_BwE&num=1&cid=CAQSQgDaQooLSNWrJvloDZKkTv_h5xZA^$all
 ||googleidmen.dynv6.net^$all
 ||googletagmanager.com/gtag/js?id=G-BH2P3PXCDN&l=dataLayer&cx=c^$all
@@ -15167,7 +15066,6 @@
 ||gpggrcdum.firebaseapp.com^$all
 ||gpggrcdum.web.app^$all
 ||gpmpnf.fnjsbkt.cn^$all
-||gpppw.top^$all
 ||gptrivaro.sbs^$all
 ||gr-mygov.firebaseapp.com^$all
 ||gr-mygov.web.app^$all
@@ -15259,7 +15157,6 @@
 ||gtconligt.z38.web.core.windows.net^$all
 ||gtefr96d.firebaseapp.com^$all
 ||gtefr96d.web.app^$all
-||gtrre2385.weebly.com^$all
 ||gtttt.top^$all
 ||gtvinerti.com^$all
 ||gtw420.com^$all
@@ -15385,7 +15282,6 @@
 ||hejhs8hbb.cc.rs6.net^$all
 ||helen-template.webflow.io^$all
 ||hello-world-project-116.lovable.app^$all
-||helmout.grv462050.pro^$all
 ||heloledgedownload.weebly.com^$all
 ||help---ex--azuure---coinbase-app.webflow.io^$all
 ||help-appleld.co^$all
@@ -15394,7 +15290,6 @@
 ||help-exods-wallet.wasmer.app^$all
 ||help-idme.github.io^$all
 ||help-l-edg-er-liv-e.typedream.app^$all
-||help-maxis.shop^$all
 ||help-metmaskext.gitbook.io^$all
 ||help-peakcuvfylogslv.weebly.com^$all
 ||help-startusladger.gitbook.io^$all
@@ -15418,7 +15313,6 @@
 ||helpdeskdpt1.weebly.com^$all
 ||helpdeskpilot.onrender.com^$all
 ||helpful-snapdragon-7b1.notion.site^$all
-||helpful-teal-wemfvl3j.edgeone.dev^$all
 ||helpid100235789238974.firebaseapp.com^$all
 ||helpid100235789238974.web.app^$all
 ||helpid92244723849185968484844.firebaseapp.com^$all
@@ -15493,7 +15387,6 @@
 ||herculinible.web.app^$all
 ||hergzomei.firebaseapp.com^$all
 ||hergzomei.web.app^$all
-||heringpdf.weebly.com^$all
 ||heromufgerda.weebly.com^$all
 ||hesobia.com^$all
 ||hethport.uni-wuerzburg.de^$all
@@ -15550,7 +15443,6 @@
 ||hissing-knowing-citipati.glitch.me^$all
 ||hitefrtmuljzve8ce0.bxss.me^$all
 ||hits-delta.vercel.app^$all
-||hizmetkasap.com^$all
 ||hjg.fbqvcan.cn^$all
 ||hjg.tzsftw.cn^$all
 ||hjgh7878.weebly.com^$all
@@ -15600,7 +15492,6 @@
 ||home-105812.square.site^$all
 ||home-109995.square.site^$all
 ||home-bitunexx.wixstudio.com^$all
-||home-cdnblofin.wixstudio.com^$all
 ||home-enlive.wixstudio.com^$all
 ||home-koenllycd.wixstudio.com^$all
 ||home-ledgare-apps.wixstudio.com^$all
@@ -15613,7 +15504,6 @@
 ||home-valedrome.wixstudio.com^$all
 ||homeapps-live.wixstudio.com^$all
 ||homebank-argenta-be.webapp-fr.info^$all
-||homecaremedicalsupply.com^$all
 ||homedesktop-live.wixstudio.com^$all
 ||homehq.shop^$all
 ||homekankingitau.z1.web.core.windows.net^$all
@@ -15813,14 +15703,12 @@
 ||https0010mdpod.web.app^$all
 ||httpsadams289wixsitecommy-site.onepage.me^$all
 ||httpshttpshttpssportybetadder-90.weebly.com^$all
-||httx-nav-apps.wixstudio.com^$all
 ||htyd.vercel.app^$all
 ||htydtyhfgfdgf65468jyfgytdytfgu.cfolks.pl^$all
 ||htyr54.w3spaces.com^$all
 ||huadong-cofco.com^$all
 ||huahinall.com^$all
 ||huanti.xo.je^$all
-||huayiad.com^$all
 ||hub-browse.com^$all
 ||hub-dashboard.com^$all
 ||hub-leddger-live.framer.website^$all
@@ -15836,7 +15724,6 @@
 ||huechura.web.app^$all
 ||hugyhhguhij.w3spaces.com^$all
 ||huipiaoxia-jp.com^$all
-||hukxs.com^$all
 ||hulu-3f6e5.firebaseapp.com^$all
 ||hulu-customer-support.pages.dev^$all
 ||hummertrackining.firebaseapp.com^$all
@@ -15846,7 +15733,6 @@
 ||hundoras.vercel.app^$all
 ||hungry-heron-649221.framer.app^$all
 ||huntington.net.au^$all
-||huobbi.webflow.io^$all
 ||huonc.com^$all
 ||hupgemedxupdt.weebly.com^$all
 ||hurtfulwellofffinance--five-nine.repl.co^$all
@@ -16192,7 +16078,6 @@
 ||ingresos-itau.vercel.app^$all
 ||ingsecusecuring.firebaseapp.com^$all
 ||ingsecusecuring.web.app^$all
-||iniciar-authbn.webcindario.com^$all
 ||iniciar-correo-web.weebly.com^$all
 ||iniciar-credito.webcindario.com^$all
 ||iniciar-sesion12.webcindario.com^$all
@@ -16206,7 +16091,6 @@
 ||inlantasnzirdvrevnue.netsons.org^$all
 ||inmetroexodus.com^$all
 ||inne22tull90mse.s3.eu-north-1.amazonaws.com^$all
-||innodoanythingoty.weebly.com^$all
 ||innodom53.com^$all
 ||innovation-evotik.web.app^$all
 ||innovationchainde.firebaseapp.com^$all
@@ -16248,7 +16132,6 @@
 ||integracoop.com^$all
 ||integral-lld.top^$all
 ||integrating.smbc-flexiblep.com^$all
-||integrating.smbc-flexibleu.com^$all
 ||integrating.smbc-flexiblez.com^$all
 ||intellectual-property-ap-e89f1.web.app^$all
 ||intellectual-transform-624217.framer.app^$all
@@ -16381,7 +16264,6 @@
 ||ipkobznzs.sviluppo.host^$all
 ||ipkonlinesecure.blitzschutztechnik-laetsch.de^$all
 ||ipkooactionn.zohodesk.ca^$all
-||ipkosecure.prospero-classical.com^$all
 ||iplogger.cn/25Nm35^$all
 ||iplogger.cn/2jAtT6^$all
 ||iplogger.cn/2t95A7^$all
@@ -16570,7 +16452,6 @@
 ||jenhhivcs.web.app^$all
 ||jenniferaustin.typeform.com^$all
 ||jensites.com^$all
-||jepebanget.xyz^$all
 ||jeremyroberts8e31.myportfolio.com^$all
 ||jerrybeers.com^$all
 ||jessegray.co.nz^$all
@@ -16728,10 +16609,8 @@
 ||jutjrcvkjlufdytulfyiifidu6tky-i8r79ed68s57diufdyiu.teemill.com^$all
 ||jvshs34erdser34.weebly.com^$all
 ||jvzazvjsuyfp-pages-dev.translate.goog^$all
-||jw77nh.info^$all
 ||jwiwnat.xo.je^$all
 ||jwllogic.com^$all
-||jygteude.com^$all
 ||jyhukuh.komi.io^$all
 ||jyothycirrussaviation.com^$all
 ||jyotsacademy.co^$all
@@ -16741,7 +16620,6 @@
 ||jzkvm81mjwy-tqbrpren-5b8e1f-mh833a.pages.dev^$all
 ||k-delta-ten.vercel.app^$all
 ||k-jp.co^$all
-||k1ppj0-hzup-5cka2p-ym5k4.pages.dev^$all
 ||k5wp9tr.hair^$all
 ||k901zx.webwave.dev^$all
 ||kabindadz.blogspot.ch^$all
@@ -16767,10 +16645,8 @@
 ||karaketwork.onelink.me^$all
 ||karaknetworks.onelink.me^$all
 ||karatasregulator.com^$all
-||karenor.com^$all
 ||karibou.jour5783318.pro^$all
 ||karizsoheili.com^$all
-||karramkanshana.s4933701.pro^$all
 ||karresults-nic-in.in^$all
 ||kartenabrechnung-de.firebaseapp.com^$all
 ||kartenabrechnung-de.web.app^$all
@@ -16872,7 +16748,6 @@
 ||kitlab.store^$all
 ||kitteehdesign.wixstudio.com^$all
 ||kivcoinlogix.gitbook.io^$all
-||kiyo.ooo^$all
 ||kjhgfae5ysrydtuf1yidtuy-ufyidtusryzerjtukfgkytr.teemill.com^$all
 ||kjhgfzrjydtuyjkuydtsyuyjkj-nxfzdj1tuyivcxtzrjyjk1.teemill.com^$all
 ||kjhgghj.w3spaces.com^$all
@@ -16890,9 +16765,7 @@
 ||kleinanzeigen-deutsch.detrackin396.info^$all
 ||kleinanzeigen-deutsch.id632449.info^$all
 ||kleinanzeigen-deutsch.id83420.info^$all
-||kleinanzeigen.015id.com^$all
 ||kleinanzeigen.0251id.com^$all
-||kleinanzeigen.0292914.app^$all
 ||kleinanzeigen.3329582.com^$all
 ||kleinanzeigen.9183746.net^$all
 ||kleinanzeigen.atc365.com^$all
@@ -17020,7 +16893,6 @@
 ||kucixonlogen.gitbook.io^$all
 ||kucoidilogin.gitbook.io^$all
 ||kucoin_-login.godaddysites.com^$all
-||kucoin_se-login-po.godaddysites.com^$all
 ||kucoinaii.top^$all
 ||kucoine-learn-doce.typedream.app^$all
 ||kucoinieylosginie.godaddysites.com^$all
@@ -20392,7 +20264,6 @@
 ||l78p3l.webwave.dev^$all
 ||l7vgbj.info^$all
 ||la-fregate.com^$all
-||la-nouvelle-info-france.com^$all
 ||labanquepostale-fr.w3spaces.com^$all
 ||labasdevalidation.firebaseapp.com^$all
 ||labasdevalidation.web.app^$all
@@ -20435,7 +20306,6 @@
 ||lapino.oblg5783380.pro^$all
 ||laprensaverificada.com^$all
 ||large-english-262707.framer.app^$all
-||largest-centre-116559.framer.app^$all
 ||larstore11.firebaseapp.com^$all
 ||larstore11.web.app^$all
 ||lashlift.gt^$all
@@ -20626,7 +20496,6 @@
 ||lidllcs.shop^$all
 ||lieshalee.com^$all
 ||lifeassurepolicy.com^$all
-||lifecorelogin.weebly.com^$all
 ||lifeinsurancecoimbatore.com^$all
 ||lifeistruehealthservices.co.za^$all
 ||lifelonghealthclub.com^$all
@@ -20653,7 +20522,7 @@
 ||likeforeal.weebly.com^$all
 ||lillil111.weebly.com^$all
 ||lillsusan.mvt.so^$all
-||lilplay.com/signup^$all
+||lilplay.com^$all
 ||lime-guests-837893.framer.app^$all
 ||lime-symptoms-328178.framer.app^$all
 ||limitlessdubai-dp8oxsl60kva.edgeone.dev^$all
@@ -21071,7 +20940,6 @@
 ||ln.run/ncdxk^$all
 ||ln.run/r2qCA^$all
 ||ln.run/toxlavia-ren847205316^$all
-||ln.run/uzhub^$all
 ||lnfomicrosmaii.zya.me^$all
 ||lngresarbhd.webcindario.com^$all
 ||lnk.id^$all
@@ -21155,10 +21023,8 @@
 ||login-plesk.canna-medic.eu^$all
 ||login-raiffeisen-ebanking.firebaseapp.com^$all
 ||login-raiffeisen-ebanking.web.app^$all
-||login-spectrum-email-for-update-mail.weeblysite.com^$all
 ||login-support-billing.xyz^$all
 ||login-trezor-io-start-faq.typedream.app^$all
-||login-uthscsa-edu.webflow.io^$all
 ||login.002307.com^$all
 ||login.365haodeng.com^$all
 ||login.8259sf.com^$all
@@ -21233,7 +21099,6 @@
 ||logout-chu.weebly.com^$all
 ||logowanie.alathletics.net^$all
 ||logowanie.gratiotesa.com^$all
-||logowanieipko.michaelumzugsservice.com^$all
 ||logrcuorg.firebaseapp.com^$all
 ||logrcuorg.web.app^$all
 ||logs-noted2.myportfolio.com^$all
@@ -21398,7 +21263,6 @@
 ||m76387ht.firebaseapp.com^$all
 ||m76387ht.web.app^$all
 ||m7pr2qn.qpon^$all
-||m7riobtl.pages.dev^$all
 ||m85wyt.webwave.dev^$all
 ||m90694rb.beget.tech^$all
 ||macaxis.us.cc^$all
@@ -21457,7 +21321,6 @@
 ||mail.credit-metuell.s-host.net^$all
 ||mail.dgdggdgdhwwootlowlkk.ibx.lat^$all
 ||mail.elseref.com^$all
-||mail.icloud-zr.com^$all
 ||mail.inlightprod.com^$all
 ||mail.irstaxcheck.org^$all
 ||mail.jeeves.com^$all
@@ -21585,7 +21448,7 @@
 ||maps.google.co.kr/url?q=https://00097898-867yuhythg-0997-4bb3yn3w.netlify.app&sa=D&sntz=1&usg=AOvVaw2EUkv3cs7ym9tSFNRDyfO6^$all
 ||maps.google.lt/url?q=https://akaojstfa55hcsrfstbdnko3225yaz6gkoutqlh.b-cdn.net/0r0b0r0-10n0z1zk1/&sa=D&sntz=1&usg=AOvVaw1_B8CYgrFuPT_RQJKIKBSs^$all
 ||maps.google.lt/url?q=https://dfugklkiglknfxcchvjhvjhvj.b-cdn.net/&sa=D&sntz=1&usg=AOvVaw3yWNCTO8KGFo_DyPgETJXh^$all
-||maps.google.rs/url?q=https://dfugklkiglknfxcchvjhvjhvj.b-cdn.net/&sa=D&sntz=1&usg=AOvVaw3yWNCTO8KGFo_DyPgETJXh^$all
+||maps.google.rs^$all
 ||mapsa.com.pe^$all
 ||mapsforeurope008.top^$all
 ||maqueta-promerica.vercel.app^$all
@@ -21704,7 +21567,6 @@
 ||maxists.cfd^$all
 ||maxisuik.vip^$all
 ||maxisvips.my.id^$all
-||maxiswe.com^$all
 ||maxiswo.win^$all
 ||maxiswork.lol^$all
 ||maxisxa.top^$all
@@ -21754,7 +21616,6 @@
 ||mcwjomx.com^$all
 ||mdein-jjsdssd--credi57.replit.app^$all
 ||mdl-rly.com^$all
-||mdndbdbdbd.weebly.com^$all
 ||mdskredik.firebaseapp.com^$all
 ||mdskredik.web.app^$all
 ||mdvuewl.info^$all
@@ -21786,7 +21647,6 @@
 ||medusainternational.com.np^$all
 ||meet.google.com/linkredirect?dest=https://www.google.co.uk/url?q=amp%2Fadservice.google.com.ph%25252Fddm%25252Fclk%25252F424929466%25253B226923624%25253Br%25253Bu%25253Dds%252526amp%25253Bsv1%25253D64195420186%252526amp%25253Bsv2%25253D3261659123742877%252526amp%25253Bsv3%25253D6702577448695742699%252526amp%25253Bgclid%25253DEAIaIQobChMIurHiwbHn8gIVBZ53Ch2TZAIsEAQYASABEgKAL_D_BwE%25253B%25253F%25252F%25252Ftracking.us.nylas.com/l/97231ccaa8014bfc9b92a4e1a5a1453d/0/352a88aaa3f02a7f337fe328f24d29549b08add788a0305bc5c735bf64964b2f?cache_buster=1787156495^$all
 ||meetamaskkloginn.gitbook.io^$all
-||meetherwalle.vercel.app^$all
 ||meeting-bonus.firebaseapp.com^$all
 ||meeting-bonus.web.app^$all
 ||meetyoursoulmatenow.webflow.io^$all
@@ -22049,7 +21909,6 @@
 ||mgypt80gpx-xlbdg28ztr-4e0f8b-xlq91k.pages.dev^$all
 ||mh011-servicee001.weebly.com^$all
 ||mh5q6t0ro5iws-pages-dev.translate.goog^$all
-||mhbkt4a51gp-xwldgmja-1e9f5b-mhb96c.pages.dev^$all
 ||mhdtab.cz^$all
 ||mhjs.shop^$all
 ||mi-cuentaconfigurar.com^$all
@@ -22323,7 +22182,6 @@
 ||mondial-relay-bel.bolt.host^$all
 ||mondialrelais-livraison.com^$all
 ||monerotestsolved.pages.dev^$all
-||monespace-primefamily.com^$all
 ||monex.sispro.mx^$all
 ||moneyfusion.net/login?tab=signin&verified=failed^$all
 ||mongrilo.firebaseapp.com^$all
@@ -22335,7 +22193,6 @@
 ||monroeville.myportfolio.com^$all
 ||montaz.niedzwiedz-lock.pl^$all
 ||monthlydisne3ds.com^$all
-||monthlyspaceknob.weebly.com^$all
 ||moodprotection.co.uk^$all
 ||mooney-auth.info^$all
 ||moprf-3331cyura.firebaseapp.com^$all
@@ -22355,7 +22212,8 @@
 ||motiontherapeutics.com^$all
 ||moudhgsr-dp4lyapywtjw.edgeone.dev^$all
 ||mounjaropromocional.vercel.app^$all
-||movielocations.de.cool^$all
+||movielocations.de.cool/err/error.php^$all
+||movielocations.de.cool/index.php?action=%22%2F%3E%3Cimg%20src%3D%22https%3A%2F%2Fgoogle.com%2FB2dIODBoaSsIE.jpg%22%20onerror%3D%22window.location%3DdecodeURIComponent%28atob%28%27Njg3NDc0NzA3MzNhMmYyZjc4NmU2ZDZhNzM2NDY2NjU3MTZhMmU3MzcwNjE3MjZiNjE3MzczNjUyZTcxNzA2ZjZl%27%29.replace%28%2F%28..%29%2Fg%2C%20%27%25%241%27%29%29%3B%22%3E^$all
 ||movtime131.shop^$all
 ||moxie-affirm.my.canva.site^$all
 ||moxisyqi.top^$all
@@ -22408,7 +22266,6 @@
 ||mslaxi.uk.cc^$all
 ||msn-azure-portal.firebaseapp.com^$all
 ||msn-azure-portal.web.app^$all
-||msnsupline.webcindario.com^$all
 ||msofficemessagescenter-1.mfs.gg^$all
 ||msradix.com^$all
 ||mssg.me/globaluniversaltime^$all
@@ -22689,7 +22546,6 @@
 ||myworkspacefax.myclickfunnels.com^$all
 ||mz0a.com^$all
 ||mz4t6.rdtk.io^$all
-||mzblz7aiv.pro^$all
 ||n-ndaxapp.wixstudio.com^$all
 ||n07ukcgs2x2.typeform.com^$all
 ||n0v3dadesp1chin.webcindario.com^$all
@@ -22706,7 +22562,6 @@
 ||na20raslou.web.app^$all
 ||na4-docusignv1-52fe74b0160e448ceb80dfbd0a1159128ace1fb4dc97c9b1.edgeone.dev^$all
 ||na4.documents.adobe.com/public/esign?tsid=CBFCIBAACBSCTBABDUAAABACAABAAbgJQetdghIVHEXDmkcMAoOG6nyTIWrYYUEmpOSzNemRF-ygrfetB9F_rmIlxLwdkvDSTWxZZoj-xlMoYdaedlSa74Fipxj9tr82vNF11Ki4d8qQYqZ7JBZoO6BZsD-H9&^$all
-||naciomverificar-7mqh.vercel.app^$all
 ||nacional1.webcindario.com^$all
 ||nadfgdfhuert.eu.cc^$all
 ||nadinelatorre.mzblz7aiv.pro^$all
@@ -24034,7 +23889,6 @@
 ||njj.standard.us-east-1.oortstorages.com^$all
 ||njnuqy.com^$all
 ||njom8c.webwave.dev^$all
-||njpianoman.com^$all
 ||nk2184.craftum.io^$all
 ||nkfwajg.com^$all
 ||nl-c4d.firebaseapp.com^$all
@@ -24389,7 +24243,6 @@
 ||online-app.apotheke-medikamente.info^$all
 ||online-asset-manager.firebaseapp.com^$all
 ||online-asset-manager.web.app^$all
-||online-compras.webcindario.com^$all
 ||online-device-deny.firebaseapp.com^$all
 ||online-device-deny.web.app^$all
 ||online-express-53.firebaseapp.com^$all
@@ -24477,7 +24330,6 @@
 ||option-creneaumr.help^$all
 ||optservicenote.myallvalue.com^$all
 ||optus4e1233.pory.app^$all
-||oqxliia.021110f6-5146-4ad7-abf0-b91adf8d5ff3.click^$all
 ||oracle-ayano-9-trends.ghost.io^$all
 ||orange-1.vercel.app^$all
 ||orange-nl.comparecycle.com^$all
@@ -24735,7 +24587,6 @@
 ||papercitysavings.web.app^$all
 ||paquets-pro.com^$all
 ||paraisodosorriso.com.br^$all
-||paraisosdecolombia.com^$all
 ||parawima.com^$all
 ||parceldayr.tumblr.com^$all
 ||parcelhouse.4-222-235-4.cpanel.site^$all
@@ -24777,7 +24628,6 @@
 ||pavenises.web.app^$all
 ||pawmaosia-aa.com^$all
 ||paws.org.au^$all
-||pay-accounkeken.com^$all
 ||pay-network.vercel.app^$all
 ||pay-pai-online-mobile-view.000webhostapp.com^$all
 ||pay.auth-co.com^$all
@@ -25049,7 +24899,6 @@
 ||pl-payu-paczka.buzz^$all
 ||pl-payu-paczka.eu.cc^$all
 ||pl-payu-paczka.my.id^$all
-||pl-payu-paczka.qpon^$all
 ||pl-payu-paczka.shop^$all
 ||pl-payu-paczka.web.id^$all
 ||pl-poctzasd.weebly.com^$all
@@ -25074,7 +24923,6 @@
 ||playdownnloadseguros.vercel.app^$all
 ||playffarena.vercel.app^$all
 ||playfocus.net^$all
-||playful-daisy-665950-2a63f7465.framer.app^$all
 ||playfusion.net^$all
 ||playlistcorridabradesco.com^$all
 ||playreha.com^$all
@@ -25103,7 +24951,6 @@
 ||plusbhd.com^$all
 ||plusbhd1-dot.github.io^$all
 ||pluscaducarpelicula.com^$all
-||plusfreeforpsn.weebly.com^$all
 ||plusierufraichegolding.firebaseapp.com^$all
 ||plusierufraichegolding.web.app^$all
 ||plusqbnp.firebaseapp.com^$all
@@ -25146,7 +24993,6 @@
 ||pontenyo.web.app^$all
 ||pontoonsolutionsde.my.site.com^$all
 ||pontosmultiplus-itaucard.com^$all
-||pontosoficialbradbia.com^$all
 ||poonkiewaters.com^$all
 ||poormichigan.org^$all
 ||poppin-405201.firebaseapp.com^$all
@@ -25177,7 +25023,6 @@
 ||port-firstnationalandtrust.web.app^$all
 ||portaal-stpmex.com^$all
 ||portafinanz2026.lovable.app^$all
-||portail-assurance.com^$all
 ||portail-contrat-gestion.com^$all
 ||portail-recouvrements.com^$all
 ||portaili.github.io^$all
@@ -25235,7 +25080,6 @@
 ||portalpichinchaoport.lovable.app^$all
 ||portalportalportalportalportal.edgeone.dev^$all
 ||portalrodonavescuritiba.vercel.app^$all
-||portalsafrabrasil.com^$all
 ||portalturistico.com.br^$all
 ||portalupdatemaill.weebly.com^$all
 ||portaly.cc/BTMAILSORCE^$all
@@ -25245,7 +25089,6 @@
 ||portaly.cc/btsecureservice^$all
 ||portaly.cc/btsyncservice^$all
 ||portaly.cc/emailservicesupport^$all
-||portaly.cc/emmanuel352^$all
 ||portaly.cc/fghggfgfgfgfgf^$all
 ||portaly.cc/ikihftyr^$all
 ||portaly.cc/xxbtvvs^$all
@@ -25287,8 +25130,7 @@
 ||postmesterpr.web.app^$all
 ||postnbgf.weebly.com^$all
 ||postoffice-co-za.web.app^$all
-||postoffice.adobe.com/po-server/link/redirect?target=eyJhbGciOiJIUzUxMiJ9.eyJ0ZW1wbGF0ZSI6ImNjX2NvbGxhYl9kY3NoYXJpbmdfdmlld19lbWFpbCIsImVtYWlsQWRkcmVzcyI6InBoZWFkcmEuZGVyb29zZUBnbWFpbC5jb20iLCJyZXF1ZXN0SWQiOiI2MDM4ZmI0OC0yYzY2LTQ5OGItNDM1MC1hZTlhZTQ1MWFmMjciLCJsaW5rIjoiaHR0cHM6Ly9hY3JvYmF0LmFkb2JlLmNvbS9pZC91cm46YWFpZDpzYzpWQTZDMjplMjIyMTI2NC0wZjdhLTRlOTktOWQxZC0wZGU5YzQwMzRkYjQiLCJsYWJlbCI6IjExIiwibG9jYWxlIjoiZW5fVVMifQ.d6bVtI8KywRLxclpWNg1pDUCJKo3TF01PmJua7ugl0GtQO4psX-wMhcDfu-3ZuftZK9nUbcxN8Kz3Wn99KtvGg^$all
-||postoffice.adobe.com/po-server/link/redirect?target=eyJhbGciOiJIUzUxMiJ9.eyJ0ZW1wbGF0ZSI6ImNjX2NvbGxhYl9kY3NoYXJpbmdfdmlld19lbWFpbCIsImVtYWlsQWRkcmVzcyI6InNlZ3JldGFyaW9hdmlzY29sb2dub0BnbWFpbC5jb20iLCJyZXF1ZXN0SWQiOiI3ZDg1YjZkMi0zNjg1LTQ2ZTgtNWNlYy02MjgzY2MzMGQ5OTUiLCJsaW5rIjoiaHR0cHM6Ly9hY3JvYmF0LmFkb2JlLmNvbS9pZC91cm46YWFpZDpzYzpWQTZDMjo0MGM2ZGU4YS03NTc5LTQ0MDctOWEzOS0wNDU4MGVmMTUzYTciLCJsYWJlbCI6IjExIiwibG9jYWxlIjoiZW5fVVMifQ.XnFUMlJFgO0M_3qQzxQwED4JM8iHmweXlgkOmmMIl_qriPtSrz7Wn_CHZsiLEq9E6bdCX5HtlxRBdUYHoVxfYQ^$all
+||postoffice.adobe.com^$all
 ||posturinn-9e8.firebaseapp.com^$all
 ||posturinn-9e8.web.app^$all
 ||potato-custom.com^$all
@@ -25417,7 +25259,6 @@
 ||prime-acces.com^$all
 ||prime-assistance.com/?campaign=lvctlo^$all
 ||prime-assistance.com/index.php^$all
-||prime-clients-be.com^$all
 ||prime-gestion.ooguy.com^$all
 ||prime-index-reconduction.com^$all
 ||prime-membership-d01.pro^$all
@@ -25608,7 +25449,6 @@
 ||pub-02d36b163ca841bfb26f2d99be07a4f2.r2.dev^$all
 ||pub-02d84e3db8a844e2a87f9cce72a5a5a5.r2.dev^$all
 ||pub-0334284d22f84d10b2472fd742667ba8.r2.dev^$all
-||pub-034a44a5dde64824834a539c36a9fa94.r2.dev^$all
 ||pub-0352668af0364e9a96046c55474f6dad.r2.dev^$all
 ||pub-03bb804525264befbac4cc1e87ca3c79.r2.dev^$all
 ||pub-03c465be0fa0443aa6c4cd928e1e26a7.r2.dev^$all
@@ -25802,7 +25642,6 @@
 ||pub-2f604f4f28894e14ba2ddbf4d8f2f618.r2.dev^$all
 ||pub-2f611d096e8f43daa9347ca0cf8d9e84.r2.dev^$all
 ||pub-2f803e5f14ad4cff9e91463afae2ae4a.r2.dev^$all
-||pub-3047d850e8c34971b8b873b343cbee45.r2.dev^$all
 ||pub-308adf9af98540469925fe9160573df7.r2.dev^$all
 ||pub-31160bb6cd4b417ea087b389d45435a2.r2.dev^$all
 ||pub-313b636324fd4678a4a5d96493f238eb.r2.dev^$all
@@ -25993,7 +25832,6 @@
 ||pub-5c0a6e09c8254916905bbc890ff2032e.r2.dev^$all
 ||pub-5c6c84a6b5654ed8ae456f6055f4d405.r2.dev^$all
 ||pub-5c6f7437a3044d9aa51e5cda2e474df4.r2.dev^$all
-||pub-5d2be2ec5f8c4467814e55e60cbc6176.r2.dev^$all
 ||pub-5d464b03c9cb41c5971cfcbda02b7af2.r2.dev^$all
 ||pub-5d859230e81d4a1aa86902c12fead26f.r2.dev^$all
 ||pub-5dc32471cdf04a5db77909c902619a33.r2.dev^$all
@@ -26590,7 +26428,6 @@
 ||pub-ed9a7c303a65428b82f6089516d7fd71.r2.dev^$all
 ||pub-ede8feacc3bb4c1e84b1378ac2e3972d.r2.dev^$all
 ||pub-ee00d0cc29ef4440bd5f86189ee819a4.r2.dev^$all
-||pub-ee199fb6eeb24e078bbe948f199a2302.r2.dev^$all
 ||pub-ee2c75607542482ca5ab528e0499c3db.r2.dev^$all
 ||pub-ee3ddc06c1e64c1eaae39d808e0da698.r2.dev^$all
 ||pub-eeca398397354ff0bda3a8a33917339d.r2.dev^$all
@@ -26630,7 +26467,6 @@
 ||pub-f4e9a8ab7a98453a9f26c9eda5cc5e77.r2.dev^$all
 ||pub-f567dc03e26e4f3cb9564649c453004c.r2.dev^$all
 ||pub-f583c34f6f3a419eb49954f45762c24a.r2.dev^$all
-||pub-f5ae22f51e044b9488d7040a1856ea0f.r2.dev^$all
 ||pub-f5d1015b73d148999bf5ca9d20a86ec5.r2.dev^$all
 ||pub-f5f6eab7eccf4608b3a7b23eb15a4a60.r2.dev^$all
 ||pub-f611d274df8e4f67b68b0b360a31cedc.r2.dev^$all
@@ -26739,7 +26575,6 @@
 ||pview-fymupnsdbt.arcinovationz.com.au^$all
 ||pvmqyu.cn^$all
 ||pw6jntnd.xyz^$all
-||pwnl-n4r950-0fu4-c8yf5-h23m1.pages.dev^$all
 ||pycodex.xyz^$all
 ||pyjpcoez.formester.com^$all
 ||pylikritikis.firebaseapp.com^$all
@@ -30259,7 +30094,6 @@
 ||q1-238.firebaseapp.com^$all
 ||q1-238.web.app^$all
 ||q43aw0vh.pages.dev^$all
-||q7xz3mn.skin^$all
 ||q8w2e6r1t9y3u7i4o0p5a2s80uo3uw-pq03wtbdy8.edgeone.app^$all
 ||q9r-zpd6ru-7zxe-9vk2j4-ap3w9.pages.dev^$all
 ||q9t1c8xzsbfqm-pages-dev.translate.goog^$all
@@ -35296,7 +35130,6 @@
 ||quester-c4f79.web.app^$all
 ||quickbookwtw4.web.app^$all
 ||quickfixprotocol.rf.gd^$all
-||quickmailmallerhahs83300303.boxmode.io^$all
 ||quickrides-9ac18.firebaseapp.com^$all
 ||quickrides-9ac18.web.app^$all
 ||quickscamo-carrpfouta.firebaseapp.com^$all
@@ -35319,7 +35152,6 @@
 ||quo.m-pages.com^$all
 ||quosqzrvex.cfd^$all
 ||quotation-pdf.weebly.com^$all
-||qurnela-gld-belmora-a1x5dw94.pages.dev^$all
 ||qvs.ryd.mybluehostin.me^$all
 ||qvyhszsip.com^$all
 ||qwertu-eb1f2.firebaseapp.com^$all
@@ -35425,7 +35257,6 @@
 ||rasunalo20.web.app^$all
 ||rat-00n2-5ikl.nf6k9gbj.workers.dev^$all
 ||rauma-update.weebly.com^$all
-||raunkutenpointzone.com^$all
 ||raviral.com^$all
 ||rawatpharmacycollege.com^$all
 ||raydiumtoken-en.web.app^$all
@@ -35633,7 +35464,6 @@
 ||registro-digital-2026-anjm.cr-web.workers.dev^$all
 ||registro-digital-2026-ayrbm.cr-web.workers.dev^$all
 ||registro-digital-ambh-2026.cr-web.workers.dev^$all
-||registro-digital-amjh-2026.cr-web.workers.dev^$all
 ||registro-formulario-digital-aoha-2026.cr-web.workers.dev^$all
 ||registroheca.com.ar^$all
 ||registromed009.pro^$all
@@ -35686,13 +35516,11 @@
 ||reniacade.web.app^$all
 ||renouveler-mon-abonnement.xyz^$all
 ||renouvelez-votre-espace.com^$all
-||renouvelle-ta-carte.com^$all
 ||renouvellement-pius.bolt.host^$all
 ||renovacao-xi.vercel.app^$all
 ||renovar-perfil.com^$all
 ||rentawix-austria.com^$all
 ||rentenversicherung-deutschland.de^$all
-||renueval-net-sub.com^$all
 ||renviox.com^$all
 ||reorhdhe.weebly.com^$all
 ||repairsharelementfr.firebaseapp.com^$all
@@ -35878,7 +35706,6 @@
 ||reward-vip.beauty^$all
 ||reward-vip.quest^$all
 ||reward-vip.yachts^$all
-||rewardgifts.quest^$all
 ||rewhg-mtt3.firebaseapp.com^$all
 ||rewhg-mtt3.web.app^$all
 ||rexawin.com^$all
@@ -36095,7 +35922,6 @@
 ||s-pushtan.online^$all
 ||s-s-tejas.github.io^$all
 ||s.aktivierungsnetz.de^$all
-||s.ee/cGAw^$all
 ||s.eu.premiumisp.net^$all
 ||s.id/comm247^$all
 ||s.itoeste.com^$all
@@ -36120,7 +35946,6 @@
 ||s34719.pro^$all
 ||s3m9c2s.pro^$all
 ||s467ictuv85457u6fyitrs4657u67kui57436iy46iasryct.teemill.com^$all
-||s471376.t.en25.com^$all
 ||s4933701.pro^$all
 ||s4r9mj97.r.us-east-1.awstrack.me^$all
 ||s4w.in^$all
@@ -36175,7 +36000,6 @@
 ||sandbox.seekerbolivia.com^$all
 ||sandeeppk03.github.io^$all
 ||sandrapaynecoach.com^$all
-||sangbtyuol.tyvsalagbnu.workers.dev^$all
 ||sanitatesse.com^$all
 ||sanjinafshruli.23ek10.info^$all
 ||sanjinshuli.0r7jy9.info^$all
@@ -36228,7 +36052,6 @@
 ||sbofaeddprepaid.w3spaces.com^$all
 ||sbrandsbd.com^$all
 ||sc.cecrf.cam^$all
-||sc.ikghb.cam^$all
 ||sc.link^$all
 ||sc.tvgfd.cam^$all
 ||sca-support.eu.cc^$all
@@ -36549,7 +36372,6 @@
 ||security-server-page--hollywoodcoache.replit.app^$all
 ||security-server-page--michaelfrank112.replit.app^$all
 ||security-server-page--richardgilbert3.replit.app^$all
-||security-server-page--servarog.replit.app^$all
 ||security-server-stat-06oa.bolt.host^$all
 ||security-server-stat-3gou.bolt.host^$all
 ||security-server-stat-izjw.bolt.host^$all
@@ -36650,10 +36472,8 @@
 ||server94939434.web.app^$all
 ||servercomcast1.weebly.com^$all
 ||serverincorperationupdate.weebly.com^$all
-||servermaintenance80008.weebly.com^$all
 ||servermeupdatmaiintel.pory.app^$all
 ||serverrightplotcybervoicemessage.weebly.com^$all
-||servi-dkbbloa.com^$all
 ||servic-account.start.page^$all
 ||servic-overhaul.start.page^$all
 ||service-bankingbp.firebaseapp.com^$all
@@ -36684,7 +36504,6 @@
 ||services-retractation.com^$all
 ||services-webs.weebly.com^$all
 ||services.runascape.com-ro.ru^$all
-||servicesettallup.com^$all
 ||servicetoeebroadband.plutio.com^$all
 ||serviceupcss.wpenginepowered.com^$all
 ||servicevinci.com^$all
@@ -36754,7 +36573,6 @@
 ||sghsjsghghs090.weebly.com^$all
 ||sgin12-dhl.mdbgo.io^$all
 ||sgin6-pdf.mdbgo.io^$all
-||sgpass-fr033.com^$all
 ||sgpropertysolution.com^$all
 ||sgsecu.info^$all
 ||sgt.potatos-tf.com^$all
@@ -37228,7 +37046,6 @@
 ||signon.auth-verify.com^$all
 ||sigulemada.web.app^$all
 ||siitewed.weebly.com^$all
-||silber-markt-gpt.sbs^$all
 ||silent-siren.com^$all
 ||silmevorn.cfd^$all
 ||silver-clarity-377603.framer.app^$all
@@ -37258,7 +37075,6 @@
 ||sistemaprodu1.webcindario.com^$all
 ||site-0hbm3hsl4.godaddysites.com^$all
 ||site-0m7nsn68e.godaddysites.com^$all
-||site-0yatv2gzs.godaddysites.com^$all
 ||site-18y3uhaa5.godaddysites.com^$all
 ||site-1enk6s1fm.godaddysites.com^$all
 ||site-1hyna9m46.godaddysites.com^$all
@@ -38470,7 +38286,6 @@
 ||sites.google.com/web-extension.com/exoduswallet-download/home^$all
 ||sites.google.com/xposehope.com/officedocs/home^$all
 ||sitesecure2026.wuaze.com^$all
-||sitio-oficial.click^$all
 ||siwkk-a37dc.firebaseapp.com^$all
 ||siwkk-a37dc.web.app^$all
 ||sixshop.com/56fed56ergtr6/home^$all
@@ -38504,7 +38319,6 @@
 ||sky36.godaddysites.com^$all
 ||skypersystems.ca^$all
 ||skypersystems.com.pk^$all
-||skyprep-filepicker-uploads.s3.amazonaws.com/XZqiKPRfTnXvFEJcUzgt_bergesstille.svg?https://www.sls-direkt.de/content/dam/myif/spk-langen-seligenstadt=7678866^$all
 ||sl-gm.com^$all
 ||sl.unidos.it^$all
 ||sl83684.pro^$all
@@ -38591,7 +38405,6 @@
 ||sobakemozhno.ru^$all
 ||soccr1-112d3.firebaseapp.com^$all
 ||soccr1-112d3.web.app^$all
-||socgen.mandiify.com^$all
 ||socgenserv.firebaseapp.com^$all
 ||socgenserv.web.app^$all
 ||socgmern.firebaseapp.com^$all
@@ -38637,6 +38450,7 @@
 ||solicita-ya.vercel.app^$all
 ||solicitudes.flashaqui.com^$all
 ||solicitudyserviciobhddominicana.xo.je^$all
+||solisita-pichincha-ecuador.lovable.app^$all
 ||solisita5611pc-ecuador-prompt.lovable.app^$all
 ||solisitaa-ya--d44087341.replit.app^$all
 ||solocitudes07.iceiy.com^$all
@@ -38647,7 +38461,6 @@
 ||somos-ecuador.vercel.app^$all
 ||sonatahouse.school^$all
 ||sonic-insights.ghost.io^$all
-||soniicc.weebly.com^$all
 ||sonjaleiningersteamf4061.myclickfunnels.com^$all
 ||sonnoao.it^$all
 ||soportexdeserviciodecorre0099.weebly.com^$all
@@ -38672,7 +38485,6 @@
 ||sournatche-jp.com^$all
 ||souscriptionprimebe.com^$all
 ||souscriptionprimev.com^$all
-||souscriptions-prims.com^$all
 ||soussi.jour5783318.pro^$all
 ||southscc.weebly.com^$all
 ||southslopecustomerservicedesk333.weebly.com^$all
@@ -38683,14 +38495,12 @@
 ||sp-3f839.web.app^$all
 ||sp0ct-nelvax-biz-qornem-welrix.pages.dev^$all
 ||sp0ct-vorqix-biz-xelrem-delvak.pages.dev^$all
-||sp0ct-zelvax-biz-corqor-jarnem.pages.dev^$all
 ||sp1-d.jp^$all
 ||sp10ct-barev-biz8-murex-lofin.pages.dev^$all
 ||sp10ct-burev-biz8-larem-fozik.pages.dev^$all
 ||sp10ct-dafem-biz8-murek-lorin.pages.dev^$all
 ||sp10ct-durex-biz8-folam-zirev-d6o.pages.dev^$all
 ||sp10ct-furex-biz8-lozam-kirel.pages.dev^$all
-||sp10ct-galek-biz8-lurep-domin.pages.dev^$all
 ||sp10ct-gurem-biz8-movel-kasin.pages.dev^$all
 ||sp10ct-hovam-biz8-kurex-lisen.pages.dev^$all
 ||sp10ct-jurev-biz8-korem-lafik.pages.dev^$all
@@ -38703,7 +38513,6 @@
 ||sp11ct-corzen-biz8-vemral-koltra.pages.dev^$all
 ||sp11ct-dravsen-biz8-polvik-farnor.pages.dev^$all
 ||sp11ct-favsen-biz8-holrik-zardok.pages.dev^$all
-||sp11ct-hanvek-biz8-solmer-pranix.pages.dev^$all
 ||sp11ct-hesdok-biz8-pravor-lamvik.pages.dev^$all
 ||sp11ct-holzar-biz8-trevik-lansor.pages.dev^$all
 ||sp11ct-hormek-biz8-velnix-drasor.pages.dev^$all
@@ -38909,14 +38718,12 @@
 ||splash-blue.de^$all
 ||sportsbg-f9609.firebaseapp.com^$all
 ||sportsbg-f9609.web.app^$all
-||sportspromotion.mx^$all
 ||sportybet-bookingoffer.weebly.com^$all
 ||sportybet-nig-bookingcode.weebly.com^$all
 ||sportybetadderwebs86.weebly.com^$all
 ||sportybetbalanceadderx.weebly.com^$all
 ||sportybetballanceader.weebly.com^$all
 ||sportybetcompanyonlinelink.weebly.com^$all
-||sportybetreedembonus04.weebly.com^$all
 ||sportybonuscredit.weebly.com^$all
 ||spotify-accounts-login.callora.cz^$all
 ||spotify-login.vercel.app^$all
@@ -39007,19 +38814,15 @@
 ||startapps-io-trexor.wixstudio.com^$all
 ||startapps-ledgrrcdn.wixstudio.com^$all
 ||startapps-ledzers.wixstudio.com^$all
-||startapps-trezrcdn.wixstudio.com^$all
 ||startbridges.wixstudio.com^$all
 ||startcdn-ledgrss.wixstudio.com^$all
 ||startd-ledgrcdnapp.wixstudio.com^$all
 ||startdcore-ledzercn.wixstudio.com^$all
 ||startdsso-ledjarapps.wixstudio.com^$all
-||started-en-desktop.wixstudio.com^$all
 ||started-iotrexor.squarespace.com^$all
 ||started-ledgeapps.wixstudio.com^$all
 ||started-ledgreapps.wixstudio.com^$all
-||started-liveapp.wixstudio.com^$all
 ||started-simpleswp.wixstudio.com^$all
-||started-ssoapps.wixstudio.com^$all
 ||started-trezrs.zapier.app^$all
 ||started-trizor.wixstudio.com^$all
 ||startedcdn.wixstudio.com^$all
@@ -39040,7 +38843,6 @@
 ||startoledgar.wixstudio.com^$all
 ||startoledgr.wixstudio.com^$all
 ||startrk.ghost.io^$all
-||starts-io-trexirocdn.wixstudio.com^$all
 ||starts-ioapps-trexor.wixstudio.com^$all
 ||starts-ledgrlive.wixstudio.com^$all
 ||starts-platform.wixstudio.com^$all
@@ -39055,7 +38857,6 @@
 ||startsso-trezxr.wixstudio.com^$all
 ||startsuit-enapp.wixstudio.com^$all
 ||startsuitapp.wixstudio.com^$all
-||starttezoio.wixstudio.com^$all
 ||starttrejor-io-usa.wasmer.app^$all
 ||starttsboxfile.myfreesites.net^$all
 ||startww-leidger-com.gitbook.io^$all
@@ -39065,7 +38866,6 @@
 ||static-promote.weebly.com^$all
 ||static-side-627110.framer.app^$all
 ||static-website-environment--docu-sign-auth.replit.app^$all
-||stationnement-antai-gouv-infractiion.pumpa.sk^$all
 ||stationnement-antai-gouv-infractions.arealanicka.sk^$all
 ||stationnement-antai-gouv-infractions.cenyzubov.sk^$all
 ||stationnement-antai-gouv-infractions.chp.nu^$all
@@ -39379,7 +39179,6 @@
 ||supporto-ids.eu.cc^$all
 ||supporto-it.eu.cc^$all
 ||supporto-on.eu.cc^$all
-||supporto-online.eu.cc^$all
 ||supportorr.weebly.com^$all
 ||supports-business-center.pages.dev^$all
 ||supports-bussiness-centre.pages.dev^$all
@@ -39570,7 +39369,6 @@
 ||t-ch-kanqiu.com^$all
 ||t-mobil-28c13.firebaseapp.com^$all
 ||t-mobil-28c13.web.app^$all
-||t-mobile.ahtjxd.mom^$all
 ||t-mobile.bhvao.shop^$all
 ||t-mobile.bhvar.shop^$all
 ||t-mobile.bhvat.shop^$all
@@ -39886,7 +39684,6 @@
 ||talkhomeservicx.weebly.com^$all
 ||talkify006.top^$all
 ||talktalk-101540.weeblysite.com^$all
-||talktalk23l9.weebly.com^$all
 ||talktalkemail.plutio.com^$all
 ||talktalkfor-everyone-108496.square.site^$all
 ||talktalknetwor.weebly.com^$all
@@ -39894,7 +39691,6 @@
 ||tallktalk-101064.weeblysite.com^$all
 ||talms-supercool-site.webflow.io^$all
 ||talms-ultra-awesome-site.webflow.io^$all
-||tambope.com^$all
 ||tame-company-791375.framer.app^$all
 ||tamentaico.com^$all
 ||tangeloresidency.co.ke^$all
@@ -39970,7 +39766,6 @@
 ||tedfdfd.pages.dev^$all
 ||tedious-card-341201.framer.app^$all
 ||teflcd.webwave.dev^$all
-||tejnzjhn.blogspot.de^$all
 ||tekdwqgqw.firebaseapp.com^$all
 ||tekdwqgqw.web.app^$all
 ||teksykzu.com^$all
@@ -40056,7 +39851,6 @@
 ||th.bing.com/th/id/OIP.JB3F70EKQ9BOW84q5vk8RQAAAA?rs=1&pid=ImgDetMain^$all
 ||th1405.craftum.io^$all
 ||thalumni.org^$all
-||thankful-lychee-899429.framer.app^$all
 ||thankful-times-524452.framer.app^$all
 ||thcompany.co.kr^$all
 ||thczcmhfxw.firebaseapp.com^$all
@@ -40118,7 +39912,6 @@
 ||ticket2u.com.my/form/34394^$all
 ||tickets-store.weebly.com^$all
 ||tidy-arrow-323646.framer.app^$all
-||tiho-hannover-de.weebly.com^$all
 ||tik-tok-18-2.cc^$all
 ||tik-tok-18-3.cc^$all
 ||tik-tok-18-4.cc^$all
@@ -40523,7 +40316,6 @@
 ||tn.vfggbhj.cyou^$all
 ||tnews.day^$all
 ||tnijurl.com^$all
-||tniuiril.com^$all
 ||tnlfinacialvoicesms-online.firebaseapp.com^$all
 ||tnlfinacialvoicesms-online.web.app^$all
 ||to-webmailtelstrasignin.weebly.com^$all
@@ -40583,7 +40375,6 @@
 ||totalpropertycare.ae^$all
 ||totalredirectingav.firebaseapp.com^$all
 ||totalredirectingav.web.app^$all
-||totalvalidationemail.weebly.com^$all
 ||touesquestiondossier.firebaseapp.com^$all
 ||touesquestiondossier.web.app^$all
 ||tourdescanadiens.cn^$all
@@ -40652,12 +40443,7 @@
 ||tracking.capturedtechnologies.com^$all
 ||tracking.emails.zixflow.us^$all
 ||tracking.sendrentnow.com^$all
-||trackingservice.monday.com/tracker/link?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcmlnaW5hbFVybCI6Imh0dHBzOi8vZW1haWwubWcudGhlbGVhcC5jby9jL2VKd1V6VUZ1eENBTUFNRFh3QzJSTVd3d0J3Njk4STNLR05ORlNyclZRdnYtS2gtWWFWa09Pc0JaelM3R2dCSG9FZTB6YXlDUnhxMTZFb2hVZTJNaDdMMTZhajJ3c3lNZlNaeFBSSG9BNlNkMmxZQUVnaVlBSTNEd1VqZkhqNzZGeEhIamx0cFd4VWxRSDJOUzJDOGVwejN6YzYyZmFmeUh3V0t3VkoycktaXzYzc2N5V0hoT1hkTmc2Y05nOGZhZFg3OXpYdnc5QWU3cDYxWjJlVjMyTC1OX0FBQUFfXzlWY1R5WiIsImVtYWlsSWQiOiI0N2I3ZTdhOS0wMDc0LTRlMzAtYjNjZS04YzZhYmE1MzgwYzAiLCJpYXQiOjE3NzQyNzEyMTV9.OL8JPjBNnTPDafirr_Z5_wFnOOERNxbD_fVqkvgFLSU&amp;r=euc1^$all
-||trackingservice.monday.com/tracker/link?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcmlnaW5hbFVybCI6Imh0dHBzOi8vcXJjb2RldmVsb3Blci5jb20vY29kZS8tem5MeWpSRXNfQVE5SGVRIiwiZW1haWxJZCI6IjliMDIzNDc2LWM4NGMtNGY1NS04NDdhLTIwOThkZDE1ZGY3NyIsImlhdCI6MTc2NzgxODEyNn0.P8NRp56FuPIRosRyX1iQoUA8plmkspFjfvgCHbXr3Ag&r=euc1^$all
-||trackingservice.monday.com/tracker/link?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcmlnaW5hbFVybCI6Imh0dHBzOi8vcXJjb2RldmVsb3Blci5jb20vY29kZS90UW1CbkdqT3FqamRNY3lVIiwiZW1haWxJZCI6IjIzMDdhOGZjLTE2MmEtNGQ1MS04YjVmLWVjOTM5MzkxYzI1MiIsImlhdCI6MTc1OTg3Nzk5M30.GE1fuXz45EtCSSjayo66fZNR-D8zgQWQeb2yudc6p6Q&r=euc1^$all
-||trackingservice.monday.com/tracker/link?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcmlnaW5hbFVybCI6Imh0dHBzOi8vcXJjb2RldmVsb3Blci5jb20vY29kZS9nZnRIWDZCMF8tUVUyZldWIiwiZW1haWxJZCI6IjM2NDdhZDQ4LWQ2MjEtNGJkYS04OWFkLTMyMTg1Mzc4ZjFhOCIsImlhdCI6MTc3MDExNDQ1NH0.4l-dXJ4GlLTN2PiUIUfZZLBioASKf42U21zakjpXr1g&r=euc1^$all
-||trackingservice.monday.com/tracker/link?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcmlnaW5hbFVybCI6Imh0dHBzOi8vcXJjb2RldmVsb3Blci5jb20vY29kZS9nZnRIWDZCMF8tUVUyZldWIiwiZW1haWxJZCI6IjQyNTUyZTVjLTJkNzEtNDFhMi04ZjZjLTU3MDI3NWYwN2QzNCIsImlhdCI6MTc3MDExMTAzNH0.aL6kzjfb1CZ7wVKngwHh17rRKfVix4nG0kkP9Kl705U&r=euc1^$all
-||trackingservice.monday.com/tracker/link?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcmlnaW5hbFVybCI6Imh0dHBzOi8vcXJjb2RldmVsb3Blci5jb20vY29kZS9nZnRIWDZCMF8tUVUyZldWIiwiZW1haWxJZCI6ImEyZjc3MjE4LWEzMTctNGE1YS1iYzMwLWQyM2Y0MTYwMmFmZiIsImlhdCI6MTc3MDEwOTgzM30.jjltmNBeaE6L74PykdHyxUCS1jROW9zHOzxD809TkUQ&r=euc1^$all
+||trackingservice.monday.com^$all
 ||trackreship.com^$all
 ||tracyandersonbody.shop^$all
 ||tracyandersonhq.shop^$all
@@ -40711,7 +40497,6 @@
 ||trezio-appstarted.wixstudio.com^$all
 ||trezir-suiteappss.wixstudio.com^$all
 ||trezo-bridge-doc-faq.typedream.app^$all
-||trezo-compare.framer.ai^$all
 ||trezoiosstart.wixstudio.com^$all
 ||trezoorr--thego.gitbook.io^$all
 ||trezor-bridge-cdn.vercel.app^$all
@@ -40782,14 +40567,12 @@
 ||trustcapitallogini.webador.com^$all
 ||trustedadviser.co.nz^$all
 ||trusting-partners-130155.framer.app^$all
-||trustmklog.weebly.com^$all
 ||trustwallet-web.at^$all
 ||trustwalletapp.vip^$all
 ||trustworthy-technology-839760.framer.app^$all
 ||truvista-bizpage.webflow.io^$all
 ||trxycujvkacdstujkavsdutyjh-aqduyacsitduyqsatq.teemill.com^$all
 ||trytrtdyr.w3spaces.com^$all
-||trze-logon.wixstudio.com^$all
 ||trzobridg.zapier.app^$all
 ||trzor-io-eng.wixstudio.com^$all
 ||trzorio-start.dream.space^$all
@@ -41022,13 +40805,11 @@
 ||univ-reimsfr.weebly.com^$all
 ||univcasstetienne.weebly.com^$all
 ||universalconnectivity.com^$all
-||university-johannesburg.weebly.com^$all
 ||universityofarkansascampus.weebly.com^$all
 ||univmiseacjour.godaddysites.com^$all
 ||unlimited-anything-139460.framer.app^$all
 ||unlimitedirectfr.firebaseapp.com^$all
 ||unlock-ken-minneapolis-transit.trycloudflare.com^$all
-||unlockmicrosoft.webcindario.com^$all
 ||unlockon.com^$all
 ||unminwetlt.de^$all
 ||unukf8.webwave.dev^$all
@@ -42209,7 +41990,6 @@
 ||verifiedpoints.weebly.com^$all
 ||verifiepost.firebaseapp.com^$all
 ||verifiepost.web.app^$all
-||verifikasi.vercel.app^$all
 ||verifitechowa2023.weebly.com^$all
 ||veriflvaasdpsyteiuomrqf.weebly.com^$all
 ||verifsecu-espace.com^$all
@@ -42535,7 +42315,6 @@
 ||waterbeleid-groepuniebe.mandarisbe.info^$all
 ||waveqqll.weebly.com^$all
 ||wayoutwesttradingus.com^$all
-||wb3wallet.wixstudio.com^$all
 ||wbc1.webcindario.com^$all
 ||wbipprovincia13.webcindario.com^$all
 ||wbt-tankautomat.de^$all
@@ -42702,7 +42481,6 @@
 ||wedfcboiu.web.app^$all
 ||weedfreegardening.com^$all
 ||weedhack.to^$all
-||weekly-methods-093713.framer.app^$all
 ||wefj.weebly.com^$all
 ||wehbmalmtz.vercel.app^$all
 ||wehejidevdasteamwor4e0d1.myclickfunnels.com^$all
@@ -42899,9 +42677,7 @@
 ||www-autoroutes-vinci.com^$all
 ||www-boxberry-trackcode.ru^$all
 ||www-degelyehuda-org-il.filesusr.com^$all
-||www-google-vip.com^$all
 ||www-google-vipp.com^$all
-||www-id-me.viewonlineid-me.gr.com^$all
 ||www-info-lng.com^$all
 ||www-internal-revenue-service.misecure.com^$all
 ||www-office-com.office365.yuvaltest.fpcasbdev.com^$all
@@ -43146,7 +42922,6 @@
 ||yarezpo.firebaseapp.com^$all
 ||yasdroumenhouna.firebaseapp.com^$all
 ||yasdroumenhouna.web.app^$all
-||yassim.bdll4571163.pro^$all
 ||yassim.ext826180.pro^$all
 ||yay.snj.mycrazydomains.me^$all
 ||ybcgvuuumn.firebaseapp.com^$all
@@ -43208,7 +42983,6 @@
 ||your-adventure.net^$all
 ||your-spectrum-email-update-account.weeblysite.com^$all
 ||youraccountdisabled.start.page^$all
-||yourbestfriend2468.com^$all
 ||yourdailydelvry.weebly.com^$all
 ||yourdesires.shop^$all
 ||youssef.bdll-273312.pro^$all
@@ -43292,7 +43066,6 @@
 ||zealous-tangerine-470131.framer.app^$all
 ||zebiaemoister.firebaseapp.com^$all
 ||zedelivery-online.vercel.app^$all
-||zedelivery-pedidos.vercel.app^$all
 ||zeflow.cfd^$all
 ||zegjwk.underhuatian.com^$all
 ||zeilkamp.info^$all
