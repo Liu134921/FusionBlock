@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.14.0550
+! Version: 2026.11.14.1307
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -861,7 +861,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52185) =====
+! ===== 网络规则 (52203) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -5746,6 +5746,7 @@
 ||adnz.co/dmp/publisher.js
 ||adnz.co/header.js
 ||adnz.co/semantiq/semantiq.js
+||adnz.co^
 ||adobe-analytics-dc.belastingdienst.nl^
 ||adobe-analytics.vionicshoes.com^
 ||adobe-dev-landingpageprefix.descubre.interbank.pe^
@@ -6626,6 +6627,7 @@
 ||analytics.algolia.com^
 ||analytics.allovoisins.com^
 ||analytics.alrajhibank.com.sa^
+||analytics.alvarezrosa.com^
 ||analytics.amakings.com^
 ||analytics.americanfunds.com^
 ||analytics.amig.com^
@@ -6668,6 +6670,7 @@
 ||analytics.boxlunch.com^
 ||analytics.brave.com^
 ||analytics.brickaward.com^
+||analytics.bucks.helixo.co^
 ||analytics.byecorps.com^
 ||analytics.canaltnt.es^
 ||analytics.capitalgroup.com^
@@ -7408,6 +7411,7 @@
 ||api.elliehuxtable.com^
 ||api.fanmatics.com/event
 ||api.ffm.to/sl/e/$image
+||api.firecrown.com/v1/events
 ||api.fuck.education^
 ||api.gist.ai/v1/analytics/track
 ||api.gleap.io/sessions/ping
@@ -10901,6 +10905,7 @@
 ||cdapi.collegedunia.com^
 ||cdeatz.spartoo.it^
 ||cdfhpj.automobile.it^
+||cdid.trip.com^
 ||cdjbf8trk.com^
 ||cdjhcf.hometogo.es^
 ||cdl.lvsafe.io^
@@ -10959,6 +10964,7 @@
 ||cdn.tds.bid/bid.js
 ||cdn.tolt.io/tolt.js
 ||cdn.usefathom.com^
+||cdn.visits.dqapis.com^
 ||cdn.zeroclick.io/scripts/badge.js
 ||cdn.zg-api.com/a/z/js/v1/analytics.js
 ||cdn1.skrill.com^
@@ -15586,6 +15592,7 @@
 ||edge.truistmomentum.com^
 ||edge.truistsecurities.com^
 ||edge.venatusmedia.com^
+||edge.wingify.net^
 ||edge.wnetwork.com^
 ||edgeadx.net^$third-party
 ||edgedc.falabella.com^
@@ -16246,6 +16253,8 @@
 ||emrdnt.sumaity.com^
 ||emrld.cc^$script
 ||emrld.ltd/collect
+||emrldco.com/collect
+||emrldtp.cc/collect
 ||ems-a8net-tracking.easy-myshop.jp^
 ||ems.youku.com^
 ||emsexam.quantresear.ch^
@@ -17809,6 +17818,7 @@
 ||fp.uncensored.com^
 ||fpa-cdn.adweek.com^
 ||fpa-cdn.arstechnica.com^
+||fpa-events.theintercept.com^
 ||fpad.jp^$third-party
 ||fpadga.mcruises.ru^
 ||fpapi.io^
@@ -30547,6 +30557,7 @@
 ||nextsmarty.com^
 ||nextstat.com^$third-party
 ||nexttopchef.com^
+||nexus.firecrown.com^
 ||nexx.cloud/play/beacon.
 ||nexx360-static.io^$third-party
 ||nexx360.io^$third-party
@@ -31733,6 +31744,7 @@
 ||ot.obi.sk^
 ||otclick-adv.ru^$third-party
 ||otel-collector.lenta.tech^
+||otel-gw.booking.com^
 ||otel-mobile.doordash.com^
 ||otg.mblycdn.com/bundles/cmp.js
 ||othanasis.openapp.link^
@@ -34687,6 +34699,7 @@
 ||riscitsolutions.actonservice.com^
 ||risextube.com/t/
 ||riskid.security^$third-party
+||riskpoc.trip.com^
 ||ritzyrepresentative.com^
 ||ritzyveil.com^
 ||riundo.bonprix.no^
@@ -34978,6 +34991,7 @@
 ||rxqqaq.hollandandbarrett.com^
 ||rxtolo.domiporta.pl^
 ||ry0.rythmefm.com^
+||rybbit-analytics.livecounts.io^
 ||rybbit.com^$third-party
 ||rybbit.sg-app.com^
 ||ryjknw.sonnenbrillen.com^
@@ -36048,6 +36062,7 @@
 ||sdk.getlimy.ai/p/limy-analytics.min.js
 ||sdk.mdznconnect.com/data-collector/
 ||sdk.mrf.io/statics/marfeel-sdk.js
+||sdk.stackup-ai.com/collect
 ||sdlmaf.bestsecret.at^
 ||sdome.underarmour.co.jp^
 ||sdpimt.lostgolfballs.com^
@@ -37299,6 +37314,7 @@
 ||singleplatform.actonservice.com^
 ||singroot.com^
 ||singular.net^$third-party
+||sink.gw.booking.com^
 ||sinkou.tireshop.com.br^
 ||sinkportal.com^
 ||sinmo.chasecenter.com^
@@ -43537,6 +43553,7 @@
 ||study.jcu.edu.au^
 ||study.vu.edu.au^
 ||studycooking.com^
+||stuff.co.nz/otel/
 ||stupendoussleet.com^
 ||stupendoussnow.com^
 ||stupidscene.com^
@@ -44492,6 +44509,7 @@
 ||tag.brandcdn.com^
 ||tag.contentanalytics.jp^$third-party
 ||tag.cribnotes.jp^
+||tag.decentriq.com^
 ||tag.digops.sincro.io^
 ||tag.eisa.mercari.com^
 ||tag.elevaate.io^
@@ -44887,6 +44905,7 @@
 ||tawdryson.com^
 ||taxel.jp^$third-party
 ||taxisubsea.com^
+||taxiwear.com^
 ||taylorshellfish.actonservice.com^
 ||taz.de/count/
 ||taznfx.renters.pl^
@@ -48350,14 +48369,13 @@
 ||trilogyed.com^$third-party
 ||trinityconsultants.actonservice.com^
 ||trinitymedia.ai/api/collect?
-||trip.com/bee/collect
-||trip.com/bf.gif?
 ||tripadvisor.*/BALinkImpressionTracking/
 ||tripadvisor.*/CookiePingback?
 ||tripadvisor.*/GARecord^
 ||tripadvisor.*/MetricsAjax
 ||tripadvisor.*/wm/record
 ||tripcdn.com/bee/collect$domain=trip.com
+||tripcdn.com/bf.gif
 ||triplelarge.com^
 ||triplestat.online^
 ||triplewhale-pixel.web.app^
@@ -53068,7 +53086,7 @@ ncbi.nlm.nih.gov#%#//scriptlet('set-constant', 'ncbi.sg.ping', 'noopFunc')
 usaa.com#%#//scriptlet('cookie-remover', 'GPC', '1', 'reload', '1')
 usatoday.com#%#//scriptlet('set-constant', 'gnt.x.adm', '')
 
-! ===== 未解析 (3533) =====
+! ===== 未解析 (3534) =====
 
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
@@ -55769,6 +55787,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /statcounter.asp
 /statcounter.js
 /statcountex/count.asp?
+/statify/v1/track|
 /statistic/pixel?
 /statistiche/stat.php$xmlhttprequest
 /statistics.js?$third-party
