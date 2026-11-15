@@ -1,7 +1,7 @@
 ! Title: FusionBlock Ads
 ! Description: 广告拦截主列表：合并 AdGuard 官方三件 + EasyList China + HaGeZi Light + 217heidai + xinggsf，已去重化简，关键服务误杀已体检
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.15.2323
+! Version: 2026.11.16.0450
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -11280,7 +11280,7 @@
 @@||zxzja.com:*/Cloud/Down/$subdocument,stealth=referrer
 @@||zxzja.com:*/player-$subdocument,stealth=referrer
 
-! ===== 网络规则 (122451) =====
+! ===== 网络规则 (122536) =====
 
 http://www.ads.$third-party
 https://github.com/AdguardTeam/AdguardFilters/issues/51221
@@ -16014,7 +16014,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||8684.com/com/sys_ad_
 ||8684.com/local/bdadv.
 ||8684.com/shuang11/
-||868d6-z09x0-qjay-p2d-d456h.pages.dev^
 ||86k3uw8q98.com^
 ||86o5bui4n.com^
 ||86ovzc-adrevenue.appsflyersdk.com^
@@ -22349,6 +22348,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||aggravatingoil.com^
 ||aggregateknowledge.com^
 ||aggregator-whatsapp.com^
+||aggvurollo.in^
 ||agh1um-cdn-settings.appsflyersdk.com^
 ||agh1um-conversions.appsflyersdk.com^
 ||agh1um-dynamic-report-api.appsflyersdk.com^
@@ -22612,7 +22612,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||aiqu28.com/da/
 ||aiqu288.com/da/
 ||aiqu321.com/da/*.js
-||air-jordan4.com^
 ||air2s.com^
 ||air360tracker.net^
 ||airbornvolente.cfd^
@@ -23838,6 +23837,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||amway.com.hn102.112.2o7.net^
 ||amway.com.ve.112.2o7.net^
 ||amwm.cn^
+||amxpjpqepqmbe.space^
 ||amxprd.com^
 ||amxrtb.com^
 ||amxsmiamwgh.com^
@@ -30398,9 +30398,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||api.zetaglobal.net^
 ||api.zwizzarmyknife.com^
 ||api1.golink.cc^
-||api16-access-ttp*.tiktokpangle-b.us^
-||api16-access-ttp-b.tiktokpangle-b.us^
-||api16-access-ttp.tiktokpangle-b.us^
 ||api168168.com^
 ||api2.amplitude.com^
 ||api2.appscraft.mobi/banner/get_banners.php
@@ -30652,6 +30649,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||app.easycontent.com/css/app.css$replace=/(\.block-ads-wrapper)/\$1_/
 ||app.easycontent.com/css/app.css$replace=/(\.block\.-ads\{)[\s\S]*?\}/\$1display:none;}/
 ||app.elitedomains.de/js/service/statistics.service.js
+||app.flipsnack.com^
 ||app.friendlyanalytics.ch^
 ||app.geogen.io^
 ||app.getwoohoo.com^
@@ -31179,6 +31177,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||arenda.az/public/css/img/banner_for_rieltor.gif
 ||aretnamedicare.com^
 ||aretteauxil.qpon^
+||areuxlnjiswdo.site^
 ||areyouabot.net^
 ||areyouahuman.co^
 ||areyouahuman.com^
@@ -33045,7 +33044,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||ba862930-6pusefyf.cname.ebis.ne.jp^
 ||baalizekoussogrommet.cfd^
 ||baalmorbleu.com^
-||baalskelams.vercel.app^
 ||baauefhlsruga.online^
 ||babaroni.de^
 ||babator.com^
@@ -34189,6 +34187,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||becosttobacco.qpon^
 ||becovi.com^
 ||becrossblendes.cyou^
+||becrustarmsize.com^
 ||becrustpendom.cfd^
 ||bedaffyamen.cfd^
 ||bedcordaguilt.cfd^
@@ -35111,7 +35110,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||bin-tds.site^
 ||bin.cartwire.co/js/analytics.js
 ||binance.com^$popup,domain=usagoals.sx
-||binanceverify.live^
 ||binapisgp1.pcloud.com^
 ||binaqathh.com^
 ||binarycent.com^
@@ -36073,6 +36071,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||boc-whatsapp.com^
 ||bocaconsumo.cyou^
 ||bocaiwang.tmdss.com^
+||bocardocalfs.rest^
 ||bocciuncost.cyou^
 ||boce.com/statics/img/img27b.png
 ||bochnvmvvzeqc.space^
@@ -36378,6 +36377,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||borrowhourglass.com^
 ||borsvarlden-banners.azurewebsites.net^
 ||bortox.goatcounter.com^
+||bortzeswaspy.cfd^
 ||borvens.com^
 ||borzjournal.ru^
 ||borzoisunroost.cfd^
@@ -36424,6 +36424,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||bottegavenetasuomi.com^
 ||bottlecoordinateperjury.com^
 ||bottlestrivingtarget.com^
+||botulinopaquedoodle.cyou^
 ||botulintrembly.cyou^
 ||boughwarrior.com^
 ||bouhoagy.net^
@@ -36871,7 +36872,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||brightside.me/metric-collector
 ||brightsport.com^
 ||brightstackuv.info^
-||brightstorm-core.online^
 ||brigsgunster.com^
 ||briguefidibus.com^
 ||brijmohan.org^
@@ -37099,6 +37099,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||bserail.com^
 ||bserver.gp-guia.net^
 ||bservr.com^
+||bsfxvouc.shop^
 ||bsgefrduwiaxk.site^
 ||bsgnovvkcrnyb.site^
 ||bshhyxoy62.com^
@@ -37213,6 +37214,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||btservices.plutio.com^
 ||btsow.lol/app/jav$image
 ||btstatic.com^
+||bttejamyle.com^
 ||bttelecomunication.w3spaces.com^
 ||bttrack.com^
 ||bttt11.com/ad.
@@ -37607,6 +37609,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||bveaafwiwktxb.space^
 ||bvf-whatsapp.com^
 ||bvfqhnyofanbfk.com^
+||bvfwjqkkxauml.site^
 ||bvg-whatsapp.com^
 ||bvhaxafqzblht.site^
 ||bvhd1uhl5z.com^
@@ -37770,7 +37773,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||bystrotrah.vip^
 ||bytde.com^
 ||byte-buff.com^
-||byte9085.online^
 ||bytecdn.cn/ta/resource/v0/analytics.js
 ||bytedance.com/pixel/
 ||bytelab.dk^
@@ -39577,6 +39579,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||cdn-channels-pixel.ex.co^
 ||cdn-cl-res.tlauncher.org^
 ||cdn-clavis-advancelocal-prod.arc-perso.aws.arc.pub^
+||cdn-creatives-cf-prd.acquire.unity3dusercontent.com^
 ||cdn-data-cloud.com/history/
 ||cdn-dataroid.akbank.com.tr^
 ||cdn-ds.com/analytics/
@@ -40393,6 +40396,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||cex.io/informer/
 ||cexofira.com^
 ||cexucetum.com^
+||cexvufrpmtiqf.space^
 ||cexwqhxuxixew.site^
 ||ceycarb.com^
 ||ceye.io^
@@ -41473,6 +41477,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||clearnview.com^
 ||clearonclick.com^
 ||clearparcel.info^
+||clearparcel.pro^
 ||clearpathub.pro^
 ||clearrobin.com^
 ||clearsale.com.br^$third-party
@@ -42440,7 +42445,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||coinagedraftee.com^
 ||coinbank247.com^
 ||coinbase.re^
-||coinbaseoffers.com^
 ||coinboxtradeoption.com^
 ||coincarp.com/cdn-cgi/trace
 ||coincarp.com/script/events.js
@@ -43138,7 +43142,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||concert.io^
 ||concertads-configs.vox-cdn.com^
 ||concertblogger.com^
-||conchamalg.store^
 ||conciergeeccentricstrained.com^
 ||concludelivingshowman.com^
 ||concretehawk.com^
@@ -44198,6 +44201,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||cqrxij-launches.appsflyersdk.com^
 ||cqsng.com/mm.js
 ||cqvip.com/viewserver/ViewAD
+||cqxfhwmednxod.online^
 ||cqymfs-cdn-settings.appsflyersdk.com^
 ||cqymfs-inapps.appsflyersdk.com^
 ||cqymfs-launches.appsflyersdk.com^
@@ -45004,7 +45008,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||curioushingefast.com^
 ||curiousmetal.com^
 ||curiouspatch.com/static/rsoc.js
-||curioustastedidj-jp.com^
 ||curjclpfbyand.online^
 ||curledhexagrampatio.com^
 ||curneyraggles.com^
@@ -45152,6 +45155,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||cwebttfvazagb.site^
 ||cwf-matomo.k-three-prd.jcdecaux.com^
 ||cwhjirncjhrmo.site^
+||cwhxsz.com^
 ||cwi.re^
 ||cwimdusmizcma.site^
 ||cwipnplaztyiv.space^
@@ -45194,6 +45198,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||cxgfq.pinlue.com^
 ||cxgpt1.goindigo.in/forward/v2/track
 ||cxjtsybhvpsfl.space^
+||cxkmmqqdacsqa.website^
 ||cxlcyy.com^
 ||cxlgfnkywpmpx.online^
 ||cxm-api.fifa.com/fifaplusweb/api/video/GetVerizonPreplayParameters?*&adPostroll$replace=/"adPostroll":true/"adPostroll":false/
@@ -48206,6 +48211,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||dgbccmdrodwnw.site^
 ||dgcex.net^
 ||dgcollector.evidon.com^
+||dgemzi.com^
 ||dgfip-tva.fr^
 ||dgfwztiezalfv.online^
 ||dggaenaawxe8z.cloudfront.net^
@@ -48931,6 +48937,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||dkupteraz.shop^
 ||dkweuy.com^
 ||dkxtzubbtmzie.space^
+||dkxutggyyyajh.website^
 ||dkyp75kj7ldlr.cloudfront.net^
 ||dl-adx.op-mobile.opera.com^
 ||dl-it.net^
@@ -49336,6 +49343,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||doglobal.net^
 ||dogmantilers.qpon^
 ||dogooccho.com.vn^
+||dogswin.com^
 ||dogt.xyz^
 ||dogtrace.fr^
 ||dogtrack.es^
@@ -51298,7 +51306,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||edealsclub.net^
 ||edethrelhf.com^
 ||edeuafcrlhtel.online^
-||edfdc0fa5e2ae6e3c6d7156f3b2ce00c.cdn.bubble.io^
 ||edfrecrute.fr^
 ||edge-cgi.silpo.ua^
 ||edge-hls.doppiocdn.com/ping
@@ -52193,7 +52200,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||enewwholesale.com^
 ||enexdirecto.com^
 ||enfanttheft.qpon^
-||enfermeriacanaria.com^
 ||enfuozgtraoyq.site^
 ||eng-io-gate.wixstudio.com^
 ||eng24.com/js_new/copyright_float.
@@ -52789,7 +52795,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||esotti.com^
 ||esotvjhho.com^
 ||esozdcn.icu^
-||espace-assurance.info^
 ||espace-renouvellement-enligne.fr^
 ||espaces-primes-video-essais.com^
 ||espacio351.com^
@@ -54933,6 +54938,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||ferryhill.net^
 ||ferthhagboat.com^
 ||ferularfirmerauncel.qpon^
+||fervandulio.shop^
 ||fervorsixtiesveteran.com^
 ||fervorszymomin.com^
 ||fervvqxoshqfa.space^
@@ -57046,6 +57052,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||fugitivequilt.com^
 ||fugohpvw.in^
 ||fugrfkpgpryis.website^
+||fugwin.com^
 ||fuhbla-cdn-settings.appsflyersdk.com^
 ||fuhbla-conversions.appsflyersdk.com^
 ||fuhidd.com^
@@ -57330,6 +57337,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||fxxavsxmuovyd.website^
 ||fxxz.com/skin/know/all.js
 ||fxyqclltmwpbb.site^
+||fxzoiyhajl.shop^
 ||fy1vifdn5.com^
 ||fyabyq.com^
 ||fyadenmac.org^
@@ -57494,6 +57502,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||g56qyg-rtbix.top^
 ||g572ccvb9y37oyvicov2pz.cfd^
 ||g594253006.co^
+||g5bny6mn7v8p7x3otp6byngovz3uokp.rest^
 ||g5vdy71n5qe.typeform.com^
 ||g5xu1dslr6.com^
 ||g5yt27-attr.appsflyersdk.com^
@@ -57960,6 +57969,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||gatlex.com^
 ||gator.com^
 ||gator.volces.com^
+||gatoramorphy.cfd^
 ||gatr.hit.gemius.pl^
 ||gatsmamilla.com^
 ||gatu.pl^
@@ -59152,6 +59162,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||glance-internal.inmobi.com^
 ||glance.inmobi.com^
 ||glancecdn.net^$third-party,domain=~glance.net
+||glansfulmarilvaite.cyou^
 ||glaredamorphalyam.qpon^
 ||glaredlotosessamekhs.qpon^
 ||glareoutgoingthey.com^
@@ -61444,6 +61455,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||gvlntdvflisny.space^
 ||gvodieta.com^
 ||gvokvcwudjzfb.website^
+||gvpsqmzbelfpr.website^
 ||gvqzvorcuqbq.com^
 ||gvrrsfpjvgask.space^
 ||gvrugeri.com^
@@ -62755,7 +62767,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||hetairysaugers.com^
 ||hetarust.com^
 ||hetcash.com^
-||heterintab.store^
 ||hethsminter.com^
 ||hetlmedia.com/1025.js
 ||hetnu.com^
@@ -64490,6 +64501,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||hwfoaxxlzfeeh.online^
 ||hwiieod.com^
 ||hwikmrenzqmva.online^
+||hwkwmwyz.com^
 ||hwltbkcaknjderbpsklu.com^
 ||hwpnocpctu.com^
 ||hwpub-s01-drcn.cloud.dbankcloud.cn^
@@ -64581,6 +64593,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||hyklujfryizpf.online^
 ||hymmrhjrbtvqa.website^
 ||hynpvkrwdyyaj.website^
+||hyostotqriagm.site^
 ||hyoswaxrtfvq.com^
 ||hypebeast.com/firebase-messaging-sw.js
 ||hypehuddle.com^
@@ -65025,6 +65038,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||ibmlotus.net^
 ||ibmmarketingcloud.com^
 ||ibmwclub.com/tophub/assets/js/sponsor.
+||ibnndmxeltmux.online^
 ||ibns3ibgf.com^
 ||iboard.com^
 ||ibpxl.com^
@@ -65535,7 +65549,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||iherb.com/VtidNbtC/init.js
 ||ihg.com/logging/
 ||ihhmh.com/mg/show
-||ihhqwaurke.com^
 ||ihhuyvugv.com^
 ||ihi.flowplayer.com^
 ||ihihbckxoquli.online^
@@ -65709,7 +65722,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||illinformed-summer.com^
 ||illiterate-reserve.com^
 ||illsmegswzciw.space^
-||illtrilac.store^
 ||illumenix.com^
 ||illumin.com^
 ||illusionist28.com^
@@ -66776,7 +66788,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||infos.anz.com.au^
 ||infos.anz.com^
 ||infosayz.com^
-||infosecure.fit^
 ||infosisconsultancy.com^
 ||infosniper.net/locate-ip-on-map.php
 ||infostation.digital^
@@ -67713,6 +67724,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||isbnews.pl/img/advert/
 ||isbnrs.com^
 ||isboost.co.jp^
+||ischarmusicotarn.cfd^
 ||iscop.it^
 ||iscrv.com^
 ||isdspeed.qq.com/
@@ -68514,6 +68526,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||jaya9bangla.com/?af=$document
 ||jayexfpeiwyka.space^
 ||jayleitner.net^
+||jaymguxbzomra.site^
 ||jayprhordoqsv.site^
 ||jazancci.org.sa^
 ||jazzdocumentary.com^
@@ -69579,6 +69592,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||jsadapi.com^
 ||jsaxrujgecvtq.website^
 ||jsb.qianzhan.com^
+||jsb.snssdk.com^
 ||jsbpqnvraflghc.com^
 ||jsc.native.azerion.com^
 ||jscache.com/static/page_moniker/
@@ -70013,6 +70027,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||jz5u.com/public/js/t$script
 ||jz5u.com/public/new/
 ||jzb.com/website/fe/pub_js/dbclickshow.js
+||jzfciiwgqwzxx.online^
 ||jzfq6w-cdn-settings.appsflyersdk.com^
 ||jzfq6w-inapps.appsflyersdk.com^
 ||jzfq6w-launches.appsflyersdk.com^
@@ -70079,7 +70094,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||k1n2fx-launches.appsflyersdk.com^
 ||k1nk.co/videos/*/_.*.js
 ||k1nm7c66rh4fgh.cfd^
-||k1ppj0-hzup-5cka2p-ym5k4.pages.dev^
 ||k1w3jqep8zpy1kfo.cfd^
 ||k1xw3m4v2mnjml7jiq7z1utu2.cyou^
 ||k203.adn.com^
@@ -70152,6 +70166,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||ka1.sexvnhd.vip^
 ||ka1bsc6mm0.com^
 ||ka9gcc8ifd.com^
+||kaaoyavxmogtc.site^
 ||kaazarrpl.shop^
 ||kab201k0xs.com^
 ||kabongahaulse.com^
@@ -70855,7 +70870,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||khmey.ir^
 ||khmglkiztyjtm.online^
 ||khmokgikyejzq.site^
-||khoobqoxrxid.com^
 ||khphzkhftgexp.site^
 ||khpsfhwwdzly.com^
 ||khqiiguclfuzy.site^
@@ -71221,6 +71235,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||km8fmg.cfd^
 ||kma.biz^
 ||kma1.biz^
+||kmahykmbkzrch.online^
 ||kmctayurvedacollege.org^
 ||kmdjdu5cc.com^
 ||kmehvftptexfn.site^
@@ -71734,6 +71749,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||ktnvonvmnzsl.com^
 ||ktogroup.com^
 ||ktqihtrrmslbx.site^
+||ktrbyvzcahpih.space^
 ||ktsikeedtvyno.website^
 ||kttreqkgxslkl.online^
 ||ktuvdtioaxwmh.website^
@@ -73278,6 +73294,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||lhibnuyxomzqv.space^
 ||lhifppgvxkj.com^
 ||lhivvxyqzddyr.website^
+||lhjehvulthcmf.space^
 ||lhjvhnwlttylp.online^
 ||lhmos.com^
 ||lhswu.com^
@@ -73296,6 +73313,8 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||liabilis.com^
 ||liability48.top^
 ||liadm.com^
+||liamsviponline.shop^
+||liamsvipstore.shop^
 ||lian-yis.com^
 ||lianaiyx.com/d/js/cst/
 ||liangjan.com/js/show_
@@ -73375,6 +73394,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||lidovky.cz^$cookie=kolbda
 ||lidsaich.net^
 ||lidshometheater.shop^
+||lidwwagvip.shop^
 ||liebeart.de^
 ||liebes-decke.de^
 ||liebeverpackt.com^
@@ -73470,6 +73490,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||lilahub.com^
 ||lilisshop.de^
 ||lillycaraco.com^
+||lilplay.com^
 ||lilstts.com^
 ||limbaafirekenlore.cyou^
 ||limbecyblent.com^
@@ -73876,6 +73897,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||livestats.fr^
 ||livestory.io/*/collect
 ||livestt.co^
+||liveswallpapers.com^
 ||livetech.shopee.co.id.c.byteplusfcdn-oversea.com^
 ||livetech.shopee.co.id.cdn20.com^
 ||livetech.shopee.co.id.txlivecdn.com^
@@ -73920,6 +73942,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||livoro-deutschland.com^
 ||livpm.com^
 ||liwupuba.com/livead/
+||lixfumydauavt.space^
 ||lixiangmo.com^
 ||lixir.wargers.org^
 ||lixko.com^
@@ -74584,6 +74607,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||log.scanqrcodedesign.live^
 ||log.services.video.ibm.com^
 ||log.sggp.org.vn^
+||log.sgsnssdk.com^
 ||log.shopfully.cloud^
 ||log.shortbread.aws.dev^
 ||log.shufoo.net^
@@ -75129,6 +75153,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||lophmxguhglrt.space^
 ||loppetickierbavoso.cyou^
 ||lopsideddebate.com^
+||loqsbbhlvfeow.online^
 ||loquenthankul.cfd^
 ||loraviax.shop^
 ||lordchannel.com/adcash/
@@ -76869,6 +76894,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||martincasino-fr.fr^
 ||martincouture.ch^
 ||martinoticias.122.2o7.net^
+||martinshither.click^
 ||martinundjulia.com^
 ||martlochoco2.online^
 ||martted.com^
@@ -79711,6 +79737,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||maxim.pub^
 ||maximilitary.ru^
 ||maximise.nyc3.cdn.digitaloceanspaces.com/mxmse.min.js$domain=essentiallysports.com
+||maximumboggles.click^
 ||maximumcash.com^
 ||maximumpushtodaynotnowbut.com^
 ||maxixeootwith.com^
@@ -82883,6 +82910,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||mobclix.com^
 ||mobday.com^
 ||mobdrovip.com^
+||mobdxuycnrdfw.website^
 ||mobee.xyz^$third-party
 ||mobee2.jp^
 ||mobers.org^
@@ -83157,6 +83185,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||mon-*.lemon8-app.com^
 ||mon-*.lemon8-app.us^
 ||mon-*.tiktokv.com^
+||mon-bd-johor.byteintlapi.com^
 ||mon-boot.capcutapi.com^
 ||mon-boot.tiktokv.com.edgekey.net^
 ||mon-boot.tiktokv.com^
@@ -83185,6 +83214,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||mon.byteoversea.com^
 ||mon.capcutapi.us.edgesuite.net^
 ||mon.capcutapi.us^
+||mon.sgsnssdk.com^
 ||mon.snssdk.com^
 ||mon.tiktokv.com^
 ||mon.tiktokv.eu.ttdns3.com^
@@ -83414,7 +83444,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||moralvinata.com^
 ||moraswaiting.shop^
 ||moratame.tw/img/contents/banner
-||morbicave.space^
 ||morbusrani.cfd^
 ||more-root-411216.framer.app^
 ||moreamateurs.com/v/image.php
@@ -83550,7 +83579,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||moviekhhd.biz/images/DownloadAds
 ||movielair.cc/assets/mone-*.js
 ||movielio.com^
-||movielocations.de.cool^
 ||moviemad.com.in^
 ||moviemediahub.com^$popup
 ||movienestbd.*/min.js
@@ -84011,6 +84039,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||mudeeepigne.cyou^
 ||mudguard68.com^
 ||mudismud.com^
+||mudkyzmsm.com^
 ||mudlarksises.cfd^
 ||mudweedburrish.qpon^
 ||mueblesrustiko.com^
@@ -84688,7 +84717,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||mzaqgfzlmlmhw.website^
 ||mzb60mu3z7.com^
 ||mzbdzmuldbkfw.website^
-||mzblz7aiv.pro^
 ||mzehuksmeanp.in^
 ||mzgeyizpftsvb.space^
 ||mzhhdn.com/hongbao.jpg
@@ -87349,6 +87377,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||o3zvbs-launches.appsflyersdk.com^
 ||o40d17vln.com^
 ||o4510556228943872.ingest.telemetry.kauz.io^
+||o4tgvt3jbymf4yh.rest^
 ||o4uxrk33.com^
 ||o522zsxbgf.com^
 ||o531h9iheud5j5jc6djll6qh1.litix.io^
@@ -87913,6 +87942,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||ofmxtlbgqp.com^
 ||ofnpsvob.com^
 ||ofoltekbn.com^
+||ofpagrfix.in^
 ||ofredirect.com^
 ||ofterdurwanencoder.cfd^
 ||oftmnsrnhkmtu.site^
@@ -88284,7 +88314,9 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||om.visitbouldercity.com^
 ||om1aq1t27.com^
 ||omahasteaks.com.102.122.2o7.net^
+||omanilodens.com^
 ||omarsys.com^
+||omasumdeworm.click^
 ||omatri.info^
 ||omazeiros.com^
 ||omazeuazdirectprod.112.2o7.net^
@@ -89555,6 +89587,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||ouiiadyzaieqx.space^
 ||ouinex.com^
 ||ouiokaq.top^
+||oujykoverucym.website^
 ||oukan.net^
 ||oulsools.com^
 ||oundhertobeconsist.org^
@@ -89663,6 +89696,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||outstanding-window.com^
 ||outstandingtelephone.pro^
 ||outstream.cdn.vidyome.com^
+||outsulkeila.cyou^
 ||outtasked.cfd^
 ||outvietalcky.cfd^
 ||outwakebinate.click^
@@ -91010,6 +91044,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||pdhmpf-skadsdkless.appsflyersdk.com^
 ||pdhwzl.icu^
 ||pdjxoscm7.com^
+||pdlhbgrqgjndo.site^
 ||pdli.site^
 ||pdlovdxrfmxts.space^
 ||pdmsmrt.buick.com^
@@ -94027,6 +94062,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||popcornflix-prod.cloud.seachange.com/playback/popcornflix/playback/ticket$replace=/"adEnabled":true/"adEnabled":false/
 ||popcornflix.pl^
 ||popcornmovies.ac/api/ads
+||popcorntime-update.xyz^
 ||popcornvod.com^$popup
 ||popcpm.com^
 ||popdemission.com^
@@ -94090,6 +94126,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||popviking.com^
 ||popxperts.com^
 ||popxyz.com^
+||poqsrzievvwqy.site^
 ||poqvdw-cdn-settings.appsflyersdk.com^
 ||poqvdw-dynamic-report-api.appsflyersdk.com^
 ||poqvdw-gcdsdk.appsflyersdk.com^
@@ -94358,6 +94395,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||poseidonbikeworld.shop^
 ||poseunprofessionalspecific.com^
 ||posewardenreligious.com^
+||poshmark-assists.com^
 ||poshmark.com/trck/
 ||poshoburse.rest^
 ||position66.top^
@@ -94540,6 +94578,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||postmedia-ai.wehaacdn.com^
 ||postmedia.app^
 ||postnorddks.com^
+||postoffice.adobe.com^
 ||postoffice.edge.nc0.co^
 ||postquare.com^
 ||postrelease.com.akadns.net^
@@ -95546,6 +95585,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||prvk.io^
 ||prw.lenovomm.com^
 ||prwave.info^
+||prwxzitd.shop^
 ||prx.wayfair.com^
 ||prydwen.gg/api/banners/
 ||pryerssnuffed.cyou^
@@ -95946,7 +95986,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||pub-f36b05599c3043ddb16520acf6cc3cce.r2.dev^
 ||pub-f4a72e7216b44d24addf91fedb99ba11.r2.dev^
 ||pub-f567dc03e26e4f3cb9564649c453004c.r2.dev^
-||pub-f5ae22f51e044b9488d7040a1856ea0f.r2.dev^
 ||pub-f7b0a9d97d464fce9678ad18a7f1e812.r2.dev^
 ||pub-f7b727523d554b9994d78cd558ff99cd.r2.dev^
 ||pub-f7f3d109f218460aa479f325c6f66dcd.r2.dev^
@@ -96119,6 +96158,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||pullcf.com^
 ||pulledbagsful.cfd^
 ||pullsalveola.com^
+||pulpaltolanes.rest^
 ||pulpirdiditsi.site^
 ||pulpix.com^
 ||pulpulyy.club/cdn-cgi/trace
@@ -96432,6 +96472,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||pwdh28pof.com^
 ||pwhmgusjxfhgc.space^
 ||pwhpthqmszhkm.site^
+||pwhy8foc2mk7tj6bmw4h6bkgmwyb2tr513.cfd^
 ||pwieu.com^
 ||pwiiojtkfpdf.com^
 ||pwinsider.com/advertisement/
@@ -96440,7 +96481,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||pwlzrgbk.com^
 ||pwmann.online^
 ||pwmctl.com^
-||pwnl-n4r950-0fu4-c8yf5-h23m1.pages.dev^
 ||pwnz.org^
 ||pwqkktxddgblg.space^
 ||pwr-ads.com^
@@ -96777,6 +96817,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||qbokte-launches.appsflyersdk.com^
 ||qbqrecnzpejoz.site^
 ||qbuf5a-cdn-settings.appsflyersdk.com^
+||qbupzairypjtf.online^
 ||qbvcuszlpbegh.online^
 ||qbxdoahjiykjz.site^
 ||qbxxi23a2.com^
@@ -97393,6 +97434,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||qtnsjtkniokp.com^
 ||qtoonoecxthnl.space^
 ||qtozietgp.com^
+||qtpqpyxtzflsv.site^
 ||qtqv3cy43w.com^
 ||qttroiey.com^
 ||qtuwrmjlwgkuv.space^
@@ -97596,6 +97638,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||quiritetimotesargo.qpon^
 ||quisma-com.affex.org^
 ||quisma.com^
+||quistamelo.pro^
 ||quistrecastslexemic.qpon^
 ||quitcertify.com^
 ||quitschemed.com^
@@ -97630,6 +97673,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||qunphoty.com^
 ||quohogssopping.com^
 ||quoits96.top^
+||quojugvrafzuj.online^
 ||quokkacheeks.com^
 ||quora.com/_/ad/
 ||quora.com/ads/
@@ -97772,6 +97816,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||qyun.vip/pic/*.gif
 ||qyvekiu.lovable.app^
 ||qyxiangr.com^
+||qyxpefyzhauch.site^
 ||qyxrwl.com^
 ||qyyvoquib.com^
 ||qyzqivswtpxff.website^
@@ -97931,6 +97976,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||r3sub.com/nb/
 ||r3sub.com/posters/00698128.jpg
 ||r3vnet.cloud^
+||r3y8661xhr944471pb99ptm49.cfd^
 ||r40xff8q48.com^
 ||r44r4l5na1.com^
 ||r451.jamanetwork.com^
@@ -98278,6 +98324,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||rashmimaheshwari.com^
 ||rasin.tech/heatmap-
 ||rasin.tech/scroll-logs/
+||rasmonti.pro^
 ||raspiteteachyargyria.cfd^
 ||raspiwares.com^
 ||rasskaz18.ru^
@@ -100260,6 +100307,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||robustlamp.com^
 ||robustloaf.com^
 ||robustpsychology.com^
+||robuxx.top^
 ||roby-casinos.fr^
 ||robycasino-france.fr^
 ||robycasinoavis.fr^
@@ -100329,6 +100377,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||roibest-report-sdk.qiliangjia.com^
 ||roikingdom.com^
 ||roildauted.qpon^
+||roiledmoats.com^
 ||roilierservet.qpon^
 ||roilravelly.cfd^
 ||roirocket.com^
@@ -100401,7 +100450,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||roodho-launches.appsflyersdk.com^
 ||rooftechconstruction.com^
 ||rookee.ru^
-||roolgage.com^
 ||room-haven.shop^
 ||room-pagesmonth.com^
 ||roomard.xyz^
@@ -100494,6 +100542,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||roundprincemusic.com^
 ||roundprincethere.com^
 ||roundprinceweb.com^
+||roundsshinkindaraf.cyou^
 ||roundvast.com^
 ||roundyearfun.org^
 ||roundyhagenia.com^
@@ -105633,6 +105682,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||shamoysburlesksolacer.cyou^
 ||shampoo54.top^
 ||shandian.biz/wp-content/themes/inove/js/comment.js
+||shanechkalik.qpon^
 ||shang.hlgnet.com/code/
 ||shangqun.com/webforms/embed/
 ||shangxueba.com/ask/images/woxiaoyun.jpg
@@ -106505,6 +106555,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||siutaodka.com^
 ||siv-immat.fr^
 ||sivacycle.com^
+||sivaro.shop^
 ||sivorentix-ai.com^
 ||sivycafybemude.com^
 ||six.net.pk^
@@ -106836,6 +106887,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||slootz.io^
 ||slopeac.com^
 ||slotexoofficiel.fr^
+||slothcaama.com^
 ||slotlair-fr.fr^
 ||slotlaircasino.fr^
 ||slotonline.fr^
@@ -107825,6 +107877,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||snaooicdnsuas.space^
 ||snap-pixel.onrender.com^
 ||snapads.com^
+||snapbagoarial.com^
 ||snapchat.com/web/metrics
 ||snapchathack.org^
 ||snapchatunlocker1.weebly.com^
@@ -108415,6 +108468,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||sophisticatedpin.com^
 ||sophus3.com^
 ||sopital.com^
+||soporte-de-renovacion.com^
 ||soppersklater.cyou^
 ||sopr-api.cian.ru^
 ||sopracinci.store^
@@ -108589,7 +108643,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||sp11ct-ravnor-biz8-kelsik-domvek.pages.dev^
 ||sp11ct-torzan-biz8-felkor-drunel.pages.dev^
 ||sp11ct-zavdok-biz8-pralor-kesvik.pages.dev^
-||sp11ct-zolvik-biz8-marnor-prasel.pages.dev^
 ||sp12ct-kolvik-biz-harmok-fresan.pages.dev^
 ||sp12ct-lovmer-biz-zarnik-frosel.pages.dev^
 ||sp12ct-vardor-biz-helsik-zamnor.pages.dev^
@@ -108627,6 +108680,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||spaderonium.com^
 ||spadsync.com^
 ||spahierectercandyh.cyou^
+||spakkjxonfaks.space^
 ||spaldceded.qpon^
 ||spamnuker.com^
 ||spandbarba.store^
@@ -111350,7 +111404,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||startappnetwork.com^
 ||startapps-io-trexor.wixstudio.com^
 ||startapps-ledgrrcdn.wixstudio.com^
-||startapps-trezrcdn.wixstudio.com^
 ||startappservice.com^
 ||startcdn-ledgrss.wixstudio.com^
 ||startdcore-ledzercn.wixstudio.com^
@@ -111859,6 +111912,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||statistics.hashbite.net^
 ||statistics.hattenkofermedia.de^
 ||statistics.hoflaede.li^
+||statistics.i-med.ac.at^
 ||statistics.ice.tobii.com^
 ||statistics.immowebapi.be^
 ||statistics.jfmedier.dk^
@@ -112153,6 +112207,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||stats.bremerhaven.de^
 ||stats.bsg.bravesoftware.com^
 ||stats.bundesarchiv.de^
+||stats.bundeswehr.de^
 ||stats.bunkr.ru^
 ||stats.bylo.ai^
 ||stats.cardinalacres.com^
@@ -112304,6 +112359,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||stats.locallabs.com^
 ||stats.lotlinx.com^
 ||stats.lt^$third-party
+||stats.lutte-ouvriere.org^
 ||stats.macg.io^
 ||stats.maglr.com^
 ||stats.mahtava.de^
@@ -112416,6 +112472,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||stats.smartberatung.com^
 ||stats.smarthome-aber-sicher.de^
 ||stats.smartmobil.de^
+||stats.soap2day.day^
 ||stats.solavia.at^
 ||stats.spidersense.xyz^
 ||stats.splyne.app^
@@ -113421,6 +113478,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||supabase.co/rest/v1/promos_available
 ||supafter.com^
 ||supamaker.dev^
+||supaoyedsvqnb.site^
 ||supapush.net^
 ||supariairily.cyou^
 ||supechcopa.com^
@@ -113803,7 +113861,9 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||swiwetduchan.shop^
 ||swkqmcv.com^
 ||swmfuiyhnmnmy.site^
+||swnrapyxhkuzk.website^
 ||swnviqgqvltkw.website^
+||swnyoxrjheueq.online^
 ||swoatoirdyqnr.site^
 ||swobbottsintrail.cfd^
 ||swoclick.com^
@@ -115200,6 +115260,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||tarotfree101.top^
 ||tarotmood.com/img/banner$domain=ixdzs.tw
 ||tarrescurioso.com^
+||tarriedotertwelve.cyou^
 ||tarsiablah.cfd^
 ||tarsiusbaconic.com^
 ||tartaklegnica.pl^
@@ -115464,6 +115525,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||te-otto-de.oghub.io^
 ||te-ottoversand-at.oghub.io^
 ||te-quelle-de.oghub.io^
+||te-receiver.vividrama.com^
 ||te-sheego-de.oghub.io^
 ||te-sieh-an-at.oghub.io^
 ||te-sieh-an-ch.oghub.io^
@@ -117218,6 +117280,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||tiktokclaim.eu^
 ||tiktokclaim.org^
 ||tiktoknudeleaks.com/wp-content/plugins/popup
+||tiktokpangle-b.us^
 ||tiktokpangle.us^
 ||tiktokv.com/monitor_browser/
 ||tiktokv.com/web/report?
@@ -117478,6 +117541,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||tk-babyzeit-matomo.tk.de^
 ||tk-doc-matomo.tk.de^
 ||tk-energiemanagement.de^
+||tk-ikea.com^
 ||tk-treuhand.de^
 ||tk.504pk.com^
 ||tk.d.mi.com^
@@ -118306,7 +118370,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||totalmedia2.ynet.co.il/new_gpt/
 ||totalpropertycare.ae^
 ||totalsportek.*/images/*.gif|$domain=totalsportek.*
-||totalvalidationemail.weebly.com^
 ||totem.tvmaze.com^
 ||totemcash.com^
 ||totheglory.im/pic/business/
@@ -118518,6 +118581,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||tq.87kv83l4948j17.cyou^
 ||tq.ashflame-core.info^
 ||tq.bodsxplc.online^
+||tq.byte9085.online^
 ||tq.central-red.online^
 ||tq.choiceglide-hub.online^
 ||tq.cn/floatcard?
@@ -119968,9 +120032,11 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||trkapi.impact.com^
 ||trkbc.com^
 ||trkbng.com^$popup
+||trkcapybara03.org^
 ||trkcare.hmhn.org^
 ||trkcliq.com^
 ||trkcpbrbw01.org^
+||trkcpbrht01.org^
 ||trkd-asia.com^
 ||trkepcs.com^
 ||trker.com^
@@ -120139,7 +120205,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||trustmary.io/agg-event
 ||trustmaxonline.com^
 ||trustmeds24.com^
-||trustmklog.weebly.com^
 ||trustpielote.com^
 ||trustpilot.com/stats/
 ||trustradius.com/api/v1/pageview
@@ -121238,6 +121303,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||uch2hz-launches.appsflyersdk.com^
 ||uchbwsudh.com^
 ||uchiangkhanhotel.com^
+||uchtcpyzexfjm.space^
 ||ucjbvl-cdn-settings.appsflyersdk.com^
 ||ucjbvl-inapps.appsflyersdk.com^
 ||ucjbvl-launches.appsflyersdk.com^
@@ -121452,6 +121518,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||uhiemvxigendy.space^
 ||uhit.eu/id/$third-party
 ||uhiwh2tsu.com^
+||uhkmhhnx.shop^
 ||uhlanmendole.qpon^
 ||uhodsplo.com^
 ||uhoooiashgcvg.space^
@@ -121677,6 +121744,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||ulxmuuyqupmde.online^
 ||uly0ke-launches.appsflyersdk.com^
 ||ulysse-cazabonne.cam^
+||ulzgdvsqjkirw.online^
 ||um-public-panel-prod.s3.amazonaws.com^
 ||um.merinfo.se^
 ||um.simpli.fi^
@@ -122142,6 +122210,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||umami3.commentreparer.com^
 ||umamis.top^
 ||umamix.fadunews.in^
+||umaoyubtybuzq.site^
 ||umbel.com^
 ||umbelcannons.com^
 ||umbosfondues.cfd^
@@ -123890,6 +123959,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||vdrama.fans/js/vd-playback-check.js
 ||vduldfjqyyywg.online^
 ||vdulz.org^
+||vduskqdswmnzd.space^
 ||vdx.tv^
 ||vdxaxf.com^
 ||vdxu.cn^
@@ -125021,6 +125091,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||vmp3en-dynamic-report-api.appsflyersdk.com^
 ||vmp3en-skadsdk.appsflyersdk.com^
 ||vmplayer2019.com^
+||vmqxjqgaanhkb.space^
 ||vmrecordingforyou.web.app^
 ||vmring.cc^
 ||vmtrypsvjakyl.space^
@@ -125152,6 +125223,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||voidemail.org/js/track.js
 ||voidnetwork.cloud^
 ||voidstrap.net^
+||voinix.org^
 ||voipvendors.net^
 ||voitto.com.br^
 ||vojolj.icu^
@@ -125855,6 +125927,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||w9p70nort.com^
 ||wa.appsflyer.com^
 ||wa.appsflyersdk.com^
+||wa.billygraham.org^
 ||wa.childrensplace.com^
 ||wa.gmx.at^
 ||wa.gmx.ch^
@@ -126090,6 +126163,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||warmeholze.de^
 ||warmersleptbanter.com^
 ||warmlyanti.com^
+||warmuper.com^
 ||warmupskenned.com^
 ||warndon.net^
 ||warnerbros.112.2o7.net^
@@ -127785,6 +127859,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||wjmallard.goatcounter.com^
 ||wjmghujaluysu.online^
 ||wjnidjxjkingy.website^
+||wjnjdihupzwuf.online^
 ||wjqpyvulryxtg.site^
 ||wjst7t-cdn-settings.appsflyersdk.com^
 ||wjvqhd-gcdsdk.appsflyersdk.com^
@@ -128584,6 +128659,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||wweqeizpoqjfu.online^
 ||wwesvxfqdabhf.space^
 ||wwgate.ru^
+||wwgrhbijznvli.online^
 ||wwija.com^
 ||wwiqkslmdcisz.site^
 ||wwkhyt-cdn-settings.appsflyersdk.com^
@@ -128975,6 +129051,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||wxsoratqogziz.site^
 ||wxtuiqwvpfoap.website^
 ||wxuvtikeawhip.online^
+||wxuxyslgbtgea.space^
 ||wxwrjkcqenmks.online^
 ||wxx.wtf/static/js/wxx.js
 ||wxx776sxqk.com^
@@ -129777,6 +129854,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||xkmtxaybwpbnj.space^
 ||xkovtgxuynjef.site^
 ||xkp30u4pxh.com^
+||xktioeceokipr.site^
 ||xktoy8fub.com^
 ||xkum.cn^
 ||xkverkik38.com^
@@ -129883,7 +129961,9 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||xml-eu-v4.bid4advertising.com^
 ||xml-eu-v4.bidargo.com^
 ||xml-eu-v4.blitzspectra.com^
+||xml-eu-v4.brightstorm-core.online^
 ||xml-eu-v4.bringthewaves.xyz^
+||xml-eu-v4.byte9085.online^
 ||xml-eu-v4.cashlelo.com^
 ||xml-eu-v4.choiceglide-hub.online^
 ||xml-eu-v4.clearbidtechnologies.com^
@@ -129917,6 +129997,8 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||xml-eu.advertoix.com^
 ||xml-eu.adxcircle.com^
 ||xml-eu.bidargo.com^
+||xml-eu.brightstorm-core.online^
+||xml-eu.byte9085.online^
 ||xml-eu.chain7373.online^
 ||xml-eu.creziamedia.com^
 ||xml-eu.dollopsdigital.com^
@@ -129954,6 +130036,8 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||xml-v4.bid4advertising.com^
 ||xml-v4.bidargo.com^
 ||xml-v4.blitzspectra.com^
+||xml-v4.brightstorm-core.online^
+||xml-v4.byte9085.online^
 ||xml-v4.cashlelo.com^
 ||xml-v4.choiceglide-hub.online^
 ||xml-v4.clearbidtechnologies.com^
@@ -130411,6 +130495,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||xu8azu-skadsdk.appsflyersdk.com^
 ||xu919zz2i.com^
 ||xuboqmbu.in^
+||xucsbjivmbzlw.online^
 ||xudqpagf.in^
 ||xue.zbyw.cn^
 ||xueaaaw.cn^
@@ -131082,7 +131167,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||yeatthetics.shop^
 ||yecaoyun.com/AD/
 ||yed9.us^
-||yedkarifis.store^
 ||yeelen.cg^
 ||yeesshh.com^
 ||yeezy-450.com^
@@ -131966,7 +132050,6 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||yuanpinghengkangfuyouxiangongsi.top^$domain=9xav.cc
 ||yuanxue365.com/js/a22.
 ||yuastejdigmex.site^
-||yubx9d.top^
 ||yuc8w9rvobiww1wlj.u7q79l7inf4jxr.cyou^
 ||yuce-mizandanim.com^
 ||yucemizandanim.net^
@@ -132480,6 +132563,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||zbhuafx.com^
 ||zbjimg.com/static/union/
 ||zbl40hvzzy.com^
+||zblykoizftori.space^
 ||zbmatomoapp.ziraatbank.com.tr^
 ||zbmeerconq.com^
 ||zbnmyrdxthmbl.site^
@@ -132740,6 +132824,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||zferbkcfprilb.space^
 ||zferral.com^
 ||zfklupupe.com^
+||zfoickexwpjma.online^
 ||zfoo2relcykev7olu9okic9kq34pbye.cfd^
 ||zfpn7ef472.com^
 ||zfptshtslxuxw.online^
@@ -206496,7 +206581,7 @@ x-mol.com###rightAllJournal
 x-mol.com##.news-white-content-right
 x-x-x.tube###inpage-ad-container
 x-x-x.tube#%#//scriptlet('prevent-popads-net')
-x.com##[id^="urt"]>ul>li:has([class*="data-ad-disclosure"])
+x.com##[id^="urt"] > ul > li:has([class^="group-has-\[\[data-ad-disclosure"])
 x.com,twitter.com##div[data-testid="trend"]:has(> div[class]:only-child svg + span)
 x.com,twitter.com#?#div[style^="transform"] h2 > div[style^="-webkit-line-clamp"] > span:contains(/^(?:Promoted Post|Promowany Post|Post promovat|プロモポスト)$/):upward(3)
 x1337x.cc,1337x.st,1337x.to,1337xx.to,x1337x.eu,x1337x.ws,1337x.unblock2.xyz##.page-content > .box-info:has(> .box-info-heading > div[onclick^="location.href="][style])
