@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.16.0450
+! Version: 2026.11.16.1257
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -861,7 +861,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52211) =====
+! ===== 网络规则 (52212) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -48899,6 +48899,7 @@
 ||tuttogratis.it/gopix.php?
 ||tuttomercatoweb.com/pixel
 ||tuvevx.agent-sana.com^
+||tuxedocard.com^
 ||tv-asahi.co.jp/official/logging?
 ||tv-test.esvdigital.com^
 ||tv.totaljobs.com^

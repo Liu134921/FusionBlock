@@ -1,13 +1,13 @@
 == 输入
-   域名规则 110502 / 路径规则 15921 / 例外 11272 / 元素隐藏 74979 / 未解析 9728
-   载入阶段：{'重复行': 71028, '超长丢弃': 35, 'scriptlet未映射': 4, 'scriptlet转换': 9}
+   域名规则 110678 / 路径规则 15921 / 例外 11277 / 元素隐藏 74978 / 未解析 9728
+   载入阶段：{'重复行': 70855, '超长丢弃': 35, 'scriptlet未映射': 4, 'scriptlet转换': 9}
 
 == 优化
-   祖先覆盖   -3101
-   修饰符冗余  -776
+   祖先覆盖   -3111
+   修饰符冗余  -775
    微信保护   -6
    危险宽泛   -4
-   合计删除 3887，保留 122536（96.9%）
+   合计删除 3896，保留 122703（96.9%）
 
 == 样例
    [修饰符冗余]
@@ -25,9 +25,9 @@
       ||xml.pops.gg^   <-已由 ||pops.gg^ 覆盖
       ||cdn.traffmovie.com^   <-已由 ||traffmovie.com^ 覆盖
    [危险宽泛]
+      ||cfd^$third-party,popup,domain=multiup.io
       ||xyz^$third-party,xmlhttprequest,domain=usescarlet.com
       ||[::]^$third-party,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
-      ||cfd^$third-party,popup,domain=multiup.io
       ||click^$script,third-party,domain=upshrink.com
    [微信保护]
       ||szlong.weixin.qq.com^
@@ -39,7 +39,7 @@
 
 == 合并候选（父域下纯子域规则 >=8 条，只建议不改动）
    appsflyersdk.com                           8244 条
-   cloudfront.net                             840 条
+   cloudfront.net                             833 条
    a.run.app                                  395 条
    com.102.122.2o7.net                        393 条
    112.2o7.net                                344 条
