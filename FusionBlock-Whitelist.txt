@@ -1,7 +1,7 @@
 ! Title: FusionBlock Whitelist
 ! Description: 白名单 = uBlock Unbreak + AdGuard / EasyList 官方过滤器的内嵌例外。只放行，不拦截。
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.16.1257
+! Version: 2026.11.17.0158
 ! Expires: 1 days
 ! License: Unbreak 部分归 uBlock Origin 团队（GPLv3），其余归 AdGuard / EasyList
 @@||awstrack.me/*auth.coindesk.com$doc,popup
@@ -3802,7 +3802,7 @@
 @@||files.vitalitygames.com/games/webgl/PreloaderBG/*/game-ads.js
 @@||filespace.com^$generichide
 @@||filmix.co/api/$stealth=ip
-@@||filmmakinesi.to^$stealth=ip,document
+@@||filmmakinesi.to^$stealth=ip
 @@||filmweb.pl^$generichide
 @@||filmweb.pl^$stealth=referrer
 @@||findlawimg.com^$stealth=referrer,domain=findlaw.cn
@@ -4619,7 +4619,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=zeebiz.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=zoomtventertainment.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$important,domain=digi24.ro
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$xmlhttprequest,domain=nfl.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$xmlhttprequest,domain=49ers.com|atlantafalcons.com|azcardinals.com|baltimoreravens.com|bengals.com|buccaneers.com|buffalobills.com|chargers.com|chicagobears.com|chiefs.com|clevelandbrowns.com|colts.com|commanders.com|dallascowboys.com|denverbroncos.com|detroitlions.com|giants.com|houstontexans.com|jaguars.com|miamidolphins.com|neworleanssaints.com|newyorkjets.com|nfl.com|packers.com|panthers.com|patriots.com|philadelphiaeagles.com|raiders.com|seahawks.com|steelers.com|tennesseetitans.com|therams.com|titansonline.com|vikings.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$domain=24ur.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$domain=f5haber.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$domain=zattoo.com
@@ -5311,7 +5311,7 @@
 @@||microsofttranslator.com/translate?
 @@||mid.ru^$stealth=ip
 @@||mil.by^$stealth=dpi
-@@||milfzr.com^$generichide! Checksum: EWLhclcV6k6gxyzg513LVw
+@@||milfzr.com^$generichide! Checksum: THplqPsZF6+Fj7ATbALL6Q
 @@||minecraftbuildinginc.com/wp-content/themes/*/js/advertisement.js
 @@||mingle.kijiji.ca/api/ads/
 @@||minigame.aeriagames.jp/*/ae-tpgs-$~third-party
