@@ -1,7 +1,7 @@
 ! Title: FusionBlock Whitelist
 ! Description: 白名单 = uBlock Unbreak + AdGuard / EasyList 官方过滤器的内嵌例外。只放行，不拦截。
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.17.1445
+! Version: 2026.11.18.0124
 ! Expires: 1 days
 ! License: Unbreak 部分归 uBlock Origin 团队（GPLv3），其余归 AdGuard / EasyList
 @@||awstrack.me/*auth.coindesk.com$doc,popup
@@ -2951,6 +2951,7 @@
 @@||cdn*.zinmanga1.com^$image,stealth=referrer,domain=shonenmangaz.com|zinmanga.net|harimanga.co.uk|zazamanga.com|likemanga.vip|manhwafan.com|kunmanga.co.uk
 @@||cdn-lfs.hf.co/repos/$stealth=3p-cache
 @@||cdn-manga.com^$image,stealth=referrer
+@@||cdn-mr.contentful.com^$stealth=3p-auth,domain=fido.ca
 @@||cdn-static.pornhd.com/pornhd/*/css/dist/main.css$domain=pornhd.com
 @@||cdn-surfline.com/quiver/*/scripts/$domain=surfline.com
 @@||cdn.7tv.app^$stealth=dpi
@@ -5314,7 +5315,7 @@
 @@||microsofttranslator.com/translate?
 @@||mid.ru^$stealth=ip
 @@||mil.by^$stealth=dpi
-@@||milfzr.com^$generichide! Checksum: THplqPsZF6+Fj7ATbALL6Q
+@@||milfzr.com^$generichide! Checksum: eKidQ3a1jvxIt7b6k86Ipg
 @@||minecraftbuildinginc.com/wp-content/themes/*/js/advertisement.js
 @@||mingle.kijiji.ca/api/ads/
 @@||minigame.aeriagames.jp/*/ae-tpgs-$~third-party
