@@ -1,11 +1,11 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.18.1404
+! Version: 2026.11.19.0058
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
-! ===== 例外规则 (853) =====
+! ===== 例外规则 (854) =====
 
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@||1.1.1.1/cdn-cgi/trace$xmlhttprequest,domain=myair.resmed.com|one.one.one.one
@@ -242,6 +242,7 @@
 @@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cxpublic.com|cyclestyle.net|diamond.jp|friday.gold|friday.kodansha.co.jp|handelsblatt.com|harpersbazaar.com|hochi.news|inquirer.com|j-cast.com|journaldemontreal.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nikkansports.com|nippon.com|rikejo.jp|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
 @@||cybozu.com/*/event.gif?$~third-party
 @@||d.tailtarget.com/profiles.js$domain=superesportes.com.br
+@@||d2gt2ux04o03l1.cloudfront.net^$third-party,domain=avery.com
 @@||d2ma0sm7bfpafd.cloudfront.net/wcsstore/waitrosedirectstorefrontassetstore/custom/js/analyticseventtracking/$script,domain=waitrosecellar.com
 @@||d2r1yp2w7bby2u.cloudfront.net/js/clevertap.min.js$domain=tatacliq.com
 @@||d2wy8f7a9ursnm.cloudfront.net/v8/bugsnag.min.js$script,domain=forecastapp.com
@@ -861,7 +862,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52248) =====
+! ===== 网络规则 (52264) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -8522,6 +8523,7 @@
 ||aralego.net^$third-party
 ||aramuz.net/frontapi/*/analyticsEvent?
 ||arc.io/widget.min.js
+||arc.msn.com^
 ||arc.pub/clavis/training/events
 ||arcadeweb.com^$third-party
 ||arch.net.jumia.ug^
@@ -8992,6 +8994,7 @@
 ||awzbijw.com^
 ||ax.babe.today^
 ||ax.idg.se^
+||axcii.com^
 ||axentis.arclogics.com^
 ||axf8.net^$third-party
 ||axfevh.bandab.com.br^
@@ -11088,6 +11091,7 @@
 ||channelwatcher.panda.tech^
 ||chaosmonitor.com^
 ||chaport.com/api/public/v1/stats/
+||character.ai/scripts/googlefc-config.js
 ||chargebee.com/api/internal/track_info_error
 ||chargecracker.com^
 ||charlotte-content.cresa.com^
@@ -11949,6 +11953,7 @@
 ||comms.services.global.ntt^
 ||comms.supplychain.nhs.uk^
 ||comms.thewhiskyexchange.com^$image
+||commswap.com^
 ||communicate.apcerls.com^
 ||communicate.choicelogistics.com^
 ||communicate.cision.ca^
@@ -12479,6 +12484,7 @@
 ||coordinatedcoat.com^
 ||cooyxg.tennis-point.de^
 ||copilot-telemetry.githubusercontent.com^
+||copilot.com/events
 ||copperegg.com^$third-party
 ||copperstills.net^
 ||copush.com^$third-party
@@ -16796,6 +16802,7 @@
 ||event.ortec.com^
 ||event.platform.autotrader.com.au^
 ||event.platform.tunein.com^
+||event.prod.asgard.hullabalook.com^
 ||event.raise3d.cn^
 ||event.seatradecruiseevents.com^
 ||event.seatradecruiseglobal.com^
@@ -18026,6 +18033,7 @@
 ||fsbozl.dillards.com^
 ||fscareers.epoise.com^
 ||fscareerstest.epoise.com^
+||fscdn.eppo.cloud/api/flag-config/v1/config?
 ||fsd2.digital^$third-party
 ||fse.net.anwalt.de^
 ||fsegfy.lepoint.fr^
@@ -18300,6 +18308,7 @@
 ||gateway.melia.com/tracking
 ||gateway.src-play.com/Analytics/
 ||gatherer.m.qq.com^
+||gator.volces.com^
 ||gatorleads.co.uk^$third-party
 ||gaudyairplane.com^
 ||gaug.es^$third-party
@@ -23927,6 +23936,7 @@
 ||lexvek.gap.ae^
 ||leynqj.newport.se^
 ||lezntf.heydudeshoesusa.com^
+||lf3-data.volccdn.com/obj/data-static/log-sdk/collect/$domain=kimi.ai
 ||lfapbe.quiksilver.co.jp^
 ||lfbowp.talisa.com^
 ||lfeeder.com^$third-party
@@ -30678,6 +30688,7 @@
 ||nlf6.vente-unique.pl^
 ||nlgzhd.yoox.com^
 ||nljjem.honeys-onlineshop.com^
+||nlog.instajob.ai^
 ||nlp-japan.life-and-mind.com^
 ||nltcs.idfnet.net^
 ||nltihf.fashiondays.ro^
@@ -33231,6 +33242,7 @@
 ||prod.tahoe-analytics.publishers.advertising.a2z.com^
 ||prod.tracking.refinitiv.com^
 ||proditor.sparda.de^
+||prodregistryv2.org^$domain=character.ai
 ||prodsmax.com^
 ||producecopy.com^
 ||producepickle.com^
@@ -33515,6 +33527,7 @@
 ||putphc.zuhre.com.tr^
 ||puzzle.spiriteq.com^
 ||pv-track.pxtrkapp.com^
+||pv-track.venatus.com^
 ||pv.hd.sohu.com^
 ||pv.kuaizhan.com^
 ||pv.ltn.com.tw^
@@ -36976,6 +36989,7 @@
 ||sfsinfo.sabic.com^
 ||sfstatic.net/build/js/basicMetricsTracking.
 ||sftrack.searchforce.net^
+||sg-fp.apitd.net^
 ||sg-go.experian.com^
 ||sg.carousellmotors.com^
 ||sg.lucanet.com^
@@ -44514,6 +44528,7 @@
 ||ta.taxslayer.com^
 ||ta.tokopedia.com/promo/v1/views
 ||ta.trs.cn^
+||tab.volces.com/service/2/abtest_config/
 ||tabcarts.com^
 ||tableleaders.com^
 ||tablesafe.actonservice.com^
@@ -44995,6 +45010,7 @@
 ||tds.io^$third-party
 ||tds1.vivabox.be^
 ||tdstats.com^$third-party
+||tdum.alibaba.com/dss.js
 ||te.ackermann.ch^
 ||te.ambria.de^
 ||te.baur.de^
@@ -51628,6 +51644,7 @@
 ||www.benn8bord.com^
 ||www.berg-6-82.com^
 ||www.bfc-mp.caisse-epargne.fr^
+||www.bing.com/th?pid=$domain=copilot.com
 ||www.bis-dic15.com^
 ||www.blocwhite7.com^
 ||www.blue2fund.com^
@@ -53132,7 +53149,7 @@ ncbi.nlm.nih.gov#%#//scriptlet('set-constant', 'ncbi.sg.ping', 'noopFunc')
 usaa.com#%#//scriptlet('cookie-remover', 'GPC', '1', 'reload', '1')
 usatoday.com#%#//scriptlet('set-constant', 'gnt.x.adm', '')
 
-! ===== 未解析 (3540) =====
+! ===== 未解析 (3545) =====
 
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
@@ -54803,6 +54820,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /index.php/analytics/cookieAnalytics|$xmlhttprequest
 /index.track?
 /indextools.js
+/ingest/array/*/config.js
+/ingest/i/v0/*
 /init?*&fallbackUserId=
 /inline-pixel.js
 /inpl.measure.jssc
@@ -55135,6 +55154,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /monitor?rtype=
 /monitor_analytic.js
 /monitor_browser/collect/*
+/monitor_web/collect?
 /monitor_web/settings/browser-settings?
 /monitoring?o=$xmlhttprequest
 /monitus.js
@@ -55460,6 +55480,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /printpixel.js
 /printtracker.js
 /prnx_track.js
+/pro-analytics.
 /probance_tracker-min.js
 /probance_tracker.js
 /prod-puc-all/*/open^$image
@@ -56358,6 +56379,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /web-pixel-shopify-custom-pixel@
 /web-pixels@*/web-pixel-*/sandbox/modern/*
 /web-vitals-analytics.js
+/web-vitals-with-attribution.js
 /web-vitals.iife.js
 /web/push?
 /webAnalytics/*
