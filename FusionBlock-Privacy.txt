@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.18.0124
+! Version: 2026.11.18.1404
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -861,7 +861,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52232) =====
+! ===== 网络规则 (52248) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -5231,6 +5231,7 @@
 ||abovechat.com^
 ||abpwqf.lolaflora.com.mx^
 ||abracon.actonservice.com^
+||abritel.fr/tagging-client
 ||abs.proxistore.com^
 ||absentairport.com^
 ||absinfo.eagle.org^
@@ -10809,6 +10810,7 @@
 ||carolsdaughter.com/IZ/uaPO0cuk/init.js
 ||carpoolmatch.com^
 ||carpoolqueen.com^
+||carrentals.com/tagging-client
 ||carreras.unisabana.edu.co^
 ||cars.autopia.com.au^
 ||cars.smartfleetaustralia.com.au^
@@ -11111,6 +11113,7 @@
 ||chatgpt.com/ces/v1/telemetry/intake^$ping,xmlhttprequest
 ||chatgpt.com/unauth-mweb/events/$ping,xmlhttprequest
 ||chatroll.com/t.gif
+||cheaptickets.com/tagging-client
 ||check.ddos-guard.net^$third-party
 ||check.frbservices.org^
 ||check.looser.jp^
@@ -11738,6 +11741,7 @@
 ||cnzz.com^$third-party
 ||cnzz.net^$third-party
 ||coalkitchen.com^
+||coalmerchants.com^
 ||coastersim.com^
 ||coatfood.com^
 ||cobaltgroup.com^$third-party
@@ -17021,6 +17025,7 @@
 ||exp.notion.so^
 ||expansioneggnog.com^
 ||expedia.*/cl/
+||expedia.*/tagging-client
 ||expedia.com/static/default/default/scripts/siteAnalytics.js
 ||expedia.com/vaclog/
 ||experianmarketingservices.digital^$third-party
@@ -17395,6 +17400,7 @@
 ||feuqzl.woolrich.com^
 ||fewjuice.com^
 ||fewkittens.com^
+||fewo-direkt.de/tagging-client
 ||ff.pdf.ac^
 ||ffbbbdc6d3c353211fe2ba39c9f744cd.com^
 ||ffe390afd658c19dcbf707e0597b846d.de^
@@ -20248,6 +20254,7 @@
 ||hotstar.com/v1/identify
 ||hotstar.com/v1/track
 ||hottraffic.nl^$third-party
+||hotwire.com/tagging-client
 ||house27.ch/counter/
 ||housecrm.com.br/track/
 ||houston-content.cresa.com^
@@ -31665,6 +31672,7 @@
 ||orb.ee/collect
 ||orbidder.otto.de^
 ||orbis.actonservice.com^
+||orbitz.com/tagging-client
 ||orcapia.com^$third-party
 ||orchidgenius.com^
 ||ordbng.extra.com.br^
@@ -32285,6 +32293,7 @@
 ||pdzutf.sftworks.jp^
 ||pe.txbe.at^
 ||peacefullimit.com^
+||peachr.tv/s.js
 ||peakcounter.dk^$third-party
 ||peakcreator.com^
 ||pear.ca-eko-globetrotter.fr^
@@ -43280,6 +43289,7 @@
 ||stay.lottehotel.com^
 ||stayaction.com^
 ||stayforlong.com/api/kafka/tracking
+||stayz.*/tagging-client
 ||stayz.com.au/cl/data/omgpixel.json
 ||stbg.bankonline.sboff.com^
 ||stbg.looksee.co.za^
@@ -48298,6 +48308,7 @@
 ||travel.x.unikoom.com^
 ||travelerpic.com^
 ||travelmarketreport.actonservice.com^
+||travelocity.com/tagging-client
 ||traveloka.com/api/v1/tvlk/events
 ||travelrobotflower.com^$third-party
 ||traversedlp.com^$third-party
@@ -50405,6 +50416,7 @@
 ||vrasto.openapp.link^
 ||vrbo.com/edap/elo/v1/event/beacon
 ||vrbo.com/serp/api/metrics
+||vrbo.com/tagging-client
 ||vrcamdl.istaging.com^
 ||vrcamdltest.istaging.com^
 ||vrhesh.avocadogreenmattress.com^
@@ -51234,6 +51246,7 @@
 ||wildcommittee.com^
 ||wildpetalfarm.com^
 ||wildwoodavenue.com^
+||willcollect.com^
 ||win.staticstuff.net^
 ||windbeetle.com^
 ||windflamesky.com^
@@ -51247,6 +51260,7 @@
 ||wipe.de^$~script,third-party
 ||wipo.int/wipo-analytics/
 ||wirecomic.com^
+||wiredcarts.com^
 ||wiredforcoffee.com^
 ||wiredminds.de^$third-party
 ||wirenewsletter.com^
@@ -51387,6 +51401,7 @@
 ||wos.lv^$third-party
 ||wotasia2.login.wargaming.net.iberostar.com^
 ||wotasia3.login.wargaming.net.iberostar.com^
+||wotif.*/tagging-client
 ||woutkw.type.jp^
 ||wowanalytics.co.uk^$third-party
 ||wowboosters.com^
@@ -52693,6 +52708,7 @@
 ||yourhealth.wellness.providence.org^
 ||yourlifedream.com^
 ||youronestopshop.themagnetgroup.com^
+||yourownexpert.com^
 ||yourporsche.nabooda-auto.com^
 ||yourporscheimg.nabooda-auto.com^
 ||yoursolution.electrified.averydennison.com^
@@ -53096,7 +53112,7 @@
 ||zzqyxd.smartpozyczka.pl^
 ||zzsqqx.shopjapan.co.jp^
 
-! ===== 元素隐藏 (16) =====
+! ===== 元素隐藏 (17) =====
 
 ###cxense-recs-in-article
 ##.embed-responsive-trendmd
@@ -53107,15 +53123,16 @@ aliexpress.com,aliexpress.ru,aliexpress.us#%#//scriptlet('set-constant', 'Offlin
 aliexpress.com,aliexpress.ru,aliexpress.us#%#//scriptlet('set-constant', 'navigator.bluetooth', 'undefined')
 anikore.jp##html[class^="loading"]:style(visibility: visible !important;)
 bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
-cbssports.com,foxnews.com,gbatemp.net,news.com.au,pcworld.com,usatoday.com#%#//scriptlet('set-constant', 'admiral', 'noopFunc')
+cbssports.com,gbatemp.net,news.com.au,pcworld.com,usatoday.com#%#//scriptlet('set-constant', 'admiral', 'noopFunc')
 e-begin.jp##.inviewSection:not(.is-show):style(transform: translateY(0) !important; opacity: 1 !important;)
+foxnews.com#%#//scriptlet('set-constant', 'admrlWpJsonP', 'emptyObj')
 mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ncbi.nlm.nih.gov#%#//scriptlet('set-constant', 'ncbi.sg', '{}')
 ncbi.nlm.nih.gov#%#//scriptlet('set-constant', 'ncbi.sg.ping', 'noopFunc')
 usaa.com#%#//scriptlet('cookie-remover', 'GPC', '1', 'reload', '1')
 usatoday.com#%#//scriptlet('set-constant', 'gnt.x.adm', '')
 
-! ===== 未解析 (3539) =====
+! ===== 未解析 (3540) =====
 
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
@@ -54069,6 +54086,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cklog.js
 /cl.animate.co.jp/c/*$image
 /cl.mos.jp/q/*$image
+/cl/2x2.json
 /clear.gif?
 /click-tracking.js
 /click.*/q/*$image
