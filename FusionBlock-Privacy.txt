@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.19.0058
+! Version: 2026.11.19.1405
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -35,7 +35,7 @@
 @@||adobedtm.com/extensions/$domain=antena3.com|apple.com|atresmedia.com|atresplayer.com|automobiles.honda.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|lasexta.com|telus.com|verizon.com|xfinity.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
 @@||adobedtm.com^*-libraryCode_source.min.js$domain=doda.jp
-@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|aircanada.com|ally.com|americanexpress.com|as.com|atresplayer.com|automobiles.honda.com|backcountry.com|bbva.com.ar|bbvacib.com|bbvauk.com|bestbuy.ca|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|deutsche-bank.de|dollargeneral.com|eonline.com|etihad.com|eurosport.de|fedex.com|guitarcenter.com|healthsafe-id.com|healthy.kaiserpermanente.org|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ihg.com|imsa.com|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|lifetime.life|lowes.com|manager-magazin.de|marriott.com|medscape.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|osprey.com|philips.com|plasticsnews.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|sephora.com|snsbank.nl|ssrn.com|starwarscelebration.com|subway.com|tatacliq.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com|xfinity.com
+@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|aircanada.com|ally.com|americanexpress.com|as.com|atresplayer.com|automobiles.honda.com|backcountry.com|bbva.com.ar|bbvacib.com|bbvauk.com|bestbuy.ca|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|deutsche-bank.de|dollargeneral.com|eonline.com|etihad.com|eurosport.de|fedex.com|guitarcenter.com|healthsafe-id.com|healthy.kaiserpermanente.org|helvetia.com|hgtv.com|hilton.com|homedepot.ca|hydroflask.com|ihg.com|imsa.com|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|lifetime.life|lowes.com|manager-magazin.de|marriott.com|medscape.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|osprey.com|philips.com|plasticsnews.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|sephora.com|snsbank.nl|ssrn.com|starwarscelebration.com|subway.com|tatacliq.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com|xfinity.com
 @@||adobedtm.com^*/AppMeasurement.min.js$script,domain=sky.it
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|as.com|backcountry.com|ceair.com|conad.it|costco.com|dhl.de|fcbarcelona.cat|fcbarcelona.cn|fcbarcelona.com|fcbarcelona.es|fcbarcelona.fr|fcbarcelona.jp|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|sony.jp|tatacliq.com|usanetwork.com|vanityfair.com|wired.com
@@ -862,7 +862,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52264) =====
+! ===== 网络规则 (52272) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -9538,6 +9538,7 @@
 ||bendingspoonsapps.com/v4/web-events
 ||beneficios.davivienda.hn^
 ||beneficios.davivienda.sv^
+||benefitboys.com^
 ||benefits.aon.com^
 ||benefitssense.com^
 ||benelux2.secureforms.mcafee.com^
@@ -10606,6 +10607,7 @@
 ||caanalytics.com^$third-party
 ||caapp.levi.com^
 ||caast.tv/v1/record.gif?
+||cabstrategy.com^
 ||cache2.delvenetworks.com^
 ||cactus.jd.com^
 ||cactus.joybuy.com^
@@ -11799,6 +11801,7 @@
 ||colbass.com/Service/Analytics.asmx/
 ||coldbalance.com^
 ||coldcallpro.com^
+||coldcrucible.com^
 ||coletor.terra.com^
 ||colgui.vidaxl.pt^
 ||coll2onf.com^$third-party
@@ -22265,6 +22268,7 @@
 ||insights.avad3.com^
 ||insights.biallo.de^
 ||insights.bodogaffiliate.com^
+||insights.builderprofile.aws.dev^
 ||insights.cdt.ch^
 ||insights.diamond-consultants.com^
 ||insights.golubcapital.com^
@@ -30047,6 +30051,7 @@
 ||muragon.com/js/normal/gtag-event.js
 ||murdoog.com^$third-party
 ||murdoog.com^*/Pixel/$image
+||muse.ai/api/auth/caa-events
 ||musescore.com/components/data?
 ||musescore.com/components/log/$ping
 ||musescore.com/score/stats/
@@ -31130,6 +31135,7 @@
 ||offerstrategy.com^$third-party
 ||offgridcrops.com^
 ||officestylist.com^
+||offloop.org/_vid/v1/collect
 ||offshoreassets.com^
 ||offshorecyclone.com^
 ||offshoregeology.com^
@@ -31838,6 +31844,7 @@
 ||outerwords.com^
 ||outfunnel.com^$third-party
 ||outletpeople.com^
+||outpro.net^
 ||outreach.allmy-data.com^
 ||outreach.connectednation.org^
 ||outreach.crossref.org^
@@ -31938,6 +31945,7 @@
 ||p.sfx.ms/is/invis.gif
 ||p.skimresources.com^
 ||p.spotidownloader.com^
+||p.teamily.ai^
 ||p.tencentmind.com^
 ||p.tryretool.com^
 ||p.typekit.net^
@@ -33024,7 +33032,6 @@
 ||porsche.nabooda-auto.com^
 ||portal.dcgone.com^
 ||portal.insight.maruedr.com^
-||portal.kotodaman.jp/api/otel/v1/logs
 ||portal.krollontrack.co.uk^
 ||portfold.com^$third-party
 ||porzo.com/js/analytics
@@ -35143,6 +35150,7 @@
 ||s.save.ca^
 ||s.sick.com^
 ||s.simcoe.com^
+||s.sintra.ai^
 ||s.smallpdf.com/static/track-js-
 ||s.sofoot.com/script.js
 ||s.sporks.space^
@@ -43591,7 +43599,6 @@
 ||study.jcu.edu.au^
 ||study.vu.edu.au^
 ||studycooking.com^
-||stuff.co.nz/otel/
 ||stupendoussleet.com^
 ||stupendoussnow.com^
 ||stupidscene.com^
@@ -45812,7 +45819,6 @@
 ||todomercadoweb.es/pixel
 ||toeopa.doutornature.com^
 ||tofusquirrel.com^
-||together.ai/otel/v1/traces
 ||tokopedia.com/helios-client/client-log
 ||tomatobarrel.com^
 ||tommys.openapp.link^
@@ -51097,6 +51103,7 @@
 ||webvitals.luxnet.ua^
 ||webvoo.com/wt/Track.aspx
 ||webvoo.com^*/logtodb.
+||webworksworld.com^
 ||webworx24.co.uk/123trace.php
 ||webxmr.com^$third-party
 ||webzel.com/counter/
@@ -52691,6 +52698,7 @@
 ||you.com/api/recordEvent
 ||you.pixellot.link^
 ||you.stage.pixellot.link^
+||youanonymous.com^
 ||youate.co^
 ||youborafds01.com^
 ||youboranqs01.com^
@@ -53149,7 +53157,7 @@ ncbi.nlm.nih.gov#%#//scriptlet('set-constant', 'ncbi.sg.ping', 'noopFunc')
 usaa.com#%#//scriptlet('cookie-remover', 'GPC', '1', 'reload', '1')
 usatoday.com#%#//scriptlet('set-constant', 'gnt.x.adm', '')
 
-! ===== 未解析 (3545) =====
+! ===== 未解析 (3551) =====
 
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
@@ -54192,6 +54200,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /collect/view_count?
 /collect?appName
 /collect?callback=
+/collect?configId=
 /collect?d=
 /collect?data=
 /collect?eid=
@@ -54768,6 +54777,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /i.php?i=
 /i.png?id=
 /i/api/kn/afterclick/*$~third-party,xmlhttprequest
+/i/v0/e/*
 /i2a.js
 /i2yesCounter.js
 /i?aid=*&se_ac=open&$image
@@ -55275,6 +55285,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /optimizerApi?event=
 /orichipixel.min.js
 /ot_e404.gif?
+/otel/v1/logs
+/otel/v1/metrics
+/otel/v1/traces
 /otlp/traces
 /ouibounce.min.js
 /outLoging.js
@@ -56421,6 +56434,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /wizrocketmail.net/r?$image
 /wlexpert_tracker.js
 /wmxtracker.js
+/woocommerce-analytics/*
 /woocommerce-google-adwords-conversion-tracking-tag/*
 /woopra.js
 /wp-admin/admin-ajax.php?action=adblockvisitor$~third-party
