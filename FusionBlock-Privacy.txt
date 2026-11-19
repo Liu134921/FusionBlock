@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.19.1405
+! Version: 2026.11.20.0104
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -862,7 +862,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52272) =====
+! ===== 网络规则 (52279) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -11762,6 +11762,7 @@
 ||codata.ru^$third-party
 ||coddledcats.com^
 ||code.randomhouse.com^
+||code.trygravity.ai/gr-pix.js
 ||codecademy.com/analytics/
 ||codedrink.com/api/inbound
 ||codefa.st/js/script.js
@@ -14447,6 +14448,7 @@
 ||digicard.jollyhires.com^
 ||digidip.net^$domain=gofeminin.de
 ||digidip.net^$third-party
+||digifaro-digital.uk.monitoringsolutions.sky^
 ||digiland.it/count.cgi?
 ||digimedia.com/pageviews.php?
 ||digistat.westjet.com^
@@ -14669,6 +14671,7 @@
 ||directcrm.ru^$third-party
 ||directions.mdanderson.org^
 ||directnews.co.uk/feedtrack/
+||directory.cookieyes.com/api/v1/ip
 ||directprimal.com^$third-party
 ||direfuldesk.com^
 ||diritalia.com^*/seosensor.js
@@ -23199,6 +23202,8 @@
 ||karte.io/rewrite-log/
 ||kartik.devishetty.com^
 ||kartik.devishetty.net^
+||kasemato.net/wp-content/themes/kasemato/assets/access-analytics.js
+||kasemato.net/wp-content/themes/kasemato/assets/frame-stats.js
 ||kaspersky-labs.com/cld_track?
 ||kaspersky.com/assets/logSender.
 ||kattoremontti.ruukki.com^
@@ -27413,6 +27418,7 @@
 ||mas.hronboard.me^
 ||mas.marsh.com^
 ||mas.nth.ch^
+||mascguys.com^
 ||mashery.com/analytics/
 ||maskedadmin.com^
 ||masseurexpress.com^
@@ -32408,6 +32414,7 @@
 ||pgs.farmprogress.com^
 ||pgs.io^$third-party,domain=~publicgood.com
 ||pgt1.voyage-prive.es^
+||ph.cto.new^
 ||phadia.thermo.com^
 ||phadia.thermofisher.com^
 ||phatfiles.com^
