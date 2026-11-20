@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.20.1352
+! Version: 2026.11.21.0043
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -862,7 +862,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52297) =====
+! ===== 网络规则 (52296) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -17404,6 +17404,7 @@
 ||feelwarmth.com^
 ||feignedfaucet.com^
 ||felinesocial.com^
+||feliz.data.tm-awx.com/netro-web/batch
 ||feliz.data.tm-awx.com/smile-web-v2/batch
 ||fem.gprod.postmedia.digital/*/IIQUniversalID.js
 ||femalecook.com^
@@ -34058,6 +34059,7 @@
 ||rantapallo.fi/s/redirect/tracking?
 ||rapidcounter.com^$third-party
 ||rapidpanda.io^
+||rapidscraper.com^
 ||rapidspike.com/performance/
 ||rapidspike.com/static/js/timingpcg.min.js
 ||rapidstats.net^$third-party
@@ -44040,9 +44042,6 @@
 ||sxmxpm.nectarsleep.com^
 ||sxp.allianz.de^
 ||sxwxswg8z1xe.www.arnowebtv.com^
-||sy.ameba.jp^
-||sy.amebame.com^
-||sy.ameblo.jp^
 ||sy57d8wi.com^
 ||sycamore.com.br/pixel/
 ||syfwnf.society6.com^
