@@ -1,22 +1,22 @@
 == 输入
-   域名规则 110124 / 路径规则 15953 / 例外 11288 / 元素隐藏 75199 / 未解析 9737
-   载入阶段：{'重复行': 71112, '超长丢弃': 35, 'scriptlet未映射': 4, 'scriptlet转换': 9}
+   域名规则 110150 / 路径规则 15958 / 例外 11289 / 元素隐藏 75213 / 未解析 9737
+   载入阶段：{'重复行': 70852, '超长丢弃': 35, 'scriptlet未映射': 4, 'scriptlet转换': 9}
 
 == 优化
-   祖先覆盖   -2867
-   修饰符冗余  -784
+   祖先覆盖   -2860
+   修饰符冗余  -782
    微信保护   -6
    危险宽泛   -4
-   合计删除 3661，保留 122416（97.1%）
+   合计删除 3652，保留 122456（97.1%）
 
 == 样例
    [修饰符冗余]
+      ||pockett3.com^$third-party   <-已由 ||pockett3.com^ 覆盖
       ||runative-syndicate.com^$popup   <-已由 ||runative-syndicate.com^ 覆盖
       ||9hito.com^$third-party   <-已由 ||9hito.com^ 覆盖
       ||insightjs.org^$all   <-已由 ||insightjs.org^ 覆盖
       ||adsgravity.io^$third-party   <-已由 ||adsgravity.io^ 覆盖
       ||dga9amo.website^$all   <-已由 ||dga9amo.website^ 覆盖
-      ||cdn.adwebcode.gr^$third-party   <-已由 ||cdn.adwebcode.gr^ 覆盖
    [祖先覆盖]
       ||smog.gentlecork.com^   <-已由 ||gentlecork.com^ 覆盖
       ||xhvideo.saawsedge.com^   <-已由 ||saawsedge.com^ 覆盖
@@ -39,13 +39,13 @@
 
 == 合并候选（父域下纯子域规则 >=8 条，只建议不改动）
    appsflyersdk.com                           8335 条
-   cloudfront.net                             817 条
-   a.run.app                                  411 条
+   cloudfront.net                             818 条
+   a.run.app                                  415 条
    com.102.122.2o7.net                        393 条
    112.2o7.net                                347 条
    goaserv.com                                308 条
    goasrv.com                                 289 条
-   aws-prd.net                                288 条
+   aws-prd.net                                289 条
    goatcounter.com                            251 条
    web.app                                    221 条
    go-static.info                             210 条

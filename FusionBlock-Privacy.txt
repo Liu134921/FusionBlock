@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.21.0043
+! Version: 2026.11.21.1348
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -862,7 +862,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52296) =====
+! ===== 网络规则 (52301) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -11913,6 +11913,7 @@
 ||collserve.com^$third-party
 ||coloradoserves.com^
 ||colorandnoise.com^
+||colorfilter.net^
 ||colorfulneon.com^
 ||colorfulpet.com^
 ||coloroptimizer.com^
@@ -20287,6 +20288,7 @@
 ||hotwire.com/tagging-client
 ||house27.ch/counter/
 ||housecrm.com.br/track/
+||housewheels.com^
 ||houston-content.cresa.com^
 ||houston.advgo.net^
 ||houstonchronicle.com/413gkwMT/init.js
@@ -27438,6 +27440,7 @@
 ||mascguys.com^
 ||mashery.com/analytics/
 ||maskedadmin.com^
+||masondown.com^
 ||masseurexpress.com^
 ||massivecams.com/api/metrics
 ||massivemark.com^
@@ -30694,6 +30697,7 @@
 ||nirdjz.revolveclothing.com.au^
 ||nisaapp.nexus-dt.com^
 ||nisii.resiliencelabo.com^
+||nitrojiveband.com^
 ||nitrous-analytics.s3.amazonaws.com^
 ||nius.de/monitoring
 ||nixie.starlightnet.work^
@@ -31718,6 +31722,7 @@
 ||ordbng.extra.com.br^
 ||ordergroove.com/log/offer?
 ||orderjumper.com^
+||ordinalzero.com^
 ||ordpmx.victorianplumbing.co.uk^
 ||oregonstate.actonservice.com^
 ||organiccdn.io^
@@ -45387,7 +45392,7 @@
 ||thecounter.com^$third-party
 ||thecounter.net^
 ||thecrazychili.com^
-||thedailybeast.com/static/js/thirdparty.
+||thedailybeast.com/metrics/
 ||thefishstops.com^
 ||thefontzone.com^
 ||thefreedictionary.com/_/tr.ashx?
