@@ -1,13 +1,13 @@
 == 输入
-   域名规则 110150 / 路径规则 15958 / 例外 11289 / 元素隐藏 75213 / 未解析 9737
-   载入阶段：{'重复行': 70852, '超长丢弃': 35, 'scriptlet未映射': 4, 'scriptlet转换': 9}
+   域名规则 111387 / 路径规则 15958 / 例外 11290 / 元素隐藏 75222 / 未解析 9739
+   载入阶段：{'重复行': 70961, '超长丢弃': 35, 'scriptlet未映射': 4, 'scriptlet转换': 9}
 
 == 优化
-   祖先覆盖   -2860
-   修饰符冗余  -782
+   祖先覆盖   -2872
+   修饰符冗余  -781
    微信保护   -6
    危险宽泛   -4
-   合计删除 3652，保留 122456（97.1%）
+   合计删除 3663，保留 123682（97.1%）
 
 == 样例
    [修饰符冗余]
@@ -38,18 +38,18 @@
       ||badjs.weixinbridge.com^
 
 == 合并候选（父域下纯子域规则 >=8 条，只建议不改动）
-   appsflyersdk.com                           8335 条
+   appsflyersdk.com                           8365 条
    cloudfront.net                             818 条
-   a.run.app                                  415 条
+   a.run.app                                  414 条
    com.102.122.2o7.net                        393 条
-   112.2o7.net                                347 条
+   112.2o7.net                                348 条
    goaserv.com                                308 条
+   aws-prd.net                                290 条
    goasrv.com                                 289 条
-   aws-prd.net                                289 条
-   goatcounter.com                            251 条
+   goatcounter.com                            250 条
    web.app                                    221 条
    go-static.info                             210 条
    vivoglobal.com                             207 条
    firebaseapp.com                            205 条
-   cname.ebis.ne.jp                           203 条
-   122.2o7.net                                148 条
+   cname.ebis.ne.jp                           202 条
+   122.2o7.net                                147 条
