@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.21.2355
+! Version: 2026.11.22.0528
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -862,7 +862,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52304) =====
+! ===== 网络规则 (52308) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -25228,6 +25228,7 @@
 ||logmatic.io^$third-party
 ||lognormal.net^$third-party
 ||logofa.st/js/script.js
+||logomet.com^
 ||logql.yahoo.co.jp^
 ||logr-ingest.com^$third-party
 ||logrocket.com^$third-party
@@ -32568,6 +32569,7 @@
 ||pitapan.openapp.link^
 ||pitatisisminis.openapp.link^
 ||pitcher.actonservice.com^
+||pitmanmusic.com^
 ||pittaking.openapp.link^
 ||pivotpointsecurity.actonservice.com^
 ||piwik.pro^$third-party,domain=~clearcode.cc|~clearcode.pl|~piwikpro.de
@@ -34201,6 +34203,7 @@
 ||realzeit.io^$third-party
 ||reaonq.xn--hdks770u8f0a8dvzft.net^
 ||reauthenticator.com^
+||rebatecircle.com^
 ||rebelclover.com^
 ||rebelhen.com^
 ||rebelmouse.com/pharos/
@@ -35784,6 +35787,7 @@
 ||sandbox-connectlp.keysight.com^
 ||sandbox-elq.keysight.com^
 ||sandboxbid.com^
+||sandshredder.com^
 ||sandstrophies.com^
 ||sandypocket.com^
 ||sandytaco.com^

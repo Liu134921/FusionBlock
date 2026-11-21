@@ -1,7 +1,7 @@
 ! Title: FusionBlock Ads
 ! Description: 广告拦截主列表：合并 AdGuard 官方三件 + EasyList China + HaGeZi Light + 217heidai + xinggsf，已去重化简，关键服务误杀已体检
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.21.2355
+! Version: 2026.11.22.0528
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -11298,7 +11298,7 @@
 @@||zxzja.com:*/Cloud/Down/$subdocument,stealth=referrer
 @@||zxzja.com:*/player-$subdocument,stealth=referrer
 
-! ===== 网络规则 (123682) =====
+! ===== 网络规则 (123767) =====
 
 http://www.ads.$third-party
 https://github.com/AdguardTeam/AdguardFilters/issues/51221
@@ -16559,6 +16559,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||9b8877f4-gwbfzy7a.cname.ebis.ne.jp^
 ||9bialak0c.com^
 ||9bple7bubupgime8vpqbgw.rest^
+||9br5llkimoxjcj.cfd^
 ||9c5a572f0f.efddd3de51.com^
 ||9c6d95b6b3.com^
 ||9c867e2056.com^
@@ -17527,6 +17528,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||abpnow.xyz^
 ||abpocvnpwckpd.space^
 ||abpolropqo.in^
+||abpsasragza.in^
 ||abqerio.shop^
 ||abqerion.shop^
 ||abrasivefirsthandsadly.com^
@@ -23598,6 +23600,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||aliyuncs.com^$domain=9xav.cc
 ||aljazeera.com/thirdparty/nr.js
 ||aljazeera.edge.nc0.co^
+||aljbusvenybfw.website^
 ||alkbztuvuctbn.online^
 ||alkpuzaghtfoc.website^
 ||alkydalmoign.com^
@@ -35387,6 +35390,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||bhpobyrxozcod.site^
 ||bhs4.com^
 ||bhsedelhiboard.net^
+||bhstuwcljiapv.space^
 ||bhsvhdzlohixl.online^
 ||bhubaneswarambulance.com^
 ||bhuvikasolar.online^
@@ -35600,6 +35604,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||bihunekus.com^
 ||bijawhortle.top^
 ||bijisdikvmufo.online^
+||bijoussolum.com^
 ||bikefit.ink^
 ||bikemanw.com^
 ||bikeradar.com/pricecomparison/widget/
@@ -36415,6 +36420,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||bmcdn5.com^
 ||bmcdn6.com^
 ||bmchkcsfvwqktx.com^
+||bmefkyuauinps.space^
 ||bmestredqolzo.website^
 ||bmetric.com^
 ||bmfads.com^
@@ -37951,6 +37957,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||bunintruder.com^
 ||bunionprognosisscone.com^
 ||bunkedfusels.com^
+||bunkosmusterpuisny.cyou^
 ||bunkr.*/magic/pure-magic-1.js
 ||bunkr.si/lazyhungrilyheadlicks.js
 ||bunkrr.su/lazyhungrilyheadlicks.js
@@ -41172,6 +41179,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||charm-whatsapp.com^
 ||charmedwater.com^
 ||charmingarea.com^
+||charmingkite.com^
 ||charmingpoliteinjunction.com^
 ||charmingtiger.me^
 ||chart.dk^
@@ -41675,6 +41683,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||cidrap.umn.edu/core/modules/statistics
 ||cieapkjfmavqd.site^
 ||cieefwimgocmj.com^
+||ciehqtjmixqnz.site^
 ||ciencia.ao^
 ||cientch.360doc.cn^
 ||cienum.fr^
@@ -45482,6 +45491,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||ctnetwork.hu^
 ||ctneydniegzoj.online^
 ||ctnsnet.com^
+||ctnwuswpxgr.com^
 ||ctobsnssdk.com^
 ||ctogcnmaxzfao.online^
 ||ctosrd.com^
@@ -45646,6 +45656,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||curiosity.sg^
 ||curiousbirch.mobi^
 ||curioushingefast.com^
+||curiousjeans.com^
 ||curiousmetal.com^
 ||curiouspatch.com/static/rsoc.js
 ||curjclpfbyand.online^
@@ -54464,6 +54475,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||exclusivesearch.online^$popup
 ||excnn.com/templates/anime/sexybookmark/js/popup.js
 ||excuseduchess.com^
+||excuseschewerspokers.cfd^
 ||exdtqlgaezeqf.site^
 ||exdynsrv.com^
 ||exe.bid^
@@ -55391,6 +55403,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||faucetfoot.com^
 ||fauldstragi.qpon^
 ||faultphonons.com^
+||faunaoampitter.cyou^
 ||faunusmt.cfd^
 ||fauracia.biz^
 ||fauvistfreen.cfd^
@@ -55744,6 +55757,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||ferocitycandour.com^
 ||feross.org/views
 ||ferqandulio.shop^
+||ferrelstremble.cfd^
 ||ferryhill.net^
 ||ferthhagboat.com^
 ||ferularfirmerauncel.qpon^
@@ -55782,6 +55796,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||fetlife.com/ads/
 ||feuageepitoke.com^
 ||feudstainer.qpon^
+||feuedmuphrid.rest^
 ||feuerholzliebe.de^
 ||fevgdluuiqjflm.com^
 ||fevilsor5.net^
@@ -56368,6 +56383,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||fishingtoolsbox.com^
 ||fishki.net/code?
 ||fishki.net/counter/
+||fishmanjewism.com^
 ||fishrobotflower.com^
 ||fishspies.com^
 ||fishtownanalytics-collector-1340672531.us-east-1.elb.amazonaws.com^
@@ -56880,6 +56896,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||fo72jlzh6m44jyjhmzyor.cyou^
 ||fobshanghai.com/bbsad/
 ||focalink.com^
+||focallysufism.com^
 ||focalrenet.cfd^
 ||focas.jp^
 ||focipalaeic.com^
@@ -57825,6 +57842,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||ftchinese.com/m/marketing/
 ||ftd.agency^
 ||ftdpjbzkeprjhs.com^
+||ftesywpao.com^
 ||ftflqcbjxbonu.space^
 ||fthtekeprokcb.website^
 ||ftimg.net/js/log.js?
@@ -59539,6 +59557,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||gfecelpidcukf.site^
 ||gfehmnq5e.com^
 ||gfesbjnadvxrb.online^
+||gfgayfvin.com^
 ||gfghgyj.onepage.me^
 ||gfh9j4wyub.com^
 ||gfigiicejfeeaafiaadh.world^
@@ -60823,6 +60842,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||googlevideo.com/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||googlevideo.com/videoplayback?$xmlhttprequest,redirect=nooptext,domain=safeframe.googlesyndication.com
 ||googly11.in^
+||googlylaconic.rest^
 ||gooloeboonpia.com^
 ||goologer.com^
 ||goomaphy.com^
@@ -66672,6 +66692,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||illicium.wmtransfer.com^
 ||illinformed-imagination.com^
 ||illinformed-summer.com^
+||illitesbayamo.com^
 ||illsmegswzciw.space^
 ||illumenix.com^
 ||illumin.com^
@@ -67652,6 +67673,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||inf.miui.com^
 ||infamous-maximum.com^
 ||infamouscomer.com^
+||infantile-demand.pro^
 ||infantilecombination.com^
 ||infantiletransition.com^
 ||infatica-sdk.io^
@@ -69042,6 +69064,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||iwidhitjlsknb.site^
 ||iwin.club^
 ||iwiszmmqwbyus.site^
+||iwkmyftxsvqyf.online^
 ||iwmapapi.americanexpress.com^
 ||iwo7gvjic1l29j47g79j5pf7ux47nq3vr.cyou^
 ||iwoihuemn.com^
@@ -69116,6 +69139,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||iykl.xyz^
 ||iykl2.xyz^
 ||iylmhxsetacid.space^
+||iylmrcqrhbzhu.site^
 ||iylqhtoolnuce.website^
 ||iymedia.me^
 ||iyognlobwcphf.site^
@@ -69637,6 +69661,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||jdfwmd-launches.appsflyersdk.com^
 ||jdfwmd-register.appsflyersdk.com^
 ||jdfzyvdznwsgs.website^
+||jdgdcymyusicg.site^
 ||jdhnfbflubyah.online^
 ||jdhsx357.com^
 ||jdhyabmbldp.com^
@@ -70024,6 +70049,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||jjade.xyz^
 ||jjbyyelpd.com^
 ||jjgirls.com/graphics/mobile/en/*/*.jpg
+||jjhlqnxekuzzj.space^
 ||jjjgame.com/images/ad11.jpg
 ||jjjjaaasss.com^
 ||jjjxsw.com/js/common.
@@ -70056,6 +70082,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||jk4lmrf2.de^
 ||jk6wmqcut2.com^
 ||jk8ineoqdj.com^
+||jkabgsmcttous.website^
 ||jkcl20-attr.appsflyersdk.com^
 ||jkcl20-cdn-settings.appsflyersdk.com^
 ||jkcl20-conversions.appsflyersdk.com^
@@ -70743,6 +70770,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||juexsoowv.com^
 ||jufbglqdpbidb.space^
 ||jufferfurtum.cyou^
+||jugalehelly.rest^
 ||jugerfowells.com^
 ||jugfulsagnat.cyou^
 ||juggler.services.disqus.com^
@@ -70836,6 +70864,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||jurjdpyqrgezo.site^
 ||jurorslard.shop^
 ||jursp.com^
+||jurymanloretin.click^
 ||juryprefacereproach.com^
 ||jus.com.tr^
 ||jusagaji.top^
@@ -72129,6 +72158,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||kjch5q-cdn-settings.appsflyersdk.com^
 ||kjch5q-launches.appsflyersdk.com^
 ||kjcpromo.com^
+||kjctsxcqsevth.online^
 ||kjdegeotelm.com^
 ||kje9v2ic57.com^
 ||kjetdxtcammhc.com^
@@ -74329,6 +74359,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||lhifppgvxkj.com^
 ||lhivvxyqzddyr.website^
 ||lhjehvulthcmf.space^
+||lhjitzjduxihz.online^
 ||lhjvhnwlttylp.online^
 ||lhmos.com^
 ||lhqxnszailjrk.website^
@@ -76324,6 +76355,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||lpalartra.com^
 ||lparnaro.com^
 ||lpceoltaesyyl.online^
+||lpcmyzlvyhmko.online^
 ||lpd2sz-cdn-settings.appsflyersdk.com^
 ||lpd2sz-inapps.appsflyersdk.com^
 ||lpd2sz-launches.appsflyersdk.com^
@@ -81068,6 +81100,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||mdvkhf-cdn-settings.appsflyersdk.com^
 ||mdvkhf-inapps.appsflyersdk.com^
 ||mdvkhf-launches.appsflyersdk.com^
+||mdwalochrmnsy.online^
 ||mdwezxaqxzfmg.site^
 ||mdwhxw.com^
 ||mdznads.com^
@@ -83147,6 +83180,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||mhngs.com.102.122.2o7.net^
 ||mhnzcdghwawjvq.com^
 ||mhqn.pages.dev^
+||mhqvu3rrbec9qq.rest^
 ||mhsmligjusofb.space^
 ||mhtulkoysljdg.site^
 ||mhuavwvdvdkbg.website^
@@ -83154,6 +83188,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||mhukzoikt.com^
 ||mhuzsmkbekzrk.site^
 ||mhvgzqdmtecnc.site^
+||mhvvhwnusnqir.site^
 ||mhxk.com^*/main/entry.common.$script
 ||mhybzynmuovq.in^
 ||mhzyawls.cfd^
@@ -84407,6 +84442,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||monoazotupelos.com^
 ||monoclick.top^
 ||monocular-agency.com^
+||monodunger.com^
 ||monogonzalez.com^
 ||monomerenjail.qpon^
 ||monopartners.pl^
@@ -87277,6 +87313,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||nipechala.com^
 ||nippilyxenium.com^
 ||nippyprice.com^
+||niqcdzpghwcvj.space^
 ||niravraval.goatcounter.com^
 ||niscprts.com^
 ||nisjslzjxhyvl.site^
@@ -90206,6 +90243,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||oqttewnjznbo.com^
 ||oqujaczroycoa.website^
 ||oqvodgp36.com^
+||oqxkasobcn.in^
 ||oqyogskpdcmpq.space^
 ||or.shaverscaliban.cyou^
 ||or6p0f4i8.com^
@@ -90976,6 +91014,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||oxlrblhsjtafa.space^
 ||oxlueigiwmyxh.com^
 ||oxmanwashier.cyou^
+||oxqyskqacubxl.website^
 ||oxrttf-cdn-settings.appsflyersdk.com^
 ||oxrttf-launches.appsflyersdk.com^
 ||oxshoeshiels.cfd^
@@ -92005,6 +92044,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||pbmp.ali213.net/js/
 ||pbnet.ru^
 ||pbo8y8igrp.com^
+||pbqtdprvlotta.online^
 ||pbs.inmobi.com^
 ||pbs.yahoo.com^
 ||pbstck.com^
@@ -93992,6 +94032,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||pkklaildzve.com^
 ||pkkxiyqnxojzq.space^
 ||pklnau.ru^
+||pkmpjqpkjvpyp.website^
 ||pkobp-pl-weryfikacja.com^
 ||pkoplink.com^
 ||pkpmhr2gw.com^
@@ -94774,6 +94815,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||plugin.ws^
 ||plugins.soclminer.com.br^
 ||pluginsjquery.com^
+||plugmenculverplucker.cfd^
 ||plugrush.com^
 ||plugs.co^
 ||plumbertowards.com^
@@ -94866,6 +94908,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||pmwk5h-launches.appsflyersdk.com^
 ||pmyopuykbtbpn.website^
 ||pmyvwtugsdqsn.site^
+||pmzdnfhaqtqgg.website^
 ||pmzer.com^
 ||pmzzjsbwtnroc.website^
 ||pn.ybp.yahoo.com/ab/imp/
@@ -96033,6 +96076,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||premads.info^
 ||premclubs.com^
 ||premier-dream.co^
+||premieseafarevg.cfd^
 ||premium-members.com^$popup
 ||premium-offers.com^
 ||premium-rx.com^
@@ -97450,6 +97494,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||px802.cmediahub.ru^
 ||pxaction.com^
 ||pxb9nb3bghif9j8.cfd^
+||pxbjpwwtidoxl.space^
 ||pxc.otto.de^
 ||pxdb08b82.com^
 ||pxdtkukiwrgiy.site^
@@ -98297,6 +98342,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||qqwnrphmqkxvn.site^
 ||qqwwaa.tos-cn-hongkong.volces.com^
 ||qqxiazai.com/index.*adver&
+||qqylrvnxfvzuo.space^
 ||qqyy.com/js/commAdv
 ||qqyy.com/js/public_end_add.js
 ||qqzarzuheqxin.online^
@@ -99404,6 +99450,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||rcdjlpqydhont.site^
 ||rcdn-web.com^
 ||rce.ee^
+||rcehpbzhvhbxh.space^
 ||rcf.co.mz^
 ||rcfeowortgtjl.online^
 ||rcftcrtutkqyk.website^
@@ -100106,6 +100153,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||reliablecounter.com^
 ||reliablefiles.com^
 ||reliableguardianindifference.com^
+||reliablepapaya.com^
 ||reliableparrot.biz^
 ||relictimotyka.cfd^
 ||reliedhounder.com^
@@ -100237,6 +100285,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||renwai.ren/cdn/pic/ad
 ||renwoxingcap.cn^
 ||reo682syw4.com^
+||reobtucqfsjbq.website^
 ||reoiledgratin.cfd^
 ||reoilgarbler.cfd^
 ||reomittold.com^
@@ -100984,6 +101033,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||rimerytouareg.click^
 ||rimingisology.com^
 ||rimowaoutlet.at^
+||rimpleoopak.com^
 ||rimprrhipi.store^
 ||rinagym.pl^
 ||rinaqnjh.in^
@@ -101131,6 +101181,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||rkfhsadvgwkha.website^
 ||rkgwzfwjgk.com^
 ||rkgzpyhholgnl.online^
+||rkhddfalgwcmr.online^
 ||rkjmhv2lvh.com^
 ||rkmmcrvppgvfg.site^
 ||rkmqdatokmwfj.online^
@@ -101155,6 +101206,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||rle.ru^
 ||rlfmshrdipiug.space^
 ||rlfsfaelkrwmm.site^
+||rlgsfmogis.com^
 ||rlhhlp.icu^
 ||rlipogqoonubh.online^
 ||rlkdnpvhtfbuo.online^
@@ -107236,6 +107288,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||silimbompom.com^
 ||silkceasedkidney.com^
 ||silklanguish.com^
+||silkmenrattles.com^
 ||silkorafrance.fr^
 ||silkroad.csdn.net^
 ||silkymood.com^
@@ -109964,6 +110017,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||splendidsugar.com^
 ||splendlddates.com^
 ||splendris-pharmaceuticals.de^
+||splhepaqauqdz.site^
 ||splicky.com^
 ||splitbee.io^
 ||splitsorlean.cfd^
@@ -110268,6 +110322,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||srilankamirror.com/images/banners/
 ||srimepickk.shop^
 ||srimzivocntgw.site^
+||srjgxxazkopdh.space^
 ||srmcychtzaeny.online^
 ||srmdata-*.com^
 ||srmdata-eur.com^
@@ -114477,6 +114532,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||sukien-lienquanmobile.com^
 ||sukkisukki.com/pu.js
 ||sukunukyazhrn.website^
+||sulafatmortals.com^
 ||sulasok.cz/00BANNER_UJDVNKOK3U.gif
 ||sulfatesoluble.com^
 ||sulia.com/papi/sulia_partner.js/$third-party
@@ -116825,6 +116881,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||tedo-stats.de^
 ||teecallclints.rest^
 ||teedpetrog.cfd^
+||teemedgoose.cyou^
 ||teeming-comfortable.com^
 ||teen-biz.com^
 ||teenfinder.com/landing/$popup,third-party
@@ -117465,6 +117522,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||teluguwebsite.com/radio.jpg
 ||telusquebec.112.2o7.net^
 ||telyn610zoanthropy.com^$popup
+||telzyekrvdkdi.site^
 ||temava.com^
 ||temelio.com^
 ||temp-mail.org/images/site-banners/
@@ -118780,6 +118838,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||tkpopd.cfd^
 ||tkportal.aotter.net^
 ||tkrconnector.com^
+||tkrdmdevonttd.online^
 ||tks.matomo.asiososys.com^
 ||tksua4.ru^
 ||tktube.com/adlib/
@@ -119509,6 +119568,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||torrenty-pl.cc^
 ||torrindex.net/images/ads/
 ||torrindex.net/images/epv/
+||torselfist.com^
 ||torsescoltish.qpon^
 ||torsesripuplugworm.cyou^
 ||torstardigital.122.2o7.net^
@@ -121941,6 +122001,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||tvnacqljeskcc.website^
 ||tvnjbpgmvifca.space^
 ||tvnnumvfmrshrn.com^
+||tvnwoj7ji9f5qe8v3bcl.cfd^
 ||tvoy-startup.ru^
 ||tvp.pl/video/vod/reklamy/$domain=tvp.pl
 ||tvp.tv^
@@ -122394,6 +122455,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||uads.cc^
 ||uaeapcmjbmzad.space^
 ||uaebudjelbzvq.online^
+||uaemmecrxspgy.online^
 ||uaenationalpower.com^
 ||uagritech.com^
 ||uahiuqocrhwey.site^
@@ -122728,6 +122790,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||uhprgededncmt.space^
 ||uhsmmaq4l2n5.com^
 ||uhssubduedbruiser.cyou^
+||uhuamdzywzxsc.online^
 ||uhuseries.com/banner/
 ||uhwvwl-cdn-settings.appsflyersdk.com^
 ||uhwvwl-launches.appsflyersdk.com^
@@ -124074,6 +124137,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||ur9lu5-cdn-settings.appsflyersdk.com^
 ||ur9lu5-inapps.appsflyersdk.com^
 ||ur9lu5-launches.appsflyersdk.com^
+||uraeusanisol.com^
 ||uralweb.ru^$third-party
 ||uramylypcuzwt.online^
 ||uranus.jd.com^
@@ -125522,6 +125586,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||vgdselywhurms.site^
 ||vgdzmvqyzjkuvv.com^
 ||vgfarjwduljqm.com^
+||vgfyzxruvnjfr.site^
 ||vghd.com^
 ||vghxvngafvxtf.space^
 ||vgj4rlp9kbqw42.cfd^
@@ -125911,6 +125976,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||vilmmnuzwgpnq.site^
 ||vilvetpockar.info^
 ||vilytaku.com^
+||vimanahuacaperiwig.cfd^
 ||vimeo.com/ablincoln/
 ||vimeo.com/add/
 ||vimeocdn.com/add/player-stats?
@@ -126595,6 +126661,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||vpsgu.cn^
 ||vpshostplans.com/wp-content/plugins/ultimate-anti-adblock/
 ||vptbn.com^
+||vpvluqsezpepu.online^
 ||vpvlxuooad.com^
 ||vpw1lig85.com^
 ||vpwdfzhcczwye.space^
@@ -126728,6 +126795,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||vsx8ba-cdn-settings.appsflyersdk.com^
 ||vsx8ba-conversions.appsflyersdk.com^
 ||vsxahkco.com^
+||vsyvkhtnuhqsr.space^
 ||vt.payback.de^
 ||vt2oh8omrf9.ock5z8vuf1yv74ilowy8k1.cyou^
 ||vtaftibuvbib.in^
@@ -126881,6 +126949,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||vvgxvczfx.com^
 ||vvhepvilma.info^
 ||vvhp.net/read/view.gif
+||vvjffwrzebnic.website^
 ||vvjfyahvji.com^
 ||vvkvwl-cdn-settings.appsflyersdk.com^
 ||vvnnzpasmoafi.space^
@@ -129577,6 +129646,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||wqkbncbarqqzb.space^
 ||wqlbyrlaybip.com^
 ||wqnwahvyzwpoe.online^
+||wqocsswvhjfpdh.com^
 ||wqonzyhaudivv.space^
 ||wqpbyt-cdn-settings.appsflyersdk.com^
 ||wqpbyt-conversions.appsflyersdk.com^
@@ -129597,6 +129667,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||wral-snowplow-collector-1139283751.us-east-1.elb.amazonaws.com^
 ||wral.cn^
 ||wramupymnrcwo.online^
+||wrangaltica.com^
 ||wrannyundrawn.com^
 ||wrap.tradedoubler.com^
 ||wrapper-analytics.on3.com^
@@ -129845,6 +129916,8 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||wvhnmgwytrfsd.site^
 ||wvhyqzwryckie.site^
 ||wvjqwcwtnydm.com^
+||wvnlevictrlzd.site^
+||wvrcgqytqgsco.space^
 ||wvrp.cn^
 ||wvsjtjznumdzd.space^
 ||wvuiaqx.com^
@@ -129898,6 +129971,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||wwopenclick.club^
 ||wwopenclick.space^
 ||wwopenclick.vip^
+||wwpiptrvhxuil.online^
 ||wwpon365.ru^
 ||wwpvpbktgoets.space^
 ||wwtucxtfjczpn.site^
@@ -130249,6 +130323,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||wxahotordoxmr.online^
 ||wxaintpcos.wxqcloud.qq.com.cn^
 ||wxc.cc/scripts/gg.
+||wxcurrpeywzyi.space^
 ||wxfdmri.xyz^
 ||wxhawk.aoscdn.com^
 ||wxhiojortldjyegtkx.bid^
@@ -131405,6 +131480,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||xnhxre-conversions.appsflyersdk.com^
 ||xnhxre-dlsdk.appsflyersdk.com^
 ||xnimg.cn^*/liveinc/rightlive.js
+||xnjkxplrasnqu.space^
 ||xnjlqdvgyqonu.site^
 ||xnlmmyfgayvom.site^
 ||xnlyfanx.com^
@@ -131966,6 +132042,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||xyj321.com/static/zx/js/zx-con-jsq_
 ||xyjezjqetukyk.online^
 ||xykedvwnijdoj.space^
+||xylasmozzoyuh.website^
 ||xylem-analytics.com.au^
 ||xylidindetat.cyou^
 ||xylitesmash.com^
@@ -132773,6 +132850,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||yloeyuprkiyrf.online^
 ||ylog.huya.com^
 ||ylog.nimo.tv^
+||ylpvvowmosgjn.space^
 ||ylqreltdrixef.website^
 ||ylr1xn2b4i.com^
 ||yltsqa-cdn-settings.appsflyersdk.com^
@@ -133717,6 +133795,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||zaxstiwaxkma.in^
 ||zaynay.com^
 ||zaytung.com/images/radore
+||zayvqbcqlwmpe.site^
 ||zaz.leczna.pl^
 ||zazcbjgbnlcei.site^
 ||zazgbqg*.xyz^
@@ -133942,6 +134021,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||zeppy.io^
 ||zepzylmimnsxj.site^
 ||zerads.com^
+||zerdaseptula.cfd^
 ||zergnet.com^$script,third-party
 ||zerioncc.pl^
 ||zeriun.cc/assets/js/mtg.js
@@ -134203,6 +134283,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||zincirsizstore.com^
 ||zineone.com^
 ||zinitelophich.com^
+||zinnrakakurnm.online^
 ||zinoe.cn^
 ||zinovu.com^
 ||zinruvki.net^
@@ -134395,6 +134476,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||zmo7l6frhjuerzj2.n6opzp84t6co76ozffohq.cyou^
 ||zmonei.com^
 ||zmovies.cc/e3cf74305b.php
+||zmpqvh8v9c7p66o.rest^
 ||zmqdez.ru^
 ||zmqjwpuftbdsj.site^
 ||zmrdjhej.com^
@@ -134457,6 +134539,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||zoeyloves.store^
 ||zofexiivopqiv.online^
 ||zog.link^
+||zogckzeavzimd.site^
 ||zogrepsili.com^
 ||zohdzg-cdn-settings.appsflyersdk.com^
 ||zohdzg-conversions.appsflyersdk.com^
@@ -134597,6 +134680,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||zpteilaamwnwz.space^
 ||zptfrxoaumxhnu.com^
 ||zpu.samsungelectronics.com^
+||zpuelyeoxvyov.website^
 ||zpwfrhdzjozby.space^
 ||zpwjgzpuirrez.online^
 ||zpwomixmgczcy.space^
@@ -134864,6 +134948,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||zwrbgfinmhmns.site^
 ||zwrotinwestix.store^
 ||zwuesdewosddn.site^
+||zwviaudbvtrbf.website^
 ||zwxtfp.icu^
 ||zwxyof-cdn-settings.appsflyersdk.com^
 ||zwxyof-conversions.appsflyersdk.com^
@@ -134983,7 +135068,7 @@ https://github.com/AdguardTeam/AdguardFilters/issues/51221
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 
-! ===== 元素隐藏 (75222) =====
+! ===== 元素隐藏 (75228) =====
 
 ###AC_ad
 ###AD_160
@@ -172387,7 +172472,6 @@ gumtree.com##.gt-placement
 gumtree.com##.srp-results > div.grid-row > div[class*="grid-col-12"] > h3[id$="-attribution"]:not([data-q])
 gumtree.com#$#div[data-q="tBanner-container"] ~ div[data-q="section-top-and-left-and-middle"] { margin-top: -256px !important; }
 gumtree.com#%#//scriptlet('json-prune', 'features.ad02 features.adshield')
-gumtree.com#%#//scriptlet('prevent-constructor', 'Promise', 'error-report.com')
 gumtree.com.au###FUSE_HP_SEARCH_DWEB
 gumtree.com.au###FUSE_VIP_BOTTOM1_DWEB_24
 gumtree.com.au###FUSE_VIP_DESCRIPTION_DWEB_24
@@ -175320,7 +175404,13 @@ igo.cn###NewigoBox
 igo.cn##.adBG
 igo.cn##DIV[class^="leyuBg"]
 igo99.cn##.adBG
+igorslab.de###extras > #single-sticky + div:has(img)
+igorslab.de##.entry-content > a:has(> img):has(+ aside.ilab-ad-privacy-footer)
 igorslab.de##.herald-sidebar
+igorslab.de##.widget_custom_html:has(> .widget-title + .textwidget:empty)
+igorslab.de##[data-igorslab-trackid]
+igorslab.de##body > div:has(> [data-igorslab-trackid])
+igorslab.de##div[id^="advads_ad_widget-"]
 igraal.com##[data-ig-ga-cat="Ad"]
 igram.im##.mcon
 igram.im##.mcor
@@ -175934,8 +176024,7 @@ indiatimes.com##.vidad
 indiatimes.com##body .ads-textafter
 indiatimes.com##body .rhs_ads:not(#style_important)
 indiatimes.com##body div.article_first_ad
-indiatimes.com##div:has(> div[id^="div-gpt-ad-"][id$="-atf"])
-indiatimes.com##div:has(> div[id^="div-gpt-ad-atf-"])
+indiatimes.com##div:has(> div[id^="div-gpt-ad-"][id*="-atf"])
 indiatimes.com##div[data-type="in_view"]:has(> span + div .adWrapperPlaceholder > div[id^="div-gpt-ad-mrec"])
 indiatimes.com##li:has(> .adInv:only-child)
 indiatimes.com##style[type="text/css"] + div[class]:not([id]):not([style]):not([class*=" "])
@@ -180171,7 +180260,6 @@ lifeinkrakow.pl#$#.adsbygoogle { position: absolute!important; left: -3000px!imp
 lifeinkrakow.pl#?#.page-content > p:has(> .adsbygoogle:only-child)
 lifeinsaudiarabia.net,freepornsiterips.com##div[class^="code-block code-block-"][style^="margin: 8px auto;"]
 lifeinsaudiarabia.net,ryuugames.com,techviewleo.com,gizmochina.com##.td-banner-wrap-full
-lifeintheuktestweb.co.uk,androidauthority.com,radiojapan.org,nationalpost.com,people.com,shinden.pl,euronews.com,carsized.com,swedespeed.com,langenscheidt.com,komputerswiat.pl,businessinsider.com.pl,fakt.pl,plejada.pl,medonet.pl,onet.pl,satkurier.pl,minecraftskins.com,myinstants.com,makeitmeme.com,tibiopedia.pl,gazeta.pl,edziecko.pl,sport.pl,moto.pl,plotek.pl,fandom.com,gry-online.pl#%#(()=>{const t=/adshield|adsentinel/,e="(function(){})();",r=/^\(\s*\.\.\.\s*([A-Za-z_$][\w$]*)\s*\)\s*=>\s*[A-Za-z_$][\w$]*\s*\.\s*apply\s*\(\s*this\s*,\s*\1\s*\)\s*$/,o=/^function\s*\(\s*\)\s*\{\s*return\s+[A-Za-z_$][\w$]*\s*\.\s*apply\s*\(\s*this\s*,\s*arguments\s*\)\s*;?\s*\}$/,p=/^(?:"use strict"|'use strict');\s*\(\(\)\s*=>\s*\{[\s\S]*\}\)\(\s*\);?\s*$/,s=/^([A-Za-z_$][\w$]*\(\s*\)\s*;)\s*\(async(?:\s+function\s*\(\s*\)|\s*\(\s*\)\s*=>)\s*\{[\s\S]*\}\)\(\s*\);?\s*$/,n=["requestAnimationFrame","requestIdleCallback","setInterval","setTimeout"],a={apply:Reflect.apply,construct:Reflect.construct,filter:Array.prototype.filter,every:Array.prototype.every,some:Array.prototype.some,isArray:Array.isArray,getOwnPropertyDescriptor:Object.getOwnPropertyDescriptor,includes:String.prototype.includes,regexTest:RegExp.prototype.test,regexExec:RegExp.prototype.exec,functionToString:Function.prototype.toString,queueMicrotask:window.queueMicrotask},y=new Set,c=/(['"])recovery\1/,i=/(['"])r_\1/,l=e=>a.apply(a.regexTest,t,[e])&&a.apply(a.includes,e,["currentScript"])&&a.apply(a.includes,e,["postMessage"])&&a.apply(a.regexTest,c,[e])&&a.apply(a.regexTest,i,[e]);let d;if(window.TextDecoder){const t=Object.getPrototypeOf(Uint8Array.prototype),e=a.getOwnPropertyDescriptor(t,Symbol.toStringTag).get,r=a.getOwnPropertyDescriptor(t,"buffer").get,o=a.getOwnPropertyDescriptor(ArrayBuffer.prototype,"byteLength").get,p=a.getOwnPropertyDescriptor(ArrayBuffer.prototype,"resizable")?.get,s=new TextDecoder("utf-8",{fatal:!0}),n=TextDecoder.prototype.decode;d=(t,y=!1)=>{try{const c="Uint8Array"===a.apply(e,t,[]);if(!c&&!y)return"";const i=c?a.apply(r,t,[]):t;if(a.apply(o,i,[])>0&&(!p||!a.apply(p,i,[])))return a.apply(n,s,[t])}catch{}return""}}else d=()=>"";const u=window.crypto?.subtle;if("function"==typeof u?.digest&&window.TextEncoder&&window.TextDecoder){const t=(new TextEncoder).encode(e);u.digest=new Proxy(u.digest,{apply(e,r,o){try{const[e,p]=o;r===u&&"SHA-256"===e&&l(d(p,!0))&&(o[1]=t)}catch{}return a.apply(e,r,o)}})}const w=()=>{const t={};a.apply(a.queueMicrotask,window,[()=>y.delete(t)]),y.add(t)},f={construct:(r,o,p)=>{let s=!1;try{const[r,p]=o,n=p&&"object"==typeof p?a.getOwnPropertyDescriptor(p,"type")?.value:void 0;("application/javascript"===n||"text/javascript"===n)&&a.isArray(r)&&(a.apply(a.every,r,[t=>"string"==typeof t])&&a.apply(a.some,r,[e=>a.apply(a.regexTest,t,[e])])||1===r.length&&l(d(r[0])))&&(o[0]=[e],s=!0)}catch(t){}const n=a.construct(r,o,p);if(s)try{w()}catch(t){}return n}};window.Blob=new Proxy(window.Blob,f);const g=window.HTMLScriptElement,_=window.Element?.prototype.getAttribute;let x,A=g?.prototype;for(;A&&(x=a.getOwnPropertyDescriptor(A,"textContent"),!x);)A=Object.getPrototypeOf(A);x?.set&&_&&Object.defineProperty(A,"textContent",{...x,set:new Proxy(x.set,{apply(r,o,p){let s=!1;try{const r=p[0];if("string"==typeof r&&o instanceof g&&a.apply(a.regexTest,t,[r])){const t=t=>a.apply(_,o,[t]),n=t("type"),y=t("recovery"),c=t("data-src");!(y&&c||null===y&&null===c&&l(r))||null!==t("src")||n&&"application/javascript"!==n&&"text/javascript"!==n||(p[0]=e,s=!0)}}catch(t){}const n=a.apply(r,o,p);if(s)try{w()}catch(t){}return n}})});const T={apply:(t,e,p)=>{const s=y.values().next().value;y.delete(s);try{const[t,e]=p;if(s&&"number"==typeof e&&e>=4900&&e<5100){const e="function"==typeof t?a.apply(a.functionToString,t,[]):"string"==typeof t?t:"";(a.apply(a.includes,e,["new Error"])||"function"==typeof t&&(a.apply(a.regexTest,r,[e])||a.apply(a.regexTest,o,[e])))&&(p[0]=()=>{})}}catch(t){}return a.apply(t,e,p)}};window.setTimeout=new Proxy(window.setTimeout,T);const h={apply:(t,e,r)=>{try{"function"==typeof r[0]&&a.isArray(e)&&e.length===n.length&&a.apply(a.every,n,[(t,r)=>e[r]===t])&&(e=a.apply(a.filter,e,[t=>"setTimeout"!==t]))}catch(t){}return a.apply(t,e,r)}};window.Array.prototype.filter=new Proxy(window.Array.prototype.filter,h);const v={apply(t,r,o){const n=a.apply(t,r,o);try{if("string"!=typeof n)return n;const t=t=>a.apply(a.includes,n,[t]),r=()=>t("loader_light")&&t("last_bfa_at")&&t("/report?type=")&&t("as_modal_loaded")&&t("close-error-report")&&t("ECDSA")&&t("P-256"),o=a.apply(a.regexExec,s,[n]);if(o&&r())return o[1];if(!a.apply(a.regexTest,p,[n]))return n;if(t("__as_tag2_done")||t("_as_prehooked")||t("_onload2")||t("_onerror2"))return t("__as_tag2_done")&&t("_as_prehooked")&&t("_onload2")&&t("_onerror2")&&t('data-sdk^="pk/"')?"window.__as_tag2_done=true;void 0;":n;if(t('data-sdk^="pk/"')&&t("/recovery-light.js")&&t("/recovery.js")&&t("__as_cbs")&&t("__as_start_recovery")&&t("AdBlock detected")||r())return e}catch(t){}return n}};window.Array.prototype.join=new Proxy(window.Array.prototype.join,v)})();
 lifeintheuktestweb.co.uk,androidauthority.com,shinden.pl,aternos.org,bloxd.io,laptopmag.com,theweek.com,tvtechnology.com,freemcserver.net,satkurier.pl,minecraftskins.com,dictionary.cambridge.org,uppercutmma.com,makeitmeme.com,tibiopedia.pl,gazeta.pl,edziecko.pl,sport.pl,moto.pl,plotek.pl#%#//scriptlet('trusted-replace-argument', 'Function', '1', 'replace:/^([A-Za-z_$][\w$]*\(\);)(?=[\s\S]*report\.error-report\.com)(?=[\s\S]*html-load\.com)[\s\S]*$/$1/')
 lifeintheuktestweb.co.uk,financeguidz.com,dailypost.ng,timesofkarachi.pk,faqwiki.us,grammarhow.com,geeksdigit.com,transfernewslive.com,coincentral.com,wizgenerator.com,powerpyx.com,vivamaxstream.com,gizmochina.com,droidwin.com,simsvip.com,vice.com,iseekgirls.com,creditshui.com,pornxnow.me,softfully.com,cricfy.net,otakuporn.com,aitoolsfree.org,isekaitube.com,nexusgames.to,coachesdatabase.com,rockstarintel.com,sampledrive.org,vistanet.it,nudemasta.com,mangaread.org,boxingnewsonline.net,lewdgames.to,pokemongohub.net,romslab.com,lokkio.it,sharetheurls.com,opfanpage.com,canonrumors.com,flamecomics.me,repacklab.com,proserialkey.com,fullmatch.info,torrentmac.net,game-repack.site,ispreview.co.uk,nxbrew.net,news.fidelityhouse.eu,poscigi.pl,environmentenergyleader.com,econostrum.info,repack-games.com,cryptopolitan.com,asuratoon.com,chatgbt.one,njbeachcams.com,nokiapoweruser.com,tricksndtips.com,naijaremix.com,rockandrollgarage.com,firstcuriosity.com,bigbrothernetwork.com,flamescans.org,tech-latest.com,nintendoeverything.com,game-2u.com,ps4pkg.com,asurascans.com,anime7.download,netchimp.co.uk,howifx.com,digitbin.com,coffeenerd.blog,nsw2u.*,thegeekpage.com,watchseinfeld.cc,dandadanmanga.org,vgkami.com,tvtonight.com.au,warsawnow.pl,silverspoon.site,asura.gg,getdroidtips.com,crackshere.com,watchasian.ac,qzlyrics.com,marugujarat.in,linuxcapable.com,apkmb.com,techgeekbuzz.com,designcorral.com,otakukan.com,monsterspost.com,policeresults.com,browserhow.com,chromeunboxed.com,journeybytes.com,tutcourse.com,opportunitydesk.info,freecoursesites.net,tektutorialshub.com,fossbytes.com,borncity.com,profitableventure.com,guru99.com,whatisthemeaningofname.com,techpp.com,troypoint.com,bakabuzz.com,conservativebrief.com,xyzcomics.com,jujmanga.com,myhealthgazette.com,cryptodirectories.com,secondlifetranslations.com,thewincentral.com,firmwarefile.com,bicfic.com##body .code-block
 lifeinvader.com,marginalreport.net,spanishdict.com,studentski-servis.com#@#.ad-wrapper
@@ -182792,7 +182880,6 @@ matzoo.pl#%#//scriptlet('prevent-setInterval', 'bait.offsetParent')
 mavericktruckclub.com##.message-body > div[data-position^="post_below_content_"]
 mavericktruckclub.com##.xpress_articleList > div[data-insertion-position]
 mavericktruckclub.com##div[data-position^="container_breadcrumb_"]
-mavericktruckclub.com,kprofiles.com,theanalyst.com,apnews.com,leboncoin.fr#%#//scriptlet('abort-current-inline-script', 'btoa', 'HTMLIFrameElement_contentWindow')
 mavink.com##.adgrid
 mavink.com##div.box:has(> ins.adsbygoogle)
 mawtoload.com##a[target="_blank"] > img[src*=".wp.com/mawtoload.com/wp-content/uploads/"][src$=".webp"]
@@ -186912,6 +186999,7 @@ newsru.co.il##.M_hp_content
 newsru.co.il##.article_container > div > iframe[src*="platform.videoblock.co.il"]
 newsru.co.il##div[class^="amp_"]
 newsru.co.il##div[id^="M_HP_"]
+newstak.in#%#//scriptlet('prevent-element-src-loading', 'script', 'scorecardresearch.com')
 newstalkflorida.com##a[alt="Ad"]
 newstalkzb.co.nz##.c-background
 newstarget.com###Index06 > .Widget
@@ -201501,6 +201589,9 @@ theverge.com##div[class^="adblock-allowlist-messaging"]
 theverge.com##div[data-concert]
 theverge.com#$#.async-hide { opacity: 1.0 !important; }
 theverge.com,amp.cnn.com,ampproject.org##amp-iframe[src^="https://widgets.outbrain.com/hub/amp.html"]
+theverge.com,gumtree.com#%#//scriptlet('prevent-constructor', 'Promise', 'error-report.com')
+theverge.com,lifeintheuktestweb.co.uk,androidauthority.com,radiojapan.org,nationalpost.com,people.com,shinden.pl,euronews.com,carsized.com,swedespeed.com,langenscheidt.com,komputerswiat.pl,businessinsider.com.pl,fakt.pl,plejada.pl,medonet.pl,onet.pl,satkurier.pl,minecraftskins.com,myinstants.com,makeitmeme.com,tibiopedia.pl,gazeta.pl,edziecko.pl,sport.pl,moto.pl,plotek.pl,fandom.com,gry-online.pl#%#(()=>{const t=/adshield|adsentinel/,e="(function(){})();",r=/^\(\s*\.\.\.\s*([A-Za-z_$][\w$]*)\s*\)\s*=>\s*[A-Za-z_$][\w$]*\s*\.\s*apply\s*\(\s*this\s*,\s*\1\s*\)\s*$/,o=/^function\s*\(\s*\)\s*\{\s*return\s+[A-Za-z_$][\w$]*\s*\.\s*apply\s*\(\s*this\s*,\s*arguments\s*\)\s*;?\s*\}$/,p=/^(?:"use strict"|'use strict');\s*\(\(\)\s*=>\s*\{[\s\S]*\}\)\(\s*\);?\s*$/,s=/^([A-Za-z_$][\w$]*\(\s*\)\s*;)\s*\(async(?:\s+function\s*\(\s*\)|\s*\(\s*\)\s*=>)\s*\{[\s\S]*\}\)\(\s*\);?\s*$/,n=["requestAnimationFrame","requestIdleCallback","setInterval","setTimeout"],a={apply:Reflect.apply,construct:Reflect.construct,filter:Array.prototype.filter,every:Array.prototype.every,some:Array.prototype.some,isArray:Array.isArray,getOwnPropertyDescriptor:Object.getOwnPropertyDescriptor,includes:String.prototype.includes,regexTest:RegExp.prototype.test,regexExec:RegExp.prototype.exec,functionToString:Function.prototype.toString,queueMicrotask:window.queueMicrotask},y=new Set,c=/(['"])recovery\1/,i=/(['"])r_\1/,l=e=>a.apply(a.regexTest,t,[e])&&a.apply(a.includes,e,["currentScript"])&&a.apply(a.includes,e,["postMessage"])&&a.apply(a.regexTest,c,[e])&&a.apply(a.regexTest,i,[e]);let d;if(window.TextDecoder){const t=Object.getPrototypeOf(Uint8Array.prototype),e=a.getOwnPropertyDescriptor(t,Symbol.toStringTag).get,r=a.getOwnPropertyDescriptor(t,"buffer").get,o=a.getOwnPropertyDescriptor(ArrayBuffer.prototype,"byteLength").get,p=a.getOwnPropertyDescriptor(ArrayBuffer.prototype,"resizable")?.get,s=new TextDecoder("utf-8",{fatal:!0}),n=TextDecoder.prototype.decode;d=(t,y=!1)=>{try{const c="Uint8Array"===a.apply(e,t,[]);if(!c&&!y)return"";const i=c?a.apply(r,t,[]):t;if(a.apply(o,i,[])>0&&(!p||!a.apply(p,i,[])))return a.apply(n,s,[t])}catch{}return""}}else d=()=>"";const u=window.crypto?.subtle;if("function"==typeof u?.digest&&window.TextEncoder&&window.TextDecoder){const t=(new TextEncoder).encode(e);u.digest=new Proxy(u.digest,{apply(e,r,o){try{const[e,p]=o;r===u&&"SHA-256"===e&&l(d(p,!0))&&(o[1]=t)}catch{}return a.apply(e,r,o)}})}const w=()=>{const t={};a.apply(a.queueMicrotask,window,[()=>y.delete(t)]),y.add(t)},f={construct:(r,o,p)=>{let s=!1;try{const[r,p]=o,n=p&&"object"==typeof p?a.getOwnPropertyDescriptor(p,"type")?.value:void 0;("application/javascript"===n||"text/javascript"===n)&&a.isArray(r)&&(a.apply(a.every,r,[t=>"string"==typeof t])&&a.apply(a.some,r,[e=>a.apply(a.regexTest,t,[e])])||1===r.length&&l(d(r[0])))&&(o[0]=[e],s=!0)}catch(t){}const n=a.construct(r,o,p);if(s)try{w()}catch(t){}return n}};window.Blob=new Proxy(window.Blob,f);const g=window.HTMLScriptElement,_=window.Element?.prototype.getAttribute;let x,A=g?.prototype;for(;A&&(x=a.getOwnPropertyDescriptor(A,"textContent"),!x);)A=Object.getPrototypeOf(A);x?.set&&_&&Object.defineProperty(A,"textContent",{...x,set:new Proxy(x.set,{apply(r,o,p){let s=!1;try{const r=p[0];if("string"==typeof r&&o instanceof g&&a.apply(a.regexTest,t,[r])){const t=t=>a.apply(_,o,[t]),n=t("type"),y=t("recovery"),c=t("data-src");!(y&&c||null===y&&null===c&&l(r))||null!==t("src")||n&&"application/javascript"!==n&&"text/javascript"!==n||(p[0]=e,s=!0)}}catch(t){}const n=a.apply(r,o,p);if(s)try{w()}catch(t){}return n}})});const T={apply:(t,e,p)=>{const s=y.values().next().value;y.delete(s);try{const[t,e]=p;if(s&&"number"==typeof e&&e>=4900&&e<5100){const e="function"==typeof t?a.apply(a.functionToString,t,[]):"string"==typeof t?t:"";(a.apply(a.includes,e,["new Error"])||"function"==typeof t&&(a.apply(a.regexTest,r,[e])||a.apply(a.regexTest,o,[e])))&&(p[0]=()=>{})}}catch(t){}return a.apply(t,e,p)}};window.setTimeout=new Proxy(window.setTimeout,T);const h={apply:(t,e,r)=>{try{"function"==typeof r[0]&&a.isArray(e)&&e.length===n.length&&a.apply(a.every,n,[(t,r)=>e[r]===t])&&(e=a.apply(a.filter,e,[t=>"setTimeout"!==t]))}catch(t){}return a.apply(t,e,r)}};window.Array.prototype.filter=new Proxy(window.Array.prototype.filter,h);const v={apply(t,r,o){const n=a.apply(t,r,o);try{if("string"!=typeof n)return n;const t=t=>a.apply(a.includes,n,[t]),r=()=>t("loader_light")&&t("last_bfa_at")&&t("/report?type=")&&t("as_modal_loaded")&&t("close-error-report")&&t("ECDSA")&&t("P-256"),o=a.apply(a.regexExec,s,[n]);if(o&&r())return o[1];if(!a.apply(a.regexTest,p,[n]))return n;if(t("__as_tag2_done")||t("_as_prehooked")||t("_onload2")||t("_onerror2"))return t("__as_tag2_done")&&t("_as_prehooked")&&t("_onload2")&&t("_onerror2")&&t('data-sdk^="pk/"')?"window.__as_tag2_done=true;void 0;":n;if(t('data-sdk^="pk/"')&&t("/recovery-light.js")&&t("/recovery.js")&&t("__as_cbs")&&t("__as_start_recovery")&&t("AdBlock detected")||r())return e}catch(t){}return n}};window.Array.prototype.join=new Proxy(window.Array.prototype.join,v)})();
+theverge.com,mavericktruckclub.com,kprofiles.com,theanalyst.com,apnews.com,leboncoin.fr#%#//scriptlet('abort-current-inline-script', 'btoa', 'HTMLIFrameElement_contentWindow')
 theverge.com,mediafire.com##.m-ad
 thewashingtonstandard.com###text-9
 thewatchcartoononline.tv#%#//scriptlet("json-prune", "rot_url")
