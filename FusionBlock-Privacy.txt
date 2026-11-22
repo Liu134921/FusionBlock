@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.22.2357
+! Version: 2026.11.23.0537
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -863,7 +863,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52317) =====
+! ===== 网络规则 (52322) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -35552,6 +35552,7 @@
 ||safevisit.online^$third-party
 ||saffronrefuge.com^
 ||sageanalyst.net^$third-party
+||sagemosaicart.com^
 ||sagetrack.net^
 ||sagetrc.com^$third-party
 ||sagxlv.daniellashevel.com^
@@ -40811,6 +40812,7 @@
 ||social.talenttitan.com^
 ||social.tinyview.com^
 ||socialannex.com/c-sale-track/$script
+||socialbackyard.com^
 ||socialflow.branch.rocks^
 ||sociallyscared.com^
 ||socialprofitmachine.com^$third-party
@@ -44095,6 +44097,7 @@
 ||systancia-scp.actonservice.com^
 ||system-beta.b-cdn.net^
 ||system.nefiber.com^
+||systemone.net^
 ||systemssummit.com^
 ||syteapi.com/et?
 ||sytuzk.nissanvimontlaval.com^
@@ -44581,6 +44584,7 @@
 ||ta.trs.cn^
 ||tab.volces.com/service/2/abtest_config/
 ||tabcarts.com^
+||tableheads.com^
 ||tableleaders.com^
 ||tablesafe.actonservice.com^
 ||taboola.com^$third-party
@@ -45561,6 +45565,7 @@
 ||tinb.net^$third-party
 ||tinybird.co/v0/events?
 ||tinybluewhale.com^
+||tinybodega.com^
 ||tinyclues.com^$third-party
 ||tinycounter.com^$third-party
 ||tinylytics.app^$third-party
@@ -53203,7 +53208,7 @@ ncbi.nlm.nih.gov#%#//scriptlet('set-constant', 'ncbi.sg.ping', 'noopFunc')
 usaa.com#%#//scriptlet('cookie-remover', 'GPC', '1', 'reload', '1')
 usatoday.com#%#//scriptlet('set-constant', 'gnt.x.adm', '')
 
-! ===== 未解析 (3553) =====
+! ===== 未解析 (3554) =====
 
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
@@ -55858,6 +55863,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /smmch-own.js
 /smrwv/v1/webvital
 /snowman.gif?p=
+/snowplow-$script
 /snowplow-collector-prod.$xmlhttprequest
 /snowplow-tracker.tatest.js
 /snowplow.js
