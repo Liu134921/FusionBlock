@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.22.1319
+! Version: 2026.11.22.2357
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -863,7 +863,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52316) =====
+! ===== 网络规则 (52317) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -5313,7 +5313,6 @@
 ||accurateanimal.com^
 ||accuratecoal.com^
 ||accuride.actonservice.com^
-||accuterm.com/data/stat.js
 ||accutrain.actonservice.com^
 ||accuzip.actonservice.com^
 ||accwww9.53kf.com^
@@ -5707,7 +5706,6 @@
 ||adixkr.culturekings.com.au^
 ||adku.co^$third-party
 ||adku.com^$third-party
-||adl.bankofthewest.com^
 ||adl.kkguan.com^
 ||adlc-exchange.toast.com^
 ||adless.io^
@@ -6642,7 +6640,6 @@
 ||analytics.api.justeattakeaway.com^
 ||analytics.apnewsregistry.com^
 ||analytics.app.funnelish.com^
-||analytics.archive.org^
 ||analytics.argeton.com^
 ||analytics.arunraghavan.net^
 ||analytics.asml.com^
@@ -8788,6 +8785,7 @@
 ||atgt.grafana.com^
 ||atgtfj.bettermusic.com.au^
 ||athena-event-provider.n11.com^
+||athena.archive.org^
 ||athenainstitute.biz^$third-party
 ||athl.lsusports.net^
 ||athlete.uninterrupted.com^
@@ -35179,6 +35177,7 @@
 ||s.orangeville.com^
 ||s.ourwindsor.ca^
 ||s.parrysound.com^
+||s.pdfroom.com/api/event
 ||s.pinimg.com/ct/core.js
 ||s.pixfs.net/js/pixlogger.min.js
 ||s.pixfs.net/visitor.pixplug.in/
@@ -37402,6 +37401,7 @@
 ||singleplatform.actonservice.com^
 ||singroot.com^
 ||singular.net^$third-party
+||sink.archive.org^
 ||sink.gw.booking.com^
 ||sinkou.tireshop.com.br^
 ||sinkportal.com^
@@ -43973,6 +43973,7 @@
 ||swebtraffic.executiveboard.com^
 ||sweeps.la-z-boy.com^
 ||sweet-candy.jp/c.php?$third-party
+||sweetbeat.net^
 ||sweetgum.io^$third-party
 ||sweetslope.com^
 ||sweetsoul.net^
