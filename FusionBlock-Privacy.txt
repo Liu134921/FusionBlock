@@ -1,11 +1,11 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.22.0528
+! Version: 2026.11.22.1319
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
-! ===== 例外规则 (854) =====
+! ===== 例外规则 (855) =====
 
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@||1.1.1.1/cdn-cgi/trace$xmlhttprequest,domain=myair.resmed.com|one.one.one.one
@@ -665,6 +665,7 @@
 @@||sascdn.com/tag/$script,domain=filmweb.pl
 @@||sc.omtrdc.net^$domain=cibc.com
 @@||sc.youmaker.com/site/article/count?
+@@||scorecardresearch.com/plugins/streaming-jwplayer/$script,domain=newstak.in
 @@||scorecardresearch.com^*/streamingtag_plugin_jwplayer.js
 @@||script-at.iocnt.net/iam.js$domain=oe24.at
 @@||sdk-analytics-web.cloud.itau.com.br/index.js$script,domain=meu.userede.com.br
@@ -862,7 +863,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52308) =====
+! ===== 网络规则 (52316) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -5979,6 +5980,7 @@
 ||advoncommerce.com^$third-party
 ||advtek.actonservice.com^
 ||adways.com^$third-party
+||adweek.com/vx39/
 ||adweek.com/wp-content/plugins/adw-parsley/
 ||adwerx.com^$third-party
 ||adwmab.card-db.com^
@@ -10515,6 +10517,7 @@
 ||byteoversea.com/captcha/report
 ||byteoversea.com/monitor_browser/
 ||byteoversea.com/monitor_web/
+||bytes.adweek.com/vs.js
 ||byxcbk.ipekevi.com^
 ||bz-berlin.de/_stats/
 ||bzaxgk.ecctur.com^
@@ -14323,7 +14326,9 @@
 ||dev.to/fallback_activity_recorder
 ||dev.visualwebsiteoptimizer.com/*/track-
 ||dev.visualwebsiteoptimizer.com/apm
+||dev.visualwebsiteoptimizer.com/cdn/edrv/
 ||dev.visualwebsiteoptimizer.com/collect/events/
+||dev.visualwebsiteoptimizer.com/edrv/
 ||dev.visualwebsiteoptimizer.com/ping_tpc.php
 ||devacton.simpleviewinc.com^
 ||devatics.com^$third-party
@@ -16633,9 +16638,6 @@
 ||essayplanet.com^
 ||essayspin.com^
 ||essential-apps-analytics.herokuapp.com^
-||essentiallysports.com/api/track/
-||essentiallysports.com/api/v1/counts
-||essentiallysports.com/growth/engagement/
 ||essmnx.edreams.ch^
 ||estadisticas.lanacion.com.ar^
 ||estadisticasgratis.com^$third-party
@@ -16646,6 +16648,7 @@
 ||estore.jp/beacon/
 ||estrack.net^$third-party
 ||estrelaapps.com/collect
+||estuary-data.com/ga4-identify
 ||eswpwi.xlmoto.pl^
 ||et-gv.fr^$third-party
 ||et.educationdynamics.com^
@@ -17855,7 +17858,11 @@
 ||fp.uncensored.com^
 ||fpa-cdn.adweek.com^
 ||fpa-cdn.arstechnica.com^
+||fpa-cdn.nbcnews.com^
+||fpa-cdn.today.com^
+||fpa-events.nbcnews.com^
 ||fpa-events.theintercept.com^
+||fpa-events.today.com^
 ||fpad.jp^$third-party
 ||fpadga.mcruises.ru^
 ||fpapi.io^
@@ -27493,7 +27500,6 @@
 ||maxclientstatapi.com^
 ||maxcruisers.com^
 ||maxepv.com^
-||maximise.nyc3.cdn.digitaloceanspaces.com/mxmse.min.js$domain=essentiallysports.com
 ||maxmind.com/app/$third-party
 ||maxmind.com/geoip/$third-party
 ||maxmind.com/js/country.js
@@ -34276,6 +34282,7 @@
 ||redirectify.app/script_tags/tracking.js
 ||redistats.com^$third-party
 ||redlion.actonservice.com^
+||redmaceta.com^
 ||redmillgroup.com^
 ||redretarget.com^$third-party
 ||redstatcounter.com^$third-party
@@ -37013,6 +37020,7 @@
 ||sfajfu.boulanger.com^
 ||sfbpok.theluxurycloset.com^
 ||sfchronicle.com/413gkwMT/init.js
+||sfchronicle.com/api/client-logs
 ||sfcv.chinavi-shop.jp^
 ||sfeedback.equa.cz^
 ||sffirecu.actonservice.com^
@@ -43397,6 +43405,7 @@
 ||steinsala.viessmann.lu^
 ||stel.telegraaf.nl^
 ||stellarbalms.com^
+||stellarcoded.com^
 ||stellarduel.com^
 ||stellaservice.com^$third-party
 ||stentel.actonservice.com^
@@ -53193,7 +53202,7 @@ ncbi.nlm.nih.gov#%#//scriptlet('set-constant', 'ncbi.sg.ping', 'noopFunc')
 usaa.com#%#//scriptlet('cookie-remover', 'GPC', '1', 'reload', '1')
 usatoday.com#%#//scriptlet('set-constant', 'gnt.x.adm', '')
 
-! ===== 未解析 (3551) =====
+! ===== 未解析 (3553) =====
 
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
@@ -55579,6 +55588,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /px.gif?
 /px.js?ch=$script
 /px/*/blank.gif?
+/px/?rand=
 /px/client/main.min.js
 /px/track?
 /px?t=
@@ -56109,6 +56119,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /track.v2.js
 /track/?*&event=
 /track/?data=
+/track/?evt=
 /track/?verbose=
 /track/aggregate?
 /track/batch?
