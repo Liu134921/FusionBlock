@@ -1,7 +1,7 @@
 ! Title: FusionBlock Whitelist
 ! Description: 白名单 = uBlock Unbreak + AdGuard / EasyList 官方过滤器的内嵌例外。只放行，不拦截。
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.23.1356
+! Version: 2026.11.24.0352
 ! Expires: 1 days
 ! License: Unbreak 部分归 uBlock Origin 团队（GPLv3），其余归 AdGuard / EasyList
 @@||awstrack.me/*auth.coindesk.com$doc,popup
@@ -5017,6 +5017,7 @@
 @@||lemall.com/adspace/
 @@||lemall.com/adspace/
 @@||lensfrontend-pa.clients6.google.*/v*/crupload$stealth=referrer
+@@||lensfrontend-pa.clients6.google.com/v1/gsessionid$xmlhttprequest,stealth
 @@||lensprice.co.kr^$stealth=dpi
 @@||lesports.com/pc/??*/click_statistics/
 @@||lesports.com/pc/??*/click_statistics/
@@ -5069,9 +5070,12 @@
 @@||live-video.net^$stealth=3p-auth
 @@||live.lequipe.fr/thirdparty/prebid.js$~third-party
 @@||live.primis.tech/content/$domain=manchestereveningnews.co.uk
+@@||live.primis.tech/content/omid/static/omid-session-client*.js$domain=apnews.com
 @@||live.primis.tech/content/omid/static/omid-session-client*.js$domain=glasgowlive.co.uk
+@@||live.primis.tech/live/liveVideo.php$domain=apnews.com
 @@||live.primis.tech/live/liveVideo.php$domain=glasgowlive.co.uk
 @@||live.primis.tech/live/liveVideo.php$domain=manchestereveningnews.co.uk
+@@||live.primis.tech/live/liveView.php$domain=apnews.com
 @@||live.primis.tech/live/liveView.php$domain=glasgowlive.co.uk
 @@||live.primis.tech/live/liveView.php$domain=manchestereveningnews.co.uk
 @@||live.primis.tech^$domain=eurogamer.net|gbnews.com|independent.co.uk|klaq.com|loudwire.com|screencrush.com|the-independent.com|vg247.com|xxlmag.com
@@ -5313,7 +5317,7 @@
 @@||microsofttranslator.com/translate?
 @@||mid.ru^$stealth=ip
 @@||mil.by^$stealth=dpi
-@@||milfzr.com^$generichide! Checksum: J3goYKg2pM4QzGy0gUSSzA
+@@||milfzr.com^$generichide! Checksum: fABymRE9MwYhK6NFf6tQyw
 @@||minecraftbuildinginc.com/wp-content/themes/*/js/advertisement.js
 @@||mingle.kijiji.ca/api/ads/
 @@||minigame.aeriagames.jp/*/ae-tpgs-$~third-party

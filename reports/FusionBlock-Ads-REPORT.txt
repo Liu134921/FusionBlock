@@ -1,13 +1,13 @@
 == 输入
-   域名规则 97233 / 路径规则 15961 / 例外 11288 / 元素隐藏 75251 / 未解析 9740
-   载入阶段：{'重复行': 66017, '超长丢弃': 35, 'scriptlet未映射': 4, 'scriptlet转换': 9}
+   域名规则 99613 / 路径规则 15963 / 例外 11292 / 元素隐藏 75274 / 未解析 9741
+   载入阶段：{'重复行': 66399, '超长丢弃': 35, 'scriptlet未映射': 4, 'scriptlet转换': 9}
 
 == 优化
-   祖先覆盖   -2686
-   修饰符冗余  -769
+   祖先覆盖   -3861
+   修饰符冗余  -767
    微信保护   -6
    危险宽泛   -4
-   合计删除 3465，保留 109729（96.9%）
+   合计删除 4638，保留 110938（96.0%）
 
 == 样例
    [修饰符冗余]
@@ -22,8 +22,8 @@
       ||xhvideo.saawsedge.com^   <-已由 ||saawsedge.com^ 覆盖
       ||desk.unlesscool.com^   <-已由 ||unlesscool.com^ 覆盖
       ||curl.springinure.com^$third-party   <-已由 ||springinure.com^ 覆盖
+      ||xml.pops.gg^   <-已由 ||pops.gg^ 覆盖
       ||config.htplayground.com^   <-已由 ||htplayground.com^ 覆盖
-      ||warp.media.net^   <-已由 ||media.net^ 覆盖
    [危险宽泛]
       ||cfd^$third-party,popup,domain=multiup.io
       ||xyz^$third-party,xmlhttprequest,domain=usescarlet.com
@@ -38,18 +38,18 @@
       ||badjs.weixinbridge.com^
 
 == 合并候选（父域下纯子域规则 >=8 条，只建议不改动）
-   appsflyersdk.com                           8409 条
+   appsflyersdk.com                           8419 条
    cloudfront.net                             803 条
+   goaserv.com                                567 条
+   goasrv.com                                 560 条
    a.run.app                                  414 条
+   go-static.info                             410 条
    com.102.122.2o7.net                        393 条
-   112.2o7.net                                345 条
-   goaserv.com                                308 条
+   112.2o7.net                                346 条
    aws-prd.net                                290 条
-   goasrv.com                                 289 条
    goatcounter.com                            250 条
-   go-static.info                             210 条
+   web.app                                    221 条
    vivoglobal.com                             207 条
+   firebaseapp.com                            205 条
    cname.ebis.ne.jp                           202 条
    122.2o7.net                                147 条
-   at-o.net                                   146 条
-   hit.gemius.pl                              114 条

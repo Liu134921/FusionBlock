@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.23.1356
+! Version: 2026.11.24.0352
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -863,7 +863,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52343) =====
+! ===== 网络规则 (52348) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -49042,6 +49042,7 @@
 ||twelvedawn.com^
 ||twentyerr.com^
 ||twistairclub.net.anwalt.de^
+||twistboat.com^
 ||twistloss.com^
 ||twisty.net^
 ||twitter.com/1.1/attribution
@@ -51186,6 +51187,7 @@
 ||weibo.cn/h5logs/
 ||weibo.com/aj/log/
 ||weidenhammer.actonservice.com^
+||weirdknight.com^
 ||weiyun.com/cgi-bin/tianshu_report
 ||weiyun.com/proxy/domain/boss.qzone.qq.com/fcg-bin/fcg_rep_strategy?
 ||wejpuy.factor75.com^
@@ -52756,6 +52758,7 @@
 ||yoc.younited-credit.com^
 ||yodalytics.com^$third-party
 ||yodayo.com/scripts/pixel.js
+||yogatryout.com^
 ||yogolp.beststl.com^
 ||yoi05.youthorganizing.net.jumia.ci^
 ||yoifwi.levi.com.ph^
@@ -52865,6 +52868,7 @@
 ||yueqal.glassesusa.com^
 ||yujmyt.theiconic.co.nz^
 ||yummylink.funcapital.com^
+||yummymacaroni.com^
 ||yuoyan.finanzen.de^
 ||yupp.ai/api/log-event
 ||yurobl.rw-co.com^
@@ -53117,6 +53121,7 @@
 ||znrttr.jaypore.com^
 ||zodalt.com^
 ||zodhqv.peterson.fr^
+||zodiacglass.com^
 ||zodxgk.lecoqsportif.com^
 ||zol-img.com.cn^*/logger.js
 ||zombieslayer-alternate.kano.link^
