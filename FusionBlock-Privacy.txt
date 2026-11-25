@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.24.1637
+! Version: 2026.11.25.0823
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -863,7 +863,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52350) =====
+! ===== 网络规则 (52358) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -7458,6 +7458,8 @@
 ||api.sae.systems^
 ||api.samsungfind.com/log-collector
 ||api.sardine.ai/assets/loader.min.js$third-party
+||api.sided.co/embed/registerDebateEvent
+||api.sided.co/embed/updateSession
 ||api.sovendus.com/js/landing.js
 ||api.streamelements.com/science/
 ||api.tacotax.fr/v2/amplitude_trackers
@@ -19606,6 +19608,7 @@
 ||greenjapan-cname.green-japan.com^
 ||greif.actonservice.com^
 ||gresrv.com^
+||greynoise.io/nvhc9u4gxsagNjY3ZGQ0MGViYjgwOTVlODlmMjc1NjM5/
 ||grfz.de^$third-party
 ||grgnsht.nzxt.com^
 ||gridbelow.com^
@@ -22715,6 +22718,7 @@
 ||ivitrack.com^$third-party
 ||ivmwbl.hear.com^
 ||ivonitsa.openapp.link^
+||ivoryandcrow.com^
 ||ivrnfvlcgubm.www.cefirates.com^
 ||ivwbox.de^$third-party
 ||ivwkkh.nexity.fr^
@@ -36569,6 +36573,7 @@
 ||secure.tube6sour.com^
 ||secure.tula9mari.com^
 ||secure.valleymed.org^
+||secure.valnetinc.com/discover
 ||secure.valpak.com^
 ||secure.vane3alga.com^
 ||secure.venture-enterprising.com^
@@ -45563,6 +45568,7 @@
 ||tiktokv.us/monitor_browser/
 ||tilanalytics.timesinternet.in^
 ||tildacdn.com/pixel.png
+||tiles.openfreemap.org/planet
 ||tilt.bankofamerica.com^
 ||tiltonbots.com^
 ||tim.nextinpact.com^
@@ -45599,6 +45605,7 @@
 ||tioztp.unisportstore.nl^
 ||tiplink.io/fp-agent.js
 ||tippcom01.tipp24.com^
+||tips.delt.io^
 ||tipsport.sk/c/1x1.php?
 ||tipstats.onepagelove.com^
 ||tirandoalmedio.net.anwalt.de^
@@ -49360,6 +49367,7 @@
 ||unifyintent.com/analytics/
 ||uninterestedquarter.com^
 ||uniqodo.com^$third-party
+||uniqueness.greenmangaming.com^
 ||united-infos.net/event?
 ||united-infos.net^$third-party
 ||united.web.de/confirm?
@@ -53236,7 +53244,7 @@ ncbi.nlm.nih.gov#%#//scriptlet('set-constant', 'ncbi.sg.ping', 'noopFunc')
 usaa.com#%#//scriptlet('cookie-remover', 'GPC', '1', 'reload', '1')
 usatoday.com#%#//scriptlet('set-constant', 'gnt.x.adm', '')
 
-! ===== 未解析 (3557) =====
+! ===== 未解析 (3556) =====
 
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
@@ -56789,7 +56797,6 @@ omni.soundestlink.com$image
 ||stats.zone-telechargement.
 ||stw.extreme-down.
 ||tccd.douglas.
-||tips.delt.io
 ||tracker.twenga.
 ||ub.galaxus.
 ||ubt.tracking.shopee.
