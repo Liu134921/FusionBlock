@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.25.0823
+! Version: 2026.11.26.0227
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -863,7 +863,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52358) =====
+! ===== 网络规则 (52363) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -9002,6 +9002,7 @@
 ||ax.babe.today^
 ||ax.idg.se^
 ||axcii.com^
+||axedint.com^
 ||axentis.arclogics.com^
 ||axf8.net^$third-party
 ||axfevh.bandab.com.br^
@@ -14943,6 +14944,7 @@
 ||dollarthrill.com^
 ||dollartree.com/ccstoreui/*/analytics/
 ||dolphin.deliver.ifeng.com^
+||dolphinplate.com^
 ||dolphinsrule.com^
 ||dolrfm.fotoregistro.com.br^
 ||domainbntest.branchcustom.xyz^
@@ -17478,6 +17480,7 @@
 ||filitrac.com^$third-party
 ||fillthemap.com^
 ||filmaster.tv^*/flm.tracker.min.js
+||filmcomm.net^
 ||filmoljupci.com^
 ||filmvandaag.nl/pl/js/script.js
 ||filtercutter.com^
@@ -18689,6 +18692,7 @@
 ||gfv4.destinia.co.za^
 ||gg-unleash-prod.azurewebsites.net/proxy/client/metrics
 ||gg.asuracomic.net/api/views/collect
+||gg.deals/scripts/track-gtm.js
 ||gg.vevor.com^
 ||ggduev.cobone.com^
 ||ggduzx.potterybarn.com.kw^
@@ -45581,6 +45585,7 @@
 ||timejs.game.easebar.com/bad_report?
 ||timejs.game.easebar.com/report?
 ||timelessyes.com^
+||timeprince.com^
 ||timesunion.com/413gkwMT/init.js
 ||timing.uhrforum.de^
 ||timing.whenandhowagency.com^

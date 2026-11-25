@@ -1,5 +1,5 @@
 体检对象: FusionBlock-Ads.txt
-纯域名拦截 100421 个 / 路径类规则 16183 条（路径类不参与判定）
+纯域名拦截 100649 个 / 路径类规则 16182 条（路径类不参与判定）
 
 == 严重：整个域名被拦 (0)
    无
@@ -15,7 +15,7 @@
         ||ae01.alicdn.com^$app=yqtrack.app
         ||afpmm.alicdn.com^
         ||alimama.alicdn.com^
-   [京东] jd.com  <- 22
+   [京东] jd.com  <- 23
         ||cactus.jd.com^
         ||cc.m.jd.com^
         ||ccc-x.jd.com^
