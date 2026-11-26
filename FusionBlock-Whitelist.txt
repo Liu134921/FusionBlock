@@ -1,7 +1,7 @@
 ! Title: FusionBlock Whitelist
 ! Description: 白名单 = uBlock Unbreak + AdGuard / EasyList 官方过滤器的内嵌例外。只放行，不拦截。
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.26.1459
+! Version: 2026.11.27.0209
 ! Expires: 1 days
 ! License: Unbreak 部分归 uBlock Origin 团队（GPLv3），其余归 AdGuard / EasyList
 @@||awstrack.me/*auth.coindesk.com$doc,popup
@@ -5038,6 +5038,7 @@
 @@||lefile.cn/??*,
 @@||lemall.com/adspace/
 @@||lemall.com/adspace/
+@@||lenovo.com/*/_cms_lazyload_include_/$xmlhttprequest,jsinject,elemhide,extension
 @@||lensfrontend-pa.clients6.google.*/v*/crupload$stealth=referrer
 @@||lensfrontend-pa.clients6.google.com/v1/gsessionid$xmlhttprequest,stealth
 @@||lensprice.co.kr^$stealth=dpi
@@ -5335,7 +5336,7 @@
 @@||microsofttranslator.com/translate?
 @@||mid.ru^$stealth=ip
 @@||mil.by^$stealth=dpi
-@@||milfzr.com^$generichide! Checksum: OjNLUsWGnULABjpzJVkVGQ
+@@||milfzr.com^$generichide! Checksum: EdbP3BFy6iKgEHACFpH7dw
 @@||minecraftbuildinginc.com/wp-content/themes/*/js/advertisement.js
 @@||mingle.kijiji.ca/api/ads/
 @@||minigame.aeriagames.jp/*/ae-tpgs-$~third-party
@@ -6557,7 +6558,7 @@
 @@||speedtest.net/api/js/user-settings|$xmlhttprequest
 @@||speedtest.net/javascript/ads.js
 @@||speedtestcustom.com^$subdocument,stealth=referrer
-@@||speedwebgo.com^$stealth=referrer,domain=blacktoon510.com
+@@||speedwebgo.com^$stealth=referrer,domain=blacktoon511.com
 @@||speee-ad.akamaized.net/tag/$script,domain=hochi.news
 @@||speee-ad.akamaized.net^$image,domain=hochi.news
 @@||spinbot.com/js/adsbygoogle.js
@@ -6746,7 +6747,7 @@
 @@||t-mobile.com/mms/$document
 @@||t.huv.kr/thumb_crop_resize.php$stealth=referrer
 @@||t.propbn.com/redirect/?spot_id=$domain=proporn.com
-@@||t24yedekyayin36.xyz/*.jpg$stealth=referrer,domain=taraftarium24bjk31.com
+@@||t24yedekyayin36.xyz/*.jpg$stealth=referrer,domain=taraftarium24bjk32.com
 @@||t7z.cupid.iqiyi.com/mixer$domain=iqiyi.com
 @@||t7z.cupid.iqiyi.com/show2?$xmlhttprequest,domain=m.iqiyi.com
 @@||tab.gladly.io/newtab/|$document,subdocument,badfilter

@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.26.1459
+! Version: 2026.11.27.0209
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -863,7 +863,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52388) =====
+! ===== 网络规则 (52393) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -5583,6 +5583,7 @@
 ||adc-serv.net^$third-party
 ||adc-srv.net/retargeting.php
 ||adcalls.nl^$third-party
+||adcanvas.com^$third-party
 ||adclear.net^$third-party
 ||adcontroll.com^
 ||adcrowd.com^$third-party
@@ -9561,6 +9562,7 @@
 ||beqioy.promessedefleurs.com^
 ||berg-6-82.com^$third-party
 ||berliner-stadtplan.com/t.gif
+||berrytots.com^
 ||berserkhydrant.com^
 ||bersondeanstevens.actonservice.com^
 ||best-top.de^$third-party
@@ -19953,6 +19955,7 @@
 ||heartbreakingmind.com^
 ||heartflow.actonservice.com^
 ||hearthow.com^
+||heathstyle.com^
 ||heatmap.com^$third-party
 ||heatmap.it^$third-party
 ||heatmap.support-inc.co.jp^
@@ -20321,6 +20324,7 @@
 ||houzz.com/j/ajax/client-error-light?
 ||houzz.com/js/log?
 ||howdoesthislook.com^
+||howglam.com^
 ||howsmyssl.com^$third-party
 ||hoyoverse.com/device-fp/
 ||hoyoverse.com/dora/biz/*-h5log/
@@ -27477,6 +27481,7 @@
 ||mas.nth.ch^
 ||mascguys.com^
 ||mashery.com/analytics/
+||maskdomains.com^
 ||maskedadmin.com^
 ||masondown.com^
 ||masseurexpress.com^
