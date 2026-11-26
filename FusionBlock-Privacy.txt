@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.26.0227
+! Version: 2026.11.26.1459
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -863,7 +863,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52363) =====
+! ===== 网络规则 (52388) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -5782,6 +5782,7 @@
 ||adobe.autoscout24.ru^
 ||adobe.autoscout24.se^
 ||adobe.bupaglobal.com^
+||adobe.com/gtg/
 ||adobe.dynamic.ca^
 ||adobe.falabella.com.ar^
 ||adobe.falabella.com.co^
@@ -10030,6 +10031,7 @@
 ||box.bossdata.be^
 ||box.com/data/ptm.gif/
 ||box.com/index.php?rm=box_gen204_batch_record
+||box.com/securemetric/
 ||boxandcover.com^
 ||bp.mlb.com^
 ||bp01.net^$third-party
@@ -10760,6 +10762,7 @@
 ||canopylabs.com^$third-party
 ||canstockphoto.com/server.php?rqst=track
 ||canva.com/_ajax/ae/createBatch
+||canva.com/gtg/
 ||canvasandsocks.com^
 ||canyonpizza.net^
 ||caowuq.babyliss-romania.ro^
@@ -11186,6 +11189,7 @@
 ||choosefi.com/api/site/track
 ||choosefi.com/block-event
 ||choosefi.com/conversion-event
+||choosehobby.com^
 ||chosun.com/hitlog/
 ||choymp.pooldawg.com^
 ||chpspb.bubbleroom.fi^
@@ -11549,6 +11553,7 @@
 ||cloudflare-quic.com/cdn-cgi/trace
 ||cloudflare.com/_cf/analytics.js
 ||cloudflare.com/cdn-cgi/trace$third-party,domain=~isbgpsafeyet.com|~wyndhamdestinations.com
+||cloudflare.com/go9u/
 ||cloudflareinsights.com^$third-party
 ||cloudfront-labs.amazonaws.com^
 ||cloudfront.net*/keywee.min.js
@@ -12976,7 +12981,9 @@
 ||curlycannon.com^
 ||curos.ca/res/*/resources/scripts/lib/fingerprint.js$important,redirect=fingerprint2.js,script
 ||currentcollar.com^
+||cursor.com/an/5NFOPZQoiC99Q/
 ||cursor.com/analytics/
+||cursor.com/metrics/
 ||curtaincows.com^
 ||curvedhoney.com^
 ||curveshore.com^
@@ -19697,6 +19704,7 @@
 ||gtm.diamond.jp^
 ||gtm.lercio.it^
 ||gtm.mandesager.dk^
+||gtm.mozilla.org^
 ||gtm.wise.com^
 ||gtm.xtb.com^
 ||gtmfsstatic.getgoogletagmanager.com^
@@ -19727,6 +19735,7 @@
 ||guitarlearning.deplike.com^
 ||gulf.moneroocean.stream^
 ||gulliblegrip.com^
+||gumgum.com/wvxwa3jtwetcNjllZWU1MzIzMTMzOTYwMDVmM2ExMDFi/
 ||gumtree.com.au/tracking/
 ||guoshipartners.com^$third-party
 ||guq9.vente-unique.it^
@@ -22149,6 +22158,7 @@
 ||info10.4thoughtmarketing.com^
 ||info2.thermoscientific.com^
 ||info3.thermofisher.com^
+||infobae.com/metrics/
 ||infoco.readingpartners.org^
 ||infocollect.dk^$third-party
 ||infodc.readingpartners.org^
@@ -22216,6 +22226,7 @@
 ||ingest.make.rvapps.io^
 ||ingest.make.rvohealth.com^
 ||ingest.promptwatch.com^
+||ingest.t3.codes^
 ||ingesteer.services-prod.nsvcs.net^
 ||ingredients.firmenich.com^
 ||ingress.linktr.ee^
@@ -23996,6 +24007,8 @@
 ||lfuzec.bglen.net^
 ||lfxdqs.mamasandpapas.ae^
 ||lfyqsi.erborian.com^
+||lg.com/m5vgrhz/
+||lg.com/t54xgrj/
 ||lgbdxo.azazie.com^
 ||lgforbes.akamaized.net/rtblog.php?
 ||lgm.averydennison.com^
@@ -25334,6 +25347,7 @@
 ||lowerthewatts.net^
 ||lowes.com/baymax/events/track?
 ||lowes.com/gauge/
+||lowes.com/k7x2m9/
 ||lowes.com/pharos/api/webTelemetry?
 ||lowgxl.yokumoku.jp^
 ||lowkeypalmtree.com^
@@ -25861,6 +25875,7 @@
 ||mail1.happ.social^
 ||mail2.carte-gr.total.fr^
 ||mail2.happ.social^
+||mailchimp.com/metrics/
 ||mailer.carte-gr.total.fr^
 ||mailer.conad.com^
 ||mailer.gameloft.com^
@@ -31543,6 +31558,7 @@
 ||onescreen.net/os/static/pixels/
 ||onesignal.com/api/v*/apps/
 ||onesignal.com/api/v1/sync/
+||onesignal.com/f7by/
 ||onesignal.com/sdks/OneSignalSDKStyles
 ||onesignal.com/sdks/OneSignalSDKWorker
 ||onesignal.com/webPushAnalytics
@@ -33028,6 +33044,7 @@
 ||poisedpig.com^
 ||poisonoussnakes.com^
 ||poki.com/observer/
+||poki.com/rmt/
 ||pol3.cheque-domicile.fr^
 ||polaranalytics.com^$third-party
 ||polarbyte.com/scripts/latest/reach/pb-reach.iife.min.js
@@ -35146,6 +35163,7 @@
 ||s.cuoresportivo.no^
 ||s.cybercompass.io^
 ||s.dc-tag.jp^
+||s.dreamhost.com/67ead4DfmU/
 ||s.durhamregion.com^
 ||s.eick.it^
 ||s.ergotherapieblog.de^
@@ -41451,6 +41469,7 @@
 ||squarecdn.com/square-marketplace-js/chunk-analytics-vendors.js
 ||squarecdn.com/square-marketplace-js/chunk-analytics.js
 ||squarespace.com/api/1/performance/
+||squarespace.com/metrics/
 ||squarespace.com/universal/scripts-compressed/performance-$script,third-party
 ||squeakzinc.com^
 ||squealingturn.com^
@@ -41571,6 +41590,7 @@
 ||ss.esade.edu^
 ||ss.hellotushy.com^
 ||ss.lv/counter/
+||ss.partner.life360.com/bwcrqwpxgng.js
 ||ss.photospecialist.at^
 ||ss.photospecialist.co.uk^
 ||ss.photospecialist.de^
@@ -44613,6 +44633,7 @@
 ||tableheads.com^
 ||tableleaders.com^
 ||tablesafe.actonservice.com^
+||taboola.com/gtm/
 ||taboola.com^$third-party
 ||taboolasyndication.com^$third-party
 ||tackytrains.com^
@@ -45486,6 +45507,7 @@
 ||thetruth.com/pd.js
 ||thetruthaboutcars.com/api/slots
 ||theverge.com/SendEventData
+||theverge.com/metrics/
 ||thewavebeats.com^
 ||thewhizproducts.com^$third-party
 ||thewindowsclub.com/wp-content/themes/genesis/lib/js/skip-links.min.js
@@ -45572,7 +45594,6 @@
 ||tiktokv.us/monitor_browser/
 ||tilanalytics.timesinternet.in^
 ||tildacdn.com/pixel.png
-||tiles.openfreemap.org/planet
 ||tilt.bankofamerica.com^
 ||tiltonbots.com^
 ||tim.nextinpact.com^
@@ -48419,6 +48440,7 @@
 ||travix.com/metrics
 ||traxex.gannettdigital.com^
 ||trbas.com^$third-party
+||trc-events.taboola.com^
 ||trc.gpcdn.pl^
 ||trccvt.dhc.co.jp^
 ||trck.accredible.com^
@@ -50798,6 +50820,7 @@
 ||wealthfront.com/track_next?p=
 ||wealthfront.com/userevents/
 ||weare.ballymoregroup.com^
+||weare.kueez.com/nvhc9u4gxsagNjgyMmY4ZDU0ODljNDJhNTU3MmVkN2Q1/
 ||weather.ca/counter.gif?
 ||weather.com.cn/a1.js
 ||weatherbytes.net^
@@ -51908,6 +51931,7 @@
 ||www.herb7calk.com^
 ||www.hero6bell.com^
 ||www.hey.lt^$third-party
+||www.hilton.com/gtag
 ||www.hims1nice.com^
 ||www.hiss3lark.com^
 ||www.hook6vein.com^
@@ -52447,6 +52471,7 @@
 ||xero.com/api/events/
 ||xewihp.bayut.com^
 ||xfinity.com/event/
+||xfinity.com/metricsaw/
 ||xfobuc.serenaandlily.com^
 ||xfzcds.netprint.ru^
 ||xg4ken.com^$third-party
@@ -54829,7 +54854,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /hgct?hc=&hb=*&vjs=
 /hints.netflame.cc/*
 /histats.js
-/hit-counter.
+/hit-counter.$domain=~hit-counter.info
 /hit.asp?
 /hit.c?
 /hit.php?$domain=~etoland.co.kr
