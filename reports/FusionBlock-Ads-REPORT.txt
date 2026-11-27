@@ -1,29 +1,29 @@
 == 输入
-   域名规则 102294 / 路径规则 15971 / 例外 11292 / 元素隐藏 75371 / 未解析 9747
-   载入阶段：{'重复行': 68200, '超长丢弃': 35, 'scriptlet未映射': 4, 'scriptlet转换': 9}
+   域名规则 102381 / 路径规则 15973 / 例外 11295 / 元素隐藏 75382 / 未解析 9748
+   载入阶段：{'重复行': 68078, '超长丢弃': 35, 'scriptlet未映射': 4, 'scriptlet转换': 9}
 
 == 优化
-   祖先覆盖   -2845
-   修饰符冗余  -778
+   祖先覆盖   -2830
+   修饰符冗余  -775
    微信保护   -6
    危险宽泛   -4
-   合计删除 3633，保留 114632（96.9%）
+   合计删除 3615，保留 114739（96.9%）
 
 == 样例
    [修饰符冗余]
       ||pockett3.com^$third-party   <-已由 ||pockett3.com^ 覆盖
       ||runative-syndicate.com^$popup   <-已由 ||runative-syndicate.com^ 覆盖
       ||9hito.com^$third-party   <-已由 ||9hito.com^ 覆盖
-      ||adsgravity.io^$third-party   <-已由 ||adsgravity.io^ 覆盖
       ||cdn.adwebcode.gr^$third-party   <-已由 ||cdn.adwebcode.gr^ 覆盖
       ||happyleafmotion.com^$all   <-已由 ||happyleafmotion.com^ 覆盖
+      ||yoszi.com^$third-party   <-已由 ||yoszi.com^ 覆盖
    [祖先覆盖]
-      ||smog.gentlecork.com^   <-已由 ||gentlecork.com^ 覆盖
       ||xhvideo.saawsedge.com^   <-已由 ||saawsedge.com^ 覆盖
       ||desk.unlesscool.com^   <-已由 ||unlesscool.com^ 覆盖
       ||curl.springinure.com^$third-party   <-已由 ||springinure.com^ 覆盖
       ||xml.pops.gg^   <-已由 ||pops.gg^ 覆盖
       ||config.htplayground.com^   <-已由 ||htplayground.com^ 覆盖
+      ||warp.media.net^   <-已由 ||media.net^ 覆盖
    [危险宽泛]
       ||cfd^$third-party,popup,domain=multiup.io
       ||xyz^$third-party,xmlhttprequest,domain=usescarlet.com
@@ -39,7 +39,7 @@
 
 == 合并候选（父域下纯子域规则 >=8 条，只建议不改动）
    appsflyersdk.com                           8457 条
-   cloudfront.net                             799 条
+   cloudfront.net                             800 条
    a.run.app                                  415 条
    com.102.122.2o7.net                        406 条
    112.2o7.net                                351 条
