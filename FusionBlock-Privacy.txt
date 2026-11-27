@@ -1,11 +1,11 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.27.1455
+! Version: 2026.11.28.0151
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
-! ===== 例外规则 (855) =====
+! ===== 例外规则 (857) =====
 
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@||1.1.1.1/cdn-cgi/trace$xmlhttprequest,domain=myair.resmed.com|one.one.one.one
@@ -293,6 +293,8 @@
 @@||easy-firmware.com/templates/default/html/*/assets/js/fingerprint2.min.js$script,~third-party
 @@||ebanking.meezanbank.com/AmbitRetailFrontEnd/js/fingerprint2.min.js$~third-party
 @@||ec.europa.eu/eurostat/databrowser/assets/analytics/piwik.js$script,~third-party
+@@||ekitan.com/transit/js/ticket-analytics.js$badfilter,~third-party
+@@||ekitan.com/transit/js/ticket-analytics.js$~third-party
 @@||elconfidencial.com^*/AnalyticsEvent.js
 @@||elconfidencial.com^*/EventTracker.js
 @@||energy.de^*/ivw.js?$domain=energy.de
@@ -863,7 +865,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52396) =====
+! ===== 网络规则 (52403) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -27515,6 +27517,7 @@
 ||math.meistercody.com^
 ||matheranalytics.com^
 ||mathilde-ads.com^
+||mathrevolt.com^
 ||mathtag.com^$third-party
 ||mato.clanto.cloud^
 ||matomo.clanto.cloud^
@@ -27914,6 +27917,7 @@
 ||melodioussymphony.com^
 ||melodothogy.meng2x.com^
 ||melodyglobe.com^
+||melodyivory.com^
 ||meltmilk.com^
 ||member-app.rightwayhealthcare.com^
 ||member.usenix.org^
@@ -27971,6 +27975,7 @@
 ||messari.io/js/wutangtrack.js
 ||messenger.com/ajax/bnzai?
 ||messmonster.com^
+||messrod.com^
 ||messyoranges.com^
 ||mesure-pro.engie.fr^
 ||met.jasperforge.org^
@@ -32615,6 +32620,7 @@
 ||pitcher.actonservice.com^
 ||pitmanmusic.com^
 ||pittaking.openapp.link^
+||pivotfresh.com^
 ||pivotpointsecurity.actonservice.com^
 ||piwik.pro^$third-party,domain=~clearcode.cc|~clearcode.pl|~piwikpro.de
 ||pix.airbusgroup.com^
@@ -34004,6 +34010,7 @@
 ||r.jakuli.com^
 ||r.kleertjes.com^
 ||r.lafamo.com^
+||r.lr-hv-in.com^
 ||r.mail.ru^$image
 ||r.mail.ru^$script
 ||r.morons.us^
@@ -49424,7 +49431,7 @@
 ||unlockedforward.com^
 ||unm.emol.com^
 ||unpkg.com/@topsort/analytics.js
-||unpkg.com/web-vitals?
+||unpkg.com/web-vitals
 ||unsplash.com/nmetrics
 ||unsubscribe.datadelivers.com^
 ||unsubscribe.e.silverfernfarms.com^
@@ -49598,6 +49605,7 @@
 ||users-api.com^$third-party
 ||users.rentbabe.com^
 ||users.videasy.to/api/track
+||usersays.com^
 ||usersegment.wpdigital.net^
 ||usersonline.org/ping.php?
 ||userstatics.com/get/script.js
@@ -51433,6 +51441,7 @@
 ||wjssvg.descentekorea.co.kr^
 ||wjtekf.vidaxl.bg^
 ||wjzyrk.magiclife.com^
+||wkbrs1.tingyun.com^
 ||wkctj.baidu.com^
 ||wklwyt.springer.com^
 ||wknd.ai^
@@ -53262,7 +53271,7 @@
 ||zzqyxd.smartpozyczka.pl^
 ||zzsqqx.shopjapan.co.jp^
 
-! ===== 元素隐藏 (17) =====
+! ===== 元素隐藏 (19) =====
 
 ###cxense-recs-in-article
 ##.embed-responsive-trendmd
@@ -53275,6 +53284,8 @@ anikore.jp##html[class^="loading"]:style(visibility: visible !important;)
 bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 cbssports.com,gbatemp.net,news.com.au,pcworld.com,usatoday.com#%#//scriptlet('set-constant', 'admiral', 'noopFunc')
 e-begin.jp##.inviewSection:not(.is-show):style(transform: translateY(0) !important; opacity: 1 !important;)
+ekitan.com#%#//scriptlet('set-constant', 'executeImpressionTicketTracking', 'noopFunc')
+ekitan.com#%#//scriptlet('set-constant', 'initHomesTracking', 'noopFunc')
 foxnews.com#%#//scriptlet('set-constant', 'admrlWpJsonP', 'emptyObj')
 mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ncbi.nlm.nih.gov#%#//scriptlet('set-constant', 'ncbi.sg', '{}')
@@ -53282,7 +53293,7 @@ ncbi.nlm.nih.gov#%#//scriptlet('set-constant', 'ncbi.sg.ping', 'noopFunc')
 usaa.com#%#//scriptlet('cookie-remover', 'GPC', '1', 'reload', '1')
 usatoday.com#%#//scriptlet('set-constant', 'gnt.x.adm', '')
 
-! ===== 未解析 (3556) =====
+! ===== 未解析 (3557) =====
 
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
@@ -55813,6 +55824,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /screencount?vcid=
 /scribd_events?
 /script.outbound-links.js
+/script.outbound-links.pageview-props.js
 /script.outbound-links.pageview-props.revenue.js
 /script.tagged-events.js
 /script/pixel.js
