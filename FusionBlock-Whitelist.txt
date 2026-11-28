@@ -1,7 +1,7 @@
 ! Title: FusionBlock Whitelist
 ! Description: 白名单 = uBlock Unbreak + AdGuard / EasyList 官方过滤器的内嵌例外。只放行，不拦截。
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.28.1430
+! Version: 2026.11.29.0039
 ! Expires: 1 days
 ! License: Unbreak 部分归 uBlock Origin 团队（GPLv3），其余归 AdGuard / EasyList
 @@||awstrack.me/*auth.coindesk.com$doc,popup
@@ -5220,7 +5220,7 @@
 @@||mid.ru^$stealth=ip
 @@||mil.by^$stealth=dpi
 @@||milfnut.net/pop.js
-@@||milfzr.com^$generichide! Checksum: e7gQhnRVyrtSYorcjtdUcg
+@@||milfzr.com^$generichide! Checksum: RQzCRjQISOsuGW3OcY1x6w
 @@||minecraftbuildinginc.com/wp-content/themes/*/js/advertisement.js
 @@||mingle.kijiji.ca/api/ads/
 @@||minigame.aeriagames.jp/*/ae-tpgs-$~third-party

@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.28.1430
+! Version: 2026.11.29.0039
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -865,7 +865,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52411) =====
+! ===== 网络规则 (52419) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -914,7 +914,7 @@
 ||123rf.com/apicore-index/traffic_log
 ||123stat.com^$third-party
 ||125.net.jumia.co.ke^
-||127.0.0.1^$third-party,domain=53.com|ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|globo.com|gumtree.com|kleinanzeigen.de|lendup.com|mbna.ca|rusneb.ru|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com|whatleaks.com
+||127.0.0.1^$third-party,domain=53.com|ameriprise.com|chick-fil-a.com|citi.com|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|globo.com|gumtree.com|kleinanzeigen.de|lendup.com|mbna.ca|rusneb.ru|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com
 ||12915784.care.sanvello.com^
 ||12915784.help.sanvello.com^
 ||12build.actonservice.com^
@@ -10755,6 +10755,7 @@
 ||camxpress.com/api/metrics
 ||canada.com/js/analytics/
 ||canadamarketing.travelsavers.com^
+||canadiantire.ca/metrix/
 ||canalplus-bo.net/web/*/tracker/?
 ||canddi.com^$third-party
 ||candid.zone^
@@ -17768,6 +17769,7 @@
 ||form.typeform.com/forms/*/insights/
 ||form.vocalink.com^
 ||formaciones.arin-innovation.com^
+||formalytics.dev^
 ||formalyzer.com^$third-party
 ||formisimo.com^$third-party
 ||forms-emea.lenovo.com^
@@ -30707,6 +30709,7 @@
 ||nice264.com/data?$third-party
 ||nicefollows.com^
 ||nicehuh.com^
+||niceincontact.com/logger-public
 ||nicemenswear.com^
 ||nicequest.com^$third-party
 ||nickles.de/ivw/
@@ -30805,6 +30808,7 @@
 ||noa0.compteczam.fr^
 ||noblecables.com^
 ||noblefellow.com^
+||nobleflash.com^
 ||noblocktape.com/stat/
 ||nocaadobefpc.optus.com.au^
 ||nodals.io^
@@ -31152,6 +31156,7 @@
 ||ocn-tag.sienca.jp/api/v1/event/pv
 ||ocpgll.bannerbuzz.ca^
 ||ocpi.americanexpress.ca^
+||ocs.ameriprise.com^
 ||ocs.hagerty.com^
 ||oct8ne.com/Visitor/
 ||octaneai.com/api/v1/beacon
@@ -41437,6 +41442,7 @@
 ||spoonballoon.com^
 ||spoonsilk.com^
 ||sport.ua/pixel/
+||sportchek.ca/metrix/
 ||sportnews.bz/pcookie?
 ||sportsclubstat.com^
 ||sportsmansguide.com/scripts/vendor/at_
@@ -49008,6 +49014,7 @@
 ||tsbkht.puritan.com^
 ||tsbmkf.zonnebrillen.com^
 ||tscounter.com^$third-party
+||tsdrs.schwab.com/risk-collect/device/events
 ||tse.telerama.fr^
 ||tsedvc.aboutyou.ch^
 ||tshuxi.bbqguys.com^
@@ -49178,6 +49185,7 @@
 ||u0crsrah75fy.camberlion.com^
 ||u1sdata.webullfintech.com^
 ||u299.libelle-lekker.be^
+||u44.pnc.com^
 ||u46.pnc.com^
 ||u47.pnc.com^
 ||u5e.com^$third-party
@@ -53301,7 +53309,7 @@ ncbi.nlm.nih.gov#%#//scriptlet('set-constant', 'ncbi.sg.ping', 'noopFunc')
 usaa.com#%#//scriptlet('cookie-remover', 'GPC', '1', 'reload', '1')
 usatoday.com#%#//scriptlet('set-constant', 'gnt.x.adm', '')
 
-! ===== 未解析 (3557) =====
+! ===== 未解析 (3558) =====
 
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
@@ -55739,6 +55747,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /referrer_invisible.js
 /referrer_tracking.js
 /reftracker.js
+/relevanceapi/visitorinfo
 /remote-weblab-triggers/*
 /renderTimingPixel.
 /replay?ddsource=
