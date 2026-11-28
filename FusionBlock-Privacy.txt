@@ -1,7 +1,7 @@
 ! Title: FusionBlock Privacy
 ! Description: 隐私追踪拦截：基于 EasyPrivacy，已去重化简
 ! Homepage: https://liu134921.github.io/FusionBlock/
-! Version: 2026.11.28.0151
+! Version: 2026.11.28.1430
 ! Expires: 7 days
 ! License: 各上游规则版权归原作者（AdGuard / EasyList / HaGeZi / 217heidai）
 
@@ -865,7 +865,7 @@
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zs.com/scripts/analytics/pageview.js$~third-party
 
-! ===== 网络规则 (52403) =====
+! ===== 网络规则 (52411) =====
 
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
@@ -6054,6 +6054,7 @@
 ||affiliate.rise-jms.jp^
 ||affiliateedge.eu^$third-party
 ||affiliateport.eu^$third-party
+||affiliates.purevpn.com^
 ||affiliation.planethoster.info^$third-party
 ||affiliatly.com^$third-party
 ||affilimate.com^$third-party
@@ -13479,6 +13480,7 @@
 ||data.cheatography.com/banana.js
 ||data.chelseafc.com^
 ||data.circulate.com^
+||data.clickocean.io^
 ||data.client-comms.nedbank.co.za^
 ||data.cliente.clubeextra.com.br^
 ||data.clientemais.paodeacucar.com^
@@ -17298,6 +17300,7 @@
 ||farmergoldfish.com^
 ||faro-collector-*.grafana-ops.net^
 ||faro-collector-prod-*.grafana.net^
+||faro.mgmt.hancom.io/collect
 ||farshake.com^
 ||farsnails.com^
 ||fashion.edm.globalsources.com^
@@ -24000,7 +24003,6 @@
 ||lexvek.gap.ae^
 ||leynqj.newport.se^
 ||lezntf.heydudeshoesusa.com^
-||lf3-data.volccdn.com/obj/data-static/log-sdk/collect/$domain=kimi.ai
 ||lfapbe.quiksilver.co.jp^
 ||lfbowp.talisa.com^
 ||lfeeder.com^$third-party
@@ -29891,6 +29893,7 @@
 ||monitor.fraudblocker.com^
 ||monitor.lifemiles.com/collect
 ||monitor.music.qq.com^
+||monitor.tapper.ai^
 ||monitoring.iraiser.eu^
 ||monitus.net^$third-party
 ||monkeyapes.com^
@@ -30286,6 +30289,7 @@
 ||mystats.nl^$third-party
 ||mystery.vfmleonardo.com^
 ||mysticalagoon.com^
+||mythweaver.net^
 ||mytictac.com^$third-party
 ||mytopf.com^$third-party
 ||mytoys.ru/ka_z.jpg?
@@ -32214,6 +32218,7 @@
 ||pan.baidu.com/pcloud/counter/refreshcount?
 ||pan.baidu.com/recent/report?
 ||panda.kasika.io^
+||pandect.es^$third-party
 ||panickypancake.com^
 ||panorama.wixapps.net^
 ||panoramicplane.com^
@@ -32411,6 +32416,7 @@
 ||peiq.services^
 ||pelisfree.site/cdn-cgi/trace
 ||pemskb.unitedcinemas.jp^
+||penbuzz.com^
 ||pendo.io/data/ptm.gif/
 ||pendo.scopus.com/data/ptm.gif
 ||penton.com/analytics/
@@ -33577,6 +33583,7 @@
 ||pureinfotech.com/media/api/send
 ||purevideo.com^$third-party
 ||purevideo.com^*/pvshim.gif?
+||purevpn.com/nm7sjdp/
 ||purple-hit.com^
 ||purple.mongodb.com^
 ||purpledotprice.com/api/v1/track
@@ -33859,6 +33866,7 @@
 ||qrtqsy.freshlycosmetics.com^
 ||qrvsnt.citygrounds.com^
 ||qsahny.smartbuyglasses.dk^
+||qscripts.s3.amazonaws.com/pscript.js
 ||qsstats.com^$third-party
 ||qswdme.modnakiecka.pl^
 ||qt5jl7r111h7.allesvoormijnvakantie.nl^
